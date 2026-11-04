@@ -1,0 +1,1530 @@
+ID,Versión,Estado del test case,Fecha de diseño,Descripción,Precondiciones,Pasos del test,Resultado Esperado,Resultado Obtenido,Aclaraciones / comentarios
+1,v1,Abierto,22/07/2026,Visualizar Lista de Contactos,,1- Ingresar a la página de Contactos,"El sistema muestra la página Contactos con:
+Título ""Contactos"".
+Tabla con las columnas Nombre y Mail.
+Mensaje ""No hay contactos guardados"" cuando la tabla está vacía.
+Opciones para ordenar los datos por Nombre y Mail.
+Orden alfabético por Nombre por defecto.
+Opción ""Nuevo Contacto""","En la página se ve una columa extra llamada ""Acciones""
+El sistema no muestra ningún mensaje por defecto cuando la tabla esta vacía
+",
+2,v1,Abierto,24/07/2026,"
+
+Visualizar - Alta ""Nuevo Contacto"" Formulario",,"1- Ingresar a la página de Contactos
+2- Hacer click  en ""Nuevo 
+contacto""","El sistema despliega el formulario ""Nuevo Contacto"" con:
+Campo Nombre, obligatorio, vacío por defecto y con un máximo de 35 caracteres.
+Campo Mail, obligatorio, vacío por defecto y con un máximo de 35 caracteres.
+Botón Guardar
+Botón Cancelar",OK,
+3,v1,Abierto,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+letras minúsculas","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""
+","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre con letras minúsculas en el 
+campo ""Nombre""",OK,
+4,v1,Abierto ,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+letras mayúsculas","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""
+","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""FRANCO""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre con letras mayúsculas en el
+campo ""Nombre""",OK,
+5,v1,Abierto ,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+números","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""123456789""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar números en el campo ""Nombre""
+""El sistema informa que el campo ""Nombre"" no permite números""","El sistema permite ingresar números en el campo ""Nombre""",
+6,v1,Abierto,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+caracteres especiales","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""@#$%&""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar caracteres especiales en el campo ""Nombre""
+""El sistema informa que el campo ""Nombre"" no permite caracteres especiales""","El sistema permite ingresar caracteres especiales en el campo 
+""Nombre""",
+7,v1,Abierto,24/07/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con espacios","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco Exequiel""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre compuesto con espacio en el campo ""Nombre""",OK,
+8,v1,Abierto,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con 
+(35 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVWXYZABCDEFGHI"" (35 caracteres)
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre de hasta 35 caracteres en el campo ""Nombre""",OK,
+9,v1,Abierto,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+(34 caracteres) ","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVWXYZABCDEFGH"" (34 caracteres)
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre de 34 caracteres en el campo ""Nombre""",OK,
+10,v1,Abierto ,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con 
+(36 caracteres) ","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVWXYZABCDEFGHIJ"" (36 caracteres)
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar un ""Nombre"" de más de 35 caracteres
+""El sistema informa que el limite maximo de caracteres es 35""",OK,
+11,v1,Abierto ,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Dejar el campo ""Nombre"" vacío
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite dejar vacío el campo ""Nombre""
+""El sistema informa que el campo ""Nombre"" es obligatorio y debe completarse""","El sistema permite ingresar el ""Nombre"" dejando el campo de texto vacío",
+12,v1,Abierto ,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" repetido","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com
+5- Hacer clic en ""Guardar""",El sistema permite almacenar contactos con el mismo Nombre,"El sistema emite un mensaje ""Ya existe un contacto con este nombre"" no permitiendo almacenar un Contacto con el mismo Nombre de uno ya existente",
+13,v1,Abierto,10/08/2026,"Validar - Alta - Ordenar por ""Nombre"" ascendente","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en el botón ""Ordenar"" de campo
+""Nombre"" de forma ascendente",El sistema ordena los Nombres de forma ascendente,"El botón de ""Ordenar"" del campo ""Nombre"" no funciona",
+14,v1,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Nombre"" descendente","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en el botón ""Ordenar"" de campo
+""Nombre"" de forma descendente",El sistema ordena los Nombres de forma ascendente,"El botón de ""Ordenar"" del campo ""Nombre"" no funciona",
+15,v1,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Mail"" ascendente","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en el botón ""Ordenar"" de campo
+""Mail"" de forma ascendente",El sistema ordena los Mails de forma ascendente,"El botón de ""Ordenar"" del campo ""Mail"" no funciona",
+16,v1,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Mail"" descendente","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en el botón ""Ordenar"" de campo
+""Mail"" de forma descendente",El sistema ordena los Mails de forma ascendente,"El botón de ""Ordenar"" del campo ""Mail"" no funciona",
+17,v1,Abierto,12/08/2026,Validar - Alta - Orden alfabético por Nombre de Contacto,"Ingresar a la página de Contactos
+","1- Existan al menos tres contactos registrados 
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com",El sistema ordena los contactos alfabéticamente por Nombre de Contacto,OK,
+18,v1,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" sin extensión de 
+dominio","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+1- Hacer clic en el campo ""Mail""
+2- Ingresar ""franco@gmail""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar un mail sin una extension de dominio en el campo ""Mail""
+""El sistema informa que el valor ingresado no es un Mail""",OK,
+19,v1,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto""  en campo ""Mail"" sin arroba","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""francogmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar un mail sin una extension de dominio en el campo ""Mail""
+""El sistema informa que el valor ingresado no es un Mail""",OK,
+20,v1,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto""  en campo ""Mail"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar """"
+5- Hacer clic en ""Guardar""","El sistema no permite dejar vacío el campo ""Mail""
+""El sistema informa que el valor ingresado no es un Mail""",OK,
+21,v1,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" con  letras 
+mayúsculas","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""FRANCOEMONTALBANO@
+GMAIL.COM""
+5- Hacer clic en ""Guardar""",El sistema permite ingresar el mail correctamente,"El sistema no permite ingresar el 
+campo ""Mail"" con letras 
+mayúsculas",
+22,v1,Abierto ,27/07/2026,"
+Validar - Alta ""Nuevo Contacto"" según Anexo A, en campo ""Mail"" con
+(35 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVWX@gmail.com"" (35 caracteres)
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de hasta 35 caracteres en el campo ""Mail""",OK,
+23,v1,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto"" según formato Anexo A, en campo
+""Mail"" con (34 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVX@gmail.com"" (34 caracteres)
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de 34 caracteres en el campo ""Mail""
+",OK,
+24,v1,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" con (36 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVXGZ@gmail.com"" (36 caracteres)
+5- Hacer clic en ""Guardar""","El sistema emite el mensaje: ""El valor ingresado no es un email""","El sistema emite un mensaje ""El mail
+del contacto no puede superar los 35
+caracteres""",
+25,v1,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Mail""  sin dominio","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@.com""
+5- Hacer clic en ""Guardar""","El sistema emite el mensaje: ""El valor ingresado no es un email""",OK,
+26,v1,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Mail""  según formato
+ Anexo A","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar el ""Mail"" correctamente",OK,
+27,v1,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" y 
+""Mail"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar """"
+3- Hacer clic en el campo ""Mail""
+4- Ingresar """"
+5- Hacer clic en ""Guardar""","
+El sistema emite el mensaje ""El campo nombre debe completarse""
+El sistema emite el mensaje ""El campo mail debe completarse""","El sistema emite un mensaje ""El contacto
+tiene que tener un email"", no así en el campo
+""Nombre"" que permite dejarlo vacío",
+28,v1,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" y 
+""Mail""","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""
+","El sistema almacena el contacto y lo visualiza en la parte superior de la grilla junto con las 
+opciones ""Editar"" y ""Borrar""",OK,
+29,v1,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" vacío
+ y ""Mail""","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar """"
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""
+","El sistema no permite guardar el contacto e informa que el campo ""Nombre"" es obligatorio y debe
+completarse.","El sistema emite un mensaje ""El contacto
+ tiene que tener un email"", no 
+así en el campo ""Nombre"" que permite 
+dejarlo vacío",
+30,v1,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" y 
+""Mail"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar """"
+5- Hacer clic en ""Guardar""","El sistema no permite guardar el contacto e informa que el campo ""Mail"" es obligatorio y debe
+completarse",OK,
+31,v1,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo ""Nombre"" y 
+""Mail"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar """"
+3- Hacer clic en el campo ""Mail""
+4- Ingresar """"
+5- Hacer clic en ""Cancelar""",El sistema cierra el formulario sin crear ningún contacto,OK,
+32,v1,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo ""Nombre"" y 
+""Mail"" correctamente","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Cancelar""",El sistema emite un mensaje informando que se perderán los cambios,"El sistema no emite ningun mensaje informando 
+que se perderán los cambios y cierra el formulario",
+33,v1,Abierto,29/07/2026,"Visualizar - Edición ""Grilla de contactos""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""franco@gmail.com""
+","1- Hacer clic en ""Editar"" sobre el contacto
+ ""Franco""","El sistema despliega el formulario ""Editar Contacto"" con: 
+Campo ""Nombre"" con el valor del contacto seleccionado
+Campo ""Mail"" con el valor del contacto seleccionado
+Botón ""Guardar""
+Botón ""Cancelar""",OK,
+34,v1,Abierto,29/07/2026,"Validar - Edición ""Editar Contacto"" ""Guardar"" con datos modificados","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""franco@gmail.com""
+","1- Hacer clic en Editar
+2- Modificar el campo ""Nombre"" por 
+""Pedro""
+3- Modificar el campo ""Mail"" por
+ francoemontalbano@gmail.com
+4- Hacer clic en ""Guardar""","El sistema guarda los cambios realizados y muestra en la tabla de Contactos el registro 
+actualizado con el Nombre ""Pedro"" y el Mail ""francoemontalbano@gmail.com""",OK,
+35,v1,Abierto,29/07/2026,"Validar - Edición ""Editar Contacto"" ""Guardar"" con ""Mail"" duplicado","Ingresar a la página de Contactos
+Existan al menos dos contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com","1- Hacer clic en ""Editar"" sobre el contacto Juan
+2- Modificar el campo ""Mail"" por 
+franco@gmail.com.
+3- Hacer clic en ""Guardar""","El sistema no permite guardar los cambios y emite un mensaje informando que no es posible 
+almacenar direcciones de mail duplicadas.",OK,
+36,v1,Abierto,29/07/2026,"Validar - Edición ""Editar Contacto"" ""Guardar"" con ""Nombre"" duplicado","Ingresar a la página de Contactos
+Existan al menos dos contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com""","1- Hacer clic en ""Editar"" sobre el contacto Juan
+2- Modificar el campo ""Nombre"" por ""Franco""
+3- Mantener el Mail ""juan@gmail.com""
+4- Hacer clic en ""Guardar"".","El sistema guarda los cambios realizados y muestra en la tabla de Contactos el registro actualizado 
+con el Nombre ""Franco"" y el Mail ""juan@gmail.com""",OK,
+37,v1,Abierto,29/07/2026,"Validar - Edición ""Editar Contacto"" ""Cancelar"" con ""Nombre"" y ""Mail""
+modificados","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""franco@gmail.com""
+","1- Hacer clic en ""Editar"" sobre el contacto
+Franco
+2- Modificar el campo ""Nombre"" por ""Pedro""
+3- Mantener el Mail ""franco@gmail.com""
+4- Hacer clic en ""Cancelar"".","El sistema emite una alerta ""Se perderán los cambios sin guardar"" y cierra el formulario ","El sistema almacena los datos modificados en la
+tabla ""Contactos"" a pesar de haber cancelado la 
+petición",
+38,v1,Abierto,29/07/2026,"Validar - Edición ""Editar Contacto"" con varios contactos","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en ""Editar"" sobre el contacto
+Franco
+","El sistema abre el formulario y permite editar el contacto ""Franco""","El sistema abre el formulario a Editar del contacto
+""Juan"" sin poder, editar el contacto esperado",
+39,v1,Abierto,07/08/2026,"Validar - Edición ""Editar Contacto ""Cancelar"" con varios contactos","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en ""Editar"" sobre el contacto
+Franco
+2- Modificar el campo ""Nombre"" por ""Gonzalo""
+3- Mantener el Mail ""franco@gmail.com""
+4- Hacer clic en ""Cancelar"".","El sistema emite una alerta ""Se perderán los cambios sin guardar"" y cierra el formulario ","El sistema Edita el usuario ""Pedro"" que es el primero
+en la lista y duplica tanto el campo ""Nombre"", como 
+el campo ""Mail"" dejando 2 contactos 
+totalmente iguales",
+40,v1,Abierto,29/07/2026,"Visualizar - Baja ""Mensaje de confirmación de eliminación de Contacto""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""francoemontalbano@gmail.com""
+Hacer clic en ""Borrar"" sobre el contacto 
+""Franco""","1- ""Visualizar mensaje de confirmación de elimin
+ación de contacto""
+2- Visualizar  ""Confirmar eliminación""
+3- Visualizar ""Cancelar eliminación""","El sistema muestra el mensaje “Está seguro que quiere borrar el contacto Franco” y permite
+confirmar o cancelar la eliminación",OK,
+41,v1,Abierto,29/07/2026,"Validar - Baja ""Confirmar Eliminación""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""francoemontalbano@gmail.com""
+Hacer clic en ""Borrar"" sobre el contacto 
+""Franco""","
+1- Hacer clic en ""Confirmar eliminación""","El sistema elimina el contacto ""Franco"" y este deja de visualizarse en Contactos",OK,
+42,v1,Abierto,29/07/2026,"Validar - Baja ""Cancelar Eliminación""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""francoemontalbano@gmail.com""
+Hacer clic en ""Borrar"" sobre el contacto 
+""Franco""","
+1- Hacer clic en ""Cancelar eliminación""","El sistema no elimina el contacto ""Franco"" y este continúa visualizándose en Contactos",OK,
+43,v2,Abierto,22/07/2026,Visualizar Lista de Contactos,,1- Ingresar a la página de Contactos,"El sistema muestra la página Contactos con:
+Título ""Contactos"".
+Tabla con las columnas Nombre y Mail.
+Mensaje ""No hay contactos guardados"" cuando la tabla está vacía.
+Opciones para ordenar los datos por Nombre y Mail.
+Orden alfabético por Nombre por defecto.
+Opción ""Nuevo Contacto""","En la página se ve una columa extra llamada ""Acciones""
+El sistema no muestra ningún mensaje por defecto cuando la tabla esta vacía
+",
+44,v2,Abierto,24/07/2026,"
+
+Visualizar - Alta ""Nuevo Contacto"" Formulario",,"1- Ingresar a la página de Contactos
+2- Hacer clic  en ""Nuevo 
+contacto""","El sistema despliega el formulario ""Nuevo Contacto"" con:
+Campo Nombre, obligatorio, vacío por defecto y con un máximo de 35 caracteres.
+Campo Mail, obligatorio, vacío por defecto y con un máximo de 35 caracteres.
+Botón Guardar
+Botón Cancelar","El sistema abre el formulario y el campo ""Nombre"" no se encuentra vacío por defecto como debería, lo completa con ""Nombre""",
+45,v2,Abierto,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+letras minúsculas","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""
+","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre con letras minúsculas en el 
+campo ""Nombre""",OK,
+46,v2,Abierto ,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+letras mayúsculas","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""
+","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""FRANCO""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre con letras mayúsculas en el
+campo ""Nombre""",OK,
+47,v2,Abierto ,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+números","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""123456789""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar números en el campo ""Nombre""
+""El sistema informa que el campo ""Nombre"" no permite números""","El sistema permite ingresar números en el campo ""Nombre""",
+48,v2,Abierto,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+caracteres especiales","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""@#$%&""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar caracteres especiales en el campo ""Nombre""
+El sistema informa que el campo ""Nombre"" no permite caracteres especiales","El sistema permite ingresar caracteres especiales en el campo ""Nombre""",
+49,v2,Abierto,24/07/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con espacios","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco Exequiel""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre compuesto con espacio en el campo ""Nombre""",OK,
+50,v2,Abierto,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con 
+(35 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVWXYZABCDEFGHI"" (35 caracteres)
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre de hasta 35 caracteres en el campo ""Nombre""","El sistema no permite ingresar un ""Nombre"" de 35 caracteres
+El sistema emite el siguiente mensaje: ""El nombre del contacto no puede superar los 35 caracteres""",
+51,v2,Abierto,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+(34 caracteres) ","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVWXYZABCDEFGH"" (34 caracteres)
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre de 34 caracteres en el campo ""Nombre""",OK,
+52,v2,Abierto ,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con 
+(36 caracteres) ","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVWXYZABCDEFGHIJ"" (36 caracteres)
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar un ""Nombre"" de más de 35 caracteres
+""El sistema informa que el limite maximo de caracteres es 35""",OK,
+53,v2,Abierto ,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar """"
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite dejar vacío el campo ""Nombre""
+""El sistema informa que el campo ""Nombre"" es obligatorio y debe completarse""",OK,
+54,v2,Abierto ,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" repetido","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+","1- Ingresar a la página de Contactos
+2- Hacer clic en ""Nuevo contacto""
+3- Hacer clic en el campo ""Nombre""
+4- Ingresar ""Franco""
+5- Hace clic en ""Guardar""",El sistema permite almacenar contactos con el mismo Nombre,"El sistema no permite ingresar un ""Nombre"" de un contacto existente
+El sistema emite el siguiente mensaje: ""Ya existe un contacto con este nombre""",
+55,v2,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Nombre"" ascendente","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en el botón ""Ordenar"" de campo
+""Nombre"" de forma ascendente",El sistema ordena los Nombres de forma ascendente,"El botón de ""Ordenar"" del campo ""Nombre"" no
+ funciona",
+56,v2,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Nombre"" descendente","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en el botón ""Ordenar"" de campo
+""Nombre"" de forma descendente",El sistema ordena los Nombres de forma descendente,"El botón de ""Ordenar"" del campo ""Nombre"" no funciona",
+57,v2,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Mail"" ascendente","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en el botón ""Ordenar"" de campo
+""Mail"" de forma ascendente",El sistema ordena los Mails de forma ascendente,"El botón de ""Ordenar"" del campo ""Mail"" no funciona",
+58,v2,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Mail"" descendente","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en el botón ""Ordenar"" de campo
+""Mail"" de forma descendente",El sistema ordena los Mails de forma descendente,"El botón de ""Ordenar"" del campo ""Mail"" no funciona",
+59,v2,Abierto,12/08/2026,Validar - Alta - Orden alfabético por Nombre de Contacto,"Ingresar a la página de Contactos
+","1- Existan al menos tres contactos registrados 
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com",El sistema ordena los contactos alfabéticamente por Nombre de Contacto,El sistema no ordena alfabeticamente los contactos,
+60,v2,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" sin extensión de 
+dominio","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+1- Hacer clic en el campo ""Mail""
+2- Ingresar ""franco@gmail""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar un mail sin una extension de dominio en el campo ""Mail""
+""El sistema informa que el valor ingresado no es un Mail""",OK,
+61,v2,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto""  en campo ""Mail"" sin arroba","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""francogmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar un mail sin una extension de dominio en el campo ""Mail""
+""El sistema informa que el valor ingresado no es un Mail""",OK,
+62,v2,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto""  en campo ""Mail"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar """"
+5- Hacer clic en ""Guardar""","El sistema no permite dejar vacío el campo ""Mail""
+""El sistema informa que el valor ingresado no es un Mail""",OK,
+63,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" con  letras 
+mayúsculas","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""FRANCOEMONTALBANO@
+GMAIL.COM""
+5- Hacer clic en ""Guardar""",El sistema permite ingresar el mail correctamente,OK,
+64,v2,Abierto ,27/07/2026,"
+Validar - Alta ""Nuevo Contacto"" según Anexo A, en campo ""Mail"" con
+(35 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVWX@gmail.com"" (35 caracteres)
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de hasta 35 caracteres en el campo ""Mail""",OK,
+65,v2,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto"" según formato Anexo A, en campo
+""Mail"" con (34 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVX@gmail.com"" (34 caracteres)
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de 34 caracteres en el campo ""Mail""
+",OK,
+66,v2,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" con (36 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVXGZ@gmail.com"" (36 caracteres)
+5- Hacer clic en ""Guardar""","El sistema emite el mensaje: ""El valor ingresado no es un email""","El sistema emite el mensaje: ""El mail del contacto no 
+puede superar los 35 caracteres""",
+67,v2,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Mail""  sin dominio","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@.com""
+5- Hacer clic en ""Guardar""","El sistema emite el mensaje: ""El valor ingresado no es un email""",OK,
+68,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Mail""  según formato
+ Anexo A","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar el ""Mail"" correctamente",OK,
+69,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" y 
+""Mail"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar """"
+3- Hacer clic en el campo ""Mail""
+4- Ingresar """"
+5- Hacer clic en ""Guardar""","
+El sistema emite el mensaje ""El campo nombre debe completarse""
+El sistema emite el mensaje ""El campo mail debe completarse""",OK,
+65,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" y 
+""Mail""","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""
+","El sistema almacena el contacto y lo visualiza en la parte superior de la grilla junto con las 
+opciones ""Editar"" y ""Borrar""",OK,
+66,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" vacío
+ y ""Mail""","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar """"
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""
+","El sistema no permite guardar el contacto e informa que el campo ""Nombre"" es obligatorio y debe
+completarse.",OK,
+67,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" y 
+""Mail"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar """"
+5- Hacer clic en ""Guardar""","El sistema no permite guardar el contacto e informa que el campo ""Mail"" es obligatorio y debe
+completarse",OK,
+68,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo ""Nombre"" y 
+""Mail"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar """"
+3- Hacer clic en el campo ""Mail""
+4- Ingresar """"
+5- Hacer clic en ""Cancelar""","El sistema emite una alerta ""Se perderán los cambios sin guardar"" y cierra el formulario ","El sistema cierra el formulario sin emitir el mensaje ""Se perderán los cambios sin guardar""",
+69,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo ""Nombre"" y 
+""Mail"" correctamente","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Cancelar""","El sistema emite una alerta ""Se perderán los cambios sin guardar"" y cierra el formulario ","El sistema cierra el formulario sin emitir el mensaje ""Se perderán los cambios sin guardar""",
+70,v2,Abierto,29/07/2026,"Visualizar - Edición ""Grilla de contactos""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""franco@gmail.com""
+","1- Hacer clic en ""Editar"" sobre el contacto
+ ""Franco""","El sistema despliega el formulario ""Editar Contacto"" con: 
+Campo ""Nombre"" con el valor del contacto ""Franco""
+Campo ""Mail"" con el valor del contacto ""franco@gmail.com""
+Botón ""Guardar""
+Botón ""Cancelar""",OK,
+71,v2,Abierto,29/07/2026,"Validar - Edición ""Editar Contacto"" ""Guardar"" con datos modificados","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""franco@gmail.com""
+","1- Hacer clic en Editar
+2- Modificar el campo ""Nombre"" por 
+""Pedro""
+3- Modificar el campo ""Mail"" por
+ francoemontalbano@gmail.com
+4- Hacer clic en ""Guardar""","El sistema guarda los cambios realizados y muestra en la tabla de Contactos el registro 
+actualizado con el Nombre ""Pedro"" y el Mail ""francoemontalbano@gmail.com""","El sistema no permite guardar el contacto actualizado y emite el siguiente
+mensaje: ""Ya existe un contacto con este mail""",
+72,v2,Abierto,29/07/2026,"Validar - Edición ""Editar Contacto"" ""Guardar"" con ""Mail"" duplicado","Ingresar a la página de Contactos
+Existan al menos dos contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com","1- Hacer clic en ""Editar"" sobre el contacto Juan
+2- Modificar el campo ""Mail"" por 
+franco@gmail.com.
+3- Hacer clic en ""Guardar""","El sistema no permite guardar los cambios y emite un mensaje informando que no es posible 
+almacenar direcciones de mail duplicadas.",OK,
+73,v2,Abierto,29/07/2026,"Validar - Edición ""Editar Contacto"" ""Guardar"" con ""Nombre"" duplicado","Ingresar a la página de Contactos
+Existan al menos dos contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com""","1- Hacer clic en ""Editar"" sobre el contacto Juan
+2- Modificar el campo ""Nombre"" por ""Franco""
+3- Mantener el Mail ""juan@gmail.com""
+4- Hacer clic en ""Guardar"".","El sistema guarda los cambios realizados y muestra en la tabla de Contactos el registro actualizado 
+con el Nombre ""Franco"" y el Mail ""juan@gmail.com""",OK,
+74,v2,Abierto,29/07/2026,"Validar - Edición ""Editar Contacto"" ""Cancelar"" con ""Nombre"" y ""Mail""
+modificados","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""franco@gmail.com""
+","1- Hacer clic en ""Editar"" sobre el contacto
+Franco
+2- Modificar el campo ""Nombre"" por ""Pedro""
+3- Mantener el Mail ""franco@gmail.com""
+4- Hacer clic en ""Cancelar"".","El sistema emite una alerta ""Se perderán los cambios sin guardar"" y cierra el formulario ","El sistema cierra el formulario sin emitir el mensaje ""Se perderán los cambios sin guardar""",
+75,v2,Abierto,29/07/2026,"Validar - Edición ""Editar Contacto"" con varios contactos","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en ""Editar"" sobre el contacto
+Franco
+","El sistema abre el formulario y permite editar el contacto ""Franco""","El sistema abre el formulario a Editar del contacto ""Juan"" sin poder editar
+el contacto esperado",
+76,v2,Abierto,07/08/2026,"Validar - Edición ""Editar Contacto ""Cancelar"" con varios contactos","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en ""Editar"" sobre el contacto
+Franco
+2- Modificar el campo ""Nombre"" por ""Gonzalo""
+3- Mantener el Mail ""franco@gmail.com""
+4- Hacer clic en ""Cancelar"".","El sistema emite una alerta ""Se perderán los cambios sin guardar"" y cierra el formulario ","El sistema cierra el formulario sin emitir el mensaje ""Se perderán los cambios sin guardar""",
+77,v2,Abierto,29/07/2026,"Visualizar - Baja ""Mensaje de confirmación de eliminación de Contacto""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""francoemontalbano@gmail.com""
+Hacer clic en ""Borrar"" sobre el contacto 
+""Franco""","1- ""Visualizar mensaje de confirmación de elimin
+ación de contacto""
+2- Visualizar  ""Confirmar eliminación""
+3- Visualizar ""Cancelar eliminación""","El sistema muestra el mensaje “Está seguro que quiere borrar el contacto Franco” y permite
+confirmar o cancelar la eliminación",OK,
+78,v2,Abierto,29/07/2026,"Validar - Baja ""Confirmar Eliminación""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""francoemontalbano@gmail.com""
+Hacer clic en ""Borrar"" sobre el contacto 
+""Franco""","
+1- Hacer clic en ""Confirmar eliminación""","El sistema elimina el contacto ""Franco"" y este deja de visualizarse en Contactos",OK,
+79,v2,Abierto,29/07/2026,"Validar - Baja ""Cancelar Eliminación""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""francoemontalbano@gmail.com""
+Hacer clic en ""Borrar"" sobre el contacto 
+""Franco""","
+1- Hacer clic en ""Cancelar eliminación""","El sistema no elimina el contacto ""Franco"" y este continúa visualizándose en Contactos","El sistema elimina el contacto a pesar de hacer clic en ""Cancelar""",
+80,v3,Abierto,22/07/2026,Visualizar Lista de Contactos,,1- Ingresar a la página de Contactos,"El sistema muestra la página Contactos con:
+Título ""Contactos"".
+Tabla con las columnas Nombre y Mail.
+Mensaje ""No hay contactos guardados"" cuando la tabla está vacía.
+Opciones para ordenar los datos por Nombre y Mail.
+Orden alfabético por Nombre por defecto.
+Opción ""Nuevo Contacto""","En la página se ve una columa extra llamada ""Acciones""
+El sistema no muestra ningún mensaje por defecto cuando la tabla esta vacía
+",
+81,v3,Abierto,24/07/2026,"
+
+Visualizar - Alta ""Nuevo Contacto"" Formulario",,"1- Ingresar a la página de Contactos
+2- Hacer click  en ""Nuevo 
+contacto""","El sistema despliega el formulario ""Nuevo Contacto"" con:
+Campo Nombre, obligatorio, vacío por defecto y con un máximo de 35 caracteres.
+Campo Mail, obligatorio, vacío por defecto y con un máximo de 35 caracteres.
+Botón Guardar
+Botón Cancelar",OK,
+82,v3,Abierto,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+letras minúsculas","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""
+","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre con letras minúsculas en el 
+campo ""Nombre""","El sistema permite ingresar un contacto en el campo ""Nombre"" con letras
+minúsculas correctamente pero no aparece la última letra del contacto
+agregado",
+83,v3,Abierto ,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+letras mayúsculas","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""
+","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""FRANCO""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre con letras mayúsculas en el
+campo ""Nombre""","El sistema permite ingresar un contacto en el campo ""Nombre"" con letras
+mayúsculas correctamente pero no aparece el último caracter, en este caso
+la última letra del contacto agregado",
+84,v3,Abierto ,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+números","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""123456789""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar números en el campo ""Nombre""
+""El sistema informa que el campo ""Nombre"" no permite números""","El sistema permite ingresar números en el campo ""Nombre"" y tampoco
+aparece el ultimo caracter, en este caso el último número",
+85,v3,Abierto,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+caracteres especiales","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""@#$%&""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar caracteres especiales en el campo ""Nombre""
+""El sistema informa que el campo ""Nombre"" no permite caracteres especiales""","El sistema permite ingresar caracteres especiales en el campo 
+""Nombre"" y tampoco aparece el ultimo caracter, en este caso el último
+caracter especial",
+86,v3,Abierto,24/07/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con espacios","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco Exequiel""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre compuesto con espacio en el campo ""Nombre""","El sistema permite ingresar un nombre compuesto en el campo ""Nombre""
+pero no aparece el último caracter, en este caso la última letra",
+87,v3,Abierto,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con 
+(35 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVWXYZABCDEFGHI"" (35 caracteres)
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre de hasta 35 caracteres en el campo ""Nombre""","El sistema no permite ingresar un ""Nombre"" de 35 caracteres",
+88,v3,Abierto,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+(34 caracteres) ","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVWXYZABCDEFGH"" (34 caracteres)
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre de 34 caracteres en el campo ""Nombre""","El sistema permite ingresar un nombre de 34
+caracteres en el campo ""Nombre"" correctamente pero
+no aparece el último caracter, en este caso
+la última letra del contacto agraegado",
+89,v3,Abierto ,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con 
+(36 caracteres) ","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVWXYZABCDEFGHIJ"" (36 caracteres)
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar un ""Nombre"" de más de 35 caracteres
+""El sistema informa que el limite maximo de caracteres es 35""",OK,
+90,v3,Abierto ,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar """"
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite dejar vacío el campo ""Nombre""
+""El sistema informa que el campo ""Nombre"" es obligatorio y debe completarse""",OK,
+91,v3,Abierto ,24/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" repetido","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+","1- Ingresar a la página de Contactos
+2- Hacer clic en ""Nuevo contacto""
+3- Hacer clic en el campo ""Nombre""
+4- Ingresar ""Franco""
+5- Hacer clic en ""Guardar""",El sistema permite almacenar contactos con el mismo Nombre,"El sistema permite almacenar contactos con el mismo Nombre, pero no
+aparece el último caracter, en este caso la última letra",
+92,v3,Abierto,10/08/2026,"Validar - Alta - Ordenar por ""Nombre"" ascendente","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en el botón ""Ordenar"" de campo
+""Nombre"" de forma ascendente",El sistema ordena los Nombres de forma ascendente,OK,
+93,v3,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Nombre"" descendente","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en el botón ""Ordenar"" de campo
+""Nombre"" de forma descendente",El sistema ordena los Nombres de forma ascendente,OK,
+94,v3,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Mail"" ascendente","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en el botón ""Ordenar"" de campo
+""Mail"" de forma ascendente",El sistema ordena los Mails de forma ascendente,OK,
+95,v3,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Mail"" descendente","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en el botón ""Ordenar"" de campo
+""Mail"" de forma descendente",El sistema ordena los Mails de forma ascendente,OK,
+96,v3,Abierto,12/08/2026,Validar - Alta - Orden alfabético por Nombre de Contacto,"Ingresar a la página de Contactos
+","1- Existan al menos tres contactos registrados 
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com",El sistema ordena los contactos alfabéticamente por Nombre de Contacto,OK,
+97,v3,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" sin extensión de 
+dominio","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+1- Hacer clic en el campo ""Mail""
+2- Ingresar ""franco@gmail""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar un mail sin una extension de dominio en el campo ""Mail""
+""El sistema informa que el valor ingresado no es un Mail""",OK,
+98,v3,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto""  en campo ""Mail"" sin arroba","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""francogmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar un mail sin una extension de dominio en el campo ""Mail""
+""El sistema informa que el valor ingresado no es un Mail""",OK,
+99,v3,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto""  en campo ""Mail"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar """"
+5- Hacer clic en ""Guardar""","El sistema no permite dejar vacío el campo ""Mail""
+""El sistema informa que el valor ingresado no es un Mail""",OK,
+100,v3,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" con letras 
+mayúsculas","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""FRANCOEMONTALBANO@
+GMAIL.COM""
+5- Hacer clic en ""Guardar""",El sistema permite ingresar el mail correctamente,"El sistema permite almacenar el Mail con letras mayúsculas, pero no
+aparece el último caracter, en este caso la última letra del campo ""Nombre""",
+101,v3,Abierto ,27/07/2026,"
+Validar - Alta ""Nuevo Contacto"" según Anexo A, en campo ""Mail"" con
+(35 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVWX@gmail.com"" (35 caracteres)
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de hasta 35 caracteres en el campo ""Mail""","El sistema permite almacenar el Mail con 35 caracteres correctamente, pero no aparece el último caracter, en este caso la última letra del campo ""Nombre""",
+102,v3,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto"" según formato Anexo A, en campo
+""Mail"" con (34 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVX@gmail.com"" (34 caracteres)
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de 34 caracteres en el campo ""Mail""
+","El sistema permite almacenar el Mail con 34 caracteres correctamente, pero no aparece el último caracter, en este caso la última letra del campo ""Nombre",
+103,v3,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" con (36 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVXGZ@gmail.com"" (36 caracteres)
+5- Hacer clic en ""Guardar""","El sistema emite el mensaje: ""El mail no puede superar los 35 caracteres""",OK,
+104,v3,Abierto,27/07/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Mail""  sin dominio","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@.com""
+5- Hacer clic en ""Guardar""","El sistema emite el mensaje: ""El valor ingresado no es un email""",OK,
+105,v3,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Mail""  según formato
+ Anexo A","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar el ""Mail"" correctamente","El sistema permite almacenar el Mail correctamente, pero no aparece el último caracter, en este caso la última letra del campo ""Nombre""",
+106,v3,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" y 
+""Mail"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar """"
+3- Hacer clic en el campo ""Mail""
+4- Ingresar """"
+5- Hacer clic en ""Guardar""","
+El sistema emite el mensaje ""El campo nombre debe completarse""
+El sistema emite el mensaje ""El campo mail debe completarse""",OK,
+107,v3,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" y 
+""Mail""","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""
+","El sistema almacena el contacto y lo visualiza en la parte superior de la grilla junto con las 
+opciones ""Editar"" y ""Borrar""","El sistema permite almacenar el Contacto correctamente, pero no aparece el último caracter, en este caso la última letra del campo ""Nombre""",
+108,v3,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" vacío
+ y ""Mail""","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar """"
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""
+","El sistema no permite guardar el contacto e informa que el campo ""Nombre"" es obligatorio y debe
+completarse.",OK,
+109,v3,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" y 
+""Mail"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar """"
+5- Hacer clic en ""Guardar""","El sistema no permite guardar el contacto e informa que el campo ""Mail"" es obligatorio y debe
+completarse",OK,
+110,v3,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo ""Nombre"" y 
+""Mail"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar """"
+3- Hacer clic en el campo ""Mail""
+4- Ingresar """"
+5- Hacer clic en ""Cancelar""",El sistema cierra el formulario sin crear ningún contacto,OK,
+111,v3,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo ""Nombre"" y 
+""Mail"" correctamente","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Cancelar""",El sistema emite un mensaje informando que se perderán los cambios,"El sistema cierra el formulario correctamente pero no
+emite el mensaje de ""Se perderan los cambios sin
+guardar""",
+112,v3,Abierto,29/07/2026,"Visualizar - Edición ""Grilla de contactos""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""franco@gmail.com""
+","1- Hacer clic en ""Editar"" sobre el contacto
+ ""Franco""","El sistema despliega el formulario ""Editar Contacto"" con: 
+Campo ""Nombre"" con el valor del contacto seleccionado
+Campo ""Mail"" con el valor del contacto seleccionado
+Botón ""Guardar""
+Botón ""Cancelar""",OK,
+113,v3,Abierto,29/07/2026,"Validar - Edición ""Editar Contacto"" ""Guardar"" con datos modificados","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""franco@gmail.com""
+","1- Hacer clic en Editar
+2- Modificar el campo ""Nombre"" por 
+""Pedro""
+3- Modificar el campo ""Mail"" por
+ francoemontalbano@gmail.com
+4- Hacer clic en ""Guardar""","El sistema guarda los cambios realizados y muestra en la tabla de Contactos el registro 
+actualizado con el Nombre ""Pedro"" y el Mail ""francoemontalbano@gmail.com""","El sistema al editar el Contacto ""Franco"", no solo no
+lo modifica, sino que crea un contacto nuevo y
+terminan quedando 2 Contactos",
+114,v3,Abierto,29/07/2026,"Validar - Edición ""Editar Contacto"" ""Guardar"" con ""Mail"" duplicado","Ingresar a la página de Contactos
+Existan al menos dos contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com","1- Hacer clic en ""Editar"" sobre el contacto Juan
+2- Modificar el campo ""Mail"" por 
+franco@gmail.com.
+3- Hacer clic en ""Guardar""","El sistema no permite guardar los cambios y emite un mensaje informando que no es posible 
+almacenar direcciones de mail duplicadas.",OK,
+115,v3,Abierto,29/07/2026,"Validar - Edición ""Editar Contacto"" ""Guardar"" con ""Nombre"" duplicado","Ingresar a la página de Contactos
+Existan al menos dos contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com""","1- Hacer clic en ""Editar"" sobre el contacto Juan
+2- Modificar el campo ""Nombre"" por ""Franco""
+3- Mantener el Mail ""juan@gmail.com""
+4- Hacer clic en ""Guardar"".","El sistema guarda los cambios realizados y muestra en la tabla de Contactos el registro actualizado 
+con el Nombre ""Franco"" y el Mail ""juan@gmail.com""","El sistema al querer editar el Contacto ""Juan"" y 
+ponerle ""Franco"", no solo no modifica el resultado
+sino que crea otro Contacto ""Franco"" y terminan
+siendo 3 Contactos en total, sin modificar el 
+correspondiente",
+116,v3,Abierto,29/07/2026,"Validar - Edición ""Editar Contacto"" ""Cancelar"" con ""Nombre"" y ""Mail""
+modificados","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""franco@gmail.com""
+","1- Hacer clic en ""Editar"" sobre el contacto
+Franco
+2- Modificar el campo ""Nombre"" por ""Pedro""
+3- Mantener el Mail ""franco@gmail.com""
+4- Hacer clic en ""Cancelar"".","El sistema emite una alerta ""Se perderán los cambios sin guardar"" y cierra el formulario ",OK,
+117,v3,Abierto,29/07/2026,"Validar - Edición ""Editar Contacto"" con varios contactos","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en ""Editar"" sobre el contacto
+Franco
+","El sistema abre el formulario y permite editar el contacto ""Franco""",OK,
+118,v3,Abierto,07/08/2026,"Validar - Edición ""Editar Contacto ""Cancelar"" con varios contactos","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en ""Editar"" sobre el contacto
+Franco
+2- Modificar el campo ""Nombre"" por ""Gonzalo""
+3- Mantener el Mail ""franco@gmail.com""
+4- Hacer clic en ""Cancelar"".","El sistema emite una alerta ""Se perderán los cambios sin guardar"" y cierra el formulario ",OK,
+119,v3,Abierto,29/07/2026,"Visualizar - Baja ""Mensaje de confirmación de eliminación de Contacto""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""francoemontalbano@gmail.com""
+Hacer clic en ""Borrar"" sobre el contacto 
+""Franco""","1- ""Visualizar mensaje de confirmación de elimin
+ación de contacto""
+2- Visualizar  ""Confirmar eliminación""
+3- Visualizar ""Cancelar eliminación""","El sistema muestra el mensaje “Está seguro que quiere borrar el contacto Franco” y permite
+confirmar o cancelar la eliminación",OK,
+120,v3,Abierto,29/07/2026,"Validar - Baja ""Confirmar Eliminación""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""francoemontalbano@gmail.com""
+Hacer clic en ""Borrar"" sobre el contacto 
+""Franco""","
+1- Hacer clic en ""Confirmar eliminación""","El sistema elimina el contacto ""Franco"" y este deja de visualizarse en Contactos",OK,
+121,v3,Abierto,29/07/2026,"Validar - Baja ""Cancelar Eliminación""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""francoemontalbano@gmail.com""
+Hacer clic en ""Borrar"" sobre el contacto 
+""Franco""","
+1- Hacer clic en ""Cancelar eliminación""","El sistema no elimina el contacto ""Franco"" y este continúa visualizándose en Contactos",OK,
+122,"Versión
+Final",Abierto,19/08/2026,Visualizar Lista de Contactos,,1- Ingresar a la página de Contactos,"El sistema muestra la página Contactos con:
+Título ""Contactos"".
+Tabla con las columnas Nombre y Mail.
+Mensaje ""No hay contactos guardados"" cuando la tabla está vacía.
+Opciones para ordenar los datos por Nombre y Mail.
+Orden alfabético por Nombre por defecto.
+Opción ""Nuevo Contacto""","En la página se ve una columa extra llamada ""Acciones""
+",
+123,"Versión
+Final",Abierto,19/08/2026,"
+
+Visualizar - Alta ""Nuevo Contacto"" Formulario",,"1- Ingresar a la página de Contactos
+2- Hacer click  en ""Nuevo 
+contacto""","El sistema despliega el formulario ""Nuevo Contacto"" con:
+Campo Nombre, obligatorio, vacío por defecto y con un máximo de 35 caracteres.
+Campo Mail, obligatorio, vacío por defecto y con un máximo de 35 caracteres.
+Botón Guardar
+Botón Cancelar",OK,
+124,"Versión
+Final",Abierto,19/08/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+letras minúsculas","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""
+","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre con letras minúsculas en el 
+campo ""Nombre""",OK,
+125,"Versión
+Final",Abierto ,19/08/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+letras mayúsculas","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""
+","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""FRANCO""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre con letras mayúsculas en el
+campo ""Nombre""",OK,
+126,"Versión
+Final",Abierto ,19/08/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+números","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""123456789""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar números en el campo ""Nombre""
+""El sistema informa que el campo ""Nombre"" no permite números""","El sistema permite almacenar números en el campo ""Nombre""",
+127,"Versión
+Final",Abierto,19/08/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+caracteres especiales","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""@#$%&""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar caracteres especiales en el campo ""Nombre""
+""El sistema informa que el campo ""Nombre"" no permite caracteres especiales""","El sistema permite almacenar caracteres especiales en el campo ""Nombre""",
+128,"Versión
+Final",Abierto,19/08/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con espacios","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco Exequiel""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre compuesto con espacio en el campo ""Nombre""",OK,
+129,"Versión
+Final",Abierto,19/08/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con 
+(35 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVWXYZABCDEFGHI"" (35 caracteres)
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre de hasta 35 caracteres en el campo ""Nombre""","El sistema no permite ingresar un ""Nombre"" de 35 caracteres",
+130,"Versión
+Final",Abierto,19/08/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+(34 caracteres) ","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVWXYZABCDEFGH"" (34 caracteres)
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre de 34 caracteres en el campo ""Nombre""",,
+131,"Versión
+Final",Abierto ,19/08/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con 
+(36 caracteres) ","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVWXYZABCDEFGHIJ"" (36 caracteres)
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar un ""Nombre"" de más de 35 caracteres
+""El sistema informa que el limite maximo de caracteres es 35""",,
+132,"Versión
+Final",Abierto ,19/08/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar """"
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite dejar vacío el campo ""Nombre""
+""El sistema informa que el campo ""Nombre"" es obligatorio y debe completarse""",,
+133,"Versión
+Final",Abierto ,19/08/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" repetido","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+","1- Ingresar a la página de Contactos
+2- Hacer clic en ""Nuevo contacto""
+3- Hacer clic en el campo ""Nombre""
+4- Ingresar ""Franco""
+5- Hacer clic en ""Guardar""",El sistema permite almacenar contactos con el mismo Nombre,,
+134,"Versión
+Final",Abierto,19/08/2026,"Validar - Alta - Ordenar por ""Nombre"" ascendente","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en el botón ""Ordenar"" de campo
+""Nombre"" de forma ascendente",El sistema ordena los Nombres de forma ascendente,,
+135,"Versión
+Final",Abierto,19/08/2026,"Validar - Alta - Ordenar por ""Nombre"" descendente","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en el botón ""Ordenar"" de campo
+""Nombre"" de forma descendente",El sistema ordena los Nombres de forma ascendente,,
+136,"Versión
+Final",Abierto,19/08/2026,"Validar - Alta - Ordenar por ""Mail"" ascendente","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en el botón ""Ordenar"" de campo
+""Mail"" de forma ascendente",El sistema ordena los Mails de forma ascendente,,
+137,"Versión
+Final",Abierto,19/08/2026,"Validar - Alta - Ordenar por ""Mail"" descendente","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en el botón ""Ordenar"" de campo
+""Mail"" de forma descendente",El sistema ordena los Mails de forma ascendente,,
+138,"Versión
+Final",Abierto,19/08/2026,Validar - Alta - Orden alfabético por Nombre de Contacto,"Ingresar a la página de Contactos
+","1- Existan al menos tres contactos registrados 
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com",El sistema ordena los contactos alfabéticamente por Nombre de Contacto,,
+139,"Versión
+Final",Abierto,19/08/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" sin extensión de 
+dominio","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+1- Hacer clic en el campo ""Mail""
+2- Ingresar ""franco@gmail""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar un mail sin una extension de dominio en el campo ""Mail""
+""El sistema informa que el valor ingresado no es un Mail""",,
+140,"Versión
+Final",Abierto,19/08/2026,"
+Validar - Alta ""Nuevo Contacto""  en campo ""Mail"" sin arroba","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""francogmail.com""
+5- Hacer clic en ""Guardar""","El sistema no permite ingresar un mail sin una extension de dominio en el campo ""Mail""
+""El sistema informa que el valor ingresado no es un Mail""",,
+141,"Versión
+Final",Abierto,19/08/2026,"
+Validar - Alta ""Nuevo Contacto""  en campo ""Mail"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar """"
+5- Hacer clic en ""Guardar""","El sistema no permite dejar vacío el campo ""Mail""
+""El sistema informa que el valor ingresado no es un Mail""",,
+142,"Versión
+Final",,19/08/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" con letras 
+mayúsculas","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""FRANCOEMONTALBANO@
+GMAIL.COM""
+5- Hacer clic en ""Guardar""",El sistema permite ingresar el mail correctamente,,
+143,"Versión
+Final",Abierto ,19/08/2026,"
+Validar - Alta ""Nuevo Contacto"" según Anexo A, en campo ""Mail"" con
+(35 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVWX@gmail.com"" (35 caracteres)
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de hasta 35 caracteres en el campo ""Mail""",,
+144,"Versión
+Final",Abierto,19/08/2026,"
+Validar - Alta ""Nuevo Contacto"" según formato Anexo A, en campo
+""Mail"" con (34 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVX@gmail.com"" (34 caracteres)
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de 34 caracteres en el campo ""Mail""
+",,
+145,"Versión
+Final",Abierto,19/08/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" con (36 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""ABCDEFGHIJKLMNOPQRS
+TUVXGZ@gmail.com"" (36 caracteres)
+5- Hacer clic en ""Guardar""","El sistema emite el mensaje: ""El mail no puede superar los 35 caracteres""",,
+146,"Versión
+Final",Abierto,19/08/2026,"
+Validar - Alta ""Nuevo Contacto"" en campo ""Mail""  sin dominio","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@.com""
+5- Hacer clic en ""Guardar""","El sistema emite el mensaje: ""El valor ingresado no es un email""",,
+147,"Versión
+Final",Abierto,19/08/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Mail""  según formato
+ Anexo A","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""","El sistema permite ingresar el ""Mail"" correctamente",,
+148,"Versión
+Final",Abierto,19/08/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" y 
+""Mail"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar """"
+3- Hacer clic en el campo ""Mail""
+4- Ingresar """"
+5- Hacer clic en ""Guardar""","
+El sistema emite el mensaje ""El campo nombre debe completarse""
+El sistema emite el mensaje ""El campo mail debe completarse""",,
+149,"Versión
+Final",Abierto,19/08/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" y 
+""Mail""","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""
+","El sistema almacena el contacto y lo visualiza en la parte superior de la grilla junto con las 
+opciones ""Editar"" y ""Borrar""",,
+150,"Versión
+Final",Abierto,19/08/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" vacío
+ y ""Mail""","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar """"
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Guardar""
+","El sistema no permite guardar el contacto e informa que el campo ""Nombre"" es obligatorio y debe
+completarse.",,
+151,"Versión
+Final",Abierto,19/08/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" y 
+""Mail"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar """"
+5- Hacer clic en ""Guardar""","El sistema no permite guardar el contacto e informa que el campo ""Mail"" es obligatorio y debe
+completarse",,
+152,"Versión
+Final",Abierto,19/08/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo ""Nombre"" y 
+""Mail"" vacío","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar """"
+3- Hacer clic en el campo ""Mail""
+4- Ingresar """"
+5- Hacer clic en ""Cancelar""",El sistema cierra el formulario sin crear ningún contacto,,
+153,"Versión
+Final",Abierto,19/08/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo ""Nombre"" y 
+""Mail"" correctamente","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
+2- Ingresar ""Franco""
+3- Hacer clic en el campo ""Mail""
+4- Ingresar ""franco@gmail.com""
+5- Hacer clic en ""Cancelar""",El sistema emite un mensaje informando que se perderán los cambios,,
+154,"Versión
+Final",Abierto,19/08/2026,"Visualizar - Edición ""Grilla de contactos""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""franco@gmail.com""
+","1- Hacer clic en ""Editar"" sobre el contacto
+ ""Franco""","El sistema despliega el formulario ""Editar Contacto"" con: 
+Campo ""Nombre"" con el valor del contacto seleccionado
+Campo ""Mail"" con el valor del contacto seleccionado
+Botón ""Guardar""
+Botón ""Cancelar""",,
+155,"Versión
+Final",Abierto,19/08/2026,"Validar - Edición ""Editar Contacto"" ""Guardar"" con datos modificados","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""franco@gmail.com""
+","1- Hacer clic en Editar
+2- Modificar el campo ""Nombre"" por 
+""Pedro""
+3- Modificar el campo ""Mail"" por
+ francoemontalbano@gmail.com
+4- Hacer clic en ""Guardar""","El sistema guarda los cambios realizados y muestra en la tabla de Contactos el registro 
+actualizado con el Nombre ""Pedro"" y el Mail ""francoemontalbano@gmail.com""",,
+156,"Versión
+Final",Abierto,19/08/2026,"Validar - Edición ""Editar Contacto"" ""Guardar"" con ""Mail"" duplicado","Ingresar a la página de Contactos
+Existan al menos dos contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com","1- Hacer clic en ""Editar"" sobre el contacto Juan
+2- Modificar el campo ""Mail"" por 
+franco@gmail.com.
+3- Hacer clic en ""Guardar""","El sistema no permite guardar los cambios y emite un mensaje informando que no es posible 
+almacenar direcciones de mail duplicadas.",,
+157,"Versión
+Final",Abierto,19/08/2026,"Validar - Edición ""Editar Contacto"" ""Guardar"" con ""Nombre"" duplicado","Ingresar a la página de Contactos
+Existan al menos dos contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com""","1- Hacer clic en ""Editar"" sobre el contacto Juan
+2- Modificar el campo ""Nombre"" por ""Franco""
+3- Mantener el Mail ""juan@gmail.com""
+4- Hacer clic en ""Guardar"".","El sistema guarda los cambios realizados y muestra en la tabla de Contactos el registro actualizado 
+con el Nombre ""Franco"" y el Mail ""juan@gmail.com""",,
+158,"Versión
+Final",Abierto,19/08/2026,"Validar - Edición ""Editar Contacto"" ""Cancelar"" con ""Nombre"" modificado
+y ""Mail""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""franco@gmail.com""
+","1- Hacer clic en ""Editar"" sobre el contacto
+Franco
+2- Modificar el campo ""Nombre"" por ""Pedro""
+3- Mantener el Mail ""franco@gmail.com""
+4- Hacer clic en ""Cancelar"".","El sistema emite una alerta ""Se perderán los cambios sin guardar"" y cierra el formulario ",,
+159,"Versión
+Final",Abierto,19/08/2026,"Validar - Edición ""Editar Contacto"" con varios contactos","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en ""Editar"" sobre el contacto
+Franco
+","El sistema abre el formulario y permite editar el contacto ""Franco""",,
+160,"Versión
+Final",Abierto,19/08/2026,"Validar - Edición ""Editar Contacto ""Cancelar"" con varios contactos","Ingresar a la página de Contactos
+Existan al menos tres contactos
+registrados:
+Franco – franco@gmail.com
+Juan – juan@gmail.com
+Pedro - pedro@gmail.com","1- Hacer clic en ""Editar"" sobre el contacto
+Franco
+2- Modificar el campo ""Nombre"" por ""Gonzalo""
+3- Mantener el Mail ""franco@gmail.com""
+4- Hacer clic en ""Cancelar"".","El sistema emite una alerta ""Se perderán los cambios sin guardar"" y cierra el formulario ",,
+161,"Versión
+Final",Abierto,19/08/2026,"Visualizar - Baja ""Mensaje de confirmación de eliminación de Contacto""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""francoemontalbano@gmail.com""
+Hacer clic en ""Borrar"" sobre el contacto 
+""Franco""","1- ""Visualizar mensaje de confirmación de elimin
+ación de contacto""
+2- Visualizar  ""Confirmar eliminación""
+3- Visualizar ""Cancelar eliminación""","El sistema muestra el mensaje “Está seguro que quiere borrar el contacto Franco” y permite
+confirmar o cancelar la eliminación",,
+162,"Versión
+Final",Abierto,19/08/2026,"Validar - Baja ""Confirmar Eliminación""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""francoemontalbano@gmail.com""
+Hacer clic en ""Borrar"" sobre el contacto 
+""Franco""","
+1- Hacer clic en ""Confirmar eliminación""","El sistema elimina el contacto ""Franco"" y este deja de visualizarse en Contactos",,
+163,"Versión
+Final",Abierto,19/08/2026,"Validar - Baja ""Cancelar Eliminación""","Ingresar a la página de Contactos
+Existe al menos un contacto 
+registrado con: 
+Nombre: ""Franco"" 
+Mail: ""francoemontalbano@gmail.com""
+Hacer clic en ""Borrar"" sobre el contacto 
+""Franco""","
+1- Hacer clic en ""Cancelar eliminación""","El sistema no elimina el contacto ""Franco"" y este continúa visualizándose en Contactos",,
