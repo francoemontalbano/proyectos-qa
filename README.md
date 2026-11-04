@@ -21,3 +21,7 @@ Sistema CRUD (Alta, Baja, Modificación y Listado) de contactos basado en valida
 
 ## Responsable
 Franco Montalbano
+
+## Documentación de Referencia
+- **Especificaciones del Proyecto:** [Proyecto Nahual - Control de Contactos](https://nahual.github.io/qc-contactos/especificaciones.html)
+- **Estándar de Validación:** [RFC 5322 - Internet Message Format (Section 3.4.1)](http://ietf.org)
