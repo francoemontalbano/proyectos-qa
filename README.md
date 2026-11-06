@@ -13,7 +13,7 @@ Bienvenido a mi espacio de aseguramiento de calidad (QA). Aquí centralizo el di
 
 ### 🔍 **[02. Buscador Provinciano](./02_Provinciano/)**
 - **Tipo de Testing:** Búsqueda, Filtrado Avanzado y Ordenamiento
-- **Sitio Web de Pruebas:** https://nahual.github.io/qc-provinciano/provinciano_1.html?
+- **Sitio Web de Pruebas:** https://nahual.github.io/qc-provinciano/provinciano_1.html
 - **Especificaciones del Proyecto:** https://nahual.github.io/qc-provinciano/especificaciones.html
 - **Documentación Interna:** [Ver Alcance Técnico](./02_Provinciano/README.md)
 - **Artefactos:** Matrices `.csv` de Casos de Prueba y Bug Reports
