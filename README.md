@@ -8,7 +8,7 @@ Bienvenido a mi espacio de aseguramiento de calidad (QA). Aquí centralizo el di
 | :--- | :--- | :--- | :--- |
 | **01. Gestión de Contactos** | CRUD (Alta, Baja, Modificación, Listado) | [Sitio](https://github.io) / [Especificaciones](https://github.io) | Matrices `.csv` de Casos de Prueba y Bug Reports |
 | **02. Buscador Provinciano** | Búsqueda, Filtrado Avanzado y Ordenamiento | [Sitio](https://github.io?) / [Especificaciones](https://github.io) | Matrices `.csv` de Casos de Prueba y Bug Reports |
-| **03. Juego Lumbricina** | Lógica de Videojuegos, Progresión y Eventos Aleatorios | [Sitio](https://github.io) / [Especificaciones](https://github.io) | Matrices `.csv` de Casos de Prueba y Bug Reports |
+| **03. Juego Lumbricina** | Lógica de Videojuegos, Progresión y Eventos Aleatorios | [Sitio](https://nahual.github.io/qc-lumbricina/?v=1) / [Especificaciones](https://nahual.github.io/qc-lumbricina/especificaciones.html) | Matrices `.csv` de Casos de Prueba y Bug Reports |
 
 ---
 

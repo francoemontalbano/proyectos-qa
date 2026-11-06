@@ -1,7 +1,7 @@
 # QA Test Repository - Juego Lumbricina
 
 ## Descripción
-Repositorio de documentación de testing, diseño de casos de prueba y reporte de defectos para la aplicación web de búsqueda de datos provinciales de Argentina.
+Repositorio de documentación de testing, diseño de casos de prueba y reporte de defectos para la aplicación web interactiva del juego "Lumbricina" de Proyecto Nahual.
 
 ## Aplicación bajo prueba
 Videojuego basado en ciclos de movimiento por niveles, mecánicas de colisión, remapeo dinámico de controles y un sistema aleatorio de aparición de pastillas con efectos sobre la velocidad, puntaje e integridad del personaje.
@@ -20,5 +20,5 @@ Videojuego basado en ciclos de movimiento por niveles, mecánicas de colisión, 
 Franco Montalbano
 
 ## Documentación de Referencia
-- **Especificaciones del Proyecto:** [Proyecto Nahual - Especificaciones Lumbricina](https://github.io)
-- **Aplicación en Producción (App Under Test):** [Sitio de Pruebas - Juego Lumbricina](https://github.io)
+- **Especificaciones del Proyecto:** [Proyecto Nahual - Especificaciones Lumbricina](https://nahual.github.io/qc-lumbricina/especificaciones.html)
+- **Aplicación en Producción (App Under Test):** [Sitio de Pruebas - Juego Lumbricina](https://nahual.github.io/qc-lumbricina/?v=1)
