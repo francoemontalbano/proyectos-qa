@@ -20,6 +20,6 @@ Sistema de filtros avanzados (Región y Nombre) con renderizado dinámico de gri
 Franco Montalbano
 
 ## Documentación de Referencia
-- **Especificaciones del Proyecto:** [Proyecto Nahual - Especificaciones Provinciano](https://github.io)
-- **Estándar de Validación:** [Wikipedia - Provincias de Argentina (Regiones Existentes)](https://es.wikipedia.org/wiki/Provincias_de_Argentina#Regiones_existentes)
-- **Aplicación en Producción (App Under Test):** [Sitio de Pruebas - Buscador Provinciano](https://github.io)
+- **Especificaciones del Proyecto:** [Proyecto Nahual - Especificaciones Provinciano](https://nahual.github.io/qc-provinciano/especificaciones.html)
+- **Estándar de Validación:** [Wikipedia - Provincias de Argentina (Regiones Existentes)](https://wikipedia.org)
+- **Aplicación en Producción (App Under Test):** [Sitio de Pruebas - Buscador Provinciano](https://nahual.github.io/qc-provinciano/provinciano_1.html)
