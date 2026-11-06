@@ -4,11 +4,11 @@ Bienvenido a mi espacio de aseguramiento de calidad (QA). Aquí centralizo el di
 
 ## 📁 Proyectos Incluidos
 
-| Proyecto | Tipo de Testing | Enlaces Rápidos | Artefactos Incluidos |
-| :--- | :--- | :--- | :--- |
-| **01. Gestión de Contactos** | CRUD (Alta, Baja, Modificación, Listado) | [Sitio](https://github.io) / [Especificaciones](https://github.io) | Matrices `.csv` de Casos de Prueba y Bug Reports |
-| **02. Buscador Provinciano** | Búsqueda, Filtrado Avanzado y Ordenamiento | [Sitio](https://github.io?) / [Especificaciones](https://github.io) | Matrices `.csv` de Casos de Prueba y Bug Reports |
-| **03. Juego Lumbricina** | Lógica de Videojuegos, Progresión y Eventos Aleatorios | [Sitio](https://nahual.github.io/qc-lumbricina/?v=1) / [Especificaciones](https://nahual.github.io/qc-lumbricina/especificaciones.html) | Matrices `.csv` de Casos de Prueba y Bug Reports |
+| Proyecto | Tipo de Testing | Enlaces del Entorno | Documentación Interna | Artefactos Incluidos |
+| :--- | :--- | :--- | :--- | :--- |
+| 🛠️ **[01. Gestión de Contactos](./01_Gestion_Contactos)** | CRUD (Alta, Baja, Modificación, Listado) | [Sitio Web](https://github.io) / [Especificaciones](https://github.io) | [Ver Alcance Técnico](./01_Gestion_Contactos/README.md) | Matrices `.csv` de Casos de Prueba y Bug Reports |
+| 🔍 **[02. Buscador Provinciano](./02_Provinciano)** | Búsqueda, Filtrado Avanzado y Ordenamiento | [Sitio Web](https://github.io?) / [Especificaciones](https://github.io) | [Ver Alcance Técnico](./02_Provinciano/README.md) | Matrices `.csv` de Casos de Prueba y Bug Reports |
+| 🕹️ **[03. Juego Lumbricina](./03_Lumbricina)** | Lógica de Videojuegos, Progresión y Eventos Aleatorios | [Sitio Web](https://github.io) / [Especificaciones](https://github.io) | [Ver Alcance Técnico](./03_Lumbricina/README.md) | Matrices `.csv` de Casos de Prueba y Bug Reports |
 
 ---
 
