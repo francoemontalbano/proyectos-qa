@@ -21,5 +21,5 @@ Franco Montalbano
 
 ## Documentación de Referencia
 - **Especificaciones del Proyecto:** [Proyecto Nahual - Especificaciones Provinciano](https://github.io)
-- **Estándar de Validación:** [Wikipedia - Provincias de Argentina](http://wikipedia.org)
+- **Estándar de Validación:** [Wikipedia - Provincias de Argentina (Regiones Existentes)](https://es.wikipedia.org/wiki/Provincias_de_Argentina#Regiones_existentes)
 - **Aplicación en Producción (App Under Test):** [Sitio de Pruebas - Buscador Provinciano](https://github.io)
