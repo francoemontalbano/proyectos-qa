@@ -1,0 +1,532 @@
+ID,Version,Estado del test case,Fecha de diseño,Descripción,Precondiciones,Pasos del test,Resultado Esperado,Resultado Obtenido,Aclaraciones / comentarios,
+1,v1,Abierto ,05-10,Visualizar estructura de Nivel 1,,"1- Ingresar al juego
+2- Visualizar estructura de Nivel 1",El juego empieza en la estructura de Nivel 1,,,
+2,v1,Abierto ,05-10,Validar posición inicial de Lumbricina en nivel 1,"1- Ingresar al juego
+2- Visualizar posición inicial de Lumbricina","1- Ingresar al juego
+2- Visualizar lumbricina en el medio de
+la pantalla",Lumbricina inicia el nivel 1 en el medio de la pantalla,,,https://nahual.github.io/qc-lumbricina/especificaciones.html
+3,v1,Abierto ,05-10,Validar longitud inicial de Lumbricina en nivel 1,"1- Ingresar al juego
+2- Visualizar longitud inicial de Lumbricina","1- Ingresar al juego
+2- Visualizar longitud inicial de Lumbricina",Lumbricina inicia el nivel 1 midiendo 3 unidades,,,
+4,v1,Abierto ,05-10,Validar dirección inicial de Lumbricina en nivel 1,"1- Ingresar al juego
+2- Visualizar dirección inicial de Lumbricina","1- Ingresar al juego
+2- Visualizar dirección inicial de Lumbricina",Lumbricina inicia el nivel 1 moviéndose hacia la izquierda,,,
+5,v1,Abierto ,05-10,"Validar movimiento de Lumbricina utilizando flecha 
+hacia arriba","Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla
+","1- Teclear flecha hacia arriba
+",Lumbricina permite moverse hacia arriba correctamente,,,
+6,v1,Abierto ,05-10,"Validar movimiento de Lumbricina utilizando flecha 
+hacia abajo","Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla
+",1- Teclear flecha hacia abajo,Lumbricina permite moverse hacia abajo correctamente,,,
+7,v1,Abierto ,05-10,"Validar movimiento de Lumbricina utilizando flecha 
+hacia la derecha","Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla
+",1- Teclear flecha hacia la derecha,Lumbricina permite moverse hacia la derecha correctamente,,,
+8,v1,Abierto ,05-10,"Validar movimiento de Lumbricina utilizando flecha 
+hacia la izquierda","Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla
+",1- Teclear flecha hacia la izquierda,Lumbricina permite moverse hacia la izquierda correctamente,,,
+9,v1,Abierto ,05-10,Validar colisión de Lumbricina contra una pared,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Hacer que lumbricina colisione contra una
+pared",Lumbricina muere y termina el juego,,,
+10,v1,Abierto ,05-10,Validar colisión de Lumbricina contra sí mismo,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla
+Hacer que lumbricina mida por lo menos 5 unidades
+de longitud","1- Hacer que lumbricina colisione
+contra sí mismo",Lumbricina muere y termina el juego,,,
+11,v1,Abierto ,05-10,Validar colisión de Lumbricina contra un obstáculo,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Hacer que lumbricina colisione
+contra un obstáculo",Lumbricina muere y termina el juego,,,
+12,v1,Abierto ,05-10,"Validar colisión de Lumbricina tomando una pastilla
+blanca","Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Consumir pastilla blanca
+2- Moverse hacia un obstáculo
+3- Pasar por encima del obstáculo",El obstáculo desaparece y Lumbricina continúa jugando,,,
+13,v1,Abierto ,05-10,Visualizar pastilla roja por defecto en el mapa,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla roja por defecto en
+la pantalla",El juego muestra una pastilla roja en cualquier lugar del mapa,,,
+14,v1,Abierto ,05-10,Validar aparición de una sola pastilla adicional por vez,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Jugar hasta que aparezca una pastilla adicional
+2- Continuar jugando sin consumir la pastilla adicional
+3- Verificar que no aparezca otra pastilla adicional que no sea la roja
+mientras la anterior permanezca en la pantalla",El juego muestra una sola pastilla adicional por vez en la pantalla,,,
+15,v1,Abierto ,05-10,Validar efecto de pastilla roja ,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla roja por defecto en
+la pantalla
+2- Moverse hacia la pastilla roja
+3- Consumir pastilla roja
+4- Visualizar longitud de Lumbricina",La longitud de Lumbricina aumenta en 1 unidad,,,
+16,v1,Abierto ,05-10,Validar puntuación al consumir pastilla roja,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla roja por defecto en
+la pantalla
+2- Moverse hacia la pastilla roja
+3- Consumir pastilla roja
+",El juego suma 100 puntos al score,,,
+17,v1,Abierto ,05-10,Visualizar respawn de pastilla roja,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla roja por defecto en
+la pantalla
+2- Moverse hacia la pastilla roja
+3- Consumir pastilla roja
+4- Moverse por el mapa",La pastilla roja respawnea en cualquier lugar del mapa,,,
+18,v1,Abierto ,05-10,Validar efectos al consumir varias veces una pastilla roja,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla
+Visualizar pastilla roja por defecto en la pantalla
+Moverse hacia la pastilla roja","1- Consumir pastilla roja
+2- Moverse hasta la pastilla roja que spwaneo automáticamente
+3- Consumir otra pastilla roja",Lumbricina aumenta su longitud en 2,,,
+19,v1,Abierto ,05-10,Visualizar pastilla azul en el mapa,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla azul en el mapa
+",El juego muestra una pastilla azul en cualquier lugar del mapa,,,
+20,v1,Abierto ,05-10,Validar efecto de pastilla azul ,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla azul en la pantalla
+2- Moverse hacia la pastilla azul
+3- Consumir pastilla azul
+4- Visualizar velocidad de Lumbricina",La velocidad de Lumbricina aumenta,,,
+21,v1,Abierto ,05-10,Validar puntuación al consumir pastilla azul,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla azul en la pantalla
+2- Moverse hacia la pastilla azul
+3- Consumir pastilla azul
+",El juego suma 500 puntos al score,,,
+22,v1,Abierto ,05-10,Validar efectos al consumir varias veces una pastilla azul,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla
+Visualizar pastilla azul por defecto en la pantalla
+Moverse hacia la pastilla azul","1- Consumir pastilla azul
+2- Moverse hasta la pastilla azul que spwaneo
+3- Consumir otra pastilla azul",Lumbricina aumenta su velocidad ,,,
+23,v1,Abierto ,05-10,"Verificar desaparicion de pastilla azul después
+de 50 movimientos","Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla azul en la pantalla
+2- Realizar 50 movimientos sin consumir la pastilla azul",La pastilla azul desaparece de la pantalla luego de 50 movimientos,,,
+24,v1,Abierto ,05-10,Visualizar pastilla verde en el mapa,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla verde en el mapa
+",El juego muestra una pastilla verde en cualquier lugar del mapa,,,
+25,v1,Abierto ,05-10,"Validar inversión de movimiento hacia la izquierda al consumir pastilla
+verde","Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar pastilla verde en la pantalla
+2- Moverse hacia la pastilla verde
+3- Consumir pastilla verde
+4- Teclear flecha hacia la izquierda",Lumbricina se mueve hacia la derecha,,,
+26,v1,Abierto ,05-10,"Validar inversión de movimiento hacia la derecha al 
+consumir pastilla verde","Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar pastilla verde en la pantalla
+2- Moverse hacia la pastilla verde
+3- Consumir pastilla verde
+4- Teclear flecha hacia la derecha",Lumbricina se mueve hacia la izquierda,,,
+27,v1,Abierto ,05-10,Validar inversión de movimiento hacia arriba al consumir pastilla verde,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar pastilla verde en la pantalla
+2- Moverse hacia la pastilla verde
+3- Consumir pastilla verde
+4- Teclear flecha hacia arriba",Lumbricina se mueve hacia arriba,,,
+28,v1,Abierto ,05-10,Validar inversón de movimiento hacia abajo al consumir pastilla verde,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar pastilla verde en la pantalla
+2- Moverse hacia la pastilla verde
+3- Consumir pastilla verde
+4- Teclear flecha hacia abajo",Lumbricina se mueve hacia abajo,,,
+29,v1,Abierto ,05-10,Validar puntuación al consumir pastilla verde,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla verde en la pantalla
+2- Moverse hacia la pastilla verde
+3- Consumir pastilla verde
+",El juego suma 1000 puntos al score,,,
+30,v1,Abierto ,05-10,Validar efectos al consumir varias veces una pastilla verde,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla
+Visualizar pastilla verde por defecto en la pantalla
+Moverse hacia la pastilla verde","1- Consumir pastilla verde
+2- Moverse hasta la pastilla verde que spwaneo
+3- Consumir otra pastilla verde","Al consumir 2 veces la pastilla verde, Lumbricina vuelve a moverse normalmente sin que se 
+le invierta las teclas izquierda/derecha",,,
+31,v1,Abierto ,05-10,"Verificar desaparicion de pastilla verde después
+de 50 movimientos","Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla verde en la pantalla
+2- Realizar 50 movimientos sin consumir la pastilla verde",La pastilla verde desaparece luego de 50 movimientos,,,
+32,v1,Abierto ,05-10,Visualizar pastilla violeta en el mapa,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla violeta en el mapa
+",El juego muestra una pastilla violeta en cualquier lugar del mapa,,,
+33,v1,Abierto ,05-10,Validar disminución de longitud al consumir pastilla violeta,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Lumbricina debe medir 3 unidades o más","1- Visualizar pastilla violeta en la pantalla
+2- Moverse hacia la pastilla violeta
+3- Consumir pastilla violeta
+4- Visualizar longitud de Lumbricina",La longitud de Lumbricina disminuye en 1 unidad,,,
+34,v1,Abierto ,05-10,Validar aumento de velocidad al consumir pastilla violeta,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar pastilla violeta en la pantalla
+2- Moverse hacia la pastilla violeta
+3- Consumir pastilla violeta
+4- Visualizar velocidad de Lumbricina",La velocidad de Lumbricina aumenta 3 veces,,,
+35,v1,Abierto ,05-10,Validar puntuación al consumir pastilla violeta,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla violeta en la pantalla
+2- Moverse hacia la pastilla violeta
+3- Consumir pastilla violeta
+",El juego suma 0 puntos al score,,,
+36,v1,Abierto ,05-10,"Verificar desaparicion de pastilla violeta después
+de 50 movimientos","Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla violeta en la pantalla
+2- Realizar 50 movimientos sin consumir la pastilla violeta",La pastilla violeta desaparece luego de 50 movimientos,,,
+37,v1,Abierto ,05-10,Visualizar pastilla dorada en el mapa,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla dorada en el mapa
+",El juego muestra una pastilla dorada en cualquier lugar del mapa,,,
+38,v1,Abierto ,05-10,Validar disminución de velocidad al consumir pastilla dorada,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar pastilla dorada en la pantalla
+2- Moverse hacia la pastilla dorada
+3- Consumir pastilla dorada
+4- Visualizar velocidad de Lumbricina",La velocidad de Lumbricina disminuye,,,
+39,v1,Abierto ,05-10,Validar puntuación al consumir pastilla dorada,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla dorada en la pantalla
+2- Moverse hacia la pastilla dorada
+3- Consumir pastilla dorada
+",El juego suma 0 puntos al score,,,
+40,v1,Abierto ,05-10,"Verificar desaparicion de pastilla dorada después
+de 50 movimientos","Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla dorada en la pantalla
+2- Realizar 50 movimientos sin consumir la pastilla dorada",La pastilla dorada desaparece luego de 50 movimientos,,,
+41,v1,Abierto ,05-10,Visualizar pastilla negra en el mapa,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla negra en el mapa
+",El juego muestra una pastilla negra en cualquier lugar del mapa,,,
+42,v1,Abierto ,05-10,Validar Game Over al consumir pastilla negra,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar pastilla negra en la pantalla
+2- Moverse hacia la pastilla negra
+3- Consumir pastilla negra
+4- Verificar estado del juego",El juego finaliza mostrando Game Over,,,
+43,v1,Abierto ,05-10,Validar puntuación al consumir pastilla negra,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla negra en la pantalla
+2- Moverse hacia la pastilla negra
+3- Consumir pastilla negra
+",El juego suma 0 puntos al score,,,
+44,v1,Abierto ,05-10,"Verificar desaparicion de pastilla negra después
+de 50 movimientos","Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla negra en la pantalla
+2- Realizar 50 movimientos sin consumir la pastilla negra",La pastilla negra desaparece luego de 50 movimientos,,,
+45,v1,Abierto ,05-10,Visualizar pastilla blanca en el mapa,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla blanca en el mapa
+",El juego muestra una pastilla blanca en cualquier lugar del mapa,,,
+46,v1,Abierto ,05-10,Validar aumento de velocidad al consumir pastilla blanca x(3),"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar pastilla blanca en la pantalla
+2- Moverse hacia la pastilla blanca
+3- Consumir pastilla blanca
+4- Visualizar velocidad de Lumbricina",La velocidad de Lumbricina aumenta 3 veces,,,
+47,v1,Abierto ,05-10,Validar puntuación al consumir pastilla blanca,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla blanca en la pantalla
+2- Moverse hacia la pastilla blanca
+3- Consumir pastilla blanca
+",El juego suma 0 puntos al score,,,
+48,v1,Abierto ,05-10,"Verificar desaparicion de pastilla blanca después
+de 50 movimientos","Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla blanca en la pantalla
+2- Realizar 50 movimientos sin consumir la pastilla blanca",La pastilla blanca desaparece luego de 50 movimientos,,,
+49,v1,Abierto ,05-10,Visualizar pastilla naranja en el mapa,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla naranja en el mapa
+",El juego muestra una pastilla naranja en cualquier lugar del mapa,,,
+50,v1,Abierto ,05-10,Validar duplicación de puntos al consumir pastilla naranja,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar pastilla naranja en la pantalla
+2- Moverse hacia la pastilla naranja
+3- Consumir pastilla naranja
+4- Visualizar pastilla roja en la pantalla
+5- Moverse hacia la pastilla roja
+6- Consumir pastilla roja","Despues de consumir la pasitlla naranja, el juego suma 200 puntos al score al consumir una 
+pastilla roja",,,
+51,v1,Abierto ,05-10,Validar puntuación al consumir pastilla naranja,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla naranja en la pantalla
+2- Moverse hacia la pastilla naranja
+3- Consumir pastilla naranja
+",El juego suma 0 puntos al score,,,
+52,v1,Abierto ,05-10,"Verificar desaparicion de pastilla naranja después
+de 50 movimientos","Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla naranja en la pantalla
+2- Realizar 50 movimientos sin consumir la pastilla naranja",La pastilla naranja desaparece luego de 50 movimientos,,,
+53,v1,Abierto ,05-10,Validar subida de nivel con pastilla azul,"Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla","1- Visualizar pastilla azul en la pantalla
+2- Moverse hacia la pastilla azul
+3- Consumir pastilla azul",El juego cambia al nivel 2 al alcanzar 500 puntos,,,
+54,v1,Abierto ,05-10,Visualizar cambio de estructura al pasar al nivel 2,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Estar jugando en el nivel 1","1- Alcanzar el puntaje necesario para pasar al nivel 2
+2- Visualizar la estructura del nivel 2",El juego cambia a la estructura correspondiente al nivel 2,,,
+55,v1,Abierto ,05-10,Validar posición inicial de Lumbricina en nivel 2,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Estar jugando en el nivel 1","1- Alcanzar el puntaje necesario para pasar al nivel 2
+2- Visualizar posición inicial de Lumbricina",Lumbricina inicia el nivel 2 en el medio de la pantalla,,,
+56,v1,Abierto ,05-10,Validar longitud inicial de Lumbricina en nivel 2,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Estar jugando en el nivel 1","1- Alcanzar el puntaje necesario para pasar al nivel 2
+2- Visualizar longitud inicial de Lumbricina",Lumbricina inicia el nivel 2 midiendo 3 unidades,,,
+57,v1,Abierto ,05-10,Validar dirección inicial de Lumbricina en nivel 2,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Estar jugando en el nivel 1","1- Alcanzar el puntaje necesario para pasar al nivel 2
+2- Visualizar dirección inicial de Lumbricina",Lumbricina inicia el nivel 2 moviéndose hacia la izquierda,,,
+58,v1,Abierto ,05-10,Visualizar cambio de estructura al pasar al nivel 3,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Estar jugando en el nivel 2","1- Alcanzar el puntaje necesario para pasar al nivel 3
+2- Visualizar la estructura del nivel 3",El juego cambia a la estructura correspondiente al nivel 3,,,
+59,v1,Abierto ,05-10,Validar posición inicial de Lumbricina en nivel 3,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Estar jugando en el nivel 2","1- Alcanzar el puntaje necesario para pasar al nivel 3
+2- Visualizar posición inicial de Lumbricina",Lumbricina inicia el nivel 3 en el medio de la pantalla,,,
+60,v1,Abierto ,05-10,Validar longitud inicial de Lumbricina en nivel 3,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Estar jugando en el nivel 2","1- Alcanzar el puntaje necesario para pasar al nivel 3
+2- Visualizar longitud inicial de Lumbricina",Lumbricina inicia el nivel 3 midiendo 3 unidades,,,
+61,v1,Abierto ,05-10,Validar dirección inicial de Lumbricina en nivel 3,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Estar jugando en el nivel 2","1- Alcanzar el puntaje necesario para pasar al nivel 3
+2- Visualizar dirección inicial de Lumbricina",Lumbricina inicia el nivel 3 moviéndose hacia la izquierda,,,
+62,v1,Abierto ,05-10,Visualizar cambio de estructura al pasar al nivel 4,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Estar jugando en el nivel 3","1- Alcanzar el puntaje necesario para pasar al nivel 4
+2- Visualizar la estructura del nivel 4",El juego cambia a la estructura correspondiente al nivel 4,,,
+63,v1,Abierto ,05-10,Validar posición inicial de Lumbricina en nivel 4,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Estar jugando en el nivel 3","1- Alcanzar el puntaje necesario para pasar al nivel 4
+2- Visualizar posición inicial de Lumbricina",Lumbricina inicia el nivel 4 en el medio de la pantalla,,,
+64,v1,Abierto ,05-10,Validar longitud inicial de Lumbricina en nivel 4,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Estar jugando en el nivel 3","1- Alcanzar el puntaje necesario para pasar al nivel 4
+2- Visualizar longitud inicial de Lumbricina",Lumbricina inicia el nivel 4 midiendo 3 unidades,,,
+65,v1,Abierto ,05-10,Validar dirección inicial de Lumbricina en nivel 4,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Estar jugando en el nivel 3","1- Alcanzar el puntaje necesario para pasar al nivel 4
+2- Visualizar dirección inicial de Lumbricina",Lumbricina inicia el nivel 4 moviéndose hacia la izquierda,,,
+66,v1,Abierto ,05-10,Visualizar cambio de estructura al pasar al nivel 5,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Estar jugando en el nivel 4","1- Alcanzar el puntaje necesario para pasar al nivel 5
+2- Visualizar la estructura del nivel 5",El juego cambia a la estructura correspondiente al nivel 5,,,
+67,v1,Abierto ,05-10,Validar posición inicial de Lumbricina en nivel 5,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Estar jugando en el nivel 4","1- Alcanzar el puntaje necesario para pasar al nivel 5
+2- Visualizar posición inicial de Lumbricina",Lumbricina inicia el nivel 5 en el medio de la pantalla,,,
+68,v1,Abierto ,05-10,Validar longitud inicial de Lumbricina en nivel 5,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Estar jugando en el nivel 4","1- Alcanzar el puntaje necesario para pasar al nivel 5
+2- Visualizar longitud inicial de Lumbricina",Lumbricina inicia el nivel 5 midiendo 3 unidades,,,
+69,v1,Abierto ,05-10,Validar dirección inicial de Lumbricina en nivel 5,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla
+Estar jugando en el nivel 4","1- Alcanzar el puntaje necesario para pasar al nivel 5
+2- Visualizar dirección inicial de Lumbricina",Lumbricina inicia el nivel 5 moviéndose hacia la izquierda,,,
+70,v1,Abierto ,09-10,"Verificar vuelta al nivel 1, al terminar nivel 5","Ingresar al juego
+Visualizar Lumbricina en el medio de
+la pantalla
+Estar jugando en el nivel 5","1- Alcanzar el puntaje necesario para finalizar el nivel 5
+2- Verificar vuelta al nivel 1","Al terminar el nivel 5, el juego comienza en el nivel 1 nuevamente",,,
+71,v1,Abierto ,09-10,Visualizar los 5 mejores puntajes en el Highscore,"Ingresar al juego
+Tener al menos 5 puntajes registrados en el Highscore","1- Ingresar al Highscore
+2- Visualizar los puntajes registrados",El Highscore muestra los 5 mejores puntajes,,,
+72,v1,Abierto ,09-10,Validar orden de los puntajes en el Highscore,"Ingresar al juego
+Tener al menos 5 puntajes registrados en el Highscore","1- Ingresar al Highscore
+2- Visualizar los puntajes registrados",Los puntajes se muestran ordenados de mayor a menor,,,
+73,v1,Abierto ,09-10,Validar guardado del último jugador con puntaje empatado,"Ingresar al juego
+Tener un puntaje registrado en el Highscore","1- Obtener el mismo puntaje que un jugador registrado
+2- Ingresar un nombre
+3- Guardar el puntaje
+4- Visualizar el Highscore",El Highscore guarda al último jugador que obtuvo el puntaje,,,
+74,v1,Abierto ,09-10,Validar ingreso de nombre con 30 caracteres en el Highscore,"Ingresar al juego
+Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
+2- Ingresar un nombre de 30 caracteres
+3- Presionar OK",El juego permite guardar el nombre de 30 caracteres en el Highscore,,,
+75,v1,Abierto ,09-10,Validar ingreso de nombre con 31 caracteres en el Highscore,"Ingresar al juego
+Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
+2- Intentar ingresar un nombre de 31 caracteres
+3- Presionar OK",El juego no permite guardar un nombre de más de 30 caracteres en el Highscore,,,
+76,v1,Abierto ,09-10,Validar guardado de puntaje sin ingresar nombre en el Highscore,"Ingresar al juego
+Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
+2- Dejar vacío el campo de nombre
+3- Presionar OK
+4- Visualizar el Highscore","El juego guarda el puntaje con el nombre ""Alguien"" en el Highscore",,,
+77,v1,Abierto ,09-10,Validar ingreso de números en el campo Nombre del Highscore,"Ingresar al juego
+Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
+2- Ingresar un nombre que contenga números (Ej: Franco123)
+3- Presionar OK",El juego permite guardar nombres que contengan números en el Highscore,,,
+78,v1,Abierto ,09-10,"Validar ingreso de caracteres especiales en el campo Nombre del
+Highscore","Ingresar al juego
+Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
+2- Ingresar un nombre que contenga caracteres especiales
+(Ej: Franco@#$)
+3- Presionar OK",El juego no permite guardar nombres que contengan caracteres especiales en el Highscore,,,
+79,v1,Abierto ,09-10,"Validar ingreso de letras minúsculas en el campo Nombre del
+Highscore","Ingresar al juego
+Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
+2- Ingresar un nombre utilizando letras minúsculas (Ej: franco)
+3- Presionar OK
+4- Visualizar el Highscore",El juego permite guardar nombres con letras minúsculas en el Highscore,,,
+80,v1,Abierto ,09-10,"Validar ingreso de letras mayúsculas en el campo Nombre del 
+Highscore","Ingresar al juego
+Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
+2- Ingresar un nombre utilizando letras mayúsculas (Ej: FRANCO)
+3- Presionar OK
+4- Visualizar el Highscore",El juego permite guardar nombres con letras mayúsculas en el Highscore,,,
+81,v1,Abierto ,09-10,Validar ingreso de espacios en el campo Nombre del Highscore,"Ingresar al juego
+Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
+2- Ingresar un nombre que contenga espacios (Ej: Juan Pedro)
+3- Presionar OK
+4- Visualizar el Highscore",El juego permite guardar nombres que contengan espacios en el Highscore,,,
+82,v1,Abierto ,09-10,Validar ingreso de nombre con 1 carácter en el Highscore,"Ingresar al juego
+Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
+2- Ingresar un nombre de 1 carácter (Ej: F)
+3- Presionar OK
+4- Visualizar el Highscorea",El juego no permite guardar un nombre de 1 carácter en el Highscore,,,
+83,v1,Abierto ,09-10,Validar ingreso de nombre con espacios en blanco en el Highscore,"Ingresar al juego
+Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
+2- Posicionarse en el campo Nombre
+3- Presionar 5 veces la barra espaciadora sin ingresar letras ni 
+números
+4- Presionar OK
+5- Visualizar el Highscore","El juego guarda el puntaje con el nombre ""Alguien"" en el Highscore",,,
+84,v1,Abierto ,09-10,Validar ingreso de letras con tilde en el campo Nombre del Highscore,"Ingresar al juego
+Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
+2- Posicionarse en el campo Nombre
+3- Ingresar un nombre que contenga letras con tilde (Ej: Sebastián)
+4- Presionar OK
+5- Visualizar el Highscore",El juego no permite guardar nombres que contengan letras con tilde en el Highscore,,,
+85,v1,Abierto ,09-10,Validar ingreso de la letra ñ en el campo Nombre del Highscore,"Ingresar al juego
+Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
+2- Posicionarse en el campo Nombre
+3- Ingresar un nombre que contenga la letra ñ (Ej: Iñaki)
+4- Presionar OK
+5- Visualizar el Highscore",El juego permite guardar nombres que contengan la letra ñ en el Highscore,,,
+86,v1,Abierto ,09-10,Validar ingreso de nombre con espacios al inicio y al final en el Highscore,"Ingresar al juego
+Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
+2- Posicionarse en el campo Nombre
+3- Presionar 2 veces la barra espaciadora
+4- Ingresar un nombre (Ej: Franco)
+5- Presionar 2 veces la barra espaciadora
+6- Presionar OK
+7- Visualizar el Highscore","El juego guarda el nombre ""Franco"" en el Highscore, eliminando los espacios al inicio y al final",,,
+87,v1,Abierto ,14-10,Validar cambio de nivel cada 500 puntos,"Ingresar al juego
+Estar jugando en el nivel 1","1- Alcanzar los 500 puntos y verificar el cambio al nivel 2
+2- Alcanzar los 1000 puntos y verificar el cambio al nivel 3
+3- Alcanzar los 1500 puntos y verificar el cambio al nivel 4
+4- Alcanzar los 2000 puntos y verificar el cambio al nivel 5","El juego cambia de nivel cada 500 puntos acumulados, avanzando al nivel correspondiente",,,
+88,v1,Abierto ,14-10,Visualizar longitud de Lumbricina en el Debug,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar el Debug
+2- Verificar la longitud inicial de Lumbricina
+3- Consumir una pastilla roja
+4- Visualizar nuevamente la longitud en el Debug","El Debug muestra la longitud de Lumbricina en cuadraditos, indicando 3 inicialmente y 4 después
+de consumir una pastilla roja",,,
+89,v1,Abierto ,14-10,Visualizar velocidad de Lumbricina en el Debug,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar el Debug
+2- Verificar la velocidad inicial de Lumbricina
+3- Consumir una pastilla azul
+4- Visualizar nuevamente la velocidad en el Debug","El Debug muestra la velocidad actual de Lumbricina y refleja su aumento después de consumir
+una pastilla azul",,,
+90,v1,Abierto ,14-10,Visualizar movimientos restantes de los bonus en el Debug,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Jugar hasta que aparezca una pastilla adicional
+2- Visualizar los movimientos restantes en el Debug
+3- Realizar 10 movimientos sin consumir la pastilla
+4- Visualizar nuevamente los movimientos restantes en el Debug
+5- Realizar los 40 movimientos restantes sin consumir la pastilla","El Debug muestra correctamente los movimientos restantes de la pastilla adicional, comenzando 
+en 50 y disminuyendo progresivamente hasta llegar a 0",,,
+91,v1,Abierto ,30-10,"Validar modificación de longitud al consumir pastilla roja y posteriormente
+violeta","Ingresar al juego
+Lumbricina debe tener una longitud de 3 unidades","1- Consumir una pastilla roja
+2- Verificar la longitud de Lumbricina
+3- Consumir una pastilla violeta
+4- Verificar nuevamente la longitud de Lumbricina","Lumbricina aumenta su longitud de 3 a 4 unidades al consumir la pastilla roja y disminuye de 4 a 3 
+unidades al consumir la pastilla violeta",,,
+92,v1,Abierto ,30-10,"Validar modificación de velocidad al consumir pastilla azul y posteriormente
+dorada","Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
+2- Consumir una pastilla azul
+3- Verificar el aumento de velocidad en el Debug
+4- Consumir una pastilla dorada
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla azul, la velocidad de Lumbricina aumenta. Posteriormente, al consumir la 
+pastilla dorada, la velocidad disminuye respecto del valor alcanzado después de consumir la azul",,,
+93,v1,Abierto ,30-10,"Validar aumento de velocidad al consumir pastilla violeta y posteriormente
+blanca","Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
+2- Consumir una pastilla violeta
+3- Verificar el aumento de velocidad en el Debug
+4- Consumir una pastilla blanca
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla violeta, la velocidad de Lumbricina se triplica. Posteriormente, al consumir la 
+pastilla blanca, la velocidad vuelve a triplicarse respecto del valor anterior",,,
+94,v1,Abierto ,30-10,Validar consumir 2 veces pastilla verde,"Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Consumir una pastilla verde
+2- Jugar hasta que aparezca otra pastilla verde
+3- Consumir otra pastilla verde","Al consumir la primera pastilla verde, se invierten las teclas arriba/abajo, y al consumir 
+la segunda, se elimina el efecto y Lumbricina vuelve a moverse normal",,,
+95,v1,Abierto ,30-10,"Validar aumento de velocidad al consumir pastilla azul y posteriormente 
+blanca","Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
+2- Consumir una pastilla azul
+3- Verificar el aumento de velocidad en el Debug
+4- Consumir una pastilla blanca
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla azul, la velocidad de Lumbricina aumenta. Posteriormente, al consumir la 
+pastilla blanca, la velocidad se triplica respecto de la velocidad alcanzada después de consumir
+la azul",,,
+96,v1,Abierto ,30-10,"Validar aumento de velocidad al consumir pastilla azul y posteriormente
+violeta","Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
+2- Consumir una pastilla azul
+3- Verificar el aumento de velocidad en el Debug
+4- Consumir una pastilla violeta
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla azul, la velocidad de Lumbricina aumenta. Posteriormente, al consumir 
+la pastilla violeta, la velocidad se triplica respecto de la velocidad alcanzada después de consumir
+la azul",,,
+97,v1,Abierto ,30-10,"Validar modificación de velocidad al consumir pastilla dorada y 
+posteriormente azul","Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial en el Debug
+2- Consumir una pastilla dorada
+3- Verificar la disminución de velocidad
+4- Consumir una pastilla azul
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla dorada, la velocidad de Lumbricina disminuye. Posteriormente, al consumir la
+pastilla azul, la velocidad aumenta respecto del valor alcanzado después de consumir la dorada",,,
+98,v1,Abierto ,30-10,"Validar modificación de longitud al consumir pastilla violeta y posteriormente
+roja","Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Verificar la longitud inicial de Lumbricina en el Debug
+2- Consumir una pastilla violeta
+3- Verificar la disminución de longitud
+4- Consumir una pastilla roja
+5- Verificar nuevamente la longitud en el Debug","Al consumir la pastilla violeta, Lumbricina disminuye su longitud en una unidad. Posteriormente, al 
+consumir la pastilla roja, aumenta su longitud en una unidad, recuperando la longitud inicial",,,
+99,v1,Abierto ,30-10,"Validar modificación de velocidad al consumir pastilla blanca y posteriormente
+dorada","Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
+2- Consumir una pastilla blanca
+3- Verificar el aumento de velocidad en el Debug
+4- Consumir una pastilla dorada
+5- Verificar nuevamente la velocidad en el Debu","Al consumir la pastilla blanca, la velocidad de Lumbricina se triplica. Posteriormente, al consumir la,
+pastilla dorada, la velocidad disminuye respecto del valor alcanzado después de consumir la blanca",,,
+100,v1,Abierto ,30-10,"Validar modificación de velocidad al consumir pastilla violeta y posteriormente 
+dorada","Ingresar al juego
+Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
+2- Consumir una pastilla violeta
+3- Verificar el aumento de velocidad en el Debug
+4- Consumir una pastilla dorada
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla violeta, la velocidad de Lumbricina se triplica. Posteriormente, al consumir la 
+pastilla dorada, la velocidad disminuye respecto del valor alcanzado después de consumir la violeta",,,
