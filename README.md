@@ -6,22 +6,22 @@ Bienvenido a mi espacio de aseguramiento de calidad (QA). Aquí centralizo el di
 
 ### 🛠️ **[01. Gestión de Contactos](./01_Gestion_Contactos/)**
 - **Tipo de Testing:** CRUD (Alta, Baja, Modificación, Listado)
-- **Sitio Web de Pruebas:** https://nahual.github.io/qc-contactos/contactos.html
-- **Especificaciones del Proyecto:** https://nahual.github.io/qc-contactos/especificaciones.html
+- **Sitio Web de Pruebas:** [Gestión de Contactos](https://nahual.github.io/qc-contactos/contactos.html)
+- **Especificaciones del Proyecto:** [Especificaciones Técnicas](https://nahual.github.io/qc-contactos/especificaciones.html)
 - **Documentación Interna:** [Ver Alcance Técnico](./01_Gestion_Contactos/README.md)
 - **Artefactos:** Matrices `.csv` de Casos de Prueba y Bug Reports
 
 ### 🔍 **[02. Buscador Provinciano](./02_Provinciano/)**
 - **Tipo de Testing:** Búsqueda, Filtrado Avanzado y Ordenamiento
-- **Sitio Web de Pruebas:** https://nahual.github.io/qc-provinciano/provinciano_1.html
-- **Especificaciones del Proyecto:** https://nahual.github.io/qc-provinciano/especificaciones.html
+- **Sitio Web de Pruebas:** [Provinciano - Buscador](https://nahual.github.io/qc-provinciano/provinciano_1.html)
+- **Especificaciones del Proyecto:** [Especificaciones Técnicas](https://nahual.github.io/qc-provinciano/especificaciones.html)
 - **Documentación Interna:** [Ver Alcance Técnico](./02_Provinciano/README.md)
 - **Artefactos:** Matrices `.csv` de Casos de Prueba y Bug Reports
 
 ### 🕹️ **[03. Juego Lumbricina](./03_Lumbricina/)**
 - **Tipo de Testing:** Lógica de Videojuegos, Progresión y Eventos Aleatorios
-- **Sitio Web de Pruebas:** https://nahual.github.io/qc-lumbricina/?v=1
-- **Especificaciones del Proyecto:** https://nahual.github.io/qc-lumbricina/especificaciones.html
+- **Sitio Web de Pruebas:** [Lumbricina - Juego](https://nahual.github.io/qc-lumbricina/?v=1)
+- **Especificaciones del Proyecto:** [Especificaciones Técnicas](https://nahual.github.io/qc-lumbricina/especificaciones.html)
 - **Documentación Interna:** [Ver Alcance Técnico](./03_Lumbricina/README.md)
 - **Artefactos:** Matrices `.csv` de Casos de Prueba y Bug Reports
 
