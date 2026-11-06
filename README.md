@@ -5,6 +5,6 @@ Bienvenido a mi espacio de aseguramiento de calidad (QA). Aquí centralizo el di
 ## 📁 Proyectos Incluidos
 
 - **[01. Gestión de Contactos](./01_Gestion_Contactos)**: CRUD Testing ([Sitio](https://github.io) | [Especificaciones](https://github.io))
-- **[02. Buscador Provinciano](./02_Provinciano)**: Pruebas de búsqueda, filtrado y ordenamiento ([Sitio](https://github.io) | [Especificaciones](https://github.io))
+- **[02. Buscador Provinciano](./02_Provinciano)**: Pruebas de búsqueda, filtrado y ordenamiento ([Sitio](https://nahual.github.io/qc-provinciano/provinciano_1.html) | [Especificaciones](https://nahual.github.io/qc-provinciano/especificaciones.html))
 
 **Responsable:** Franco Montalbano
