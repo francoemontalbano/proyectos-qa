@@ -6,19 +6,19 @@ Bienvenido a mi espacio de aseguramiento de calidad (QA). Aquí centralizo el di
 
 ### 🛠️ **[01. Gestión de Contactos](./01_Gestion_Contactos/)**
 - **Tipo de Testing:** CRUD (Alta, Baja, Modificación, Listado)
-- **Enlaces del Entorno:** [Sitio Web](https://github.io) \| [Especificaciones](https://github.io)
+- **Enlaces del Entorno:** [Sitio Web](https://nahual.github.io/qc-contactos/contactos.html) / [Especificaciones](https://github.io)
 - **Documentación Interna:** [Ver Alcance Técnico](./01_Gestion_Contactos/README.md)
 - **Artefactos:** Matrices `.csv` de Casos de Prueba y Bug Reports
 
 ### 🔍 **[02. Buscador Provinciano](./02_Provinciano/)**
 - **Tipo de Testing:** Búsqueda, Filtrado Avanzado y Ordenamiento
-- **Enlaces del Entorno:** [Sitio Web](https://github.io) \| [Especificaciones](https://github.io)
+- **Enlaces del Entorno:** [Sitio Web](https://nahual.github.io/qc-provinciano/provinciano_1.html) / [Especificaciones](https://github.io)
 - **Documentación Interna:** [Ver Alcance Técnico](./02_Provinciano/README.md)
 - **Artefactos:** Matrices `.csv` de Casos de Prueba y Bug Reports
 
 ### 🕹️ **[03. Juego Lumbricina](./03_Lumbricina/)**
 - **Tipo de Testing:** Lógica de Videojuegos, Progresión y Eventos Aleatorios
-- **Enlaces del Entorno:** [Sitio Web](https://github.io) \| [Especificaciones](https://github.io)
+- **Enlaces del Entorno:** [Sitio Web](https://github.io) / [Especificaciones](https://github.io)
 - **Documentación Interna:** [Ver Alcance Técnico](./03_Lumbricina/README.md)
 - **Artefactos:** Matrices `.csv` de Casos de Prueba y Bug Reports
 
