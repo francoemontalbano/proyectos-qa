@@ -12,6 +12,11 @@ Sistema de filtros avanzados (Región y Nombre) con renderizado dinámico de gri
 - **Módulo de Ordenamiento:** Comprobación del orden alfabético y numérico (ascendente/descendente) en cada columna y control de errores de codificación en encabezados.
 - **Estabilidad del Sistema:** Pruebas de estrés ante búsquedas simultáneas o consecutivas y validación de tiempos de respuesta de la interfaz.
 
+## Trabajo colaborativo y revisión cruzada
+La práctica se realizó en pareja entre Franco Montalbano y Grego Lopez. Cada integrante diseñaba sus propios casos de prueba (TC) y revisaba los del compañero: Franco revisaba los casos de Grego y Grego revisaba los de Franco. A partir de este trabajo de revisión y de las pruebas realizadas, se identificaban y documentaban los defectos.
+
+Los campos **Autor** y **Revisor** de los reportes permiten distinguir la participación de cada integrante. Los reportes elaborados por Grego y revisados por Franco forman parte de esta dinámica de trabajo colaborativo.
+
 ## Archivos Incluidos
 - `Test Case - Provinciano - Franco.csv` : Matriz completa de diseño de casos de prueba.
 - `Bugs - Provinciano - Franco.csv` : Reporte detallado de defectos detectados durante los ciclos de ejecución.
