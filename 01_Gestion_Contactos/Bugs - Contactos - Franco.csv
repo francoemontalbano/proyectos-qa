@@ -8,7 +8,7 @@ Opciones para ordenar los datos por Nombre y Mail
 Orden alfabético por Nombre por defecto.
 Opción ""Nuevo Contacto""","En la página se ve una columa extra llamada ""Acciones""
 El sistema no muestra ningún mensaje por defecto cuando la tabla esta vacía
-",Baja,Franco Montalbano,"Revisé la severidad el 11/11/2026: Baja. Impacto documentado: afecta un mensaje, el estado inicial o la presentación, sin pérdida de datos documentada.",,
+",Baja,Franco Montalbano,,,
 5,v1,Chrome,Abierto,5/8/26,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre""
 con números","1- Ingresar a la página de Contactos
@@ -16,7 +16,7 @@ con números","1- Ingresar a la página de Contactos
 3- Hacer clic en el campo ""Nombre""
 4- Ingresar ""123456789""
 5- Hacer clic en ""Guardar""","El sistema no permite ingresar números en el campo ""Nombre""
-El sistema informa que el campo ""Nombre""""no permite números","El sistema permite almacenar números en el campo ""Nombre""",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+El sistema informa que el campo ""Nombre""""no permite números","El sistema permite almacenar números en el campo ""Nombre""",Media,Franco Montalbano,,,
 6,v1,Chrome ,Abierto,5/8/26,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre""
 con caracteres especiales","1- Ingresar a la página de Contactos
@@ -27,7 +27,7 @@ con caracteres especiales","1- Ingresar a la página de Contactos
 en el campo ""Nombre""
 ""El sistema informa que el campo ""Nombre"" no permite
  caracteres especiales""","El sistema permite almacenar caracteres especiales en el campo 
-""Nombre""",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+""Nombre""",Media,Franco Montalbano,,,
 8,v1,Chrome,Abierto,05/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con 
 (35 caracteres)","1- Ingresar a la página de Contactos
@@ -36,7 +36,7 @@ Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
 4- Ingresar ""ABCDEFGHIJKLMNOPQRS
 TUVWXYZABCDEFGHI"" (35 caracteres)
 5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre de hasta 35 caracteres
- en el campo ""Nombre""","El sistema no permite ingresar un ""Nombre"" de 35 caracteres",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+ en el campo ""Nombre""","El sistema no permite ingresar un ""Nombre"" de 35 caracteres",Media,Franco Montalbano,,,
 11,v1,Chrome,Abierto,05/08/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" 
 vacío","1- Ingresar a la página de Contactos
 2- Hacer clic en ""Nuevo contacto""
@@ -44,7 +44,7 @@ vacío","1- Ingresar a la página de Contactos
 4- Dejar el campo ""Nombre"" vacío
 5- Hacer clic en ""Guardar""","El sistema no permite dejar vacío el campo ""Nombre""
 El sistema informa que el campo ""Nombre"" es obligatorio y 
-debe completarse""","El sistema permite ingresar el ""Nombre"" dejando el campo de texto vacío",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+debe completarse""","El sistema permite ingresar el ""Nombre"" dejando el campo de texto vacío",Media,Franco Montalbano,,,
 12,v1,Chrome,Abierto,05/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" 
 repetido","1- Ingresar a la página de Contactos
@@ -52,7 +52,7 @@ repetido","1- Ingresar a la página de Contactos
 3- Hacer clic en el campo ""Nombre""
 4- Ingresar ""Franco""
 5- Hace clic en Guardar
-5- Hacer clic en ""Guardar""",El sistema permite almacenar contactos con el mismo Nombre,"El sistema emite un mensaje ""Ya existe un contacto con este nombre"" no permitiendo almacenar un Contacto con el mismo Nombre de uno ya existente",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+5- Hacer clic en ""Guardar""",El sistema permite almacenar contactos con el mismo Nombre,"El sistema emite un mensaje ""Ya existe un contacto con este nombre"" no permitiendo almacenar un Contacto con el mismo Nombre de uno ya existente",Media,Franco Montalbano,,,
 13,v1,Chrome,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Nombre"" ascendente","Ingresar a la página de Contactos
 Existan al menos tres contactos
 registrados:
@@ -60,7 +60,7 @@ Franco – franco@gmail.com
 Juan – juan@gmail.com
 Pedro - pedro@gmail.com
 1- Hacer clic en el botón ""Ordenar"" de campo
-""Nombre"" de forma ascendente",El sistema ordena los Nombres de forma ascendente,"El botón de ""Ordenar"" del campo ""Nombre"" no funciona",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+""Nombre"" de forma ascendente",El sistema ordena los Nombres de forma ascendente,"El botón de ""Ordenar"" del campo ""Nombre"" no funciona",Media,Franco Montalbano,,,
 14,v1,Chrome,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Nombre"" descendente","Ingresar a la página de Contactos
 Existan al menos tres contactos
 registrados:
@@ -68,7 +68,7 @@ Franco – franco@gmail.com
 Juan – juan@gmail.com
 Pedro - pedro@gmail.com
 1- Hacer clic en el botón ""Ordenar"" de campo
-""Nombre"" de forma descendente""",El sistema ordena los Nombres de forma ascendente,"El botón de ""Ordenar"" del campo ""Nombre"" no funciona",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+""Nombre"" de forma descendente""",El sistema ordena los Nombres de forma ascendente,"El botón de ""Ordenar"" del campo ""Nombre"" no funciona",Media,Franco Montalbano,,,
 15,v1,Chrome,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Mail"" ascendente","Ingresar a la página de Contactos
 Existan al menos tres contactos
 registrados:
@@ -76,7 +76,7 @@ Franco – franco@gmail.com
 Juan – juan@gmail.com
 Pedro - pedro@gmail.com
 1- Hacer clic en el botón ""Ordenar"" de campo
-""Mail"" de forma ascendente",El sistema ordena los Mails de forma ascendente,"El botón de ""Ordenar"" del campo ""Mail"" no funciona",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+""Mail"" de forma ascendente",El sistema ordena los Mails de forma ascendente,"El botón de ""Ordenar"" del campo ""Mail"" no funciona",Media,Franco Montalbano,,,
 16,v1,Chrome,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Mail"" descendente","Ingresar a la página de Contactos
 Existan al menos tres contactos
 registrados:
@@ -84,14 +84,14 @@ Franco – franco@gmail.com
 Juan – juan@gmail.com
 Pedro - pedro@gmail.com
 1- Hacer clic en el botón ""Ordenar"" de campo
-""Mail"" de forma descendente",El sistema ordena los Mails de forma ascendente,"El botón de ""Ordenar"" del campo ""Mail"" no funciona",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+""Mail"" de forma descendente",El sistema ordena los Mails de forma ascendente,"El botón de ""Ordenar"" del campo ""Mail"" no funciona",Media,Franco Montalbano,,,
 21,v1,Chrome,Abierto,05/08/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" con 
 letras mayúsculas","1- Ingresar a la página de Contactos
 2- Hacer clic en ""Nuevo contacto""
 3- Hacer clic en el campo ""Mail""
 4- Ingresar ""FRANCOEMONTALBANO@
 GMAIL.COM""
-5- Hacer clic en ""Guardar""",El sistema permite ingresar el mail correctamente,"El sistema no permite ingresar el campo ""Mail"" con letras mayúsculas",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+5- Hacer clic en ""Guardar""",El sistema permite ingresar el mail correctamente,"El sistema no permite ingresar el campo ""Mail"" con letras mayúsculas",Media,Franco Montalbano,,,
 27,v1,Chrome,Abierto,05/08/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo
  ""Nombre"" y ""Mail"" vacío","1- Hacer clic en el campo ""Nombre""
 2- Ingresar """"
@@ -100,7 +100,7 @@ GMAIL.COM""
 5- Hacer clic en ""Guardar""","
 El sistema emite el mensaje ""El campo nombre debe completarse""
 El sistema emite el mensaje ""El campo mail debe completarse""","El sistema emite un mensaje ""El contacto tiene que tener un email"", no 
-así en el campo ""Nombre"" que permite dejarlo vacío",Baja,Franco Montalbano,"Revisé la severidad el 11/11/2026: Baja. Impacto documentado: afecta un mensaje, el estado inicial o la presentación, sin pérdida de datos documentada.",,
+así en el campo ""Nombre"" que permite dejarlo vacío",Baja,Franco Montalbano,,,
 29,v1,Chrome,Abierto,05/08/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con 
 campo ""Nombre"" vacío y ""Mail""","1- Hacer clic en el campo ""Nombre""
 2- Ingresar """"
@@ -109,7 +109,7 @@ campo ""Nombre"" vacío y ""Mail""","1- Hacer clic en el campo ""Nombre""
 5- Hacer clic en ""Guardar""
 ","El sistema no permite guardar el contacto e informa que el campo 
 ""Nombre"" es obligatorio y debe completarse","El sistema permite ingresar un contacto con el campo ""Nombre"" vacío
-ingresando solo el campo ""Mail"" correctamente",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+ingresando solo el campo ""Mail"" correctamente",Media,Franco Montalbano,,,
 32,v1,Chrome,Abierto,05/08/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo
 ""Nombre"" y ""Mail"" correctamente","1- Hacer clic en el campo ""Nombre""
 2- Ingresar ""Franco""
@@ -117,7 +117,7 @@ ingresando solo el campo ""Mail"" correctamente",Media,Franco Montalbano,"Revis�
 4- Ingresar ""franco@gmail.com""
 5- Hacer clic en ""Cancelar""","El sistema emite un mensaje informando que se perderán los 
 cambios","El sistema no emite ningun mensaje informando que se perderán los 
-cambios y cierra el formulario",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: omite la advertencia y puede descartar cambios sin guardar; no se documenta pérdida de registros guardados.,,
+cambios y cierra el formulario",Media,Franco Montalbano,,,
 37,v1,Chrome,Abierto,05/08/2026,"Validar - Edición ""Editar Contacto"" ""Cancelar"" con
 ""Nombre"" y ""Mail"" modificados","1- Hacer clic en ""Editar"" sobre el contacto
 Franco
@@ -125,7 +125,7 @@ Franco
 3- Mantener el Mail ""franco@gmail.com""
 4- Hacer clic en ""Cancelar"".","El sistema emite una alerta ""Se perderán los cambios sin guardar""
 y cierra el formulario ","El sistema almacena los datos modificados en la tabla ""Contactos""
-a pesar de haber cancelado la petición",Alta,Franco Montalbano,Revisé la severidad el 11/11/2026: Alta. Impacto documentado: modifica o duplica datos sin respetar la cancelación.,,
+a pesar de haber cancelado la petición",Alta,Franco Montalbano,,,
 38,v1,Chrome,Abierto,05/08/2026,"Validar - Edición ""Editar Contacto"" con varios contactos","Ingresar a la página de Contactos
 Existan al menos tres contactos
 registrados:
@@ -135,7 +135,7 @@ Pedro - pedro@gmail.com
 1- Hacer clic en ""Editar"" sobre el contacto
 Franco
 ","El sistema abre el formulario y permite editar el contacto ""Franco""","El sistema abre el formulario a Editar del contacto ""Juan"" sin poder editar
-el contacto esperado",Alta,Franco Montalbano,Revisé la severidad el 11/11/2026: Alta. Impacto documentado: abre un contacto distinto e impide editar el contacto solicitado.,,
+el contacto esperado",Alta,Franco Montalbano,,,
 39,v1,Chrome,Abierto,07/08/2026,"Validar - Edición ""Editar Contacto ""Cancelar"" con varios
 contactos","1- Hacer clic en ""Editar"" sobre el contacto
 Franco
@@ -144,7 +144,7 @@ Franco
 4- Hacer clic en ""Cancelar"".","El sistema emite una alerta ""Se perderán los cambios sin guardar""
 y cierra el formulario","El sistema Edita el usuario ""Pedro"" que es el primero en la lista y duplica
 tanto el campo ""Nombre"", como el campo ""Mail"" dejando 2 contactos 
-totalmente iguales",Alta,Franco Montalbano,Revisé la severidad el 11/11/2026: Alta. Impacto documentado: modifica o duplica datos sin respetar la cancelación.,,
+totalmente iguales",Alta,Franco Montalbano,,,
 43,v2,Chrome,Abierto,07/08/2026,"Visualizar - Lista de ""Contactos""","1- Ingresar a la página de Contactos
 ","El sistema muestra la página Contactos con:
 Título ""Contactos"".
@@ -154,7 +154,7 @@ Opciones para ordenar los datos por Nombre y Mail.
 Orden alfabético por Nombre por defecto.
 Opción ""Nuevo Contacto""","En la página se ve una columa extra llamada ""Acciones""
 El sistema no muestra ningún mensaje por defecto cuando la tabla esta vacía
-",Baja,Franco Montalbano,"Revisé la severidad el 11/11/2026: Baja. Impacto documentado: afecta un mensaje, el estado inicial o la presentación, sin pérdida de datos documentada.",,
+",Baja,Franco Montalbano,,,
 44,v2,Chrome,Abierto,07/08/2026,"
 
 Visualizar - Alta ""Nuevo Contacto"" Formulario","1- Ingresar a la página de Contactos
@@ -164,14 +164,14 @@ Campo Nombre, obligatorio, vacío por defecto y con un máximo de
 35 caracteres. Campo Mail, obligatorio, vacío por defecto y con un 
 máximo de 35 caracteres.
 Botón Guardar
-Botón Cancelar","El sistema abre el formulario y el campo ""Nombre"" no se encuentra vacío por defecto como debería, lo completa con ""Nombre""",Baja,Franco Montalbano,"Revisé la severidad el 11/11/2026: Baja. Impacto documentado: afecta un mensaje, el estado inicial o la presentación, sin pérdida de datos documentada.",,
+Botón Cancelar","El sistema abre el formulario y el campo ""Nombre"" no se encuentra vacío por defecto como debería, lo completa con ""Nombre""",Baja,Franco Montalbano,,,
 47,v2,Chrome,Abierto,07/08/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
 números","1- Ingresar a la página de Contactos
 2- Hacer clic en ""Nuevo contacto""
 3- Hacer clic en el campo ""Nombre""
 4- Ingresar ""123456789""
 5- Hacer clic en ""Guardar""","El sistema no permite ingresar números en el campo ""Nombre""
-El sistema informa que el campo ""Nombre"" no permite números","El sistema permite almacenar números en el campo ""Nombre""",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+El sistema informa que el campo ""Nombre"" no permite números","El sistema permite almacenar números en el campo ""Nombre""",Media,Franco Montalbano,,,
 48,v2,Chrome,Abierto,07/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
 caracteres especiales","1- Ingresar a la página de Contactos
@@ -182,7 +182,7 @@ caracteres especiales","1- Ingresar a la página de Contactos
 ""Nombre""
 El sistema informa que el campo ""Nombre"" no permite caracteres 
 especiales","El sistema permite almacenar caracteres especiales en el campo 
-""Nombre""",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+""Nombre""",Media,Franco Montalbano,,,
 50,v2,Chrome,Abierto,07/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con 
 (35 caracteres)","1- Ingresar a la página de Contactos
@@ -192,7 +192,7 @@ Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
 TUVWXYZABCDEFGHI"" (35 caracteres)
 5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre de hasta 35 caracteres en el 
 campo ""Nombre""","El sistema no permite ingresar un ""Nombre"" de 35 caracteres
-El sistema emite el siguiente mensaje: ""El nombre del contacto no puede superar los 35 caracteres""",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+El sistema emite el siguiente mensaje: ""El nombre del contacto no puede superar los 35 caracteres""",Media,Franco Montalbano,,,
 54,v2,Chrome,Abierto,10/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre""
 repetido","Ingresar a la página de Contactos
@@ -204,7 +204,7 @@ Nombre: ""Franco""
 3- Hacer clic en el campo ""Nombre""
 4- Ingresar ""Franco""
 5- Hace clic en ""Guardar""",El sistema permite almacenar contactos con el mismo Nombre,"El sistema no permite ingresar un ""Nombre"" de un contacto existente
-El sistema emite el siguiente mensaje: ""Ya existe un contacto con este nombre""",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+El sistema emite el siguiente mensaje: ""Ya existe un contacto con este nombre""",Media,Franco Montalbano,,,
 55,v2,Chrome,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Nombre"" ascendente","Ingresar a la página de Contactos
 Existan al menos tres contactos
 registrados:
@@ -212,7 +212,7 @@ Franco – franco@gmail.com
 Juan – juan@gmail.com
 Pedro - pedro@gmail.com
 1- Hacer clic en el botón ""Ordenar"" de campo
-""Nombre"" de forma ascendente",El sistema ordena los Nombres de forma ascendente,"El botón de ""Ordenar"" del campo ""Nombre"" no funciona",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+""Nombre"" de forma ascendente",El sistema ordena los Nombres de forma ascendente,"El botón de ""Ordenar"" del campo ""Nombre"" no funciona",Media,Franco Montalbano,,,
 56,v2,Chrome,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Nombre"" descendente","Ingresar a la página de Contactos
 Existan al menos tres contactos
 registrados:
@@ -220,7 +220,7 @@ Franco – franco@gmail.com
 Juan – juan@gmail.com
 Pedro - pedro@gmail.com
 1- Hacer clic en el botón ""Ordenar"" de campo
-""Nombre"" de forma descendente""",El sistema ordena los Nombres de forma descendente,"El botón de ""Ordenar"" del campo ""Nombre"" no funciona",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+""Nombre"" de forma descendente""",El sistema ordena los Nombres de forma descendente,"El botón de ""Ordenar"" del campo ""Nombre"" no funciona",Media,Franco Montalbano,,,
 57,v2,Chrome,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Mail"" ascendente","Ingresar a la página de Contactos
 Existan al menos tres contactos
 registrados:
@@ -228,7 +228,7 @@ Franco – franco@gmail.com
 Juan – juan@gmail.com
 Pedro - pedro@gmail.com
 1- Hacer clic en el botón ""Ordenar"" de campo
-""Mail"" de forma ascendente",El sistema ordena los Mails de forma ascendente,"El botón de ""Ordenar"" del campo ""Mail"" no funciona",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+""Mail"" de forma ascendente",El sistema ordena los Mails de forma ascendente,"El botón de ""Ordenar"" del campo ""Mail"" no funciona",Media,Franco Montalbano,,,
 58,v2,Chrome,Abierto,12/08/2026,"Validar - Alta - Ordenar por ""Mail"" descendente","Ingresar a la página de Contactos
 Existan al menos tres contactos
 registrados:
@@ -236,13 +236,13 @@ Franco – franco@gmail.com
 Juan – juan@gmail.com
 Pedro - pedro@gmail.com
 1- Hacer clic en el botón ""Ordenar"" de campo
-""Mail"" de forma descendente",El sistema ordena los Mails de forma descendente,"El botón de ""Ordenar"" del campo ""Mail"" no funciona",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+""Mail"" de forma descendente",El sistema ordena los Mails de forma descendente,"El botón de ""Ordenar"" del campo ""Mail"" no funciona",Media,Franco Montalbano,,,
 59,v2,Chrome,Abierto,12/08/2026,Validar - Alta - Orden alfabético por Nombre de Contacto,"Ingresar a la página de Contactos
 ","1- Existan al menos tres contactos registrados 
 Franco – franco@gmail.com
 Juan – juan@gmail.com
 Pedro - pedro@gmail.com
-",El sistema no ordena alfabeticamente los contactos,Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+",El sistema no ordena alfabeticamente los contactos,Media,Franco Montalbano,,,
 68,v2,Chrome,Abierto,10/08/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo
 ""Nombre"" y ""Mail"" vacío","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo Contacto""
@@ -251,7 +251,7 @@ Hacer clic en ""Nuevo Contacto""
 3- Hacer clic en el campo ""Mail""
 4- Ingresar """"
 5- Hacer clic en ""Cancelar""","El sistema emite una alerta ""Se perderán los cambios sin guardar""
- y cierra el formulario ","El sistema cierra el formulario sin emitir el mensaje ""Se perderán los cambios sin guardar""",Baja,Franco Montalbano,"Revisé la severidad el 11/11/2026: Baja. Impacto documentado: omite una advertencia con campos vacíos, sin cambios de datos que perder.",,
+ y cierra el formulario ","El sistema cierra el formulario sin emitir el mensaje ""Se perderán los cambios sin guardar""",Baja,Franco Montalbano,,,
 69,v2,Chrome,Abierto,10/08/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo
 ""Nombre"" y  ""Mail"" correctamente","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo Contacto""
@@ -260,7 +260,7 @@ Hacer clic en ""Nuevo Contacto""
 3- Hacer clic en el campo ""Mail""
 4- Ingresar ""franco@gmail.com""
 5- Hacer clic en ""Cancelar""","El sistema emite una alerta ""Se perderán los cambios sin guardar"" 
-y cierra el formulario ","El sistema cierra el formulario sin emitir el mensaje ""Se perderán los cambios sin guardar""",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: omite la advertencia y puede descartar cambios sin guardar; no se documenta pérdida de registros guardados.,,
+y cierra el formulario ","El sistema cierra el formulario sin emitir el mensaje ""Se perderán los cambios sin guardar""",Media,Franco Montalbano,,,
 71,v2,Chrome,Abierto,10/08/2026,"Validar - Edición ""Editar Contacto"" ""Guardar"" con
 datos modificados","Ingresar a la página de Contactos
 Existe al menos un contacto 
@@ -275,7 +275,7 @@ Mail: ""franco@gmail.com""
 4- Hacer clic en ""Guardar""","El sistema guarda los cambios realizados y muestra en la tabla de 
 Contactos el registro actualizado con el Nombre ""Pedro"" y el Mail 
 ""francoemontalbano@gmail.com""","El sistema no permite guardar el contacto actualizado y emite el siguiente
-mensaje: ""Ya existe un contacto con este mail""",Alta,Franco Montalbano,Revisé la severidad el 11/11/2026: Alta. Impacto documentado: impide guardar una edición válida en un flujo principal.,,
+mensaje: ""Ya existe un contacto con este mail""",Alta,Franco Montalbano,,,
 74,v2,Chrome,Abierto,10/08/2026,"Validar - Edición ""Editar Contacto"" ""Cancelar"" con 
 ""Nombre"" y ""Mail"" modificados","Ingresar a la página de Contactos
 Existe al menos un contacto 
@@ -287,7 +287,7 @@ Franco
 2- Modificar el campo ""Nombre"" por ""Pedro""
 3- Mantener el Mail ""franco@gmail.com""
 4- Hacer clic en ""Cancelar""","El sistema emite una alerta ""Se perderán los cambios sin guardar""
-y cierra el formulario ","El sistema cierra el formulario sin emitir el mensaje ""Se perderán los cambios sin guardar""",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: omite la advertencia y puede descartar cambios sin guardar; no se documenta pérdida de registros guardados.,,
+y cierra el formulario ","El sistema cierra el formulario sin emitir el mensaje ""Se perderán los cambios sin guardar""",Media,Franco Montalbano,,,
 75,v2,Chrome,Abierto,10/08/2026,"Validar - Edición ""Editar Contacto"" con varios contactos","Ingresar a la página de Contactos
 Existan al menos tres contactos
 registrados:
@@ -297,7 +297,7 @@ Pedro - pedro@gmail.com
 1- Hacer clic en ""Editar"" sobre el contacto
 Franco
 ","El sistema abre el formulario y permite editar el contacto ""Franco""","El sistema abre el formulario a Editar del contacto ""Juan"" sin poder editar
-el contacto esperado",Alta,Franco Montalbano,Revisé la severidad el 11/11/2026: Alta. Impacto documentado: abre un contacto distinto e impide editar el contacto solicitado.,,
+el contacto esperado",Alta,Franco Montalbano,,,
 76,v2,Chrome,Abierto,10/08/2026,"Validar - Edición ""Editar Contacto ""Cancelar"" con
 varios contactos","Ingresar a la página de Contactos
 Existan al menos tres contactos
@@ -310,7 +310,7 @@ Franco
 2- Modificar el campo ""Nombre"" por ""Gonzalo""
 3- Mantener el Mail ""franco@gmail.com""
 4- Hacer clic en ""Cancelar""","El sistema emite una alerta ""Se perderán los cambios sin guardar""
- y cierra el formulario ","El sistema cierra el formulario sin emitir el mensaje ""Se perderán los cambios sin guardar""",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: omite la advertencia y puede descartar cambios sin guardar; no se documenta pérdida de registros guardados.,,
+ y cierra el formulario ","El sistema cierra el formulario sin emitir el mensaje ""Se perderán los cambios sin guardar""",Media,Franco Montalbano,,,
 79,v2,Chrome,Abierto,10/08/2026,"Validar - Baja ""Cancelar Eliminación""","Ingresar a la página de Contactos
 Existe al menos un contacto 
 registrado con: 
@@ -319,7 +319,7 @@ Mail: ""francoemontalbano@gmail.com""
 Hacer clic en ""Borrar"" sobre el contacto 
 ""Franco""
 1- Hacer clic en ""Cancelar eliminación""","El sistema no elimina el contacto ""Franco"" y este continúa
-visualizándose en Contactos","El sistema elimina el contacto a pesar de hacer clic en ""Cancelar""",Alta,Franco Montalbano,Revisé la severidad el 11/11/2026: Alta. Impacto documentado: elimina datos guardados aunque el usuario cancela.,,
+visualizándose en Contactos","El sistema elimina el contacto a pesar de hacer clic en ""Cancelar""",Alta,Franco Montalbano,,,
 80,v3,Chrome,Abierto,14/08/2026,Visualizar Lista de Contactos,1- Ingresar a la página de Contactos,"El sistema muestra la página Contactos con:
 Título ""Contactos"".
 Tabla con las columnas Nombre y Mail.
@@ -328,7 +328,7 @@ Opciones para ordenar los datos por Nombre y Mail.
 Orden alfabético por Nombre por defecto.
 Opción ""Nuevo Contacto""","En la página se ve una columa extra llamada ""Acciones""
 El sistema no muestra ningún mensaje por defecto cuando la tabla esta vacía
-",Baja,Franco Montalbano,"Revisé la severidad el 11/11/2026: Baja. Impacto documentado: afecta un mensaje, el estado inicial o la presentación, sin pérdida de datos documentada.",,
+",Baja,Franco Montalbano,,,
 82,v3,Chrome,Abierto,14/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
 letras minúsculas","Ingresar a la página de Contactos
@@ -341,7 +341,7 @@ Hacer clic en ""Nuevo contacto""
 ","El sistema permite ingresar un nombre con letras minúsculas en el 
 campo ""Nombre""","El sistema permite ingresar un contacto en el campo ""Nombre"" con letras
 minúsculas correctamente pero no aparece la última letra del contacto
-agregado",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: muestra el nombre incompleto; el reporte no demuestra que se haya truncado el dato almacenado.,,
+agregado",Media,Franco Montalbano,,,
 83,v3,Chrome,Abierto,14/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
 letras mayúsculas","Ingresar a la página de Contactos
@@ -354,7 +354,7 @@ Hacer clic en ""Nuevo contacto""
 ","El sistema permite ingresar un nombre con letras mayúsculas en el
 campo ""Nombre""","El sistema permite ingresar un contacto en el campo ""Nombre"" con letras
 mayúsculas correctamente pero no aparece el último caracter, en este caso
-la última letra del contacto agregado",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: muestra el nombre incompleto; el reporte no demuestra que se haya truncado el dato almacenado.,,
+la última letra del contacto agregado",Media,Franco Montalbano,,,
 84,v3,Chrome,Abierto,14/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
 números","Ingresar a la página de Contactos
@@ -365,7 +365,7 @@ Hacer clic en ""Nuevo contacto""
 4- Ingresar ""franco@gmail.com""
 5- Hacer clic en ""Guardar""","El sistema no permite ingresar números en el campo ""Nombre""
 ""El sistema informa que el campo ""Nombre"" no permite números""","El sistema permite almacenar números en el campo ""Nombre"" y tampoco
-aparece el ultimo caracter, en este caso el último número",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: muestra el nombre incompleto; el reporte no demuestra que se haya truncado el dato almacenado.,,
+aparece el ultimo caracter, en este caso el último número",Media,Franco Montalbano,,,
 85,v3,Chrome,Abierto,14/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
 caracteres especiales","Ingresar a la página de Contactos
@@ -379,7 +379,7 @@ Hacer clic en ""Nuevo contacto""
 ""El sistema informa que el campo ""Nombre"" no permite caracteres 
 especiales""","El sistema permite almacenar caracteres especiales en el campo 
 ""Nombre"" y tampoco aparece el ultimo caracter, en este caso el último
-caracter especial",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: muestra el nombre incompleto; el reporte no demuestra que se haya truncado el dato almacenado.,,
+caracter especial",Media,Franco Montalbano,,,
 86,v3,Chrome,Abierto,14/08/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con 
 espacios","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo contacto""
@@ -389,7 +389,7 @@ Hacer clic en ""Nuevo contacto""
 4- Ingresar """"franco@gmail.com
 5- Hacer clic en """"Guardar""""""","El sistema permite ingresar un nombre compuesto con espacio en el
  campo ""Nombre""","El sistema permite ingresar un nombre compuesto en el campo ""Nombre""
-pero no aparece el último caracter, en este caso la última letra",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: muestra el nombre incompleto; el reporte no demuestra que se haya truncado el dato almacenado.,,
+pero no aparece el último caracter, en este caso la última letra",Media,Franco Montalbano,,,
 87,v3,Chrome,Abierto,14/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con 
 (35 caracteres)","Ingresar a la página de Contactos
@@ -400,7 +400,7 @@ TUVWXYZABCDEFGHI"" (35 caracteres)
 3- Hacer clic en el campo ""Mail""
 4- Ingresar ""franco@gmail.com""
 5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre de hasta 35 caracteres en el
- campo ""Nombre""","El sistema no permite ingresar un ""Nombre"" de 35 caracteres",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+ campo ""Nombre""","El sistema no permite ingresar un ""Nombre"" de 35 caracteres",Media,Franco Montalbano,,,
 88,v3,Chrome,Abierto,14/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
 (34 caracteres) ","Ingresar a la página de Contactos
@@ -413,7 +413,7 @@ TUVWXYZABCDEFGH"" (34 caracteres)
 5- Hacer clic en ""Guardar""""","El sistema permite ingresar un nombre de 34 caracteres en el campo
  ""Nombre""","El sistema permite ingresar un nombre de 34 caracteres en el campo
 ""Nombre"" correctamente pero no aparece el último caracter, en este caso
-la última letra del contacto agraegado",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: muestra el nombre incompleto; el reporte no demuestra que se haya truncado el dato almacenado.,,
+la última letra del contacto agraegado",Media,Franco Montalbano,,,
 91,v3,Chrome,Abierto,14/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre""
 repetido","Ingresar a la página de Contactos
@@ -425,7 +425,7 @@ Nombre: ""Franco""
 3- Hacer clic en el campo ""Nombre""
 4- Ingresar ""Franco""
 5- Hacer clic en ""Guardar""",El sistema permite almacenar contactos con el mismo Nombre,"El sistema permite almacenar contactos con el mismo Nombre, pero no
-aparece el último caracter, en este caso la última letra",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: muestra el nombre incompleto; el reporte no demuestra que se haya truncado el dato almacenado.,,
+aparece el último caracter, en este caso la última letra",Media,Franco Montalbano,,,
 100,v3,Chrome,Abierto,14/08/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" con
 letras mayúsculas","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo contacto""
@@ -435,7 +435,7 @@ Hacer clic en ""Nuevo contacto""
 4- Ingresar ""FRANCOEMONTALBANO@
 GMAIL.COM""
 5- Hacer clic en ""Guardar""",El sistema permite ingresar el mail correctamente,"El sistema permite almacenar el Mail con letras mayúsculas, pero no
-aparece el último caracter, en este caso la última letra del campo ""Nombre""",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: muestra el nombre incompleto; el reporte no demuestra que se haya truncado el dato almacenado.,,
+aparece el último caracter, en este caso la última letra del campo ""Nombre""",Media,Franco Montalbano,,,
 101,v3,Chrome,Abierto,14/08/2026,"
 Validar - Alta ""Nuevo Contacto"" según Anexo A, en 
 campo ""Mail"" con (35 caracteres)","Ingresar a la página de Contactos
@@ -446,7 +446,7 @@ Hacer clic en ""Nuevo contacto""
 4- Ingresar ""ABCDEFGHIJKLMNOPQRS
 TUVWX@gmail.com"" (35 caracteres)
 5- Hacer clic en """"Guardar""","El sistema permite ingresar un mail de hasta 35 caracteres en el
-campo ""Mail""","El sistema permite almacenar el Mail con 35 caracteres correctamente, pero no aparece el último caracter, en este caso la última letra del campo ""Nombre""",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: muestra el nombre incompleto; el reporte no demuestra que se haya truncado el dato almacenado.,,
+campo ""Mail""","El sistema permite almacenar el Mail con 35 caracteres correctamente, pero no aparece el último caracter, en este caso la última letra del campo ""Nombre""",Media,Franco Montalbano,,,
 102,v3,Chrome,Abierto,14/08/2026,"
 Validar - Alta ""Nuevo Contacto"" según formato Anexo A,
 en campo ""Mail"" con (34 caracteres)","Ingresar a la página de Contactos
@@ -458,7 +458,7 @@ Hacer clic en ""Nuevo contacto""
 TUVX@gmail.com"" (34 caracteres)
 5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de 34 caracteres en el campo
 ""Mail""
-","El sistema permite almacenar el Mail con 34 caracteres correctamente, pero no aparece el último caracter, en este caso la última letra del campo ""Nombre",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: muestra el nombre incompleto; el reporte no demuestra que se haya truncado el dato almacenado.,,
+","El sistema permite almacenar el Mail con 34 caracteres correctamente, pero no aparece el último caracter, en este caso la última letra del campo ""Nombre",Media,Franco Montalbano,,,
 105,v3,Chrome,Abierto,14/08/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" 
 según formato Anexo A","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo Contacto""
@@ -467,7 +467,7 @@ Hacer clic en ""Nuevo Contacto""
 3- Hacer clic en el campo """"Mail""
 4- Ingresar ""franco@gmail.com""
 5- Hacer clic en ""Guardar"" ""Nuevo contacto""
-","El sistema permite ingresar el ""Mail"" correctamente","El sistema permite almacenar el Mail correctamente, pero no aparece el último caracter, en este caso la última letra del campo ""Nombre""",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: muestra el nombre incompleto; el reporte no demuestra que se haya truncado el dato almacenado.,,
+","El sistema permite ingresar el ""Mail"" correctamente","El sistema permite almacenar el Mail correctamente, pero no aparece el último caracter, en este caso la última letra del campo ""Nombre""",Media,Franco Montalbano,,,
 107,v3,Chrome,Abierto,14/08/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo
 ""Nombre"" y ""Mail""","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo Contacto""
@@ -476,7 +476,7 @@ Hacer clic en ""Nuevo Contacto""
 3- Hacer clic en el campo ""Mail""
 4- Ingresar ""franco@gmail.com""
 5- Hacer clic en ""Guardar""","El sistema almacena el contacto y lo visualiza en la parte superior de
-la grilla junto con las opciones ""Editar"" y ""Borrar""","El sistema permite almacenar el Contacto correctamente, pero no aparece el último caracter, en este caso la última letra del campo ""Nombre""",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: muestra el nombre incompleto; el reporte no demuestra que se haya truncado el dato almacenado.,,
+la grilla junto con las opciones ""Editar"" y ""Borrar""","El sistema permite almacenar el Contacto correctamente, pero no aparece el último caracter, en este caso la última letra del campo ""Nombre""",Media,Franco Montalbano,,,
 111,v3,Chrome,Abierto,14/08/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo ""Nombre"" y 
 ""Mail"" correctamente","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo Contacto""
@@ -485,7 +485,7 @@ Hacer clic en ""Nuevo Contacto""
 3- Hacer clic en el campo ""Mail""
 4- Ingresar ""franco@gmail.com""
 5- Hacer clic en ""Cancelar""",El sistema cierra el formulario sin crear ningún contacto,"El sistema cierra el formulario correctamente pero no emite el mensaje de
-""Se perderan los cambios sin guardar""",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: omite la advertencia y puede descartar cambios sin guardar; no se documenta pérdida de registros guardados.,,
+""Se perderan los cambios sin guardar""",Media,Franco Montalbano,,,
 113,v3,Chrome,Abierto,14/08/2026,"Validar - Edición ""Editar Contacto"" ""Guardar"" con datos 
 modificados","Ingresar a la página de Contactos
 Existe al menos un contacto 
@@ -500,7 +500,7 @@ Mail: ""franco@gmail.com""
 4- Hacer clic en ""Guardar""","El sistema guarda los cambios realizados y muestra en la tabla de
 Contactos el registro actualizado con el Nombre ""Franco Montalbano""
 y el Mail ""francoemontalbano@gmail.com""","El sistema al editar el Contacto ""Franco"", no solo no lo modifica, sino que
-crea un contacto nuevo y terminan quedando 2 Contactos",Alta,Franco Montalbano,Revisé la severidad el 11/11/2026: Alta. Impacto documentado: crea un registro adicional en lugar de actualizar el seleccionado.,,
+crea un contacto nuevo y terminan quedando 2 Contactos",Alta,Franco Montalbano,,,
 115,v3,Chrome,Abierto,14/08/2026,"Validar - Edición ""Editar Contacto"" ""Guardar"" con
 ""Nombre"" duplicado","Ingresar a la página de Contactos
 Existan al menos dos contactos
@@ -514,7 +514,7 @@ Juan – juan@gmail.com""
 Contactos el registro actualizado con el Nombre ""Franco"" y el Mail
 ""juan@gmail.com""","El sistema al querer editar el Contacto ""Juan"" y ponerle ""Franco"", no solo
 no modifica el resultado, sino que crea otro Contacto ""Franco"" y terminan
-siendo 3 Contactos en total, sin modificar el correspondiente",Alta,Franco Montalbano,Revisé la severidad el 11/11/2026: Alta. Impacto documentado: crea un registro adicional en lugar de actualizar el seleccionado.,,
+siendo 3 Contactos en total, sin modificar el correspondiente",Alta,Franco Montalbano,,,
 122,"Versión
 Final",Chrome,Cerrado,19/08/2026,Visualizar Lista de Contactos,Ingresar a la página de Contactos,"El sistema muestra la página Contactos con:
 Título ""Contactos"".
@@ -558,7 +558,7 @@ TUVWXYZABCDEFGHI"" (35 caracteres)
 3- Hacer clic en el campo ""Mail""
 4- Ingresar ""franco@gmail.com""
 5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre de hasta 35 caracteres en el
-campo ""Nombre""","El sistema no permite ingresar un ""Nombre"" de 35 caracteres",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+campo ""Nombre""","El sistema no permite ingresar un ""Nombre"" de 35 caracteres",Media,Franco Montalbano,,,
 133,"Versión
 Final",Chrome,Abierto,19/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre""
@@ -566,7 +566,7 @@ repetido","Precondición: existe Franco / franco@gmail.com.
 1- Hacer clic en ""Nuevo Contacto""
 2- Ingresar ""Franco"" en Nombre
 3- Ingresar ""otro@gmail.com"" en Mail (diferente al existente)
-4- Hacer clic en ""Guardar""",El sistema permite almacenar contactos con el mismo Nombre,"El sistema emite un mensaje ""Ya existe un contacto con este nombre"" no permitiendo almacenar un Contacto con el mismo Nombre de uno ya existente",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+4- Hacer clic en ""Guardar""",El sistema permite almacenar contactos con el mismo Nombre,"El sistema emite un mensaje ""Ya existe un contacto con este nombre"" no permitiendo almacenar un Contacto con el mismo Nombre de uno ya existente",Media,Franco Montalbano,,,
 153,"Versión
 Final",Chrome,Abierto,19/08/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo
 ""Nombre"" y ""Mail"" correctamente","Ingresar a la página de Contactos
@@ -576,7 +576,7 @@ Hacer clic en ""Nuevo Contacto""
 3- Hacer clic en el campo ""Mail""
 4- Ingresar ""franco@gmail.com""
 5- Hacer clic en ""Cancelar""",El sistema emite un mensaje informando que se perderán los cambios,"El sistema cierra el formulario correctamente pero no emite el mensaje de
-""Se perderan los cambios sin guardar""",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: omite la advertencia y puede descartar cambios sin guardar; no se documenta pérdida de registros guardados.,,
+""Se perderan los cambios sin guardar""",Media,Franco Montalbano,,,
 157,"Versión
 Final",Chrome,Abierto,19/08/2026,"Validar - Edición ""Editar Contacto"" ""Guardar"" con
 ""Nombre"" duplicado","Ingresar a la página de Contactos
@@ -589,7 +589,7 @@ Juan – juan@gmail.com
 3- Mantener el Mail ""juan@gmail.com""
 4- Hacer clic en ""Guardar""","El sistema guarda los cambios realizados y muestra en la tabla de
 Contactos el registro actualizado con el Nombre ""Franco"" y el Mail
-""juan@gmail.com""","El sistema no permite modificar el contacto por un ""Nombre"" ya existente y  emite el siguiente mensaje ""Ya existe un contacto con este nombre""",Media,Franco Montalbano,"Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,
+""juan@gmail.com""","El sistema no permite modificar el contacto por un ""Nombre"" ya existente y  emite el siguiente mensaje ""Ya existe un contacto con este nombre""",Media,Franco Montalbano,,,
 158,"Versión
 Final",Chrome,Abierto,19/08/2026,"Validar - Edición ""Editar Contacto"" ""Cancelar"" con ""Nombre""
 modificado y ""Mail""","Ingresar a la página de Contactos
@@ -603,7 +603,7 @@ Franco
 3- Mantener el Mail ""franco@gmail.com""
 4- Hacer clic en ""Cancelar""","El sistema emite una alerta ""Se perderán los cambios sin guardar""
  y cierra el formulario ","El sistema cierra el formulario correctamente pero no emite el mensaje de
-""Se perderan los cambios sin guardar""",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: omite la advertencia y puede descartar cambios sin guardar; no se documenta pérdida de registros guardados.,,
+""Se perderan los cambios sin guardar""",Media,Franco Montalbano,,,
 160,"Versión
 Final",Chrome,Abierto,19/08/2026,"Validar - Edición ""Editar Contacto ""Cancelar"" con varios
 contactos","Ingresar a la página de Contactos
@@ -618,11 +618,10 @@ Franco
 3- Mantener el Mail ""franco@gmail.com""
 4- Hacer clic en ""Cancelar""","El sistema emite una alerta ""Se perderán los cambios sin guardar""
 y cierra el formulario ","El sistema cierra el formulario correctamente pero no emite el mensaje de
-""Se perderan los cambios sin guardar""",Media,Franco Montalbano,Revisé la severidad el 11/11/2026: Media. Impacto documentado: omite la advertencia y puede descartar cambios sin guardar; no se documenta pérdida de registros guardados.,,
+""Se perderan los cambios sin guardar""",Media,Franco Montalbano,,,
 143,"Versión
 Final",Chrome,Abierto,11/11/2026,Alta - Rechaza un mail válido de 35 caracteres,"1- Ingresar a https://nahual.github.io/qc-contactos/contactos.html con la grilla vacía
 2- Hacer clic en ""Nuevo Contacto""
 3- Ingresar ""Franco"" en Nombre
 4- Ingresar ""AAAAAAAAAAAAAAAAAAAAAAAAA@gmail.com"" en Mail (35 caracteres)
-5- Hacer clic en ""Guardar""","El sistema permite guardar el contacto con un mail válido de 35 caracteres, según el límite de Alta en la narrativa.","El sistema no guarda el contacto y muestra ""El mail del contacto no puede superar los 35 caracteres"".",Media,Franco Montalbano,"Reejecutado el 11/11/2026 en Chrome. Control: 34 caracteres se guardan; 36 se rechazan. Narrativa: https://nahual.github.io/qc-contactos/especificaciones.html
-Revisé la severidad el 11/11/2026: Media. Impacto documentado: afecta una validación o una función acotada, sin corrupción, eliminación de datos ni bloqueo general documentados.",,143
+5- Hacer clic en ""Guardar""","El sistema permite guardar el contacto con un mail válido de 35 caracteres, según el límite de Alta en la narrativa.","El sistema no guarda el contacto y muestra ""El mail del contacto no puede superar los 35 caracteres"".",Media,Franco Montalbano,Reejecutado el 11/11/2026 en Chrome. Control: 34 caracteres se guardan; 36 se rechazan. Narrativa: https://nahual.github.io/qc-contactos/especificaciones.html,,143
