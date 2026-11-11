@@ -13,8 +13,16 @@ Videojuego basado en ciclos de movimiento por niveles, mecánicas de colisión, 
 - **Módulo de Highscore y Debug:** Validación de ordenamiento top 5, control de strings (límite de 30 caracteres), manejo de valores por defecto ("Alguien") e integridad de los paneles de debug (Largo, Velocidad, Tiempo de bonus).
 
 ## Archivos Incluidos
-- `Test Case - Lumbricina - Franco.csv` : Matriz completa de diseño de casos de prueba.
-- `Bugs - Lumbricina - Franco.csv` : Reporte detallado de defectos detectados durante los ciclos de ejecución.
+- `Test Case - Lumbricina - Franco.csv` : Matriz de 100 casos de prueba de v1, con precondiciones, pasos, resultado esperado y resultado obtenido.
+- `Bugs - Lumbricina - Franco.csv` : Exportación actualizada de 45 incidencias asignadas a `francoemontalbano` en Mantis, con pasos, resultados, TC relacionado y enlace al reporte original.
+
+## Ejecución y trazabilidad
+- Actualización de la documentación: **11/11/2026**.
+- En **Resultado Obtenido**, `OK` indica que el resultado coincide con el esperado. Cuando hay una diferencia o una ejecución bloqueada, se describe lo observado.
+- **Estado del test case** conserva el estado de gestión de la plantilla (`Abierto`); no representa el resultado de la ejecución.
+- La matriz incluye los resultados actualizados de los TC91–100 y el esperado corregido del TC94 según la especificación de la pastilla verde.
+- Se volvió a ejecutar el **TC88** en v1: el Debug mostró largo 3 antes y después de consumir una pastilla roja. Se corrigió el `OK` anterior; el comportamiento coincide con el defecto de longitud del [reporte #31](https://mantis.pakova.org/view.php?id=31).
+- Los CSV reemplazan las versiones anteriores y mantienen sus nombres para conservar los enlaces del repositorio. Pueden abrirse con Excel o Google Sheets.
 
 ## Responsable
 Franco Montalbano
