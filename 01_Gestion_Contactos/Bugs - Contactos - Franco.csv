@@ -522,7 +522,7 @@ Tabla con las columnas Nombre y Mail.
 Mensaje ""No hay contactos guardados"" cuando la tabla está vacía.
 Opciones para ordenar los datos por Nombre y Mail.
 Orden alfabético por Nombre por defecto.
-Opción ""Nuevo Contacto""","En la página se ve una columa extra llamada ""Acciones""",Alta,Franco Montalbano,Descartado el 11/11/2026 tras revisar la narrativa: contempla opciones Editar/Borrar y no prohíbe un encabezado Acciones. Conservé el reporte como historial.,,
+Opción ""Nuevo Contacto""","En la página se ve una columa extra llamada ""Acciones""",Alta,Franco Montalbano,,,
 126,"Versión
 Final",Chrome,Cerrado,19/08/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
 números","Ingresar a la página de Contactos
@@ -532,7 +532,7 @@ Hacer clic en ""Nuevo contacto""
 3- Hacer clic en el campo ""Mail""
 4- Ingresar ""franco@gmail.com""
 5- Hacer clic en ""Guardar""","El sistema no permite ingresar números en el campo ""Nombre""
-El sistema informa que el campo ""Nombre"" no permite números""","El sistema permite almacenar números en el campo ""Nombre""",Alta,Franco Montalbano,Descartado el 11/11/2026: la narrativa define Nombre como texto obligatorio de hasta 35 caracteres; no prohíbe números ni caracteres especiales. Conservé el reporte como historial.,,
+El sistema informa que el campo ""Nombre"" no permite números""","El sistema permite almacenar números en el campo ""Nombre""",Alta,Franco Montalbano,,,
 127,"Versión
 Final",Chrome,Cerrado,19/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
@@ -546,7 +546,7 @@ Hacer clic en ""Nuevo contacto""
 ""Nombre""
 El sistema informa que el campo ""Nombre"" no permite caracteres
 especiales","El sistema permite almacenar caracteres especiales en el campo 
-""Nombre""",Alta,Franco Montalbano,Descartado el 11/11/2026: la narrativa define Nombre como texto obligatorio de hasta 35 caracteres; no prohíbe números ni caracteres especiales. Conservé el reporte como historial.,,
+""Nombre""",Alta,Franco Montalbano,,,
 129,"Versión
 Final",Chrome,Abierto,19/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con 
@@ -624,4 +624,4 @@ Final",Chrome,Abierto,11/11/2026,Alta - Rechaza un mail válido de 35 caracteres
 2- Hacer clic en ""Nuevo Contacto""
 3- Ingresar ""Franco"" en Nombre
 4- Ingresar ""AAAAAAAAAAAAAAAAAAAAAAAAA@gmail.com"" en Mail (35 caracteres)
-5- Hacer clic en ""Guardar""","El sistema permite guardar el contacto con un mail válido de 35 caracteres, según el límite de Alta en la narrativa.","El sistema no guarda el contacto y muestra ""El mail del contacto no puede superar los 35 caracteres"".",Media,Franco Montalbano,Reejecutado el 11/11/2026 en Chrome. Control: 34 caracteres se guardan; 36 se rechazan. Narrativa: https://nahual.github.io/qc-contactos/especificaciones.html,,143
+5- Hacer clic en ""Guardar""","El sistema permite guardar el contacto con un mail válido de 35 caracteres, según el límite de Alta en la narrativa.","El sistema no guarda el contacto y muestra ""El mail del contacto no puede superar los 35 caracteres"".",Media,Franco Montalbano,,,143
