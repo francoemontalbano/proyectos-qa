@@ -1,5 +1,4 @@
-BUG ID,Version,Navegador,Estado del Reporte,Fecha del Reporte,Descripción del Bug,Pasos para reproducir,Resultado Esperado,Resultado Obtenido,Severidad,Autor,Observaciones,Revisor,Test case relacionado
-0,0,Chrome,Cerrado,23/11/2020,Regristro - falla en ingreso de email,1. Ingresar a la aplicación 2. Ingresar el usuario y contraseña3. Clic en iniciar,Se inicia sesión,No se ingresa a la aplicación,Alta,Juan Perez,,,
+﻿BUG ID,Version,Navegador,Estado del Reporte,Fecha del Reporte,Descripción del Bug,Pasos para reproducir,Resultado Esperado,Resultado Obtenido,Severidad,Autor,Observaciones,Revisor,Test case relacionado
 1,v1,Chrome,Abierto,05/08/2026,"Visualizar - Lista de ""Contactos""","1- Ingresar a la página de Contactos
 ","El sistema muestra la página Contactos con:
 Título ""Contactos""
@@ -517,15 +516,15 @@ Contactos el registro actualizado con el Nombre ""Franco"" y el Mail
 no modifica el resultado, sino que crea otro Contacto ""Franco"" y terminan
 siendo 3 Contactos en total, sin modificar el correspondiente",Alta,Franco Montalbano,,,
 122,"Versión
-Final",Chrome,Abierto,19/08/2026,Visualizar Lista de Contactos,Ingresar a la página de Contactos,"El sistema muestra la página Contactos con:
+Final",Chrome,Cerrado,19/08/2026,Visualizar Lista de Contactos,Ingresar a la página de Contactos,"El sistema muestra la página Contactos con:
 Título ""Contactos"".
 Tabla con las columnas Nombre y Mail.
 Mensaje ""No hay contactos guardados"" cuando la tabla está vacía.
 Opciones para ordenar los datos por Nombre y Mail.
 Orden alfabético por Nombre por defecto.
-Opción ""Nuevo Contacto""","En la página se ve una columa extra llamada ""Acciones""",Alta,Franco Montalbano,,,
+Opción ""Nuevo Contacto""","En la página se ve una columa extra llamada ""Acciones""",Alta,Franco Montalbano,Descartado el 11/11/2026 tras revisar la narrativa: contempla opciones Editar/Borrar y no prohíbe un encabezado Acciones. Conservé el reporte como historial.,,
 126,"Versión
-Final",Chrome,Abierto,19/08/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
+Final",Chrome,Cerrado,19/08/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
 números","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo contacto""
 1- Hacer clic en el campo ""Nombre""
@@ -533,9 +532,9 @@ Hacer clic en ""Nuevo contacto""
 3- Hacer clic en el campo ""Mail""
 4- Ingresar ""franco@gmail.com""
 5- Hacer clic en ""Guardar""","El sistema no permite ingresar números en el campo ""Nombre""
-El sistema informa que el campo ""Nombre"" no permite números""","El sistema permite almacenar números en el campo ""Nombre""",Alta,Franco Montalbano,,,
+El sistema informa que el campo ""Nombre"" no permite números""","El sistema permite almacenar números en el campo ""Nombre""",Alta,Franco Montalbano,Descartado el 11/11/2026: la narrativa define Nombre como texto obligatorio de hasta 35 caracteres; no prohíbe números ni caracteres especiales. Conservé el reporte como historial.,,
 127,"Versión
-Final",Chrome,Abierto,19/08/2026,"
+Final",Chrome,Cerrado,19/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
 caracteres especiales","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo contacto""
@@ -547,7 +546,7 @@ Hacer clic en ""Nuevo contacto""
 ""Nombre""
 El sistema informa que el campo ""Nombre"" no permite caracteres
 especiales","El sistema permite almacenar caracteres especiales en el campo 
-""Nombre""",Alta,Franco Montalbano,,,
+""Nombre""",Alta,Franco Montalbano,Descartado el 11/11/2026: la narrativa define Nombre como texto obligatorio de hasta 35 caracteres; no prohíbe números ni caracteres especiales. Conservé el reporte como historial.,,
 129,"Versión
 Final",Chrome,Abierto,19/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con 
@@ -563,15 +562,11 @@ campo ""Nombre""","El sistema no permite ingresar un ""Nombre"" de 35 caracteres
 133,"Versión
 Final",Chrome,Abierto,19/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre""
-repetido","Ingresar a la página de Contactos
-Existe al menos un contacto 
-registrado con: 
-Nombre: ""Franco""
-1- Ingresar a la página de Contactos
-2- Hacer clic en ""Nuevo contacto""
-3- Hacer clic en el campo ""Nombre""
-4- Ingresar ""Franco""
-5- Hacer clic en ""Guardar""",El sistema permite almacenar contactos con el mismo Nombre,"El sistema emite un mensaje ""Ya existe un contacto con este nombre"" no permitiendo almacenar un Contacto con el mismo Nombre de uno ya existente",Alta,Franco Montalbano,,,
+repetido","Precondición: existe Franco / franco@gmail.com.
+1- Hacer clic en ""Nuevo Contacto""
+2- Ingresar ""Franco"" en Nombre
+3- Ingresar ""otro@gmail.com"" en Mail (diferente al existente)
+4- Hacer clic en ""Guardar""",El sistema permite almacenar contactos con el mismo Nombre,"El sistema emite un mensaje ""Ya existe un contacto con este nombre"" no permitiendo almacenar un Contacto con el mismo Nombre de uno ya existente",Alta,Franco Montalbano,,,
 153,"Versión
 Final",Chrome,Abierto,19/08/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo
 ""Nombre"" y ""Mail"" correctamente","Ingresar a la página de Contactos
@@ -624,3 +619,9 @@ Franco
 4- Hacer clic en ""Cancelar""","El sistema emite una alerta ""Se perderán los cambios sin guardar""
 y cierra el formulario ","El sistema cierra el formulario correctamente pero no emite el mensaje de
 ""Se perderan los cambios sin guardar""",Media,Franco Montalbano,,,
+143,"Versión
+Final",Chrome,Abierto,11/11/2026,Alta - Rechaza un mail válido de 35 caracteres,"1- Ingresar a https://nahual.github.io/qc-contactos/contactos.html con la grilla vacía
+2- Hacer clic en ""Nuevo Contacto""
+3- Ingresar ""Franco"" en Nombre
+4- Ingresar ""AAAAAAAAAAAAAAAAAAAAAAAAA@gmail.com"" en Mail (35 caracteres)
+5- Hacer clic en ""Guardar""","El sistema permite guardar el contacto con un mail válido de 35 caracteres, según el límite de Alta en la narrativa.","El sistema no guarda el contacto y muestra ""El mail del contacto no puede superar los 35 caracteres"".",Media,Franco Montalbano,Reejecutado el 11/11/2026 en Chrome. Control: 34 caracteres se guardan; 36 se rechazan. Narrativa: https://nahual.github.io/qc-contactos/especificaciones.html,,143
