@@ -1,30 +1,44 @@
-# QA Test Repository - Buscador Provinciano
+# Testing manual — Buscador Provinciano
 
 ## Descripción
-Repositorio de documentación de testing, diseño de casos de prueba y reporte de defectos para la aplicación web de búsqueda de datos provinciales de Argentina.
 
-## Aplicación bajo prueba
-Sistema de filtros avanzados (Región y Nombre) con renderizado dinámico de grilla de resultados (Región, Nombre, Capital, Habitantes, Km²) y opciones de ordenamiento alfabético y numérico.
+En este proyecto diseñé y ejecuté casos de prueba sobre el buscador de provincias de Proyecto Nahual. Trabajé con filtros, ordenamiento y visualización de datos, y participé en la revisión de casos y reportes con Grego Lopez.
 
-## Alcance del Testing
-- **Módulo de Listado e Interfaz:** Verificación de títulos, campos por defecto ("Todas" y vacío) y alineación ortográfica respecto a las especificaciones.
-- **Módulo de Filtrado:** Validación sintáctica de búsquedas por subcadenas ("San", "La"), distinción de tildes/mayúsculas y comportamientos lógicos de la región "Ninguna".
-- **Módulo de Ordenamiento:** Comprobación del orden alfabético y numérico (ascendente/descendente) en cada columna y control de errores de codificación en encabezados.
-- **Estabilidad del Sistema:** Pruebas de estrés ante búsquedas simultáneas o consecutivas y validación de tiempos de respuesta de la interfaz.
+## Alcance de las pruebas
 
-## Trabajo colaborativo y revisión cruzada
-Trabajé en pareja con Grego Lopez. Cada uno diseñaba sus propios casos de prueba (TC) y revisaba los del compañero: yo revisaba los de Grego y él revisaba los míos. A partir de la revisión cruzada y las pruebas realizadas, identificábamos y documentábamos los defectos.
+- Revisé los títulos, los campos por defecto y la información de la grilla.
+- Probé las búsquedas por nombre y región, las subcadenas y las variaciones de mayúsculas y tildes.
+- Verifiqué el ordenamiento ascendente y descendente de las columnas de texto y datos numéricos.
+- Probé combinaciones de filtros y búsquedas consecutivas.
 
-Los campos **Autor** y **Revisor** de los reportes reflejan la participación de cada integrante. Los reportes elaborados por Grego en los que figuro como revisor forman parte de esta dinámica de trabajo colaborativo.
+## Aplicación y referencias
 
-## Archivos Incluidos
-- `Test Case - Provinciano - Franco.csv` : Matriz completa de diseño de casos de prueba.
-- `Bugs - Provinciano - Franco.csv` : Reporte detallado de defectos detectados durante los ciclos de ejecución.
+- [Aplicación Provinciano](https://nahual.github.io/qc-provinciano/provinciano_1.html)
+- [Narrativa funcional](https://nahual.github.io/qc-provinciano/especificaciones.html)
+- [Referencia de provincias y regiones](https://es.wikipedia.org/wiki/Provincias_de_Argentina#Regiones_existentes)
+
+## Documentación
+
+| Archivo | Contenido |
+| :--- | :--- |
+| [Casos de prueba](Test%20Case%20-%20Provinciano%20-%20Franco.csv) | 347 registros de casos de prueba, distribuidos entre v1, v2, v3 y v4. |
+| [Reportes de bugs](Bugs%20-%20Provinciano%20-%20Franco.csv) | 277 registros de reportes con los campos Autor y Revisor. |
+
+Publiqué los archivos en CSV para consultarlos desde Excel o Google Sheets.
+
+## Trabajo realizado
+
+- Diseñé mis casos de prueba con precondiciones, pasos y resultados esperados.
+- Documenté los resultados obtenidos y los defectos encontrados durante las pruebas.
+- Trabajé en pareja con Grego Lopez: yo revisaba sus casos y él revisaba los míos. A partir de esa revisión y de las pruebas realizadas, identificábamos y documentábamos los defectos.
+- Participé como revisor en reportes elaborados por Grego. Los campos Autor y Revisor permiten distinguir mi participación en cada reporte.
+
+## Resultados
+
+Documenté los resultados por versión en la matriz y conservé los reportes del trabajo colaborativo. Para identificar mi aporte en cada reporte, consulto los campos **Autor y Revisor**, junto con la versión y la descripción.
+
+Distingo el resultado de ejecución del estado de gestión del test case y describo las diferencias en Resultado Obtenido.
 
 ## Responsable
-Franco Montalbano
 
-## Documentación de Referencia
-- **Especificaciones del Proyecto:** [Proyecto Nahual - Especificaciones Provinciano](https://nahual.github.io/qc-provinciano/especificaciones.html)
-- **Estándar de Validación:** [Wikipedia - Provincias de Argentina (Regiones Existentes)](https://es.wikipedia.org/wiki/Provincias_de_Argentina#Regiones_existentes)
-- **Aplicación en Producción (App Under Test):** [Sitio de Pruebas - Buscador Provinciano](https://nahual.github.io/qc-provinciano/provinciano_1.html?)
+Franco Montalbano

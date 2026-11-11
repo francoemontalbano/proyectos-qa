@@ -1,35 +1,51 @@
 # Testing manual — Gestión de Contactos
 
-En este proyecto diseñé y ejecuté casos de prueba sobre el alta, listado, ordenamiento, edición y baja de contactos de Proyecto Nahual.
+## Descripción
 
-## Aplicación y referencia
+En este proyecto diseñé y ejecuté casos de prueba sobre la aplicación de gestión de contactos de Proyecto Nahual. Documenté los resultados y los defectos encontrados en distintas versiones.
+
+## Alcance de las pruebas
+
+- Probé el listado inicial y el ordenamiento por nombre y mail.
+- Revisé el alta de contactos, los campos obligatorios, las longitudes y el formato del mail.
+- Probé la edición, las validaciones de duplicados y la cancelación de cambios.
+- Verifiqué la confirmación y cancelación de la eliminación de contactos.
+
+## Aplicación y referencias
 
 - [Aplicación Contactos](https://nahual.github.io/qc-contactos/contactos.html)
 - [Narrativa funcional y Anexo A](https://nahual.github.io/qc-contactos/especificaciones.html)
-- [Matriz original — pestaña Franco](https://docs.google.com/spreadsheets/d/16vzz7vlb0N53IwxZ0GK0c6siKPZIVVfcrb-nMsV1Fc0/edit?gid=365926205)
-- [Reportes originales — pestaña Franco](https://docs.google.com/spreadsheets/d/1dJMQ2Kac_XiT1YDOooBzaSx6ROWlI70WLwWR3MN-zlc/edit?gid=1050203018)
+- [Casos de prueba originales — pestaña Franco](https://docs.google.com/spreadsheets/d/16vzz7vlb0N53IwxZ0GK0c6siKPZIVVfcrb-nMsV1Fc0/edit?gid=365926205)
+- [Reportes de bugs originales — pestaña Franco](https://docs.google.com/spreadsheets/d/1dJMQ2Kac_XiT1YDOooBzaSx6ROWlI70WLwWR3MN-zlc/edit?gid=1050203018)
 
-Usé el **Anexo A de la narrativa** como criterio para validar los mails.
+Usé el Anexo A de la narrativa como criterio para validar los mails.
 
 ## Documentación
 
-- [Casos de prueba](Test%20case%20-%20Contactos%20-%20Franco.csv): 168 registros, 42 por versión (v1, v2, v3 y Versión Final), con resultado obtenido.
-- [Reportes de bugs](Bugs%20-%20Contactos%20-%20Franco.csv): 62 reportes reales de las cuatro versiones; incluye reportes cerrados y su explicación. Excluí del archivo publicado el ejemplo BUG 0 de la plantilla.
+| Archivo | Contenido |
+| :--- | :--- |
+| [Casos de prueba](Test%20case%20-%20Contactos%20-%20Franco.csv) | 168 registros: 42 por versión, distribuidos entre v1, v2, v3 y Versión Final. |
+| [Reportes de bugs](Bugs%20-%20Contactos%20-%20Franco.csv) | 62 reportes de las cuatro versiones, incluidos los cerrados con su explicación. |
 
-Publiqué la documentación en CSV para poder consultarla desde Excel o Google Sheets. Uso `OK` cuando el resultado coincide con el esperado y describo las diferencias en Resultado Obtenido. Conservo el estado de gestión `Abierto` de la plantilla por separado del resultado de ejecución.
+Publiqué los archivos en CSV para consultarlos desde Excel o Google Sheets.
 
-## Revisión del 11/11/2026
+## Trabajo realizado
 
-Revisé los casos de **Versión Final** usando Chrome y `contactos.html`. Conservé los resultados históricos de v1, v2 y v3; esta revisión corresponde a Versión Final.
+- Diseñé los casos con precondiciones, pasos y resultados esperados, y documenté los resultados obtenidos.
+- Revisé los casos de Versión Final contra la narrativa y corregí los esperados de orden descendente y campos obligatorios.
+- Corregí y volví a ejecutar los datos de mail de los TC143–145 para probar exactamente 35, 34 y 36 caracteres.
+- Completé el mail del TC133 y verifiqué el nombre repetido usando un mail diferente.
+- Descarté los reportes 122, 126 y 127 de Versión Final por criterios que la narrativa no exige; conservé sus filas y el motivo del cierre.
+- Agregué el reporte 143 al comprobar que la aplicación rechaza un mail válido de 35 caracteres.
+- Verifiqué el mensaje de borrado y ambas decisiones en los TC161–163.
 
-- Corregí los esperados de orden descendente y las validaciones de campos obligatorios según la narrativa.
-- Corregí los datos de mail y volví a ejecutar los TC143, TC144 y TC145 para tener exactamente 35, 34 y 36 caracteres.
-- Completé el dato de mail del TC133 y verifiqué el rechazo del nombre repetido con un mail diferente.
-- Descarté los reportes 122, 126 y 127 de Versión Final por criterios que la narrativa no exige. Conservé sus filas como historial, con estado Cerrado y el motivo en Observaciones.
-- Agregué el reporte **143 de Versión Final** al comprobar que la aplicación rechaza un mail válido de 35 caracteres.
-- Verifiqué el mensaje de borrado y ambas decisiones: confirmar elimina el contacto y cancelar lo conserva. Registré los TC161–163 como OK.
+## Resultados
 
-Registré **35 resultados OK y 7 con diferencias documentadas** en la matriz de Versión Final. Los reportes activos asociados son 129, 133, 143, 153, 157, 158 y 160. Esta cifra describe los registros de la matriz; no implica siete causas independientes.
+Registré **35 resultados OK y 7 con diferencias documentadas en Versión Final**. Los reportes activos asociados son 129, 133, 143, 153, 157, 158 y 160.
+
+Uso `OK` cuando el resultado coincide con el esperado y describo las diferencias en Resultado Obtenido. Conservo el estado de gestión del test case por separado del resultado de ejecución.
+
+Actualicé la documentación el **11/11/2026**. La revisión de esa fecha corresponde a Versión Final; conservé los resultados anteriores de v1, v2 y v3. Excluí del CSV de bugs el ejemplo BUG 0 de la plantilla.
 
 ## Responsable
 
