@@ -31,10 +31,6 @@ Revisé los casos de **Versión Final** usando Chrome y `contactos.html`. Conser
 
 Registré **35 resultados OK y 7 con diferencias documentadas** en la matriz de Versión Final. Los reportes activos asociados son 129, 133, 143, 153, 157, 158 y 160. Esta cifra describe los registros de la matriz; no implica siete causas independientes.
 
-## Trazabilidad histórica
-
-Los IDs 65–69 están repetidos en filas diferentes de v2 en la planilla original. Los conservé para mantener las referencias históricas y los identifico combinando **versión, ID y descripción del caso**, además de la fila de origen cuando sea necesario. Los trato como casos distintos y mantengo sus resultados separados de Versión Final.
-
 ## Responsable
 
 Franco Montalbano
