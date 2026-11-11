@@ -605,7 +605,7 @@ Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
 5- Hacer clic en ""Guardar""","
 El sistema emite el mensaje ""El campo nombre debe completarse""
 El sistema emite el mensaje ""El campo mail debe completarse""",OK,
-65,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" y 
+164,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" y 
 ""Mail""","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
 2- Ingresar ""Franco""
@@ -614,7 +614,7 @@ Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
 5- Hacer clic en ""Guardar""
 ","El sistema almacena el contacto y lo visualiza en la parte superior de la grilla junto con las 
 opciones ""Editar"" y ""Borrar""",OK,
-66,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" vacío
+165,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" vacío
  y ""Mail""","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
 2- Ingresar """"
@@ -623,7 +623,7 @@ Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
 5- Hacer clic en ""Guardar""
 ","El sistema no permite guardar el contacto e informa que el campo ""Nombre"" es obligatorio y debe
 completarse.",OK,
-67,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" y 
+166,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Guardar"" con campo ""Nombre"" y 
 ""Mail"" vacío","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
 2- Ingresar ""Franco""
@@ -631,14 +631,14 @@ Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
 4- Ingresar """"
 5- Hacer clic en ""Guardar""","El sistema no permite guardar el contacto e informa que el campo ""Mail"" es obligatorio y debe
 completarse",OK,
-68,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo ""Nombre"" y 
+167,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo ""Nombre"" y 
 ""Mail"" vacío","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
 2- Ingresar """"
 3- Hacer clic en el campo ""Mail""
 4- Ingresar """"
 5- Hacer clic en ""Cancelar""","El sistema emite una alerta ""Se perderán los cambios sin guardar"" y cierra el formulario ","El sistema cierra el formulario sin emitir el mensaje ""Se perderán los cambios sin guardar""",
-69,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo ""Nombre"" y 
+168,v2,Abierto,27/07/2026,"Validar - Alta ""Nuevo Contacto"" - ""Cancelar"" con campo ""Nombre"" y 
 ""Mail"" correctamente","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo Contacto""","1- Hacer clic en el campo ""Nombre""
 2- Ingresar ""Franco""
