@@ -22,7 +22,7 @@ En este proyecto diseñé y ejecuté casos de prueba sobre el buscador de provin
 | Archivo | Contenido |
 | :--- | :--- |
 | [Casos de prueba](Test%20Case%20-%20Provinciano%20-%20Franco.csv) | 347 registros de casos de prueba, distribuidos entre v1, v2, v3 y v4. |
-| [Reportes de bugs](Bugs%20-%20Provinciano%20-%20Franco.csv) | 277 registros de reportes con los campos Autor y Revisor. |
+| [Reportes de bugs](Bugs%20-%20Provinciano%20-%20Franco.csv) | 276 registros de reportes con los campos Autor y Revisor. |
 
 Publiqué los archivos en CSV para consultarlos desde Excel o Google Sheets.
 

@@ -1,5 +1,4 @@
-BUG ID,Version,Navegador,Estado del Reporte,Fecha del Reporte,Descripción del Bug,Pasos para reproducir,Resultado Esperado,Resultado Obtenido,Evidencia,Severidad,Autor,Observaciones,Revisor
-0,,Chrome,Cerrado,23/11/2020,Regristro - falla en ingreso de email,1. Ingresar a la aplicación 2. Ingresar el usuario y contraseña3. Clic en iniciar,Se inicia sesión,No se ingresa a la aplicación,http://prntscr.com/vor1tx,Alta,Juan Perez,,
+﻿BUG ID,Version,Navegador,Estado del Reporte,Fecha del Reporte,Descripción del Bug,Pasos para reproducir,Resultado Esperado,Resultado Obtenido,Evidencia,Severidad,Autor,Observaciones,Revisor
 1,v1,Chrome,Abierto ,31-08,Visualizar pantalla de inicio - Error ortográfico en subtítulo,"Ingresar al sistema
 1. Visualizar pantalla inicio","El sistema muestra en pantalla:
 Títulos:

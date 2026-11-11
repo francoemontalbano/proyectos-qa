@@ -39,6 +39,8 @@ Publiqué los archivos en CSV para consultarlos desde Excel o Google Sheets.
 - Agregué el reporte 143 al comprobar que la aplicación rechaza un mail válido de 35 caracteres.
 - Verifiqué el mensaje de borrado y ambas decisiones en los TC161–163.
 
+Clasifiqué las severidades por impacto documentado: **Alta** para pérdida o modificación no solicitada de datos y fallas que impiden editar correctamente; **Media** para fallas funcionales acotadas o descarte de cambios sin advertencia; **Baja** para mensajes y presentación sin pérdida de datos documentada. Dejé la justificación de cada reporte abierto en Observaciones y conservé la clasificación de los reportes cerrados.
+
 ## Resultados
 
 Registré **35 resultados OK y 7 con diferencias documentadas en Versión Final**. Los reportes activos asociados son 129, 133, 143, 153, 157, 158 y 160.
