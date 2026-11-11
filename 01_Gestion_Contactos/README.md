@@ -25,27 +25,22 @@ Usé el Anexo A de la narrativa como criterio para validar los mails.
 | Archivo | Contenido |
 | :--- | :--- |
 | [Casos de prueba](Test%20case%20-%20Contactos%20-%20Franco.csv) | 168 registros: 42 por versión, distribuidos entre v1, v2, v3 y Versión Final. |
-| [Reportes de bugs](Bugs%20-%20Contactos%20-%20Franco.csv) | 62 reportes de las cuatro versiones, incluidos los cerrados con su explicación. |
+| [Reportes de bugs](Bugs%20-%20Contactos%20-%20Franco.csv) | 62 reportes de las cuatro versiones, con sus estados y severidades. |
 
 Publiqué los archivos en CSV para consultarlos desde Excel o Google Sheets.
 
 ## Trabajo realizado
 
-- Diseñé los casos con precondiciones, pasos y resultados esperados, y documenté los resultados obtenidos.
-- Revisé los casos de Versión Final contra la narrativa y corregí los esperados de orden descendente y campos obligatorios.
-- Corregí y volví a ejecutar los datos de mail de los TC143–145 para probar exactamente 35, 34 y 36 caracteres.
-- Completé el mail del TC133 y verifiqué el nombre repetido usando un mail diferente.
-- Descarté los reportes 122, 126 y 127 de Versión Final por criterios que la narrativa no exige; conservé sus filas y el motivo del cierre.
-- Agregué el reporte 143 al comprobar que la aplicación rechaza un mail válido de 35 caracteres.
-- Verifiqué el mensaje de borrado y ambas decisiones en los TC161–163.
+- Armé los casos de prueba para v1, v2, v3 y Versión Final.
+- Probé datos válidos e inválidos en los campos Nombre y Mail, incluidos los límites de longitud.
+- Verifiqué el guardado, la edición y la eliminación de contactos, además de las opciones para cancelar cada operación.
+- Comparé el resultado obtenido con la narrativa y reporté las diferencias.
 
 ## Resultados
 
-Registré **35 resultados OK y 7 con diferencias documentadas en Versión Final**. Los reportes activos asociados son 129, 133, 143, 153, 157, 158 y 160.
+En Versión Final registré **35 casos OK y 7 con diferencias**. Entre los problemas reportados están el rechazo de nombres y mails de 35 caracteres, la restricción de nombres repetidos y la falta de advertencias al cancelar cambios.
 
-Uso `OK` cuando el resultado coincide con el esperado y describo las diferencias en Resultado Obtenido. Conservo el estado de gestión del test case por separado del resultado de ejecución.
-
-Actualicé la documentación el **11/11/2026**. La revisión de esa fecha corresponde a Versión Final; conservé los resultados anteriores de v1, v2 y v3. Excluí del CSV de bugs el ejemplo BUG 0 de la plantilla.
+En la matriz marqué `OK` cuando el resultado coincidió con el esperado. En los demás casos describí lo que ocurrió. Los archivos también incluyen los resultados de las versiones anteriores.
 
 ## Responsable
 

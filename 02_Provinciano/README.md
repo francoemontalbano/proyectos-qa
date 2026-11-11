@@ -35,9 +35,7 @@ Publiqué los archivos en CSV para consultarlos desde Excel o Google Sheets.
 
 ## Resultados
 
-Documenté los resultados por versión en la matriz y conservé los reportes del trabajo colaborativo. Para identificar mi aporte en cada reporte, consulto los campos **Autor y Revisor**, junto con la versión y la descripción.
-
-Distingo el resultado de ejecución del estado de gestión del test case y describo las diferencias en Resultado Obtenido.
+Dejé los resultados de cada versión en la matriz y los problemas encontrados en los reportes de bugs. En los campos **Autor y Revisor** se puede ver qué reportes hice y cuáles revisé.
 
 ## Responsable
 

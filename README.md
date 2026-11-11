@@ -10,11 +10,9 @@ En este repositorio reúno mis prácticas de testing manual sobre aplicaciones d
 | [Buscador Provinciano](02_Provinciano/) | Búsquedas, filtros, ordenamiento y revisión cruzada. | [Casos, bugs y resultados](02_Provinciano/README.md) |
 | [Juego Lumbricina](03_Lumbricina/) | Movimientos, colisiones, pastillas, niveles, Highscore y Debug. | [Casos, bugs y resultados](03_Lumbricina/README.md) |
 
-## Cómo organicé los proyectos
+## Documentación
 
-En cada README describo el alcance de las pruebas, enlazo la aplicación y la narrativa, presento los archivos de documentación y explico el trabajo realizado y sus resultados.
-
-Publiqué los casos y reportes en CSV para consultarlos desde GitHub, Excel o Google Sheets. Distingo los registros por versión y mantengo separados los resultados de ejecución y los estados de gestión.
+En cada carpeta están los casos de prueba y los reportes de bugs del proyecto. Los archivos están en CSV y se pueden abrir con Excel o Google Sheets. En los README dejé los enlaces a las aplicaciones y sus narrativas.
 
 ## Prácticas que apliqué
 

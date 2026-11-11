@@ -29,19 +29,16 @@ Publiqué los archivos en CSV para consultarlos desde Excel o Google Sheets.
 
 ## Trabajo realizado
 
-- Diseñé los casos de prueba y documenté los resultados obtenidos en v1.
-- Actualicé los resultados de los TC91–100 y los reportes correspondientes en Mantis.
-- Corregí el esperado del TC94 según la inversión de izquierda y derecha indicada en la narrativa de la pastilla verde.
-- Volví a ejecutar el TC88: el Debug mostró largo 3 antes y después de consumir una pastilla roja. Corregí su OK anterior; el comportamiento coincide con el [reporte 31](https://mantis.pakova.org/view.php?id=31).
-- Exporté las incidencias con sus IDs y enlaces para consultar los reportes originales.
+- Armé los casos de prueba para v1 a partir de la narrativa del juego.
+- Probé los efectos de las pastillas por separado y en distintas combinaciones.
+- Comparé los valores del Debug con el comportamiento de Lumbricina.
+- Registré los resultados en la matriz y reporté los defectos en Mantis.
 
 ## Resultados
 
-Registré **54 resultados OK y 46 resultados descriptivos** en la matriz. En los resultados descriptivos detallo las diferencias observadas y las ejecuciones condicionadas o bloqueadas.
+En la matriz registré **54 casos OK y 46 con resultados descriptivos**. En estos últimos detallé las diferencias observadas y los casos que no pude completar por el comportamiento del juego.
 
-Uso `OK` cuando el resultado coincide con el esperado y describo lo observado en los demás casos. Conservo el estado de gestión del test case por separado del resultado de ejecución.
-
-Actualicé la documentación el **11/11/2026**. En esa actualización revisé los TC91–100 y el TC88, y exporté las 45 incidencias de Mantis.
+Los reportes incluyen problemas de longitud, velocidad, controles, puntaje y duración de las pastillas. Dejé los enlaces a Mantis en el archivo de bugs para poder consultar cada incidencia.
 
 ## Responsable
 
