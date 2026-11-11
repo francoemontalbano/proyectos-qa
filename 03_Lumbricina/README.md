@@ -23,7 +23,7 @@ En este proyecto diseñé y ejecuté casos de prueba sobre Lumbricina, el juego 
 | Archivo | Contenido |
 | :--- | :--- |
 | [Casos de prueba](Test%20Case%20-%20Lumbricina%20-%20Franco.csv) | 100 casos de prueba de v1, con precondiciones, pasos y resultados. |
-| [Reportes de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv) | 45 incidencias asignadas a francoemontalbano, con pasos, resultados, TC relacionado y enlace a Mantis. |
+| [Reportes de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv) | 45 incidencias asignadas a francoemontalbano, con pasos, resultados y enlace a Mantis. |
 
 Publiqué los archivos en CSV para consultarlos desde Excel o Google Sheets.
 
