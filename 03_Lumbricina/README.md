@@ -140,7 +140,6 @@ Fuente: [archivo de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv).
 
 - [Aplicación Lumbricina — v1](https://nahual.github.io/qc-lumbricina/?v=1)
 - [Narrativa funcional](https://nahual.github.io/qc-lumbricina/especificaciones.html)
-- [Casos de prueba originales — pestaña Franco](https://docs.google.com/spreadsheets/d/1utoftOwrg87gTWulDcDeu4qQMQgKW6SER25Uh3zIe3Q/edit?gid=1533384392)
 
 ## Documentación
 

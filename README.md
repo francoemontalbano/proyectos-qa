@@ -35,7 +35,7 @@ Para ver cómo trabajo sin abrir los CSV, dejé un caso completo y reportes de b
 
 ## Documentación
 
-En cada carpeta están los casos de prueba y los reportes de bugs del proyecto. Los archivos están en CSV y se pueden abrir con Excel o Google Sheets. En los README dejé los enlaces a las aplicaciones y sus narrativas.
+En cada carpeta están los casos de prueba y los reportes de bugs en CSV. Los README incluyen los enlaces a las aplicaciones y sus narrativas.
 
 ## Técnicas y dónde las apliqué
 

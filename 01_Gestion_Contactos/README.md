@@ -129,8 +129,6 @@ Fuente: [archivo de bugs](Bugs%20-%20Contactos%20-%20Franco.csv).
 
 - [Aplicación Contactos](https://nahual.github.io/qc-contactos/contactos.html)
 - [Narrativa funcional y Anexo A](https://nahual.github.io/qc-contactos/especificaciones.html)
-- [Casos de prueba originales — pestaña Franco](https://docs.google.com/spreadsheets/d/16vzz7vlb0N53IwxZ0GK0c6siKPZIVVfcrb-nMsV1Fc0/edit?gid=365926205)
-- [Reportes de bugs originales — pestaña Franco](https://docs.google.com/spreadsheets/d/1dJMQ2Kac_XiT1YDOooBzaSx6ROWlI70WLwWR3MN-zlc/edit?gid=1050203018)
 
 Usé el Anexo A de la narrativa como criterio para validar los mails.
 
