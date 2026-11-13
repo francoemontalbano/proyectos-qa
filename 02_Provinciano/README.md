@@ -17,7 +17,7 @@ En este proyecto diseñé y ejecuté casos de prueba sobre el buscador de provin
 Los registros con diferencias u otro resultado descriptivo bajan de 86 a 72 y después a 70.<br>
 En v4 suben a 87: son 17 más que en v3 y 1 más que en v1.
 
-En v1 y v4 no registré ningún `OK` literal: los 86 y 87 resultados, respectivamente, son descripciones de lo observado; el cero no indica que no haya ejecutado casos.
+En v1 y v4 no marqué resultados como `OK`: los 86 y 87 casos tienen el resultado escrito como descripción. El cero no significa que no haya probado esos casos.
 
 | Severidad registrada | Reportes de bugs |
 | :--- | ---: |
@@ -43,7 +43,7 @@ Entre los problemas reportados están la inclusión de Ciudad Autónoma de Bueno
 | Resultado obtenido | El sistema muestra en la grilla únicamente la provincia "Chaco", con la <br>información de:<br>Región: Región del Norte Grande Argentino<br>Nombre: Chaco<br>Capital: Resistencia<br>Habitantes: 1.055.259<br>Km²: 102.602<br>Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos. |
 | Estado registrado del caso | Cerrado |
 
-Fuente: [matriz de casos](Test%20Case%20-%20Provinciano%20-%20Franco.csv).
+Fuente: [casos de prueba](Test%20Case%20-%20Provinciano%20-%20Franco.csv).
 
 ## Bugs de ejemplo
 
@@ -63,7 +63,7 @@ Trabajé en revisión cruzada con Grego: revisé sus casos de prueba y él revis
 2. Abrir el desplegable "Región".
 3. Seleccionar "Ninguna".
 4. Dejar el campo "Nombre" vacío.
-5. Clic en "Buscar!".
+5. Hacer clic en "Buscar!".
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -84,7 +84,7 @@ Trabajé en revisión cruzada con Grego: revisé sus casos de prueba y él revis
 2. Abrir el desplegable "Región".
 3. Seleccionar "Región del Norte Grande Argentino".
 4. Ingresar "chaco" en el campo "Nombre".
-5. Clic en "Buscar!".
+5. Hacer clic en "Buscar!".
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -95,8 +95,8 @@ Fuente: [archivo de bugs](Bugs%20-%20Provinciano%20-%20Franco.csv).
 
 ## Técnicas aplicadas
 
-- **Combinación de filtros:** probé Región junto con Nombre; por ejemplo, Norte Grande Argentino + Chaco (TC149, v2) y Norte Grande Argentino + Córdoba, sin coincidencias esperadas (TC156, v2).
-- **Variaciones de entrada:** probé búsquedas con mayúsculas, minúsculas y sin tildes (TC125–126, v2), además de subcadenas presentes en la matriz.
+- **Combinación de filtros:** probé Región junto con Nombre; por ejemplo, Norte Grande Argentino + Chaco (TC149, v2) y Norte Grande Argentino + Córdoba, sin provincias que coincidan (TC156, v2).
+- **Variaciones de entrada:** probé búsquedas con mayúsculas, minúsculas y sin tildes (TC125–126, v2), además de subcadenas de los casos.
 - **Regresión entre versiones:** repetí búsquedas por región, nombre y ordenamientos entre v1 y v4. Los resultados quedan separados por versión en el CSV.
 
 ## Alcance de las pruebas

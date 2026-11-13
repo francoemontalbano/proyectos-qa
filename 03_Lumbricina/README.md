@@ -2,7 +2,7 @@
 
 ## Descripción
 
-En este proyecto diseñé y ejecuté casos de prueba sobre Lumbricina, el juego de Proyecto Nahual. Revisé sus movimientos, colisiones, pastillas, niveles y paneles de información, y documenté los defectos encontrados.
+En este proyecto diseñé y ejecuté casos de prueba sobre Lumbricina, el juego de Proyecto Nahual. Revisé sus movimientos, colisiones, pastillas, niveles y paneles de información, y documenté los bugs encontrados.
 
 ## Métricas
 
@@ -21,7 +21,7 @@ El CSV solo incluye v1, así que no permite comparar una tendencia entre version
 | menor | 3 |
 | **Total** | **45** |
 
-Reporté problemas de longitud, velocidad, controles, puntaje y duración de las pastillas. Entre los 46 resultados descriptivos están TC49–52: la ausencia de la pastilla naranja impidió comprobar esos escenarios; sus reportes tienen gravedad `bloqueo`.
+Reporté problemas de longitud, velocidad, controles, puntaje y duración de las pastillas. Entre los 46 resultados descriptivos están TC49–52: no pude completar esas pruebas porque no aparece la pastilla naranja. Los reportes tienen gravedad `bloqueo`.
 
 ## Caso de prueba de ejemplo
 
@@ -41,7 +41,7 @@ Reporté problemas de longitud, velocidad, controles, puntaje y duración de las
 | Resultado esperado | Al consumir la primera pastilla verde, la tecla izquierda mueve a Lumbricina hacia la derecha y <br>la tecla derecha la mueve hacia la izquierda. Las teclas arriba y abajo mantienen su funcionamiento<br>normal. Al consumir la segunda pastilla verde, se elimina la inversión y las teclas izquierda/derecha<br> vuelven a funcionar normalmente. |
 | Resultado obtenido | Al consumir la primera pastilla verde, la tecla arriba mueve a Lumbricina hacia abajo y la tecla abajo la mueve hacia arriba. Luego de consumir la segunda pastilla verde, Lumbricina vuelve a moverse hacia arriba al presionar la tecla arriba. |
 
-Fuente: [matriz de casos](Test%20Case%20-%20Lumbricina%20-%20Franco.csv).
+Fuente: [casos de prueba](Test%20Case%20-%20Lumbricina%20-%20Franco.csv).
 
 ## Bugs de ejemplo
 
@@ -94,7 +94,7 @@ Fuente: [matriz de casos](Test%20Case%20-%20Lumbricina%20-%20Franco.csv).
 | Resultado esperado | Al consumir la primera pastilla verde, la tecla izquierda mueve a Lumbricina hacia la derecha y la tecla derecha la mueve hacia la izquierda. Las teclas arriba y abajo mantienen su funcionamiento normal. Al consumir la segunda pastilla verde, se elimina la inversión y las teclas izquierda/derecha vuelven a funcionar normalmente. |
 | Resultado obtenido | Al consumir la primera pastilla verde, la tecla arriba mueve a Lumbricina hacia abajo y la tecla abajo la mueve hacia arriba. Luego de consumir la segunda pastilla verde, Lumbricina vuelve a moverse hacia arriba al presionar la tecla arriba. |
 
-Este reporte muestra cómo documenté los casos bloqueados TC49–52 por la ausencia de la pastilla naranja.
+En TC49–52 no pude completar las pruebas porque no aparece la pastilla naranja. Lo reporté en el siguiente bug.
 
 ### Bug 0000083 — La pastilla naranja no aparece en v1
 
@@ -134,7 +134,7 @@ Fuente: [archivo de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv).
 - Revisé los efectos de las pastillas sobre el largo, la velocidad, los controles y el puntaje, por separado y en distintas combinaciones.
 - Probé la progresión de niveles, los cambios de estructura del mapa y el Highscore.
 - Comparé los valores de largo, velocidad y duración de bonus del Debug con el comportamiento durante la partida.
-- Armé los casos de v1 a partir de la narrativa y documenté los resultados y los defectos.
+- Armé los casos de v1 a partir de la narrativa y documenté los resultados y los bugs.
 
 ## Aplicación y referencias
 

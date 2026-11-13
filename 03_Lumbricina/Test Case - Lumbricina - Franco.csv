@@ -400,7 +400,7 @@ Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
 Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
 2- Ingresar un nombre de 1 carácter (Ej: F)
 3- Presionar OK
-4- Visualizar el Highscorea",El juego no permite guardar un nombre de 1 carácter en el Highscore,El juego permite guardar un nombre de 1 carácter en el Highscore,
+4- Visualizar el Highscore",El juego no permite guardar un nombre de 1 carácter en el Highscore,El juego permite guardar un nombre de 1 carácter en el Highscore,
 83,v1,Abierto ,09-10,Validar ingreso de nombre con espacios en blanco en el Highscore,"Ingresar al juego
 Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
 2- Posicionarse en el campo Nombre
@@ -452,28 +452,28 @@ Visualizar Lumbricina en el medio de la pantalla","1- Jugar hasta que aparezca u
 4- Visualizar nuevamente los movimientos restantes en el Debug
 5- Realizar los 40 movimientos restantes sin consumir la pastilla","El Debug muestra correctamente los movimientos restantes de la pastilla adicional, comenzando 
 en 50 y disminuyendo progresivamente hasta llegar a 0",La pastilla adicional desaparece después de 40 movimientos en lugar de 50,
-91,v1,Abierto ,30-10,"Validar modificación de longitud al consumir pastilla roja y posteriormente
+91,v1,Abierto ,30-10,"Validar modificación de longitud al consumir pastilla roja y luego
 violeta","Ingresar al juego
 Lumbricina debe tener una longitud de 3 unidades","1- Consumir una pastilla roja
 2- Verificar la longitud de Lumbricina
 3- Consumir una pastilla violeta
 4- Verificar nuevamente la longitud de Lumbricina","Lumbricina aumenta su longitud de 3 a 4 unidades al consumir la pastilla roja y disminuye de 4 a 3 
 unidades al consumir la pastilla violeta","La longitud de Lumbricina se mantiene en 3 unidades al consumir la pastilla roja. Luego de consumir la pastilla violeta, sigue teniendo 3 unidades de longitud.",
-92,v1,Abierto ,30-10,"Validar modificación de velocidad al consumir pastilla azul y posteriormente
+92,v1,Abierto ,30-10,"Validar modificación de velocidad al consumir pastilla azul y luego
 dorada","Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
 2- Consumir una pastilla azul
 3- Verificar el aumento de velocidad en el Debug
 4- Consumir una pastilla dorada
-5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla azul, la velocidad de Lumbricina aumenta. Posteriormente, al consumir la 
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla azul, la velocidad de Lumbricina aumenta. Luego, al consumir la 
 pastilla dorada, la velocidad disminuye respecto del valor alcanzado después de consumir la azul",OK,
-93,v1,Abierto ,30-10,"Validar aumento de velocidad al consumir pastilla violeta y posteriormente
+93,v1,Abierto ,30-10,"Validar aumento de velocidad al consumir pastilla violeta y luego
 blanca","Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
 2- Consumir una pastilla violeta
 3- Verificar el aumento de velocidad en el Debug
 4- Consumir una pastilla blanca
-5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla violeta, la velocidad de Lumbricina se triplica. Posteriormente, al consumir la 
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla violeta, la velocidad de Lumbricina se triplica. Luego, al consumir la 
 pastilla blanca, la velocidad vuelve a triplicarse respecto del valor anterior","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla violeta, el Debug muestra una velocidad de 61. Luego de consumir la pastilla blanca, la velocidad aumenta a 111.",
 94,v1,Abierto ,30-10,Validar consumir 2 veces pastilla verde,"Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Consumir una pastilla verde
@@ -482,53 +482,53 @@ Visualizar Lumbricina en el medio de la pantalla","1- Consumir una pastilla verd
 la tecla derecha la mueve hacia la izquierda. Las teclas arriba y abajo mantienen su funcionamiento
 normal. Al consumir la segunda pastilla verde, se elimina la inversión y las teclas izquierda/derecha
  vuelven a funcionar normalmente.","Al consumir la primera pastilla verde, la tecla arriba mueve a Lumbricina hacia abajo y la tecla abajo la mueve hacia arriba. Luego de consumir la segunda pastilla verde, Lumbricina vuelve a moverse hacia arriba al presionar la tecla arriba.",
-95,v1,Abierto ,30-10,"Validar aumento de velocidad al consumir pastilla azul y posteriormente 
+95,v1,Abierto ,30-10,"Validar aumento de velocidad al consumir pastilla azul y luego 
 blanca","Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
 2- Consumir una pastilla azul
 3- Verificar el aumento de velocidad en el Debug
 4- Consumir una pastilla blanca
-5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla azul, la velocidad de Lumbricina aumenta. Posteriormente, al consumir la 
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla azul, la velocidad de Lumbricina aumenta. Luego, al consumir la 
 pastilla blanca, la velocidad se triplica respecto de la velocidad alcanzada después de consumir
 la azul","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla azul, la velocidad aumenta a 21. Luego de consumir la pastilla blanca, el Debug muestra una velocidad de 81.",
-96,v1,Abierto ,30-10,"Validar aumento de velocidad al consumir pastilla azul y posteriormente
+96,v1,Abierto ,30-10,"Validar aumento de velocidad al consumir pastilla azul y luego
 violeta","Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
 2- Consumir una pastilla azul
 3- Verificar el aumento de velocidad en el Debug
 4- Consumir una pastilla violeta
-5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla azul, la velocidad de Lumbricina aumenta. Posteriormente, al consumir 
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla azul, la velocidad de Lumbricina aumenta. Luego, al consumir 
 la pastilla violeta, la velocidad se triplica respecto de la velocidad alcanzada después de consumir
 la azul","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla azul, la velocidad aumenta a 21. Luego de consumir la pastilla violeta, el Debug muestra una velocidad de 81.",
 97,v1,Abierto ,30-10,"Validar modificación de velocidad al consumir pastilla dorada y 
-posteriormente azul","Ingresar al juego
+luego azul","Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial en el Debug
 2- Consumir una pastilla dorada
 3- Verificar la disminución de velocidad
 4- Consumir una pastilla azul
-5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla dorada, la velocidad de Lumbricina disminuye. Posteriormente, al consumir la
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla dorada, la velocidad de Lumbricina disminuye. Luego, al consumir la
 pastilla azul, la velocidad aumenta respecto del valor alcanzado después de consumir la dorada","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla dorada, la velocidad se mantiene en 1. Luego de consumir la pastilla azul, el Debug muestra una velocidad de 21.",
-98,v1,Abierto ,30-10,"Validar modificación de longitud al consumir pastilla violeta y posteriormente
+98,v1,Abierto ,30-10,"Validar modificación de longitud al consumir pastilla violeta y luego
 roja","Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Verificar la longitud inicial de Lumbricina en el Debug
 2- Consumir una pastilla violeta
 3- Verificar la disminución de longitud
 4- Consumir una pastilla roja
-5- Verificar nuevamente la longitud en el Debug","Al consumir la pastilla violeta, Lumbricina disminuye su longitud en una unidad. Posteriormente, al 
+5- Verificar nuevamente la longitud en el Debug","Al consumir la pastilla violeta, Lumbricina disminuye su longitud en una unidad. Luego, al 
 consumir la pastilla roja, aumenta su longitud en una unidad, recuperando la longitud inicial","La longitud inicial de Lumbricina es de 3 unidades. Al consumir la pastilla violeta, el largo se mantiene en 3. Luego de consumir la pastilla roja, la longitud sigue siendo de 3 unidades.",
-99,v1,Abierto ,30-10,"Validar modificación de velocidad al consumir pastilla blanca y posteriormente
+99,v1,Abierto ,30-10,"Validar modificación de velocidad al consumir pastilla blanca y luego
 dorada","Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
 2- Consumir una pastilla blanca
 3- Verificar el aumento de velocidad en el Debug
 4- Consumir una pastilla dorada
-5- Verificar nuevamente la velocidad en el Debu","Al consumir la pastilla blanca, la velocidad de Lumbricina se triplica. Posteriormente, al consumir la,
+5- Verificar nuevamente la velocidad en el Debu","Al consumir la pastilla blanca, la velocidad de Lumbricina se triplica. Luego, al consumir la,
 pastilla dorada, la velocidad disminuye respecto del valor alcanzado después de consumir la blanca","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla blanca, el Debug muestra una velocidad de 61. Luego de consumir la pastilla dorada, la velocidad disminuye a 56.",
-100,v1,Abierto ,30-10,"Validar modificación de velocidad al consumir pastilla violeta y posteriormente 
+100,v1,Abierto ,30-10,"Validar modificación de velocidad al consumir pastilla violeta y luego 
 dorada","Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
 2- Consumir una pastilla violeta
 3- Verificar el aumento de velocidad en el Debug
 4- Consumir una pastilla dorada
-5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla violeta, la velocidad de Lumbricina se triplica. Posteriormente, al consumir la 
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla violeta, la velocidad de Lumbricina se triplica. Luego, al consumir la 
 pastilla dorada, la velocidad disminuye respecto del valor alcanzado después de consumir la violeta","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla violeta, el Debug muestra una velocidad de 61. Luego de consumir la pastilla dorada, la velocidad disminuye a 56.",

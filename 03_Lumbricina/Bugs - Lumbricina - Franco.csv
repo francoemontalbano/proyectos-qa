@@ -18,7 +18,7 @@ la pantalla","1- Visualizar pastilla azul en la pantalla
 2- Moverse hacia la pastilla azul
 3- Consumir pastilla azul
 4- Visualizar velocidad de Lumbricina",La velocidad de Lumbricina aumenta,"Al consumir una pastilla azul, la velocidad de Lumbricina aumenta casi sin distinguirse; sin embargo en el debug por cada pastilla azul, aumenta 20 en velocidad, cosa que no se ve reflejado jugando.",https://mantis.pakova.org/view.php?id=33
-0000035,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,normal,menor,no se ha intentado,v1,General,2026-10-16 14:35,,,,público,2026-10-21 14:36,"23 - Verificar desaparicion de pastilla azul después de 50 movimientos sin consumirla, desaparece despues de 40 movimientos",asignada,abierta,,Verficiar que la pastilla azul desaparezca después de 50 movimientos/ciclos de Lumbricina,"Ingresar al juego
+0000035,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,normal,menor,no se ha intentado,v1,General,2026-10-16 14:35,,,,público,2026-10-21 14:36,"23 - Verificar desaparicion de pastilla azul después de 50 movimientos sin consumirla, desaparece despues de 40 movimientos",asignada,abierta,,Verificar que la pastilla azul desaparezca después de 50 movimientos/ciclos de Lumbricina,"Ingresar al juego
 Visualizar Lumbricina en el medio de
 la pantalla","1- Visualizar pastilla azul en la pantalla
 2- Realizar 50 movimientos sin consumir la pastilla azul",La pastilla azul desaparece de la pantalla luego de 50 movimientos,La pastilla azul desaparece luego de 40 movimientos,https://mantis.pakova.org/view.php?id=35
@@ -72,7 +72,7 @@ Visualizar Lumbricina en el medio de la pantalla","1- Visualizar pastilla dorada
 2- Moverse hacia la pastilla dorada
 3- Consumir pastilla dorada
 4- Visualizar velocidad de Lumbricina",La velocidad de Lumbricina disminuye,"Lumbricina, en vez de disminuir su velocidad, aumenta en longitud",https://mantis.pakova.org/view.php?id=58
-0000069,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-10-21 14:44,,,,público,2026-10-21 14:44,"40 - Verificar desaparicion de pastilla dorada después de 50 movimientos, desaparece despues de 40 movimientos",asignada,abierta,,Verficiar que la pastilla dorada desaparezca después de 50 movimientos/ciclos de Lumbricina,"Ingresar al juego
+0000069,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-10-21 14:44,,,,público,2026-10-21 14:44,"40 - Verificar desaparicion de pastilla dorada después de 50 movimientos, desaparece despues de 40 movimientos",asignada,abierta,,Verificar que la pastilla dorada desaparezca después de 50 movimientos/ciclos de Lumbricina,"Ingresar al juego
 Visualizar Lumbricina en el medio de
 la pantalla","1- Visualizar pastilla dorada en la pantalla
 2- Realizar 50 movimientos sin consumir la pastilla dorada",La pastilla dorada desaparece luego de 50 movimientos,La pastilla dorada desaparece luego de 40 movimientos,https://mantis.pakova.org/view.php?id=69
@@ -84,7 +84,7 @@ Visualizar Lumbricina en el medio de la pantalla","1- Visualizar pastilla negra 
 2- Moverse hacia la pastilla negra
 3- Consumir pastilla negra
 4- Verificar estado del juego",El juego finaliza mostrando Game Over,"El juego no finaliza, al consumir la pastilla negra permite seguir jugando como si no hubiese consumido ninguna pastilla.",https://mantis.pakova.org/view.php?id=72
-0000075,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-10-21 15:00,,,,público,2026-10-21 15:00,"44 - Verificar desaparicion de pastilla negra después de 50 movimientos, desaparece despues de 40 movimientos",asignada,abierta,,Verficiar que la pastilla negra desaparezca después de 50 movimientos/ciclos de Lumbricina,"Ingresar al juego
+0000075,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-10-21 15:00,,,,público,2026-10-21 15:00,"44 - Verificar desaparicion de pastilla negra después de 50 movimientos, desaparece despues de 40 movimientos",asignada,abierta,,Verificar que la pastilla negra desaparezca después de 50 movimientos/ciclos de Lumbricina,"Ingresar al juego
 Visualizar Lumbricina en el medio de
 la pantalla","1- Visualizar pastilla negra en la pantalla
 2- Realizar 50 movimientos sin consumir la pastilla negra",La pastilla negra desaparece luego de 50 movimientos,La pastilla negra desaparece luego de 40 movimientos,https://mantis.pakova.org/view.php?id=75
@@ -98,7 +98,7 @@ Visualizar Lumbricina en el medio de
 la pantalla","1- Visualizar pastilla blanca en la pantalla
 2- Moverse hacia la pastilla blanca
 3- Consumir pastilla blanca",El juego suma 0 puntos al score,Al consumir la pastilla blanca el juego suma 100 puntos,https://mantis.pakova.org/view.php?id=78
-0000081,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-10-21 15:18,,,,público,2026-10-21 15:18,"48 - Verificar desaparicion de pastilla blanca después de 50 movimientos, desaparece despues de 40 movimientos",asignada,abierta,,Verficiar que la pastilla blanca desaparezca después de 50 movimientos/ciclos de Lumbricina,"Ingresar al juego
+0000081,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-10-21 15:18,,,,público,2026-10-21 15:18,"48 - Verificar desaparicion de pastilla blanca después de 50 movimientos, desaparece despues de 40 movimientos",asignada,abierta,,Verificar que la pastilla blanca desaparezca después de 50 movimientos/ciclos de Lumbricina,"Ingresar al juego
 Visualizar Lumbricina en el medio de
 la pantalla","1- Visualizar pastilla blanca en la pantalla
 2- Realizar 50 movimientos sin consumir la pastilla blanca",La pastilla blanca desaparece luego de 50 movimientos,La pastilla blanca desaparece luego de 40 movimientos,https://mantis.pakova.org/view.php?id=81
@@ -118,7 +118,7 @@ Visualizar Lumbricina en el medio de
 la pantalla","1- Visualizar pastilla naranja en la pantalla
 2- Moverse hacia la pastilla naranja
 3- Consumir pastilla naranja",El juego suma 0 puntos al score,"No se puede validar la puntuación al consumir la pastilla naranja, porque no existe tal pastilla",https://mantis.pakova.org/view.php?id=87
-0000089,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,bloqueo,desconocido,v1,General,2026-10-21 15:46,,,,público,2026-10-21 15:47,"52 - Verificar desaparicion de pastilla naranja después de 50 movimientos, no se puede realizar ya que no existe tal pastilla",asignada,abierta,,Verficiar que la pastilla naranja desaparezca después de 50 movimientos/ciclos de Lumbricina,"Ingresar al juego
+0000089,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,bloqueo,desconocido,v1,General,2026-10-21 15:46,,,,público,2026-10-21 15:47,"52 - Verificar desaparicion de pastilla naranja después de 50 movimientos, no se puede realizar ya que no existe tal pastilla",asignada,abierta,,Verificar que la pastilla naranja desaparezca después de 50 movimientos/ciclos de Lumbricina,"Ingresar al juego
 Visualizar Lumbricina en el medio de
 la pantalla","1- Visualizar pastilla naranja en la pantalla
 2- Realizar 50 movimientos sin consumir la pastilla naranja",La pastilla naranja desaparece luego de 50 movimientos,"No se puede verificar que la pastilla naranja desaparezca luego de 50 movimientos ,ya que tal pastilla no existe",https://mantis.pakova.org/view.php?id=89
@@ -162,7 +162,7 @@ números
 Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
 2- Ingresar un nombre de 1 carácter (Ej: F)
 3- Presionar OK
-4- Visualizar el Highscorea",El juego no permite guardar un nombre de 1 carácter en el Highscore,El juego permite guardar un nombre de 1 carácter en el Highscore,https://mantis.pakova.org/view.php?id=135
+4- Visualizar el Highscore",El juego no permite guardar un nombre de 1 carácter en el Highscore,El juego permite guardar un nombre de 1 carácter en el Highscore,https://mantis.pakova.org/view.php?id=135
 0000136,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,baja,menor,siempre,v1,General,2026-10-28 16:10,,,,público,2026-10-28 16:10,"84 - Validar ingreso de letras con tilde en el campo Nombre del Highscore, permite ingresar nombres con tilde",asignada,abierta,,"Validar, que no permita ingresar un nombre con tilde","Ingresar al juego
 Obtener un puntaje que permita ingresar al Highscore","1- Finalizar la partida
 2- Posicionarse en el campo Nombre
@@ -175,56 +175,55 @@ Visualizar Lumbricina en el medio de la pantalla","1- Jugar hasta que aparezca u
 3- Realizar 10 movimientos sin consumir la pastilla
 4- Visualizar nuevamente los movimientos restantes en el Debug
 5- Realizar los 40 movimientos restantes sin consumir la pastilla","El Debug muestra correctamente los movimientos restantes de la pastilla adicional, comenzando
-en 50 y disminuyendo progresivamente hasta llegar a 0","Resultado obtenido:
-La pastilla adicional desaparece después de 40 movimientos en lugar de 50",https://mantis.pakova.org/view.php?id=139
-0000202,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:36,,,,público,2026-11-11 16:36,91 - Validar longitud con roja y luego violeta - El largo se mantiene en 3 unidades,asignada,abierta,,Validar modificación de longitud al consumir pastilla roja y posteriormente violeta,"Ingresar al juego
+en 50 y disminuyendo progresivamente hasta llegar a 0",La pastilla adicional desaparece después de 40 movimientos en lugar de 50,https://mantis.pakova.org/view.php?id=139
+0000202,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:36,,,,público,2026-11-11 16:36,91 - Validar longitud con roja y luego violeta - El largo se mantiene en 3 unidades,asignada,abierta,,Validar modificación de longitud al consumir pastilla roja y luego violeta,"Ingresar al juego
 Lumbricina debe tener una longitud de 3 unidades","1- Consumir una pastilla roja
 2- Verificar la longitud de Lumbricina
 3- Consumir una pastilla violeta
 4- Verificar nuevamente la longitud de Lumbricina",Lumbricina aumenta su longitud de 3 a 4 unidades al consumir la pastilla roja y disminuye de 4 a 3 unidades al consumir la pastilla violeta,"La longitud de Lumbricina se mantiene en 3 unidades al consumir la pastilla roja. Luego de consumir la pastilla violeta, sigue teniendo 3 unidades de longitud.",https://mantis.pakova.org/view.php?id=202
-0000203,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:36,,,,público,2026-11-11 16:36,93 - Validar velocidad con violeta y luego blanca - Pasa de 1 a 61 y luego a 111,asignada,abierta,,Validar aumento de velocidad al consumir pastilla violeta y posteriormente blanca,"Ingresar al juego
+0000203,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:36,,,,público,2026-11-11 16:36,93 - Validar velocidad con violeta y luego blanca - Pasa de 1 a 61 y luego a 111,asignada,abierta,,Validar aumento de velocidad al consumir pastilla violeta y luego blanca,"Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
 2- Consumir una pastilla violeta
 3- Verificar el aumento de velocidad en el Debug
 4- Consumir una pastilla blanca
-5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla violeta, la velocidad de Lumbricina se triplica. Posteriormente, al consumir la pastilla blanca, la velocidad vuelve a triplicarse respecto del valor anterior","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla violeta, el Debug muestra una velocidad de 61. Luego de consumir la pastilla blanca, la velocidad aumenta a 111.",https://mantis.pakova.org/view.php?id=203
-0000204,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:36,,,,público,2026-11-11 16:36,95 - Validar velocidad con azul y luego blanca - Pasa de 21 a 81 en lugar de 63,asignada,abierta,,Validar aumento de velocidad al consumir pastilla azul y posteriormente blanca,"Ingresar al juego
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla violeta, la velocidad de Lumbricina se triplica. Luego, al consumir la pastilla blanca, la velocidad vuelve a triplicarse respecto del valor anterior","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla violeta, el Debug muestra una velocidad de 61. Luego de consumir la pastilla blanca, la velocidad aumenta a 111.",https://mantis.pakova.org/view.php?id=203
+0000204,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:36,,,,público,2026-11-11 16:36,95 - Validar velocidad con azul y luego blanca - Pasa de 21 a 81 en lugar de 63,asignada,abierta,,Validar aumento de velocidad al consumir pastilla azul y luego blanca,"Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
 2- Consumir una pastilla azul
 3- Verificar el aumento de velocidad en el Debug
 4- Consumir una pastilla blanca
-5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla azul, la velocidad de Lumbricina aumenta. Posteriormente, al consumir la pastilla blanca, la velocidad se triplica respecto de la velocidad alcanzada después de consumir la azul","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla azul, la velocidad aumenta a 21. Luego de consumir la pastilla blanca, el Debug muestra una velocidad de 81.",https://mantis.pakova.org/view.php?id=204
-0000205,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:36,,,,público,2026-11-11 16:36,96 - Validar velocidad con azul y luego violeta - Pasa de 21 a 81 en lugar de 63,asignada,abierta,,Validar aumento de velocidad al consumir pastilla azul y posteriormente violeta,"Ingresar al juego
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla azul, la velocidad de Lumbricina aumenta. Luego, al consumir la pastilla blanca, la velocidad se triplica respecto de la velocidad alcanzada después de consumir la azul","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla azul, la velocidad aumenta a 21. Luego de consumir la pastilla blanca, el Debug muestra una velocidad de 81.",https://mantis.pakova.org/view.php?id=204
+0000205,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:36,,,,público,2026-11-11 16:36,96 - Validar velocidad con azul y luego violeta - Pasa de 21 a 81 en lugar de 63,asignada,abierta,,Validar aumento de velocidad al consumir pastilla azul y luego violeta,"Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
 2- Consumir una pastilla azul
 3- Verificar el aumento de velocidad en el Debug
 4- Consumir una pastilla violeta
-5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla azul, la velocidad de Lumbricina aumenta. Posteriormente, al consumir la pastilla violeta, la velocidad se triplica respecto de la velocidad alcanzada después de consumir la azul","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla azul, la velocidad aumenta a 21. Luego de consumir la pastilla violeta, el Debug muestra una velocidad de 81.",https://mantis.pakova.org/view.php?id=205
-0000206,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:37,,,,público,2026-11-11 16:37,98 - Validar longitud con violeta y luego roja - El largo se mantiene en 3 unidades,asignada,abierta,,Validar modificación de longitud al consumir pastilla violeta y posteriormente roja,"Ingresar al juego
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla azul, la velocidad de Lumbricina aumenta. Luego, al consumir la pastilla violeta, la velocidad se triplica respecto de la velocidad alcanzada después de consumir la azul","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla azul, la velocidad aumenta a 21. Luego de consumir la pastilla violeta, el Debug muestra una velocidad de 81.",https://mantis.pakova.org/view.php?id=205
+0000206,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:37,,,,público,2026-11-11 16:37,98 - Validar longitud con violeta y luego roja - El largo se mantiene en 3 unidades,asignada,abierta,,Validar modificación de longitud al consumir pastilla violeta y luego roja,"Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Verificar la longitud inicial de Lumbricina en el Debug
 2- Consumir una pastilla violeta
 3- Verificar la disminución de longitud
 4- Consumir una pastilla roja
-5- Verificar nuevamente la longitud en el Debug","Al consumir la pastilla violeta, Lumbricina disminuye su longitud en una unidad. Posteriormente, al consumir la pastilla roja, aumenta su longitud en una unidad, recuperando la longitud inicial","La longitud inicial de Lumbricina es de 3 unidades. Al consumir la pastilla violeta, el largo se mantiene en 3. Luego de consumir la pastilla roja, la longitud sigue siendo de 3 unidades.",https://mantis.pakova.org/view.php?id=206
-0000207,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:37,,,,público,2026-11-11 16:37,99 - Validar velocidad con blanca y luego dorada - La blanca pasa de 1 a 61 en lugar de 3,asignada,abierta,,Validar modificación de velocidad al consumir pastilla blanca y posteriormente dorada,"Ingresar al juego
+5- Verificar nuevamente la longitud en el Debug","Al consumir la pastilla violeta, Lumbricina disminuye su longitud en una unidad. Luego, al consumir la pastilla roja, aumenta su longitud en una unidad, recuperando la longitud inicial","La longitud inicial de Lumbricina es de 3 unidades. Al consumir la pastilla violeta, el largo se mantiene en 3. Luego de consumir la pastilla roja, la longitud sigue siendo de 3 unidades.",https://mantis.pakova.org/view.php?id=206
+0000207,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:37,,,,público,2026-11-11 16:37,99 - Validar velocidad con blanca y luego dorada - La blanca pasa de 1 a 61 en lugar de 3,asignada,abierta,,Validar modificación de velocidad al consumir pastilla blanca y luego dorada,"Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
 2- Consumir una pastilla blanca
 3- Verificar el aumento de velocidad en el Debug
 4- Consumir una pastilla dorada
-5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla blanca, la velocidad de Lumbricina se triplica. Posteriormente, al consumir la pastilla dorada, la velocidad disminuye respecto del valor alcanzado después de consumir la blanca","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla blanca, el Debug muestra una velocidad de 61. Luego de consumir la pastilla dorada, la velocidad disminuye a 56.",https://mantis.pakova.org/view.php?id=207
-0000208,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:37,,,,público,2026-11-11 16:37,100 - Validar velocidad con violeta y luego dorada - La violeta pasa de 1 a 61 en lugar de 3,asignada,abierta,,Validar modificación de velocidad al consumir pastilla violeta y posteriormente dorada,"Ingresar al juego
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla blanca, la velocidad de Lumbricina se triplica. Luego, al consumir la pastilla dorada, la velocidad disminuye respecto del valor alcanzado después de consumir la blanca","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla blanca, el Debug muestra una velocidad de 61. Luego de consumir la pastilla dorada, la velocidad disminuye a 56.",https://mantis.pakova.org/view.php?id=207
+0000208,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:37,,,,público,2026-11-11 16:37,100 - Validar velocidad con violeta y luego dorada - La violeta pasa de 1 a 61 en lugar de 3,asignada,abierta,,Validar modificación de velocidad al consumir pastilla violeta y luego dorada,"Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial de Lumbricina en el Debug
 2- Consumir una pastilla violeta
 3- Verificar el aumento de velocidad en el Debug
 4- Consumir una pastilla dorada
-5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla violeta, la velocidad de Lumbricina se triplica. Posteriormente, al consumir la pastilla dorada, la velocidad disminuye respecto del valor alcanzado después de consumir la violeta","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla violeta, el Debug muestra una velocidad de 61. Luego de consumir la pastilla dorada, la velocidad disminuye a 56.",https://mantis.pakova.org/view.php?id=208
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla violeta, la velocidad de Lumbricina se triplica. Luego, al consumir la pastilla dorada, la velocidad disminuye respecto del valor alcanzado después de consumir la violeta","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla violeta, el Debug muestra una velocidad de 61. Luego de consumir la pastilla dorada, la velocidad disminuye a 56.",https://mantis.pakova.org/view.php?id=208
 0000209,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:42,,,,público,2026-11-11 16:42,94 - Validar consumir 2 veces pastilla verde - Invierte arriba/abajo en lugar de izquierda/derecha,asignada,abierta,,Validar consumir 2 veces pastilla verde,"Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Consumir una pastilla verde
 2- Jugar hasta que aparezca otra pastilla verde
 3- Consumir otra pastilla verde","Al consumir la primera pastilla verde, la tecla izquierda mueve a Lumbricina hacia la derecha y la tecla derecha la mueve hacia la izquierda. Las teclas arriba y abajo mantienen su funcionamiento normal. Al consumir la segunda pastilla verde, se elimina la inversión y las teclas izquierda/derecha vuelven a funcionar normalmente.","Al consumir la primera pastilla verde, la tecla arriba mueve a Lumbricina hacia abajo y la tecla abajo la mueve hacia arriba. Luego de consumir la segunda pastilla verde, Lumbricina vuelve a moverse hacia arriba al presionar la tecla arriba.",https://mantis.pakova.org/view.php?id=209
-0000210,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:43,,,,público,2026-11-11 16:43,97 - Validar velocidad con dorada y luego azul - La dorada no disminuye la velocidad inicial de 1,asignada,abierta,,Validar modificación de velocidad al consumir pastilla dorada y posteriormente azul,"Ingresar al juego
+0000210,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-11-11 16:43,,,,público,2026-11-11 16:43,97 - Validar velocidad con dorada y luego azul - La dorada no disminuye la velocidad inicial de 1,asignada,abierta,,Validar modificación de velocidad al consumir pastilla dorada y luego azul,"Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Visualizar la velocidad inicial en el Debug
 2- Consumir una pastilla dorada
 3- Verificar la disminución de velocidad
 4- Consumir una pastilla azul
-5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla dorada, la velocidad de Lumbricina disminuye. Posteriormente, al consumir la pastilla azul, la velocidad aumenta respecto del valor alcanzado después de consumir la dorada","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla dorada, la velocidad se mantiene en 1. Luego de consumir la pastilla azul, el Debug muestra una velocidad de 21.",https://mantis.pakova.org/view.php?id=210
+5- Verificar nuevamente la velocidad en el Debug","Al consumir la pastilla dorada, la velocidad de Lumbricina disminuye. Luego, al consumir la pastilla azul, la velocidad aumenta respecto del valor alcanzado después de consumir la dorada","La velocidad inicial de Lumbricina es 1. Al consumir la pastilla dorada, la velocidad se mantiene en 1. Luego de consumir la pastilla azul, el Debug muestra una velocidad de 21.",https://mantis.pakova.org/view.php?id=210

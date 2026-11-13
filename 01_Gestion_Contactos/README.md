@@ -2,7 +2,7 @@
 
 ## Descripción
 
-En este proyecto diseñé y ejecuté casos de prueba sobre la aplicación de gestión de contactos de Proyecto Nahual. Documenté los resultados y los defectos encontrados en distintas versiones.
+En este proyecto diseñé y ejecuté casos de prueba sobre la aplicación de gestión de contactos de Proyecto Nahual. Documenté los resultados y los bugs encontrados en distintas versiones.
 
 ## Métricas
 
@@ -41,7 +41,7 @@ En Versión Final reporté rechazo de nombres y mails de 35 caracteres, restricc
 | Resultado obtenido | El sistema almacena los datos modificados en la<br>tabla "Contactos" a pesar de haber cancelado la <br>petición |
 | Estado registrado del caso | Abierto |
 
-Fuente: [matriz de casos](Test%20case%20-%20Contactos%20-%20Franco.csv).
+Fuente: [casos de prueba](Test%20case%20-%20Contactos%20-%20Franco.csv).
 
 ## Bugs de ejemplo
 
@@ -56,8 +56,8 @@ Fuente: [matriz de casos](Test%20case%20-%20Contactos%20-%20Franco.csv).
 **Pasos para reproducir**
 
 1. Ingresar a Contactos con un contacto "Franco" / "francoemontalbano@gmail.com" existente.
-2. Clic en "Borrar" sobre "Franco".
-3. Clic en "Cancelar eliminación".
+2. Hacer clic en "Borrar" sobre "Franco".
+3. Hacer clic en "Cancelar eliminación".
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -75,12 +75,12 @@ Fuente: [matriz de casos](Test%20case%20-%20Contactos%20-%20Franco.csv).
 **Pasos para reproducir**
 
 1. Ingresar a Contactos.
-2. Clic en "Nuevo contacto".
-3. Clic en el campo "Nombre".
+2. Hacer clic en "Nuevo contacto".
+3. Hacer clic en el campo "Nombre".
 4. Ingresar "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHI" (35 caracteres).
-5. Clic en el campo "Mail".
+5. Hacer clic en el campo "Mail".
 6. Ingresar "franco@gmail.com".
-7. Clic en "Guardar".
+7. Hacer clic en "Guardar".
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -98,10 +98,10 @@ Fuente: [matriz de casos](Test%20case%20-%20Contactos%20-%20Franco.csv).
 **Pasos para reproducir**
 
 1. Ingresar a Contactos con un contacto "Franco" / "franco@gmail.com" existente.
-2. Clic en "Editar".
+2. Hacer clic en "Editar".
 3. Modificar el campo "Nombre" por "Pedro".
 4. Modificar el campo "Mail" por "francoemontalbano@gmail.com".
-5. Clic en "Guardar".
+5. Hacer clic en "Guardar".
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -115,7 +115,7 @@ Fuente: [archivo de bugs](Bugs%20-%20Contactos%20-%20Franco.csv).
 - **Partición de equivalencia:** probé nombres con letras, números, caracteres especiales y espacios (TC3–7, v1); mails sin arroba, sin dominio y con formato válido (TC18–26, v1).
 - **Análisis de valores límite:** probé 34, 35 y 36 caracteres en Nombre (TC129–131, Versión Final) y Mail (TC143–145, Versión Final).
 - **Validación de campos obligatorios:** dejé Nombre o Mail vacíos y probé Guardar (TC11, TC20 y TC27–29, v1).
-- **Regresión entre versiones:** repetí escenarios de alta, edición, baja y ordenamiento en v1, v2, v3 y Versión Final; por ejemplo, la cancelación de una eliminación en TC42 (v1), TC79 (v2), TC121 (v3) y TC163 (Versión Final).
+- **Regresión entre versiones:** repetí casos de alta, edición, baja y ordenamiento en v1, v2, v3 y Versión Final; por ejemplo, la cancelación de una eliminación en TC42 (v1), TC79 (v2), TC121 (v3) y TC163 (Versión Final).
 
 ## Alcance de las pruebas
 

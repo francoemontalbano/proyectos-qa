@@ -1,6 +1,6 @@
 # Portfolio de QA Manual — Franco Montalbano
 
-Busco mi primera posición como QA manual (trainee/junior) y en este repositorio reúno mis prácticas de testing manual sobre aplicaciones de Proyecto Nahual. Diseñé casos de prueba, documenté resultados y reporté defectos. En Provinciano también trabajé en revisión cruzada con un compañero.
+Busco mi primera posición como QA manual (trainee/junior) y en este repo comparto mis prácticas de testing manual sobre aplicaciones de Proyecto Nahual. Diseñé casos de prueba, documenté resultados y reporté defectos. En Provinciano también trabajé en revisión cruzada con un compañero.
 
 Proyecto Nahual es mi entorno de práctica y capacitación; estos proyectos no son experiencia laboral.
 

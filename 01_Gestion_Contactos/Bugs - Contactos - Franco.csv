@@ -621,4 +621,4 @@ Final",Chrome,Abierto,11/11/2026,Alta - Rechaza un mail válido de 35 caracteres
 2- Hacer clic en ""Nuevo Contacto""
 3- Ingresar ""Franco"" en Nombre
 4- Ingresar ""AAAAAAAAAAAAAAAAAAAAAAAAA@gmail.com"" en Mail (35 caracteres)
-5- Hacer clic en ""Guardar""","El sistema permite guardar el contacto con un mail válido de 35 caracteres, según el límite de Alta en la narrativa.","El sistema no guarda el contacto y muestra ""El mail del contacto no puede superar los 35 caracteres"".",Media,Franco Montalbano,,
+5- Hacer clic en ""Guardar""","El sistema permite guardar el contacto con un mail válido de 35 caracteres, según el límite de Alta en la narrativa.","El sistema no permite guardar el contacto y emite el mensaje: ""El mail del contacto no puede superar los 35 caracteres""",Media,Franco Montalbano,,

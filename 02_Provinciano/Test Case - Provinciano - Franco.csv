@@ -1033,7 +1033,7 @@ una provincia válida (ej.: ""Salta"").
 Verificar que el campo Región
 tenga seleccionado ""Todas""
 Hacer clic en ""Buscar!""
-Visulalizar grilla de resultados ","1. Completar el campo Nombre con una provincia válida (ej.: ""Chaco"")
+Visualizar grilla de resultados ","1. Completar el campo Nombre con una provincia válida (ej.: ""Chaco"")
 2. Verificar que el campo Región tenga seleccionado ""Todas""
 3. Hacer clic en ""Buscar!""","El sistema procesa la búsqueda de forma inmediata, mantiene la interfaz operativa y
 muestra los resultados correspondientes, sin bloquearse, congelarse ni dejar de responder.",Luego de cada búsqueda el sistema y la interfaz se congelan durante 13 segundos antes de devolver la respuesta solicitada,,,,,,
@@ -1156,7 +1156,7 @@ Nombre: Entre Ríos
 Capital: Paraná
 Habitantes: 1.235.994
 Km²: 78.781
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 100,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Santa Fe""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Santa Fe"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""Santa Fe"", con la 
@@ -1172,7 +1172,7 @@ Nombre: Santa Fe
 Capital: Santa Fe
 Habitantes: 3.194.537
 Km²: 133.007
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 101,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Buenos Aires""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Buenos Aires"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""Buenos Aires""
@@ -1188,7 +1188,7 @@ Nombre: Buenos Aires
 Capital: La Plata
 Habitantes: 15.625.084
 Km²: 307.571
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 102,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""La Rioja""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""La Rioja"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""La Rioja"", con la 
@@ -1204,7 +1204,7 @@ Nombre: La Rioja
 Capital: La Rioja
 Habitantes: 333.642
 Km²: 89.680
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",La provincia de La Rioja pertenece a la Región del Norte Grande Argentino,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",La provincia de La Rioja pertenece a la Región del Norte Grande Argentino,,,,,
 103,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Mendoza""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Mendoza"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""Mendoza"", con la 
@@ -1220,7 +1220,7 @@ Nombre: Mendoza
 Capital: Mendoza
 Habitantes: 1.738.929
 Km²: 148.827
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 104,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""San Juan""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""San Juan"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""San Juan"", con la 
@@ -1236,7 +1236,7 @@ Nombre: San Juan
 Capital: San Juan 
 Habitantes: 681.055
 Km²: 89.651
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 105,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""San Luis""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""San Luis"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""San Luis"", con la 
@@ -1252,7 +1252,7 @@ Nombre: San Luis
 Capital: San Luis
 Habitantes: 432.310
 Km²: 76.748
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 106,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Catamarca""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Catamarca"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""Catamarca"", con la 
@@ -1268,7 +1268,7 @@ Nombre: Catamarca
 Capital: San Fernando del Valle de Catamarca
 Habitantes: 367.828
 Km²: 99.633
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 107,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Corrientes""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Corrientes"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""Corrientes"", con la 
@@ -1284,7 +1284,7 @@ Nombre: Corrientes
 Capital: Corrientes
 Habitantes: 992.595
 Km²: 88.199
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 108,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Chaco""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Chaco"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""Chaco"", con la 
@@ -1300,7 +1300,7 @@ Nombre: Chaco
 Capital: Resistencia
 Habitantes: 1.055.259
 Km²: 102.602
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 109,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Formosa""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Formosa"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""Formosa"", con la 
@@ -1316,7 +1316,7 @@ Nombre: Formosa
 Capital: Formosa
 Habitantes: 530.162
 Km²: 72.066
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 110,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Jujuy""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Jujuy"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""Jujuy"", con la 
@@ -1332,7 +1332,7 @@ Nombre: Jujuy
 Capital: San Salvador de Jujuy
 Habitantes: 673.307
 Km²: 53.219
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 111,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Misiones""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Misiones"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""Misiones"", con la 
@@ -1348,7 +1348,7 @@ Nombre: Misiones
 Capital: Posadas
 Habitantes: 1.101.593
 Km²: 29.801
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 112,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Tucumán""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Tucumán"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""Tucumán"", con la 
@@ -1364,7 +1364,7 @@ Nombre: Tucumán
 Capital: San Miguel de Tucumán
 Habitantes: 1.448.188
 Km²: 22.524
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 113,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Salta""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Salta"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""Salta"", con la 
@@ -1380,7 +1380,7 @@ Nombre: Salta
 Capital: Salta
 Habitantes: 1.214.441
 Km²: 155.488
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 114,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Santiago del Estero""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Santiago del Estero"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""Santiago del Estero""
@@ -1396,7 +1396,7 @@ Nombre: Santiago del Estero
 Capital: Santiago del Estero
 Habitantes: 874.006
 Km²: 136.351
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 115,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Chubut""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Chubut"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""Chubut""
@@ -1412,7 +1412,7 @@ Nombre: Chubut
 Capital: Rawson
 Habitantes: 509.108
 Km²: 224.686
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 116,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""La Pampa""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""La Pampa"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""La Pampa""
@@ -1428,7 +1428,7 @@ Nombre: La Pampa
 Capital: Santa Rosa
 Habitantes: 318.951
 Km²: 143.440
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 117,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Neuquén""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Neuquén"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""Neuquén""
@@ -1444,7 +1444,7 @@ Nombre: Neuquén
 Capital: Neuquén
 Habitantes: 551.266
 Km²: 94.078
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 118,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Río Negro""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Río Negro"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""Río Negro""
@@ -1460,7 +1460,7 @@ Nombre: Río Negro
 Capital: Viedma
 Habitantes: 638.645
 Km²: 203.013
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 119,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Santa Cruz""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Santa Cruz"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente la provincia ""Santa Cruz""
@@ -1476,7 +1476,7 @@ Nombre: Santa Cruz
 Capital: Río Gallegos
 Habitantes: 273.964
 Km²: 243.943
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 120,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Tierra del Fuego, Antártida
 e Islas del Atlántico Sur""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Tierra del Fuego, Antártida
@@ -1496,7 +1496,7 @@ Nombre: Tierra del Fuego, Antártida e Islas del Atlántico Sur
 Capital: Ushuaia
 Habitantes: 127.205
 Km²: 21.5714
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 121,v2,Cerrado ,04-09,"Validar - Buscar por ""Nombre"" ""Rosario""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""Rosario"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema emite el mensaje ""No hay provincias que coincidan
@@ -1588,7 +1588,7 @@ Nombre: Córdoba
 Capital: Córdoba
 Habitantes: 3.308.876
 Km²: 165.321
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 132,v2,Cerrado ,04-09,"Validar - Buscar por ""Subcadena"" ""San""",Ingresar a la Página Provinciano,"1- Verificar que el campo Región tenga seleccionado ""Todas""
 2- Ingresar ""San"" en el campo Nombre
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente las provincias:
@@ -1770,7 +1770,7 @@ Nombre: Córdoba
 Capital: Córdoba
 Habitantes: 3.308.876
 Km²: 165.321
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 139,v2,Cerrado ,04-09,"Validar - Buscar por ""Región""
 ""Región Centro"" con Nombre ""Entre Ríos""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región Centro"" en el campo ""Región""
 2- Ingresar ""Entre Ríos"" en el campo ""Nombre""
@@ -1787,7 +1787,7 @@ Nombre: Entre Ríos
 Capital: Paraná
 Habitantes: 1.235.994
 Km²: 78.781
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 140,v2,Cerrado ,04-09,"Validar - Buscar por ""Región""
 ""Región Centro"" con Nombre ""Santa Fe""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región Centro"" en el campo ""Región""
 2- Ingresar ""Santa Fe"" en el campo ""Nombre""
@@ -1804,7 +1804,7 @@ Nombre: Santa Fe
 Capital: Santa Fe
 Habitantes: 3.194.537
 Km²: 133.007
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 141,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región Centro""
 con Nombre ""Buenos Aires""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región Centro"" en el campo ""Región""
 2- Ingresar ""Buenos Aires"" en el campo ""Nombre""
@@ -1826,7 +1826,7 @@ Nombre: La Rioja
 Capital: La Rioja
 Habitantes: 333.642
 Km²: 89.680
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 143,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región del Nuevo Cuyo""
 con Nombre ""Mendoza""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región del Nuevo Cuyo"" en el campo ""Región""
 2- Ingresar ""Mendoza"" en el campo ""Nombre""
@@ -1843,7 +1843,7 @@ Nombre: Mendoza
 Capital: Mendoza
 Habitantes: 1.738.929
 Km²: 148.827
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 144,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región del Nuevo Cuyo""
 con Nombre ""San Juan""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región del Nuevo Cuyo"" en el campo ""Región""
 2- Ingresar ""San Juan"" en el campo ""Nombre""
@@ -1860,7 +1860,7 @@ Nombre: San Juan
 Capital: San Juan 
 Habitantes: 681.055
 Km²: 89.651
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 145,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región del Nuevo Cuyo""
 con Nombre ""San Luis""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región del Nuevo Cuyo"" en el campo ""Región""
 2- Ingresar ""San Luis"" en el campo ""Nombre""
@@ -1877,7 +1877,7 @@ Nombre: San Luis
 Capital: San Luis
 Habitantes: 432.310
 Km²: 76.748
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 146,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región del Nuevo Cuyo""
 con Nombre ""Entre Ríos""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región del Nuevo Cuyo"" en el campo ""Región""
 2- Ingresar ""Entre Ríos"" en el campo ""Nombre""
@@ -1900,7 +1900,7 @@ Nombre: Catamarca
 Capital: San Fernando del Valle de Catamarca
 Habitantes: 367.828
 Km²: 99.633
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 148,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región del Norte Grande
 Argentino"" con Nombre ""Corrientes""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región del Norte Grande Argentino"" en el campo
 ""Región""
@@ -1918,7 +1918,7 @@ Nombre: Corrientes
 Capital: Corrientes
 Habitantes: 992.595
 Km²: 88.199
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 149,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región del Norte Grande
 Argentino"" con Nombre ""Chaco""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región del Norte Grande Argentino"" en el campo
 ""Región""
@@ -1936,7 +1936,7 @@ Nombre: Chaco
 Capital: Resistencia
 Habitantes: 1.055.259
 Km²: 102.602
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 150,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región del Norte Grande
 Argentino"" con Nombre ""Formosa""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región del Norte Grande Argentino"" en el campo
 ""Región""
@@ -1954,7 +1954,7 @@ Nombre: Formosa
 Capital: Formosa
 Habitantes: 530.162
 Km²: 72.066
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 151,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región del Norte Grande
 Argentino"" con Nombre ""Jujuy""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región del Norte Grande Argentino"" en el campo
 ""Región""
@@ -1972,7 +1972,7 @@ Nombre: Jujuy
 Capital: San Salvador de Jujuy
 Habitantes: 673.307
 Km²: 53.219
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 152,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región del Norte Grande
 Argentino"" con Nombre ""Misiones""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región del Norte Grande Argentino"" en el campo
 ""Región""
@@ -1990,7 +1990,7 @@ Nombre: Misiones
 Capital: Posadas
 Habitantes: 1.101.593
 Km²: 29.801
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 153,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región del Norte Grande
 Argentino"" con Nombre ""Tucumán""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región del Norte Grande Argentino"" en el campo
 ""Región""
@@ -2008,7 +2008,7 @@ Nombre: Tucumán
 Capital: San Miguel de Tucumán
 Habitantes: 1.448.188
 Km²: 22.524
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 154,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región del Norte Grande
 Argentino"" con Nombre ""Salta""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región del Norte Grande Argentino"" en el campo
 ""Región""
@@ -2026,7 +2026,7 @@ Nombre: Salta
 Capital: Salta
 Habitantes: 1.214.441
 Km²: 155.488
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 155,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región del Norte Grande
 Argentino"" con Nombre ""Santiago del Estero""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región del Norte Grande Argentino"" en el campo
 ""Región""
@@ -2044,7 +2044,7 @@ Nombre: Santiago del Estero
 Capital: Santiago del Estero
 Habitantes: 874.006
 Km²: 136.351
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 156,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región del Norte Grande
 Argentino"" con Nombre ""Córdoba""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región del Norte Grande Argentino"" en el campo
 ""Región""
@@ -2068,7 +2068,7 @@ Nombre: Chubut
 Capital: Rawson
 Habitantes: 509.108
 Km²: 224.686
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 158,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región de la Patagonia""
 con Nombre ""La Pampa""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región de la Patagonia"" en el campo
 ""Región""
@@ -2086,7 +2086,7 @@ Nombre: La Pampa
 Capital: Santa Rosa
 Habitantes: 318.951
 Km²: 143.440
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 159,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región de la Patagonia""
 con Nombre ""Neuquén""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región de la Patagonia"" en el campo
 ""Región""
@@ -2104,7 +2104,7 @@ Nombre: Neuquén
 Capital: Neuquén
 Habitantes: 551.266
 Km²: 94.078
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 160,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región de la Patagonia""
 con Nombre ""Río Negro""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región de la Patagonia"" en el campo
 ""Región""
@@ -2122,7 +2122,7 @@ Nombre: Río Negro
 Capital: Viedma
 Habitantes: 638.645
 Km²: 203.013
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 161,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región de la Patagonia""
 con Nombre ""Santa Cruz""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región de la Patagonia"" en el campo
 ""Región""
@@ -2140,7 +2140,7 @@ Nombre: Santa Cruz
 Capital: Río Gallegos
 Habitantes: 273.964
 Km²: 243.943
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 162,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región de la Patagonia""
 con Nombre ""Tierra del Fuego, Antártida e Islas del
 Atlántico Sur""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región de la Patagonia"" en el campo
@@ -2161,7 +2161,7 @@ Nombre: Tierra del Fuego, Antártida e Islas del Atlántico Sur
 Capital: Ushuaia
 Habitantes: 127.205
 Km²: 21.5714
-Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
+Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos.",,,,,,
 163,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región de la Patagonia""
 con Nombre ""Mendoza""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región de la Patagonia"" en el campo
 ""Región""
@@ -2187,7 +2187,7 @@ Nuevo Cuyo
 Patagónica
 
 
- ","Es necesario agregar un paso o precondición extra para ordenar la grilla, ya que no existe un botón específico de orden ascendente.
+ ","Para ordenar de forma ascendente, primero hay que ordenar de forma descendente, ya que no hay un botón específico de orden ascendente.
 1- Verificar que el campo Región tenga seleccionado """"Todas""""
 2- Dejar el campo Nombre vacío
 3- Hacer clic en """"Buscar!""""
@@ -2270,7 +2270,7 @@ Santa Cruz
 Santa Fe
 Santiago del Estero
 Tierra del Fuego, Antártida e Islas del Atlántico Sur
-Tucumán","Es necesario agregar un paso o precondición extra para ordenar la grilla, ya que no existe un botón específico de orden ascendente.
+Tucumán","Para ordenar de forma ascendente, primero hay que ordenar de forma descendente, ya que no hay un botón específico de orden ascendente.
 
 ""1- Verificar que el campo Región tenga seleccionado """"Todas""""
 2- Dejar el campo Nombre vacío
@@ -2609,7 +2609,7 @@ una provincia válida (ej.: ""Salta"").
 Verificar que el campo Región
 tenga seleccionado ""Todas""
 Hacer clic en ""Buscar!""
-Visulalizar grilla de resultados ","1. Completar el campo Nombre con una provincia válida (ej.: ""Chaco"")
+Visualizar grilla de resultados ","1. Completar el campo Nombre con una provincia válida (ej.: ""Chaco"")
 2. Verificar que el campo Región tenga seleccionado ""Todas""
 3. Hacer clic en ""Buscar!""","El sistema procesa la búsqueda de forma inmediata, mantiene la interfaz operativa y
 muestra los resultados correspondientes, sin bloquearse, congelarse ni dejar de responder.",OK,,,,,,
@@ -3745,7 +3745,7 @@ Centro
 Ninguna
 Norte Grande Argentino
 Nuevo Cuyo
-Patagónica ","Es necesario agregar un paso o precondición extra para ordenar la grilla, ya que no existe un botón específico de orden ascendente.
+Patagónica ","Para ordenar de forma ascendente, primero hay que ordenar de forma descendente, ya que no hay un botón específico de orden ascendente.
 
 ""1- Verificar que el campo Región tenga seleccionado """"Todas""""
 2- Dejar el campo Nombre vacío
@@ -3822,7 +3822,7 @@ Santa Cruz
 Santa Fe
 Santiago del Estero
 Tierra del Fuego, Antártida e Islas del Atlántico Sur
-Tucumán","Es necesario agregar un paso o precondición extra para ordenar la grilla, ya que no existe un botón específico de orden ascendente.
+Tucumán","Para ordenar de forma ascendente, primero hay que ordenar de forma descendente, ya que no hay un botón específico de orden ascendente.
 
 ""1- Verificar que el campo Región tenga seleccionado """"Todas""""
 2- Dejar el campo Nombre vacío
@@ -3936,7 +3936,7 @@ Santa Fe
 Santa Rosa
 Santiago del Estero
 Ushuaia
-Viedma","Es necesario agregar un paso o precondición extra para ordenar la grilla, ya que no existe un botón específico de orden ascendente.
+Viedma","Para ordenar de forma ascendente, primero hay que ordenar de forma descendente, ya que no hay un botón específico de orden ascendente.
 
 ""1- Verificar que el campo Región tenga seleccionado """"Todas""""
 2- Dejar el campo Nombre vacío
@@ -4140,7 +4140,7 @@ Región
 Nombre
 Capital
 Habitantes
-Km²","No se visualiza el botón ""Buscar!"". La grilla y sus componentes se muestran al ingresar a la página, sin necesidad de clickear el botón ""Buscar!"".
+Km²","No se visualiza el botón ""Buscar!"". La grilla y sus componentes se muestran al ingresar a la página, sin necesidad de hacer clic en el botón ""Buscar!"".
 ",,,,,,
 263,v4,Abierto ,30-09,"Visualizar - ""Filtro"" ""Región""","Ingresar a la Página Provinciano
 ","1- Hacer clic en el campo combo ""Región""
@@ -4156,7 +4156,7 @@ una provincia válida (ej.: ""Salta"").
 Verificar que el campo Región
 tenga seleccionado ""Todas""
 Hacer clic en ""Buscar!""
-Visulalizar grilla de resultados ","1. Completar el campo Nombre con una provincia válida (ej.: ""Chaco"")
+Visualizar grilla de resultados ","1. Completar el campo Nombre con una provincia válida (ej.: ""Chaco"")
 2. Verificar que el campo Región tenga seleccionado ""Todas""
 3. Hacer clic en ""Buscar!""","El sistema procesa la búsqueda de forma inmediata, mantiene la interfaz operativa y
 muestra los resultados correspondientes, sin bloquearse, congelarse ni dejar de responder.","No se visualiza el botón ""Buscar!"". 
@@ -5382,7 +5382,7 @@ Patagónica
 El sistema realiza la búsqueda mientras el usuario va introduciendo el texto en el campo Nombre.
 
 No se visualiza el botón ""Buscar!""
-","Es necesario agregar un paso o precondición extra para ordenar la grilla, ya que no existe un botón específico de orden ascendente.
+","Para ordenar de forma ascendente, primero hay que ordenar de forma descendente, ya que no hay un botón específico de orden ascendente.
 
 ""1- Verificar que el campo Región tenga seleccionado """"Todas""""
 2- Dejar el campo Nombre vacío
@@ -5469,7 +5469,7 @@ Tucumán
 El sistema realiza la búsqueda mientras el usuario va introduciendo el texto en el campo Nombre.
 
 No se visualiza el botón ""Buscar!""
-","Es necesario agregar un paso o precondición extra para ordenar la grilla, ya que no existe un botón específico de orden ascendente.
+","Para ordenar de forma ascendente, primero hay que ordenar de forma descendente, ya que no hay un botón específico de orden ascendente.
 
 ""1- Verificar que el campo Región tenga seleccionado """"Todas""""
 2- Dejar el campo Nombre vacío
@@ -5593,7 +5593,7 @@ Viedma
 El sistema realiza la búsqueda mientras el usuario va introduciendo el texto en el campo Nombre.
 
 No se visualiza el botón ""Buscar!""
-","Es necesario agregar un paso o precondición extra para ordenar la grilla, ya que no existe un botón específico de orden ascendente.
+","Para ordenar de forma ascendente, primero hay que ordenar de forma descendente, ya que no hay un botón específico de orden ascendente.
 
 ""1- Verificar que el campo Región tenga seleccionado """"Todas""""
 2- Dejar el campo Nombre vacío

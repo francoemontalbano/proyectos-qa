@@ -11,7 +11,7 @@ El sistema no muestra ningún mensaje por defecto cuando la tabla esta vacía
 2,v1,Abierto,24/07/2026,"
 
 Visualizar - Alta ""Nuevo Contacto"" Formulario",,"1- Ingresar a la página de Contactos
-2- Hacer click  en ""Nuevo 
+2- Hacer clic  en ""Nuevo 
 contacto""","El sistema despliega el formulario ""Nuevo Contacto"" con:
 Campo Nombre, obligatorio, vacío por defecto y con un máximo de 35 caracteres.
 Campo Mail, obligatorio, vacío por defecto y con un máximo de 35 caracteres.
@@ -744,7 +744,7 @@ El sistema no muestra ningún mensaje por defecto cuando la tabla esta vacía
 81,v3,Abierto,24/07/2026,"
 
 Visualizar - Alta ""Nuevo Contacto"" Formulario",,"1- Ingresar a la página de Contactos
-2- Hacer click  en ""Nuevo 
+2- Hacer clic  en ""Nuevo 
 contacto""","El sistema despliega el formulario ""Nuevo Contacto"" con:
 Campo Nombre, obligatorio, vacío por defecto y con un máximo de 35 caracteres.
 Campo Mail, obligatorio, vacío por defecto y con un máximo de 35 caracteres.
@@ -1117,7 +1117,7 @@ Final",Abierto,19/08/2026,Visualizar Lista de Contactos,,1- Ingresar a la págin
 Final",Abierto,19/08/2026,"
 
 Visualizar - Alta ""Nuevo Contacto"" Formulario",,"1- Ingresar a la página de Contactos
-2- Hacer click  en ""Nuevo 
+2- Hacer clic  en ""Nuevo 
 contacto""","El sistema despliega el formulario ""Nuevo Contacto"" con:
 Campo Nombre, obligatorio, vacío por defecto y con un máximo de 35 caracteres.
 Campo Mail, obligatorio, vacío por defecto y con un máximo de 35 caracteres.
@@ -1298,7 +1298,7 @@ Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
 2- Ingresar ""Franco""
 3- Hacer clic en el campo ""Mail""
 4- Ingresar ""AAAAAAAAAAAAAAAAAAAAAAAAA@gmail.com"" (35 caracteres)
-5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de hasta 35 caracteres en el campo ""Mail""","El sistema no permite guardar el contacto con un mail válido de 35 caracteres y muestra ""El mail del contacto no puede superar los 35 caracteres"".",
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de hasta 35 caracteres en el campo ""Mail""","El sistema no permite guardar el contacto con un mail válido de 35 caracteres y emite el mensaje: ""El mail del contacto no puede superar los 35 caracteres""",
 144,"Versión
 Final",Abierto,19/08/2026,"
 Validar - Alta ""Nuevo Contacto"" según formato Anexo A, en campo
