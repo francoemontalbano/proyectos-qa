@@ -46,7 +46,7 @@ En cada carpeta están los casos de prueba y los reportes de bugs en CSV. Los RE
 | Regresión entre versiones | [Contactos](01_Gestion_Contactos/README.md#técnicas-aplicadas) |
 | Transiciones de estado | [Lumbricina](03_Lumbricina/README.md#técnicas-aplicadas) |
 | Combinación de filtros | [Provinciano](02_Provinciano/README.md#técnicas-aplicadas) |
-| Revisión cruzada | [Provinciano](02_Provinciano/README.md#alcance-de-las-pruebas) |
+| Revisión cruzada | [Provinciano](02_Provinciano/README.md#bugs-de-ejemplo) |
 
 ## Contacto
 
