@@ -52,14 +52,13 @@ Franco Montalbano
 
 ## Acceso a las referencias
 
-Revisé los 57 enlaces externos de los README y CSV el 13/11/2026, sin iniciar sesión. No encontré enlaces rotos.
+Revisé los enlaces a las aplicaciones, narrativas, planillas de Google Sheets y Wikipedia el 13/11/2026. No encontré enlaces rotos entre esas referencias.
 
 | Referencia | Acceso comprobado |
 | :--- | :--- |
 | Aplicaciones y narrativas de Contactos, Provinciano y Lumbricina | Las seis páginas respondieron correctamente. |
 | Google Sheets: casos y bugs de Contactos, bugs de Provinciano y casos de Lumbricina | Las cuatro planillas permitieron leer la pestaña enlazada sin iniciar sesión. |
 | Wikipedia: provincias y regiones | La página respondió correctamente. |
-| [Mantis: listado de incidencias](https://mantis.pakova.org/view_all_bug_page.php) y los 45 enlaces de incidencias del CSV de Lumbricina | Requieren iniciar sesión. Los reportes de ejemplo se pueden leer acá, sin entrar a Mantis. |
 
 ## Pendiente
 

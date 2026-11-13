@@ -2,7 +2,7 @@
 
 ## Descripción
 
-En este proyecto diseñé y ejecuté casos de prueba sobre Lumbricina, el juego de Proyecto Nahual. Revisé sus movimientos, colisiones, pastillas, niveles y paneles de información, y documenté los defectos en Mantis.
+En este proyecto diseñé y ejecuté casos de prueba sobre Lumbricina, el juego de Proyecto Nahual. Revisé sus movimientos, colisiones, pastillas, niveles y paneles de información, y documenté los defectos encontrados.
 
 ## Métricas
 
@@ -64,8 +64,6 @@ Elegí reportes con mayor severidad registrada y pasos concretos para mostrar el
 | Resultado esperado | El juego muestra una pastilla naranja en cualquier lugar del mapa |
 | Resultado obtenido | No se visualiza la pastilla naranja en el mapa, ya que no existe en esta versión |
 
-[Ver incidencia en Mantis](https://mantis.pakova.org/view.php?id=83)
-
 ### Bug 0000072 — Consumir una pastilla negra no termina la partida
 
 | Campo | Detalle |
@@ -88,8 +86,6 @@ Elegí reportes con mayor severidad registrada y pasos concretos para mostrar el
 | Resultado esperado | El juego finaliza mostrando Game Over |
 | Resultado obtenido | El juego no finaliza, al consumir la pastilla negra permite seguir jugando como si no hubiese consumido ninguna pastilla. |
 
-[Ver incidencia en Mantis](https://mantis.pakova.org/view.php?id=72)
-
 ### Bug 0000209 — La pastilla verde invierte arriba/abajo en lugar de izquierda/derecha
 
 | Campo | Detalle |
@@ -110,8 +106,6 @@ Elegí reportes con mayor severidad registrada y pasos concretos para mostrar el
 | :--- | :--- |
 | Resultado esperado | Al consumir la primera pastilla verde, la tecla izquierda mueve a Lumbricina hacia la derecha y la tecla derecha la mueve hacia la izquierda. Las teclas arriba y abajo mantienen su funcionamiento normal. Al consumir la segunda pastilla verde, se elimina la inversión y las teclas izquierda/derecha vuelven a funcionar normalmente. |
 | Resultado obtenido | Al consumir la primera pastilla verde, la tecla arriba mueve a Lumbricina hacia abajo y la tecla abajo la mueve hacia arriba. Luego de consumir la segunda pastilla verde, Lumbricina vuelve a moverse hacia arriba al presionar la tecla arriba. |
-
-[Ver incidencia en Mantis](https://mantis.pakova.org/view.php?id=209)
 
 Fuente: [archivo de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv).
 
@@ -135,27 +129,26 @@ Fuente: [archivo de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv).
 - [Aplicación Lumbricina — v1](https://nahual.github.io/qc-lumbricina/?v=1)
 - [Narrativa funcional](https://nahual.github.io/qc-lumbricina/especificaciones.html)
 - [Casos de prueba originales — pestaña Franco](https://docs.google.com/spreadsheets/d/1utoftOwrg87gTWulDcDeu4qQMQgKW6SER25Uh3zIe3Q/edit?gid=1533384392)
-- [Mantis — listado de incidencias](https://mantis.pakova.org/view_all_bug_page.php)
 
 ## Documentación
 
 | Archivo | Contenido |
 | :--- | :--- |
 | [Casos de prueba](Test%20Case%20-%20Lumbricina%20-%20Franco.csv) | 100 casos de prueba de v1, con precondiciones, pasos y resultados. |
-| [Reportes de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv) | 45 incidencias asignadas a francoemontalbano, con pasos, resultados y enlace a Mantis. |
+| [Reportes de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv) | 45 incidencias asignadas a francoemontalbano, con pasos y resultados. |
 
 ## Trabajo realizado
 
 - Armé los casos de prueba para v1 a partir de la narrativa del juego.
 - Probé los efectos de las pastillas por separado y en distintas combinaciones.
 - Comparé los valores del Debug con el comportamiento de Lumbricina.
-- Registré los resultados en la matriz y reporté los defectos en Mantis.
+- Registré los resultados en la matriz y documenté los defectos encontrados.
 
 ## Resultados
 
 En la matriz registré **54 casos OK y 46 con resultados descriptivos**. En estos últimos detallé las diferencias observadas y los casos que no pude completar por el comportamiento del juego.
 
-Los reportes incluyen problemas de longitud, velocidad, controles, puntaje y duración de las pastillas. Dejé los enlaces a Mantis en el archivo de bugs para poder consultar cada incidencia.
+Los reportes incluyen problemas de longitud, velocidad, controles, puntaje y duración de las pastillas. Los detalles de cada reporte están en el archivo de bugs.
 
 ## Responsable
 
