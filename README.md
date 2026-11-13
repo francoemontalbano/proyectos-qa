@@ -19,7 +19,7 @@ En cada carpeta están los casos de prueba y los reportes de bugs del proyecto. 
 - Diseño de casos con precondiciones, datos de entrada, pasos y resultados esperados.
 - Pruebas de campos obligatorios, formatos, límites de longitud y flujos de alta, edición y baja.
 - Comparación entre resultado esperado y obtenido para documentar diferencias.
-- Reporte de defectos con pasos de reproducción, severidad y referencia al caso cuando está disponible.
+- Reporte de defectos con pasos de reproducción y comparación entre el resultado esperado y el obtenido.
 - Revisión cruzada de casos y reportes en Provinciano.
 - Organización y actualización de la documentación en GitHub.
 

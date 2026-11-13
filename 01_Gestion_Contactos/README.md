@@ -27,8 +27,6 @@ Usé el Anexo A de la narrativa como criterio para validar los mails.
 | [Casos de prueba](Test%20case%20-%20Contactos%20-%20Franco.csv) | 168 registros: 42 por versión, distribuidos entre v1, v2, v3 y Versión Final. |
 | [Reportes de bugs](Bugs%20-%20Contactos%20-%20Franco.csv) | 62 reportes de las cuatro versiones, con sus estados y severidades. |
 
-Publiqué los archivos en CSV para consultarlos desde Excel o Google Sheets.
-
 ## Trabajo realizado
 
 - Armé los casos de prueba para v1, v2, v3 y Versión Final.

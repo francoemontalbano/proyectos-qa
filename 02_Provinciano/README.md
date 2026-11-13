@@ -24,8 +24,6 @@ En este proyecto diseñé y ejecuté casos de prueba sobre el buscador de provin
 | [Casos de prueba](Test%20Case%20-%20Provinciano%20-%20Franco.csv) | 347 registros de casos de prueba, distribuidos entre v1, v2, v3 y v4. |
 | [Reportes de bugs](Bugs%20-%20Provinciano%20-%20Franco.csv) | 276 registros de reportes con los campos Autor y Revisor. |
 
-Publiqué los archivos en CSV para consultarlos desde Excel o Google Sheets.
-
 ## Trabajo realizado
 
 - Diseñé mis casos de prueba con precondiciones, pasos y resultados esperados.
@@ -35,7 +33,7 @@ Publiqué los archivos en CSV para consultarlos desde Excel o Google Sheets.
 
 ## Resultados
 
-Dejé los resultados de cada versión en la matriz y los problemas encontrados en los reportes de bugs. En los campos **Autor y Revisor** se puede ver qué reportes hice y cuáles revisé.
+La matriz reúne los resultados de v1 a v4. Los reportes conservan los campos Autor y Revisor del trabajo en pareja.
 
 ## Responsable
 
