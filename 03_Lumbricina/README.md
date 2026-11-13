@@ -27,39 +27,23 @@ Reporté problemas de longitud, velocidad, controles, puntaje y duración de las
 
 **TC94 — Validar consumir 2 veces pastilla verde**
 
+**Precondiciones**
+
+- Ingresar al juego.
+- Visualizar Lumbricina en el medio de la pantalla.
+
 | Campo | Detalle |
 | :--- | :--- |
 | ID | 94 |
 | Versión | v1 |
-| Precondiciones | Ingresar al juego<br>Visualizar Lumbricina en el medio de la pantalla |
 | Datos de entrada | Dos pastillas verdes, consumidas una después de la otra. |
 | Pasos | 1- Consumir una pastilla verde<br>2- Jugar hasta que aparezca otra pastilla verde<br>3- Consumir otra pastilla verde |
 | Resultado esperado | Al consumir la primera pastilla verde, la tecla izquierda mueve a Lumbricina hacia la derecha y <br>la tecla derecha la mueve hacia la izquierda. Las teclas arriba y abajo mantienen su funcionamiento<br>normal. Al consumir la segunda pastilla verde, se elimina la inversión y las teclas izquierda/derecha<br> vuelven a funcionar normalmente. |
 | Resultado obtenido | Al consumir la primera pastilla verde, la tecla arriba mueve a Lumbricina hacia abajo y la tecla abajo la mueve hacia arriba. Luego de consumir la segunda pastilla verde, Lumbricina vuelve a moverse hacia arriba al presionar la tecla arriba. |
-| Estado registrado del caso | Abierto |
 
 Fuente: [matriz de casos](Test%20Case%20-%20Lumbricina%20-%20Franco.csv).
 
 ## Bugs de ejemplo
-
-### Bug 0000083 — La pastilla naranja no aparece en v1
-
-| Campo | Detalle |
-| :--- | :--- |
-| Severidad | bloqueo |
-| Versión | v1 |
-| Caso relacionado | TC49 |
-
-**Precondiciones:** Ingresar al juego Visualizar Lumbricina en el medio de la pantalla
-
-**Pasos para reproducir**
-
-1. Visualizar pastilla naranja en el mapa
-
-| Campo | Detalle |
-| :--- | :--- |
-| Resultado esperado | El juego muestra una pastilla naranja en cualquier lugar del mapa |
-| Resultado obtenido | No se visualiza la pastilla naranja en el mapa, ya que no existe en esta versión |
 
 ### Bug 0000072 — Consumir una pastilla negra no termina la partida
 
@@ -69,7 +53,10 @@ Fuente: [matriz de casos](Test%20Case%20-%20Lumbricina%20-%20Franco.csv).
 | Versión | v1 |
 | Caso relacionado | TC42 |
 
-**Precondiciones:** Ingresar al juego Visualizar Lumbricina en el medio de la pantalla
+**Precondiciones**
+
+- Ingresar al juego.
+- Visualizar Lumbricina en el medio de la pantalla.
 
 **Pasos para reproducir**
 
@@ -91,7 +78,10 @@ Fuente: [matriz de casos](Test%20Case%20-%20Lumbricina%20-%20Franco.csv).
 | Versión | v1 |
 | Caso relacionado | TC94 |
 
-**Precondiciones:** Ingresar al juego Visualizar Lumbricina en el medio de la pantalla
+**Precondiciones**
+
+- Ingresar al juego.
+- Visualizar Lumbricina en el medio de la pantalla.
 
 **Pasos para reproducir**
 
@@ -103,6 +93,30 @@ Fuente: [matriz de casos](Test%20Case%20-%20Lumbricina%20-%20Franco.csv).
 | :--- | :--- |
 | Resultado esperado | Al consumir la primera pastilla verde, la tecla izquierda mueve a Lumbricina hacia la derecha y la tecla derecha la mueve hacia la izquierda. Las teclas arriba y abajo mantienen su funcionamiento normal. Al consumir la segunda pastilla verde, se elimina la inversión y las teclas izquierda/derecha vuelven a funcionar normalmente. |
 | Resultado obtenido | Al consumir la primera pastilla verde, la tecla arriba mueve a Lumbricina hacia abajo y la tecla abajo la mueve hacia arriba. Luego de consumir la segunda pastilla verde, Lumbricina vuelve a moverse hacia arriba al presionar la tecla arriba. |
+
+Este reporte muestra cómo documenté los casos bloqueados TC49–52 por la ausencia de la pastilla naranja.
+
+### Bug 0000083 — La pastilla naranja no aparece en v1
+
+| Campo | Detalle |
+| :--- | :--- |
+| Severidad | bloqueo |
+| Versión | v1 |
+| Caso relacionado | TC49 |
+
+**Precondiciones**
+
+- Ingresar al juego.
+- Visualizar Lumbricina en el medio de la pantalla.
+
+**Pasos para reproducir**
+
+1. Visualizar pastilla naranja en el mapa
+
+| Campo | Detalle |
+| :--- | :--- |
+| Resultado esperado | El juego muestra una pastilla naranja en cualquier lugar del mapa |
+| Resultado obtenido | No se visualiza la pastilla naranja en el mapa, ya que no existe en esta versión |
 
 Fuente: [archivo de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv).
 
@@ -117,12 +131,10 @@ Fuente: [archivo de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv).
 ## Alcance de las pruebas
 
 - Probé los movimientos y las colisiones contra paredes, obstáculos y el cuerpo de Lumbricina.
-- Revisé los efectos de las pastillas sobre el largo, la velocidad, los controles y el puntaje.
-- Probé la progresión de niveles y los cambios de estructura del mapa.
-- Verifiqué el Highscore y los valores de largo, velocidad y duración de bonus en el Debug.
+- Revisé los efectos de las pastillas sobre el largo, la velocidad, los controles y el puntaje, por separado y en distintas combinaciones.
+- Probé la progresión de niveles, los cambios de estructura del mapa y el Highscore.
+- Comparé los valores de largo, velocidad y duración de bonus del Debug con el comportamiento durante la partida.
 - Armé los casos de v1 a partir de la narrativa y documenté los resultados y los defectos.
-- Probé pastillas por separado y en distintas combinaciones.
-- Comparé los valores del Debug con el comportamiento durante la partida.
 
 ## Aplicación y referencias
 
@@ -142,5 +154,4 @@ Fuente: [archivo de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv).
 Franco Montalbano
 
 [^criterios]: Conté registros por versión: `OK` literal frente a resultados descriptivos, no cantidad de bugs.
-    Copié el estado del caso; el CSV no explica qué significa «Abierto» o «Cerrado».
     Los casos relacionados salen del número incluido en el resumen de cada bug.
