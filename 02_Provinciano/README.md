@@ -2,7 +2,7 @@
 
 ## Descripción
 
-En este proyecto diseñé y ejecuté casos de prueba sobre el buscador de provincias de Proyecto Nahual. Trabajé con filtros, ordenamiento y visualización de datos, y participé en la revisión de casos y reportes con Grego Lopez.
+En este proyecto diseñé y ejecuté casos de prueba sobre el buscador de provincias de Proyecto Nahual. Trabajé con filtros, ordenamiento y visualización de datos, y participé en la revisión de casos y reportes con Grego.
 
 ## Métricas
 
@@ -17,6 +17,8 @@ En este proyecto diseñé y ejecuté casos de prueba sobre el buscador de provin
 Los registros con diferencias u otro resultado descriptivo bajan de 86 a 71 y después a 70.<br>
 En v4 suben a 87: son 17 más que en v3 y 1 más que en v1.
 
+En v1 y v4 no registré ningún `OK` literal: los 86 y 87 resultados, respectivamente, son descripciones de lo observado; el cero no indica que no haya ejecutado casos.
+
 | Severidad registrada | Reportes de bugs |
 | :--- | ---: |
 | Alta | 167 |
@@ -24,6 +26,16 @@ En v4 suben a 87: son 17 más que en v3 y 1 más que en v1.
 | Baja | 2 |
 | Sin informar | 100 |
 | **Total** | **276** |
+
+Los 100 reportes «Sin informar» tienen la celda Severidad vacía; no contienen otro texto. También tienen Autor vacío: 1 pertenece a v2, 35 a v3 y 64 a v4.
+
+| Autor registrado | Alta | Media | Baja | Sin severidad | Total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| Grego | 167 | 7 | 2 | 0 | 176 |
+| Franco | 0 | 0 | 0 | 0 | 0 |
+| Sin autor | 0 | 0 | 0 | 100 | 100 |
+
+El CSV no indica por qué quedaron vacíos esos campos; no atribuí esos reportes a ninguno de los dos.
 
 Entre los problemas reportados están la inclusión de Ciudad Autónoma de Buenos Aires al filtrar por «Ninguna» y los valores de habitantes y superficie de Chaco distintos de los esperados.[^criterios]
 
@@ -39,14 +51,14 @@ Entre los problemas reportados están la inclusión de Ciudad Autónoma de Bueno
 | Datos de entrada | Región: «Región del Norte Grande Argentino». Nombre: «Chaco». |
 | Pasos | 1- Seleccionar "Región del Norte Grande Argentino" en el campo<br>"Región"<br>2- Ingresar "Chaco" en el campo "Nombre"<br>3- Hacer clic en "Buscar!" |
 | Resultado esperado | El sistema muestra en la grilla únicamente la provincia "Chaco", con la siguiente<br>información:<br>Región: Región del Norte Grande Argentino<br>Nombre: Chaco<br>Capital: Resistencia<br>Habitantes: 1.129.606<br>Km²: 99.633 |
-| Resultado obtenido | El sistema muestra en la grilla únicamente la provincia "Chaco", con la <br>información de:<br>Región: Región del Norte Grande Argentino<br>Nombre: Chaco<br>Capital: Resistencia<br>Habitantes: 1.055.259<br>Km²: 102.602<br>Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos. |
+| Resultado obtenido | El sistema muestra en la grilla únicamente la provincia "Chaco", con la <br>información de:<br>Región: Región del Norte Grande Argentino<br>Nombre: Chaco<br>Capital: Resistencia<br>Habitantes: 1.055.259<br>Km²: 102.602<br>Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos. |
 | Estado registrado del caso | Cerrado |
 
 Fuente: [matriz de casos](Test%20Case%20-%20Provinciano%20-%20Franco.csv).
 
 ## Bugs de ejemplo
 
-En estos reportes figuro como revisor y Grego Lopez como autor.
+En estos reportes figuro como revisor y Grego como autor. Conservé estos ejemplos porque no hay reportes con Autor = Franco en el CSV.
 
 ### Bug 86 — El filtro «Ninguna» incluye Ciudad Autónoma de Buenos Aires
 
@@ -105,7 +117,7 @@ Fuente: [archivo de bugs](Bugs%20-%20Provinciano%20-%20Franco.csv).
 - Verifiqué el ordenamiento ascendente y descendente de las columnas de texto y datos numéricos.
 - Probé combinaciones de filtros y búsquedas consecutivas.
 - Diseñé los casos y documenté los resultados de cada versión.
-- Revisé casos y reportes en pareja con Grego Lopez: yo revisaba los suyos y él los míos. Los campos Autor y Revisor conservan esa participación.
+- Revisé casos y reportes en pareja con Grego: yo revisaba los suyos y él los míos. Los campos Autor y Revisor conservan esa participación.
 
 ## Aplicación y referencias
 
