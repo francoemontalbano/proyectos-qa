@@ -37,16 +37,13 @@ Para ver cómo trabajo sin abrir los CSV, dejé un caso completo y reportes de b
 
 En cada carpeta están los casos de prueba y los reportes de bugs en CSV. Los README incluyen los enlaces a las aplicaciones y sus narrativas.
 
-## Técnicas y dónde las apliqué
+## Qué probé en cada proyecto
 
-| Técnica o práctica | Proyectos |
+| Proyecto | Qué probé |
 | :--- | :--- |
-| Partición de equivalencia | [Contactos](01_Gestion_Contactos/README.md#técnicas-aplicadas), [Lumbricina](03_Lumbricina/README.md#técnicas-aplicadas) |
-| Análisis de valores límite | [Contactos](01_Gestion_Contactos/README.md#técnicas-aplicadas), [Lumbricina](03_Lumbricina/README.md#técnicas-aplicadas) |
-| Regresión entre versiones | [Contactos](01_Gestion_Contactos/README.md#técnicas-aplicadas) |
-| Transiciones de estado | [Lumbricina](03_Lumbricina/README.md#técnicas-aplicadas) |
-| Combinación de filtros | [Provinciano](02_Provinciano/README.md#técnicas-aplicadas) |
-| Revisión cruzada | [Provinciano](02_Provinciano/README.md#bugs-de-ejemplo) |
+| [Contactos](01_Gestion_Contactos/README.md) | Campos obligatorios, formatos de mail, límites de caracteres y comparación entre versiones. |
+| [Provinciano](02_Provinciano/README.md) | Combinaciones de Región y Nombre. También revisé los casos de Grego y él revisó los míos. |
+| [Lumbricina](03_Lumbricina/README.md) | Límites del nombre en Highscore, combinaciones de pastillas, cambios de nivel y Game Over. |
 
 ## Contacto
 
