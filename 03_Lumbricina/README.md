@@ -6,12 +6,13 @@ En este proyecto diseñé y ejecuté casos de prueba sobre Lumbricina, el juego 
 
 ## Métricas
 
-Conté los registros del CSV por versión: un mismo escenario repetido en otra versión cuenta otra vez. Tomé como `OK` solo los resultados escritos como `OK`. La otra columna reúne diferencias y resultados descriptivos; no equivale por sí sola a una cantidad de bugs.
-
 | Versión | Casos | OK | Con diferencias u otro resultado descriptivo |
 | :--- | ---: | ---: | ---: |
 | v1 | 100 | 54 | 46 |
 | **Total** | **100** | **54** | **46** |
+
+En v1 registré 54 casos OK y 46 con diferencias u otro resultado descriptivo.<br>
+El CSV solo incluye v1, así que no permite comparar una tendencia entre versiones.
 
 | Severidad registrada | Reportes de bugs |
 | :--- | ---: |
@@ -20,7 +21,7 @@ Conté los registros del CSV por versión: un mismo escenario repetido en otra v
 | menor | 3 |
 | **Total** | **45** |
 
-Entre los 46 resultados descriptivos están TC49–52: la ausencia de la pastilla naranja impidió comprobar esos escenarios. En los reportes correspondientes figura la gravedad `bloqueo`.
+Reporté problemas de longitud, velocidad, controles, puntaje y duración de las pastillas. Entre los 46 resultados descriptivos están TC49–52: la ausencia de la pastilla naranja impidió comprobar esos escenarios; sus reportes tienen gravedad `bloqueo`.[^criterios]
 
 ## Caso de prueba de ejemplo
 
@@ -37,13 +38,9 @@ Entre los 46 resultados descriptivos están TC49–52: la ausencia de la pastill
 | Resultado obtenido | Al consumir la primera pastilla verde, la tecla arriba mueve a Lumbricina hacia abajo y la tecla abajo la mueve hacia arriba. Luego de consumir la segunda pastilla verde, Lumbricina vuelve a moverse hacia arriba al presionar la tecla arriba. |
 | Estado registrado del caso | Abierto |
 
-Conservo el estado del CSV. «Abierto» o «Cerrado» es el estado registrado del caso; no lo uso para decidir si el resultado fue `OK`.
-
-Fuente: [matriz de casos](Test%20Case%20-%20Lumbricina%20-%20Franco.csv). Los datos de entrada del ejemplo salen de sus pasos y precondiciones.
+Fuente: [matriz de casos](Test%20Case%20-%20Lumbricina%20-%20Franco.csv).
 
 ## Bugs de ejemplo
-
-Elegí reportes con mayor severidad registrada y pasos concretos para mostrar el problema. Mantengo la severidad del archivo.
 
 ### Bug 0000083 — La pastilla naranja no aparece en v1
 
@@ -123,6 +120,9 @@ Fuente: [archivo de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv).
 - Revisé los efectos de las pastillas sobre el largo, la velocidad, los controles y el puntaje.
 - Probé la progresión de niveles y los cambios de estructura del mapa.
 - Verifiqué el Highscore y los valores de largo, velocidad y duración de bonus en el Debug.
+- Armé los casos de v1 a partir de la narrativa y documenté los resultados y los defectos.
+- Probé pastillas por separado y en distintas combinaciones.
+- Comparé los valores del Debug con el comportamiento durante la partida.
 
 ## Aplicación y referencias
 
@@ -137,19 +137,10 @@ Fuente: [archivo de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv).
 | [Casos de prueba](Test%20Case%20-%20Lumbricina%20-%20Franco.csv) | 100 casos de prueba de v1, con precondiciones, pasos y resultados. |
 | [Reportes de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv) | 45 incidencias asignadas a francoemontalbano, con pasos y resultados. |
 
-## Trabajo realizado
-
-- Armé los casos de prueba para v1 a partir de la narrativa del juego.
-- Probé los efectos de las pastillas por separado y en distintas combinaciones.
-- Comparé los valores del Debug con el comportamiento de Lumbricina.
-- Registré los resultados en la matriz y documenté los defectos encontrados.
-
-## Resultados
-
-En la matriz registré **54 casos OK y 46 con resultados descriptivos**. En estos últimos detallé las diferencias observadas y los casos que no pude completar por el comportamiento del juego.
-
-Los reportes incluyen problemas de longitud, velocidad, controles, puntaje y duración de las pastillas. Los detalles de cada reporte están en el archivo de bugs.
-
 ## Responsable
 
 Franco Montalbano
+
+[^criterios]: Conté registros por versión: `OK` literal frente a resultados descriptivos, no cantidad de bugs.
+    Copié el estado del caso; el CSV no explica qué significa «Abierto» o «Cerrado».
+    Los casos relacionados salen del número incluido en el resumen de cada bug.

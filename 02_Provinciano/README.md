@@ -6,8 +6,6 @@ En este proyecto diseñé y ejecuté casos de prueba sobre el buscador de provin
 
 ## Métricas
 
-Conté los registros del CSV por versión: un mismo escenario repetido en otra versión cuenta otra vez. Tomé como `OK` solo los resultados escritos como `OK`. La otra columna reúne diferencias y resultados descriptivos; no equivale por sí sola a una cantidad de bugs.
-
 | Versión | Casos | OK | Con diferencias u otro resultado descriptivo |
 | :--- | ---: | ---: | ---: |
 | v1 | 86 | 0 | 86 |
@@ -16,6 +14,9 @@ Conté los registros del CSV por versión: un mismo escenario repetido en otra v
 | v4 | 87 | 0 | 87 |
 | **Total** | **347** | **33** | **314** |
 
+Los registros con diferencias u otro resultado descriptivo bajan de 86 a 71 y después a 70.<br>
+En v4 suben a 87: son 17 más que en v3 y 1 más que en v1.
+
 | Severidad registrada | Reportes de bugs |
 | :--- | ---: |
 | Alta | 167 |
@@ -23,6 +24,8 @@ Conté los registros del CSV por versión: un mismo escenario repetido en otra v
 | Baja | 2 |
 | Sin informar | 100 |
 | **Total** | **276** |
+
+Entre los problemas reportados están la inclusión de Ciudad Autónoma de Buenos Aires al filtrar por «Ninguna» y los valores de habitantes y superficie de Chaco distintos de los esperados.[^criterios]
 
 ## Caso de prueba de ejemplo
 
@@ -39,15 +42,11 @@ Conté los registros del CSV por versión: un mismo escenario repetido en otra v
 | Resultado obtenido | El sistema muestra en la grilla únicamente la provincia "Chaco", con la <br>información de:<br>Región: Región del Norte Grande Argentino<br>Nombre: Chaco<br>Capital: Resistencia<br>Habitantes: 1.055.259<br>Km²: 102.602<br>Luego de clickear el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos. |
 | Estado registrado del caso | Cerrado |
 
-Conservo el estado del CSV. «Abierto» o «Cerrado» es el estado registrado del caso; no lo uso para decidir si el resultado fue `OK`.
-
-Fuente: [matriz de casos](Test%20Case%20-%20Provinciano%20-%20Franco.csv). Los datos de entrada del ejemplo salen de sus pasos y precondiciones.
+Fuente: [matriz de casos](Test%20Case%20-%20Provinciano%20-%20Franco.csv).
 
 ## Bugs de ejemplo
 
-Elegí reportes con mayor severidad registrada y pasos concretos para mostrar el problema. Mantengo la severidad del archivo.
-
-En estos reportes figuro como revisor y Grego Lopez como autor. Vinculé los casos que tienen la misma versión, filtros y datos de entrada; el CSV de bugs no trae un campo de caso relacionado.
+En estos reportes figuro como revisor y Grego Lopez como autor.
 
 ### Bug 86 — El filtro «Ninguna» incluye Ciudad Autónoma de Buenos Aires
 
@@ -59,12 +58,11 @@ En estos reportes figuro como revisor y Grego Lopez como autor. Vinculé los cas
 
 **Pasos para reproducir**
 
-**Preparación:** Ingresar al sistema
-
-1. Clickear menú despegable del filtro región
-2. Clickear "Ninguna"
-3. FIltro Nombre: vacío
-4. Clickear botón Buscar!"
+1. Ingresar a Provinciano.
+2. Abrir el desplegable "Región".
+3. Seleccionar "Ninguna".
+4. Dejar el campo "Nombre" vacío.
+5. Clic en "Buscar!".
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -81,12 +79,11 @@ En estos reportes figuro como revisor y Grego Lopez como autor. Vinculé los cas
 
 **Pasos para reproducir**
 
-**Preparación:** Ingresar al sistema
-
-1. Clickear menú despegable del filtro región
-2. Clickear "Región del Norte Grande Argentino"
-3. Completar Filtro Nombre con "chaco".
-4. Clickear botón Buscar!"
+1. Ingresar a Provinciano.
+2. Abrir el desplegable "Región".
+3. Seleccionar "Región del Norte Grande Argentino".
+4. Ingresar "chaco" en el campo "Nombre".
+5. Clic en "Buscar!".
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -107,6 +104,8 @@ Fuente: [archivo de bugs](Bugs%20-%20Provinciano%20-%20Franco.csv).
 - Probé las búsquedas por nombre y región, las subcadenas y las variaciones de mayúsculas y tildes.
 - Verifiqué el ordenamiento ascendente y descendente de las columnas de texto y datos numéricos.
 - Probé combinaciones de filtros y búsquedas consecutivas.
+- Diseñé los casos y documenté los resultados de cada versión.
+- Revisé casos y reportes en pareja con Grego Lopez: yo revisaba los suyos y él los míos. Los campos Autor y Revisor conservan esa participación.
 
 ## Aplicación y referencias
 
@@ -121,17 +120,10 @@ Fuente: [archivo de bugs](Bugs%20-%20Provinciano%20-%20Franco.csv).
 | [Casos de prueba](Test%20Case%20-%20Provinciano%20-%20Franco.csv) | 347 registros de casos de prueba, distribuidos entre v1, v2, v3 y v4. |
 | [Reportes de bugs](Bugs%20-%20Provinciano%20-%20Franco.csv) | 276 registros de reportes con los campos Autor y Revisor. |
 
-## Trabajo realizado
-
-- Diseñé mis casos de prueba con precondiciones, pasos y resultados esperados.
-- Documenté los resultados obtenidos y los defectos encontrados durante las pruebas.
-- Trabajé en pareja con Grego Lopez: yo revisaba sus casos y él revisaba los míos. A partir de esa revisión y de las pruebas realizadas, identificábamos y documentábamos los defectos.
-- Participé como revisor en reportes elaborados por Grego. Los campos Autor y Revisor permiten distinguir mi participación en cada reporte.
-
-## Resultados
-
-La matriz reúne los resultados de v1 a v4. Los reportes conservan los campos Autor y Revisor del trabajo en pareja.
-
 ## Responsable
 
 Franco Montalbano
+
+[^criterios]: Conté registros por versión: `OK` literal frente a resultados descriptivos, no cantidad de bugs.
+    Copié el estado del caso; el CSV no explica qué significa «Abierto» o «Cerrado».
+    Relacioné los bugs por versión, filtros y datos de entrada; el CSV no trae un campo de caso relacionado.

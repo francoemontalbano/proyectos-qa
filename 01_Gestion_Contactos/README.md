@@ -6,8 +6,6 @@ En este proyecto diseñé y ejecuté casos de prueba sobre la aplicación de ges
 
 ## Métricas
 
-Conté los registros del CSV por versión: un mismo escenario repetido en otra versión cuenta otra vez. Tomé como `OK` solo los resultados escritos como `OK`. La otra columna reúne diferencias y resultados descriptivos; no equivale por sí sola a una cantidad de bugs.
-
 | Versión | Casos | OK | Con diferencias u otro resultado descriptivo |
 | :--- | ---: | ---: | ---: |
 | v1 | 42 | 25 | 17 |
@@ -16,12 +14,17 @@ Conté los registros del CSV por versión: un mismo escenario repetido en otra v
 | Versión Final | 42 | 35 | 7 |
 | **Total** | **168** | **108** | **60** |
 
+Los registros con diferencias pasan de 17 a 19, vuelven a 17 y bajan a 7.<br>
+La Versión Final tiene 10 menos que v1 y v3, y 12 menos que v2.
+
 | Severidad registrada | Reportes de bugs |
 | :--- | ---: |
 | Alta | 11 |
 | Media | 45 |
 | Baja | 6 |
 | **Total** | **62** |
+
+En Versión Final reporté rechazo de nombres y mails de 35 caracteres, restricciones de nombres repetidos y falta de advertencias al cancelar cambios.[^criterios]
 
 ## Caso de prueba de ejemplo
 
@@ -38,15 +41,9 @@ Conté los registros del CSV por versión: un mismo escenario repetido en otra v
 | Resultado obtenido | El sistema almacena los datos modificados en la<br>tabla "Contactos" a pesar de haber cancelado la <br>petición |
 | Estado registrado del caso | Abierto |
 
-Conservo el estado del CSV. «Abierto» o «Cerrado» es el estado registrado del caso; no lo uso para decidir si el resultado fue `OK`.
-
-Fuente: [matriz de casos](Test%20case%20-%20Contactos%20-%20Franco.csv). Los datos de entrada del ejemplo salen de sus pasos y precondiciones.
+Fuente: [matriz de casos](Test%20case%20-%20Contactos%20-%20Franco.csv).
 
 ## Bugs de ejemplo
-
-Elegí reportes con mayor severidad registrada y pasos concretos para mostrar el problema. Mantengo la severidad del archivo.
-
-Relacioné cada reporte con el caso que tiene el mismo ID, versión, pasos y resultado; el CSV de bugs no trae un campo de caso relacionado.
 
 ### Bug 79 — Cancelar la eliminación borra el contacto
 
@@ -58,34 +55,37 @@ Relacioné cada reporte con el caso que tiene el mismo ID, versión, pasos y res
 
 **Pasos para reproducir**
 
-**Preparación:** Ingresar a la página de Contactos Existe al menos un contacto registrado con: Nombre: "Franco" Mail: "francoemontalbano@gmail.com" Hacer clic en "Borrar" sobre el contacto "Franco"
-
-1. Hacer clic en "Cancelar eliminación"
+1. Ingresar a Contactos con un contacto "Franco" / "francoemontalbano@gmail.com" existente.
+2. Clic en "Borrar" sobre "Franco".
+3. Clic en "Cancelar eliminación".
 
 | Campo | Detalle |
 | :--- | :--- |
 | Resultado esperado | El sistema no elimina el contacto "Franco" y este continúa<br>visualizándose en Contactos |
 | Resultado obtenido | El sistema elimina el contacto a pesar de hacer clic en "Cancelar" |
 
-### Bug 37 — Cancelar la edición guarda los cambios
+### Bug 129 — Rechazo de un nombre de 35 caracteres
 
 | Campo | Detalle |
 | :--- | :--- |
-| Severidad | Alta |
-| Versión | v1 |
-| Caso relacionado | TC37 |
+| Severidad | Media |
+| Versión | Versión Final |
+| Caso relacionado | TC129 |
 
 **Pasos para reproducir**
 
-1. Hacer clic en "Editar" sobre el contacto Franco
-2. Modificar el campo "Nombre" por "Pedro"
-3. Mantener el Mail "franco@gmail.com"
-4. Hacer clic en "Cancelar".
+1. Ingresar a Contactos.
+2. Clic en "Nuevo contacto".
+3. Clic en el campo "Nombre".
+4. Ingresar "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHI" (35 caracteres).
+5. Clic en el campo "Mail".
+6. Ingresar "franco@gmail.com".
+7. Clic en "Guardar".
 
 | Campo | Detalle |
 | :--- | :--- |
-| Resultado esperado | El sistema emite una alerta "Se perderán los cambios sin guardar"<br>y cierra el formulario |
-| Resultado obtenido | El sistema almacena los datos modificados en la tabla "Contactos"<br>a pesar de haber cancelado la petición |
+| Resultado esperado | El sistema permite ingresar un nombre de hasta 35 caracteres en el campo "Nombre". |
+| Resultado obtenido | El sistema no permite ingresar un "Nombre" de 35 caracteres. |
 
 ### Bug 71 — Editar un contacto impide guardar los nuevos datos
 
@@ -97,12 +97,11 @@ Relacioné cada reporte con el caso que tiene el mismo ID, versión, pasos y res
 
 **Pasos para reproducir**
 
-**Preparación:** Ingresar a la página de Contactos Existe al menos un contacto registrado con: Nombre: "Franco" Mail: "franco@gmail.com"
-
-1. Hacer clic en Editar
-2. Modificar el campo "Nombre" por "Pedro"
-3. Modificar el campo "Mail" por francoemontalbano@gmail.com
-4. Hacer clic en "Guardar"
+1. Ingresar a Contactos con un contacto "Franco" / "franco@gmail.com" existente.
+2. Clic en "Editar".
+3. Modificar el campo "Nombre" por "Pedro".
+4. Modificar el campo "Mail" por "francoemontalbano@gmail.com".
+5. Clic en "Guardar".
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -124,6 +123,7 @@ Fuente: [archivo de bugs](Bugs%20-%20Contactos%20-%20Franco.csv).
 - Revisé el alta de contactos, los campos obligatorios, las longitudes y el formato del mail.
 - Probé la edición, las validaciones de duplicados y la cancelación de cambios.
 - Verifiqué la confirmación y cancelación de la eliminación de contactos.
+- Diseñé los casos para v1, v2, v3 y Versión Final, y documenté los resultados y las diferencias con la narrativa.
 
 ## Aplicación y referencias
 
@@ -141,19 +141,10 @@ Usé el Anexo A de la narrativa como criterio para validar los mails.
 | [Casos de prueba](Test%20case%20-%20Contactos%20-%20Franco.csv) | 168 registros: 42 por versión, distribuidos entre v1, v2, v3 y Versión Final. |
 | [Reportes de bugs](Bugs%20-%20Contactos%20-%20Franco.csv) | 62 reportes de las cuatro versiones, con sus estados y severidades. |
 
-## Trabajo realizado
-
-- Armé los casos de prueba para v1, v2, v3 y Versión Final.
-- Probé datos válidos e inválidos en los campos Nombre y Mail, incluidos los límites de longitud.
-- Verifiqué el guardado, la edición y la eliminación de contactos, además de las opciones para cancelar cada operación.
-- Comparé el resultado obtenido con la narrativa y reporté las diferencias.
-
-## Resultados
-
-En Versión Final registré **35 casos OK y 7 con diferencias**. Entre los problemas reportados están el rechazo de nombres y mails de 35 caracteres, la restricción de nombres repetidos y la falta de advertencias al cancelar cambios.
-
-En la matriz marqué `OK` cuando el resultado coincidió con el esperado. En los demás casos describí lo que ocurrió. Los archivos también incluyen los resultados de las versiones anteriores.
-
 ## Responsable
 
 Franco Montalbano
+
+[^criterios]: Conté registros por versión: `OK` literal frente a resultados descriptivos, no cantidad de bugs.
+    Copié el estado del caso; el CSV no explica qué significa «Abierto» o «Cerrado».
+    Relacioné los bugs por ID, versión y contenido; el CSV no trae un campo de caso relacionado.
