@@ -22,20 +22,19 @@ En v1 y v4 no registré ningún `OK` literal: los 86 y 87 resultados, respectiva
 | Severidad registrada | Reportes de bugs |
 | :--- | ---: |
 | Alta | 167 |
-| Media | 7 |
-| Baja | 2 |
-| Sin informar | 100 |
+| Media | 100 |
+| Baja | 9 |
 | **Total** | **276** |
 
-Los 100 reportes «Sin informar» tienen la celda Severidad vacía; no contienen otro texto. También tienen Autor vacío: 1 pertenece a v2, 35 a v3 y 64 a v4.
+Los 100 reportes sin autor corresponden a v2 (1), v3 (35) y v4 (64).
 
 | Autor registrado | Alta | Media | Baja | Sin severidad | Total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
 | Grego | 167 | 7 | 2 | 0 | 176 |
 | Franco | 0 | 0 | 0 | 0 | 0 |
-| Sin autor | 0 | 0 | 0 | 100 | 100 |
+| Sin autor | 0 | 93 | 7 | 0 | 100 |
 
-El CSV no indica por qué quedaron vacíos esos campos; no atribuí esos reportes a ninguno de los dos.
+El CSV no indica por qué quedó vacío el autor; no atribuí esos reportes a ninguno de los dos.
 
 Entre los problemas reportados están la inclusión de Ciudad Autónoma de Buenos Aires al filtrar por «Ninguna» y los valores de habitantes y superficie de Chaco distintos de los esperados.
 

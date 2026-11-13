@@ -1390,7 +1390,7 @@ Habitantes: 429 562
 Km2: 102 602         
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas.","El sistema muestra correctamente la provincia Catamarca, sin embargo, la columna
-""Habitantes"" muestra el valor 367.828 en lugar de 429 562, según lo especificado",,,,,
+""Habitantes"" muestra el valor 367.828 en lugar de 429 562, según lo especificado",,Media,,,
 91,v2,Chrome,Abierto ,14-09,"Verificar filtro ""Región"" con opción ""Región del Norte Grande 
 Argentino"" y filtro ""Nombre"" ""Corrientes""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
@@ -2800,7 +2800,7 @@ Km2: 165 321
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al seleccionar la opción ""Centro"", ingresar ""cordoba"" (sin tilde) en el filtro ""Nombre"" y realizar la búsqueda, 
 el sistema muestra el mensaje ""No hay provincias que coincidan con lo buscado"". Al ingresar ""Córdoba"" (con tilde), 
 el sistema muestra correctamente la provincia. Sin embargo, la columna ""Habitantes"" presenta el valor ""3.308.876"", 
-mientras que el caso de prueba especifica ""3.840.905""",,,,,
+mientras que el caso de prueba especifica ""3.840.905""",,Media,,,
 196,V3,Chrome,Abierto ,25-09,"Verificar filtro ""Región"" con opción ""Región Centro"" y filtro
 ""Nombre"" ""Entre Ríos""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
@@ -2817,7 +2817,7 @@ Km2: 78 781
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al seleccionar la opción ""Centro"", ingresar ""entre rios"" (sin tilde) en el filtro ""Nombre"" y realizar la búsqueda,
 el sistema muestra el mensaje ""No hay provincias que coincidan con lo buscado"". Al ingresar ""Entre Ríos"" (con tilde), 
 el sistema muestra correctamente la provincia. Sin embargo, la columna ""Habitantes"" presenta el valor ""1.235.994"",
-mientras que el caso de prueba especifica ""1.425.578""",,,,,
+mientras que el caso de prueba especifica ""1.425.578""",,Media,,,
 197,V3,Chrome,Abierto ,25-09,"Verificar filtro ""Región"" con opción ""Región Centro"" y filtro
 ""Nombre"" ""Santa Fe""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
@@ -2833,7 +2833,7 @@ Km2: 133 007
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""santa fe"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Santa Fe"", sin embargo, la columna ""Habitantes"" muestra el valor 3.194.537 en lugar de 3 544 908 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 206,v3,Chrome,Abierto ,29-09,"Verificar ""Boton"" de orden ascendente por Región","Ingresar al sistema
 Filtrar por Region: ""Todas""
 Dejar campo Nombre vacío.
@@ -2841,7 +2841,7 @@ Clickear Boton Buscar!
 1. Clickear Botón de orden ascendente por Región","Se visualiza en la grilla la información de todas las provincias agrupadas por región en orden alfabético ascendente: 
 ""Ninguna"", ""Región Centro"", ""Región de la Patagonia"", ""Región del Norte Grande Argentino"", ""Región del Nuevo Cuyo""","Al clickear el botón de orden ascendente de la columna ""Región"", el sistema agrupa los registros en el siguiente orden: ""Centro"", ""Ninguna"",
 ""Norte Grande Argentino"", ""Nuevo Cuyo"" y ""Patagónica"", en lugar del orden ""Ninguna"", ""Región Centro"", ""Región de la Patagonia"", ""Región
-del Norte Grande Argentino"" y ""Región del Nuevo Cuyo"", según lo especificado en el caso de prueba.",,,,,
+del Norte Grande Argentino"" y ""Región del Nuevo Cuyo"", según lo especificado en el caso de prueba.",,Baja,,,
 207,v3,Chrome,Abierto ,29-09,"Verificar ""Boton"" de orden descendente por Región","Ingresar al sistema
 Filtrar por Region: ""Todas""
 Dejar campo Nombre vacío.
@@ -2849,7 +2849,7 @@ Clickear Boton Buscar!
 1. Clickear Botón de orden descendente por Región","Se visualiza en la grilla la información de todas las provincias agrupadas por región en orden alfabético descendente: 
 ""Región del Nuevo Cuyo"", ""Región del Norte Grande Argentino"", ""Región de la Patagonia"", ""Región Centro"", ""Ninguna""","Al clickear el botón de orden descendente de la columna ""Región"", el sistema agrupa los registros en el orden ""Patagónica"", ""Nuevo Cuyo"", 
 ""Norte Grande Argentino"", ""Ninguna"" y ""Centro"", en lugar del orden ""Región del Nuevo Cuyo"", ""Región del Norte Grande Argentino"", ""Región 
-de la Patagonia"", ""Región Centro"" y ""Ninguna"", según lo especificado en el caso de prueba",,,,,
+de la Patagonia"", ""Región Centro"" y ""Ninguna"", según lo especificado en el caso de prueba",,Baja,,,
 208,v3,Chrome,Abierto ,29-09,"Verificar ""Boton"" de orden ascendente por Nombre","Ingresar al sistema
 Filtrar por Region: ""Todas""
 Dejar campo Nombre vacío.
@@ -2858,7 +2858,7 @@ Clickear Boton Buscar!
 2. Clickear Botón de orden ascendente por Nombre","Se visualiza en la grilla la información de todas las provincias en orden alfabético ascendente según el nombre de la provincia: 
 Buenos Aires, Catamarca, Chaco, Chubut, Córdoba, Corrientes, Entre Ríos, Formosa, Jujuy, La Pampa, La Rioja, Mendoza, Misiones, Neuquén, Río Negro, Salta, San Juan, San Luis, Santa Cruz, Santa Fe, Santiago del Estero, Tierra del Fuego, Antártida e Islas del Atlántico Sur, Tucumán.","Al clickear el botón de orden ascendente de la columna ""Nombre"", el sistema muestra las provincias ordenadas alfabéticamente; sin embargo,
 incluye el registro ""Ciudad Autónoma de Buenos Aires"", que no se encuentra contemplado en el caso de prueba, y muestra ""Corrientes"" antes
-de ""Córdoba"", en lugar del orden especificado",,,,,
+de ""Córdoba"", en lugar del orden especificado",,Media,,,
 209,v3,Chrome,Abierto ,29-09,"Verificar ""Boton"" de orden descendente por Nombre","Ingresar al sistema
 Filtrar por Region: ""Todas""
 Dejar campo Nombre vacío.
@@ -2866,7 +2866,7 @@ Clickear Boton Buscar!
 1. Clickear Botón de orden descendente por Nombre","Se visualiza en la grilla la información de todas las provincias en orden alfabético descendente según el nombre de la provincia: 
 Tucumán, Tierra del Fuego, Antártida e Islas del Atlántico Sur, Santiago del Estero, Santa Fe, Santa Cruz, San Luis, San Juan, Salta, Río Negro, Neuquén, Misiones, Mendoza, La Rioja, La Pampa, Jujuy, Formosa, Entre Ríos, Corrientes, Córdoba, Chubut, Chaco, Catamarca, Buenos Aires.","Al clickear el botón de orden descendente de la columna ""Nombre"", el sistema muestra las provincias ordenadas alfabéticamente; sin embargo,
 incluye el registro ""Ciudad Autónoma de Buenos Aires"", que no se encuentra contemplado en el caso de prueba, y muestra ""Córdoba"" antes de 
-""Corrientes"", en lugar del orden especificado",,,,,
+""Corrientes"", en lugar del orden especificado",,Media,,,
 210,v3,Chrome,Abierto ,29-09,"Verificar ""Boton"" de orden ascendente por Capital","Ingresar al sistema
 Filtrar por Region: ""Centro""
 Dejar campo Nombre vacío.
@@ -2877,7 +2877,7 @@ Córdoba - Córdoba,
 Entre Ríos - Paraná,
 Santa Fe - Santa Fe 
 ","Al clickear el botón de orden ascendente de la columna ""Capital"", el sistema muestra los registros en un orden que no coincide con el orden 
-alfabético ascendente especificado en el caso de prueba",,,,,
+alfabético ascendente especificado en el caso de prueba",,Media,,,
 211,v3,Chrome,Abierto ,29-09,"Verificar ""Boton"" de orden descendente por Capital","Ingresar al sistema
 Filtrar por Region: ""Centro""
 Dejar campo Nombre vacío.
@@ -2886,7 +2886,7 @@ Clickear Boton Buscar!
 Santa Fe - Santa Fe, 
 Entre Ríos -  Paraná,  
 Córdoba - Cordoba ","Al clickear el botón de orden descendente de la columna ""Capital"", el sistema muestra los registros en un orden que no coincide con el orden
- alfabético descendente especificado en el caso de prueba",,,,,
+ alfabético descendente especificado en el caso de prueba",,Media,,,
 212,v3,Chrome,Abierto ,29-09,"Verificar ""Boton"" de orden ascendente por Habitantes","Ingresar al sistema
 Filtrar por Region: ""Centro"" 
 Dejar campo Nombre vacío.
@@ -2896,7 +2896,7 @@ Entre Ríos: 1.425.578
 Santa Fe: 3.544.908
 Córdoba: 3.840.905","Al clickear el botón de orden ascendente de la columna ""Habitantes"", el sistema muestra los registros en un orden que coincide con el orden
 alfabético descendente especificado en el caso de prueba; sin embargo, la cantidad de habitantes de cada provincia no coincide con el resultado
-esperado en el caso de prueba",,,,,
+esperado en el caso de prueba",,Media,,,
 213,v3,Chrome,Abierto ,29-09,"Verificar ""Boton"" de orden desccendente por Habitantes","Ingresar al sistema
 Filtrar por Region: ""Centro"" 
 Dejar campo Nombre vacío.
@@ -2906,7 +2906,7 @@ Córdoba: 3.840.905
 Santa Fe: 3.544.908
 Entre Ríos: 1.425.578","Al clickear el botón de orden descendente de la columna ""Habitantes"", el sistema muestra los registros en un orden que coincide con el orden
 alfabético descendente especificado en el caso de prueba; sin embargo, la cantidad de habitantes de cada provincia no coincide con el resultado
-esperado en el caso de prueba",,,,,
+esperado en el caso de prueba",,Media,,,
 216,v3,Chrome,Abierto ,29-09,"Verificar filtro ""Nombre"" con ""buenos aires"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -2924,7 +2924,7 @@ Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 ","Al seleccionar la opción ""Todas"", ingresar ""buenos aires"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra dos registros: 
 ""Ciudad Autónoma de Buenos Aires"" y ""Buenos Aires"", cuando según lo especificado en el caso de prueba debería mostrar únicamente la
 provincia ""Buenos Aires"". Además, la columna ""Habitantes"" presenta el valor 15.625.084 en lugar de 17.523.996 según lo especificado en el caso
-de prueba",,,,,
+de prueba",,Media,,,
 217,v3,Chrome,Abierto ,29-09,"Verificar filtro ""Nombre"" con ""catamarca"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -2939,7 +2939,7 @@ Km2: 102 602
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas.","Al seleccionar la opción ""Todas"", ingresar ""catamarca"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia 
 ""Catamarca""; sin embargo, la columna ""Habitantes"" presenta el valor 367.828 en lugar de 429.562 y la columna ""Km²"" presenta el valor 99.633 en
-lugar de 102.602, según lo especificado en el caso de prueba",,,,,
+lugar de 102.602, según lo especificado en el caso de prueba",,Media,,,
 218,v3,Chrome,Abierto ,29-09,"Verificar filtro ""Nombre"" con ""corrientes"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -2953,7 +2953,7 @@ Habitantes: 1 212 696
 Km2: 88 199
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas.","Al seleccionar la opción ""Todas"", ingresar ""corrientes"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia 
-""Corrientes""; sin embargo, la columna ""Habitantes"" presenta el valor 992.595 en lugar de 1.212.696 según lo especificado en el caso de prueba",,,,,
+""Corrientes""; sin embargo, la columna ""Habitantes"" presenta el valor 992.595 en lugar de 1.212.696 según lo especificado en el caso de prueba",,Media,,,
 219,v3,Chrome,Abierto ,29-09,"Verificar filtro ""Nombre"" con ""chaco"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -2969,7 +2969,7 @@ Km2: 99 633
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 ","Al seleccionar la opción ""Todas"", ingresar ""chaco"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Chaco""; sin embargo, la columna ""Habitantes"" presenta el valor 1.055.259 en lugar de 1.129.606 y la columna ""Km²"" presenta el valor 102.602 en
-lugar de 99.633, según lo especificado en el caso de prueba",,,,,
+lugar de 99.633, según lo especificado en el caso de prueba",,Media,,,
 220,v3,Chrome,Abierto ,29-09,"Verificar filtro ""Nombre"" con ""formosa"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -2984,7 +2984,7 @@ Km2: 72 066
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 ","Al seleccionar la opción ""Todas"", ingresar ""formosa"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia 
-""Formosa""; sin embargo, la columna ""Habitantes"" presenta el valor 530.162 en lugar de 607.419 según lo especificado en el caso de prueba",,,,,
+""Formosa""; sin embargo, la columna ""Habitantes"" presenta el valor 530.162 en lugar de 607.419 según lo especificado en el caso de prueba",,Media,,,
 221,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""jujuy"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -2998,7 +2998,7 @@ Habitantes: 811 611
 Km2: 53 219
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al seleccionar la opción ""Todas"", ingresar ""jujuy"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia 
-""Jujuy""; sin embargo, la columna ""Habitantes"" presenta el valor 673.307 en lugar de 811 611 según lo especificado en el caso de prueba",,,,,
+""Jujuy""; sin embargo, la columna ""Habitantes"" presenta el valor 673.307 en lugar de 811 611 según lo especificado en el caso de prueba",,Media,,,
 222,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""misiones"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3012,7 +3012,7 @@ Habitantes: 1 278 873
 Km2:  29 801
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al seleccionar la opción ""Todas"", ingresar ""misiones"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia 
-""Misiones""; sin embargo, la columna ""Habitantes"" presenta el valor 1.101.593 en lugar de 1 278 873 según lo especificado en el caso de prueba",,,,,
+""Misiones""; sin embargo, la columna ""Habitantes"" presenta el valor 1.101.593 en lugar de 1 278 873 según lo especificado en el caso de prueba",,Media,,,
 223,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""tucuman"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3029,7 +3029,7 @@ Se encuentran disponibles opciones para ordenar por cualquiera de las columnas",
 ""Nombre"" y realizar la búsqueda, el sistema muestra el mensaje ""No hay provincias que coincidan
 con lo buscado"". Al ingresar ""tucumán"" (con tilde), la provincia se muestra correctamente, sin
 embargo, la columna ""Habitantes"" presenta el valor 1.448.188 en lugar de 1.731.820, según lo 
-especificado en el caso de prueba",,,,,
+especificado en el caso de prueba",,Media,,,
 224,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""salta"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3044,7 +3044,7 @@ Km2: 155 488
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""salta"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Salta"", sin embargo, la columna ""Habitantes"" muestra el valor 874.006 en lugar de 1 441 351 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 225,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""santiago del estero"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3060,7 +3060,7 @@ Km2: 136 351
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 ","Al ingresar ""santiago del estero"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Santiago del Estero"", sin embargo, la columna ""Habitantes"" muestra el valor 1.214.441 en lugar de 1 060 906 según lo
-especificado en el caso de prueba",,,,,
+especificado en el caso de prueba",,Media,,,
 226,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""la rioja"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3076,7 +3076,7 @@ Km2: 89 680
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 ","Al ingresar ""la rioja"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""La Rioja"", sin embargo, la columna ""Habitantes"" muestra el valor 333.642 en lugar de 383 865 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 227,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""mendoza"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3091,7 +3091,7 @@ Km2: 148 827
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""mendoza"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Mendoza"", sin embargo, la columna ""Habitantes"" muestra el valor 1.738.929 en lugar de 2 043 540 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 228,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""san juan"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3106,7 +3106,7 @@ Km2: 89 651
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""san juan"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""San Juan"", sin embargo, la columna ""Habitantes"" muestra el valor 681.055 en lugar de 822 853 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 229,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""san luis"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3121,7 +3121,7 @@ Km2: 76 748
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""san luis"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""San Luis"", sin embargo, la columna ""Habitantes"" muestra el valor 432.310 en lugar de 542 069 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 230,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""chubut"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3136,7 +3136,7 @@ Km2: 224 686
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""chubut"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Chubut"", sin embargo, la columna ""Habitantes"" muestra el valor 509.108 en lugar de 592 621 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 231,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""la pampa"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3151,7 +3151,7 @@ Km2: 143 440
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""la pampa"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""La Pampa"", sin embargo, la columna ""Habitantes"" muestra el valor 318.951 en lugar de 361 859 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 232,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""neuquen"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3168,7 +3168,7 @@ Por defecto los resultados aparecen en orden alfabético creciente según nombre
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al seleccionar la opción ""Todas"" ingresar ""neuquen"" (sin tilde) en el filtro ""Nombre"" y realizar la búsqueda,
 el sistema muestra el mensaje ""No hay provincias que coincidan con lo buscado"". Al ingresar ""Neuquén"" (con tilde), 
 el sistema muestra correctamente la provincia. Sin embargo, la columna ""Habitantes"" presenta el valor ""551.266"",
-mientras que el caso de prueba especifica ""710 814""",,,,,
+mientras que el caso de prueba especifica ""710 814""",,Media,,,
 233,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""rio negro""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3185,7 +3185,7 @@ Se encuentran disponibles opciones para ordenar por cualquiera de las columnas",
 ""Nombre"" y realizar la búsqueda, el sistema muestra el mensaje ""No hay provincias que coincidan
 con lo buscado"". Al ingresar ""río negro"" (con tilde), la provincia se muestra correctamente, sin
 embargo, la columna ""Habitantes"" presenta el valor 638.645 en lugar de 750 768 según lo 
-especificado en el caso de prueba",,,,,
+especificado en el caso de prueba",,Media,,,
 234,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""santa cruz"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3199,7 +3199,7 @@ Km2: 243 943
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""santa cruz"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Santa Cruz"", sin embargo, la columna ""Habitantes"" muestra el valor 273.964 en lugar de 337 226 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 235,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""tierra del fuego"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3213,7 +3213,7 @@ Km2: 21 571
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""tierra del fuego"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Tierra del Fuego, Antártida e Islas del Atlántico Sur"", sin embargo, la columna ""Habitantes"" muestra el valor 273.964 en 
-lugar de 337 226 según lo especificado en el caso de prueba""",,,,,
+lugar de 337 226 según lo especificado en el caso de prueba""",,Media,,,
 236,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""cordoba"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3229,7 +3229,7 @@ Km2: 165 321
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al seleccionar la opción ""Todas"", ingresar ""cordoba"" (sin tilde) en el filtro ""Nombre"" y realizar la búsqueda, 
 el sistema muestra el mensaje ""No hay provincias que coincidan con lo buscado"". Al ingresar ""Córdoba"" (con tilde), 
 el sistema muestra correctamente la provincia. Sin embargo, la columna ""Habitantes"" presenta el valor ""3.308.876"", 
-mientras que el caso de prueba especifica ""3.840.905""",,,,,
+mientras que el caso de prueba especifica ""3.840.905""",,Media,,,
 237,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""entre rios"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3245,7 +3245,7 @@ Km2: 78 781
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al seleccionar la opción ""Todas"", ingresar ""entre rios"" (sin tilde) en el filtro ""Nombre"" y realizar la búsqueda,
 el sistema muestra el mensaje ""No hay provincias que coincidan con lo buscado"". Al ingresar ""Entre Ríos"" (con tilde), 
 el sistema muestra correctamente la provincia. Sin embargo, la columna ""Habitantes"" presenta el valor ""1.235.994"",
-mientras que el caso de prueba especifica ""1.425.578""",,,,,
+mientras que el caso de prueba especifica ""1.425.578""",,Media,,,
 238,v3,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""santa fe"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3260,7 +3260,7 @@ Km2: 133 007
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""santa fe"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Santa Fe"", sin embargo, la columna ""Habitantes"" muestra el valor 3.194.537en lugar de 3 544 908 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 239,v3,Chrome,Abierto ,30-09,"Verificar dos búsquedas consecutivas utilizando filtro ""Nombre"""," Ingresar a la Página Provinciano
 Completar campo Nombre con ""corrientes""
 Clickear botón Buscar!
@@ -3279,7 +3279,7 @@ Km2: 133 007
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al realizar las búsquedas consecutivas ingresando ""corrientes"", ""catamarca"" y posteriormente ""santa fe"" en el filtro ""Nombre"", el
 sistema funciona perfectamente, sin embargo la columna ""Habitantes"" muestra el valor 3.194.537en lugar de 3 544 908 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 240,v4,Chrome,Abierto ,30-09,Visualizar pantalla de inicio,"Ingresar al sistema
 1. Visualizar pantalla inicio","El sistema muestra la pantalla:
 Títulos:
@@ -3289,7 +3289,7 @@ Campos (filtros)
 Región - Combo: Valor por defecto: Todas
 Nombre (Texto). Valor por defecto: Vacío.
 Opción Buscar!","El sistema muestra correctamente la pantalla con los resultados esperados segun el caso de prueba, sin embargo, se ve la grilla con las provincias 
-y sus datos por defecto",,,,,
+y sus datos por defecto",,Baja,,,
 241,v4,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con ""Botón"" ""Buscar!""","Ingresar al sistema
 1. Clickear campo Nombre.
 2. Completar campo nombre con ""corrientes""
@@ -3303,7 +3303,7 @@ Habitantes: 1 212 696
 Km2: 88 199
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas.","El sistema no tiene el botón ""Buscar!"" a la hora de completar el campo nombre con ""Corrientes"" la busqueda se realiza automaticamente, sin 
-embargo, tambien; la columna ""Habitantes"" presenta el valor 992.595 en lugar de 1.212.696 según lo especificado en el caso de prueba",,,,,
+embargo, tambien; la columna ""Habitantes"" presenta el valor 992.595 en lugar de 1.212.696 según lo especificado en el caso de prueba",,Media,,,
 242,v4,Chrome,Abierto ,30-09,"Verificar filtro ""Nombre"" con tecla Enter","Ingresar al sistema
 1 Filtro Region: ""Todas""
 2. Clickear campo Nombre.
@@ -3317,7 +3317,7 @@ Habitantes: 1 212 696
 Km2: 88 199
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas.","El sistema no tiene el botón ""Buscar!"" a la hora de completar el campo nombre con ""Corrientes"" la busqueda se realiza automaticamente, sin 
-embargo, tambien; la columna ""Habitantes"" presenta el valor 992.595 en lugar de 1.212.696 según lo especificado en el caso de prueba",,,,,
+embargo, tambien; la columna ""Habitantes"" presenta el valor 992.595 en lugar de 1.212.696 según lo especificado en el caso de prueba",,Media,,,
 243,v4,Chrome,Abierto ,30-09,"Visualizar filtro ""Region""","Ingresar al sistema
 Clickear menú despegable del filtro región
 1. Visualizar menú desplegable","Se despliega un menú con las opciones: ""Región Centro"", ""Región del Norte Grande Argentino"" , ""Región del Nuevo Cuyo"", ""Región de la Patagonia"", ""Ninguna"",  ""Todas"" 
@@ -3325,7 +3325,7 @@ orden: alfabético creciente.
 Valor por defecto: Todas","Al visualizar el menú desplegable del filtro ""Región"", las opciones se muestran como
 ""Todas"", ""Centro"", ""Ninguna"", ""Norte Grande Argentino"", ""Nuevo Cuyo"" y ""Patagónica""
 sin el prefijo ""Región"" en las opciones correspondientes, mostrando ""Patagónica""
-en lugar de ""Región de la Patagonia"" y en un orden distinto al especificado en el caso de prueba",,,,,
+en lugar de ""Región de la Patagonia"" y en un orden distinto al especificado en el caso de prueba",,Baja,,,
 244,v4,Chrome,Abierto ,30-09,Visualizar Grilla ,"Ingresar al sistema
 Filtro Región: ""Todas""
 FIltro Nombre: Vacío
@@ -3339,7 +3339,7 @@ Habitantes: Cantidad de habitantes de la provincia
 Km2: Superficie de la provincia
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 Se visualizan todas las provincias","El sistema no tiene el botón ""Buscar!"" , al entrar al sistema aparece la grilla automaticamente, sin embargo; la grilla cuenta con el criterio 
-de busqueda esperado en el caso de prueba",,,,,
+de busqueda esperado en el caso de prueba",,Baja,,,
 245,v4,Chrome,Abierto ,30-09,"Verificar filtro ""Región"" ""Todas""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3360,7 +3360,7 @@ Por defecto los resultados aparecen en orden alfabético creciente según nombre
 ","Al visualizar la grilla, el sistema muestra todas las provincias y las opciones de 
 ordenamiento, sin embargo, los nombres de las regiones no coinciden con la 
 especificación (por ejemplo, ""Patagónica"" en lugar de ""Región de la Patagonia"") y los 
-datos de la columna ""Habitantes"" difieren de los valores esperados. Ademas, aparece como provincia CABA, cuando no deberia estar",,,,,
+datos de la columna ""Habitantes"" difieren de los valores esperados. Ademas, aparece como provincia CABA, cuando no deberia estar",,Media,,,
 246,v4,Chrome,Abierto ,30-09,"Verificar Filtro ""Región"" ""Ninguna""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Ninguna""
@@ -3377,7 +3377,7 @@ Km2: 307 571
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 ","Al seleccionar la opción ""Ninguna"" y realizar la búsqueda, el sistema muestra las
 provincias ""Buenos Aires"" y ""Ciudad Autónoma de Buenos Aires"", en lugar de mostrar
-únicamente la provincia ""Buenos Aires"", según lo esperado, ademas, los habitantes no coinciden con el resultado esperado",,,,,
+únicamente la provincia ""Buenos Aires"", según lo esperado, ademas, los habitantes no coinciden con el resultado esperado",,Media,,,
 247,v4,Chrome,Abierto ,30-09,"Verificar filtro ""Región"" ""Ninguna"" con filtro ""Nombre"" ""Buenos Aires""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Ninguna""
@@ -3395,7 +3395,7 @@ Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 ","Al seleccionar la opción ""Ninguna"", ingresar ""buenos aires"" en el campo ""Nombre"" y
 realizar la búsqueda, el sistema muestra correctamente la provincia ""Buenos Aires""
 sin embargo, la columna ""Habitantes"" muestra el valor 15.625.084, en lugar de 
-17.523.996, según lo especificado. Además, sigue apareciendo CABA y no coincide con el resultado esperado",,,,,
+17.523.996, según lo especificado. Además, sigue apareciendo CABA y no coincide con el resultado esperado",,Media,,,
 249,v4,Chrome,Abierto ,30-09,"Verificar filtro ""Región"" ""Región del Norte Grande Argentino""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región del Norte Grande Argentino""
@@ -3414,7 +3414,7 @@ Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 Formosa, Jujuy, Misiones, Salta, Santiago del Estero y Tucumán, omitiendo la provincia 
 La Rioja, por lo que la información correspondiente a la Región del Norte Grande 
 Argentino se encuentra incompleta, además; la busqueda se realiza automaticamente solo al seleccionar ""Región del Norte Grande Argentino"", ya 
-que no existe el botón ""Buscar!""",,,,,
+que no existe el botón ""Buscar!""",,Media,,,
 250,v4,Chrome,Abierto ,30-09,"Verificar filtro ""Región"" ""Región del Norte Grande Argentino"" con filtro ""Nombre"" ""catamarca""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región del Norte Grande Argentino""
@@ -3429,7 +3429,7 @@ Km2: 102 602
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas.","El sistema muestra correctamente la provincia Catamarca, sin embargo, la columna
 ""Habitantes"" muestra el valor 367.828 en lugar de 429 562, según lo especificado; además la busqueda se realiza automaticamente al seleccionar
-""Región del Norte Grande Argentino"" y escribir ""catamarca"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,,,,
+""Región del Norte Grande Argentino"" y escribir ""catamarca"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,Media,,,
 251,v4,Chrome,Abierto ,30-09,"Verificar filtro ""Región"" ""Región del Norte Grande Argentino"" con filtro ""Nombre"" ""corrientes""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región del Norte Grande Argentino""
@@ -3443,7 +3443,7 @@ Habitantes: 1 212 696
 Km2: 88 199
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas.","El sistema muestra correctamente la provincia Corrientes, sin embargo, la columna
-""Habitantes"" muestra el valor 992.595 en lugar de 1.212.696, según lo especificado; además la busqueda se realiza automaticamente al seleccionar ""Región del Norte Grande Argentino"" y escribir ""corrientes"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,,,,
+""Habitantes"" muestra el valor 992.595 en lugar de 1.212.696, según lo especificado; además la busqueda se realiza automaticamente al seleccionar ""Región del Norte Grande Argentino"" y escribir ""corrientes"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,Media,,,
 252,v4,Chrome,Abierto ,30-09,"Verificar filtro ""Región"" ""Región del Norte Grande Argentino"" con filtro ""Nombre"" ""chaco""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región del Norte Grande Argentino""
@@ -3460,7 +3460,7 @@ Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 ","El sistema muestra correctamente la provincia ""Chaco"", sin embargo, la columna 
 ""Habitantes"" muestra el valor 1.055.259 en lugar de 1.129.606, 
 y la columna ""Km²"" muestra el valor 102.602 en lugar de 99.633, según lo especificado; además la busqueda se realiza automaticamente al 
-seleccionar ""Región del Norte Grande Argentino"" y escribir ""chaco"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,,,,
+seleccionar ""Región del Norte Grande Argentino"" y escribir ""chaco"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,Media,,,
 253,v4,Chrome,Abierto ,30-09,"Verificar filtro ""Región"" ""Región del Norte Grande Argentino"" con filtro ""Nombre"" ""formosa""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región del Norte Grande Argentino""
@@ -3476,7 +3476,7 @@ Km2: 72 066
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 ","El sistema muestra correctamente la provincia ""Formosa"",
 sin embargo, la columna ""Habitantes"" muestra el valor 530.162 en lugar de 607.419, según lo especificado; además la busqueda se realiza 
-automaticamente al  seleccionar ""Región del Norte Grande Argentino"" y escribir ""formosa"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,,,,
+automaticamente al  seleccionar ""Región del Norte Grande Argentino"" y escribir ""formosa"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,Media,,,
 254,v4,Chrome,Abierto ,30-09,"Verificar filtro ""Región"" ""Región del Norte Grande Argentino"" con filtro ""Nombre"" ""jujuy""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región del Norte Grande Argentino""
@@ -3491,7 +3491,7 @@ Km2: 53 219
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","El sistema muestra correctamente la provincia ""Jujuy"", sin embargo, la columna ""Habitantes"" muestra el valor 673.307 en lugar de
 811.611, según lo especificado; además la busqueda se realiza automaticamente al  seleccionar ""Región del Norte Grande Argentino"" y escribir 
-""jujuy"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,,,,
+""jujuy"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,Media,,,
 255,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región del Norte Grande Argentino"" con filtro ""Nombre"" ""misiones""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región del Norte Grande Argentino""
@@ -3507,7 +3507,7 @@ Km2:  29 801
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","El sistema muestra correctamente la provincia ""Misiones"",
 sin embargo, la columna ""Habitantes"" muestra el valor 1.101.593 en lugar de 1.278.873, según 
 lo especificado; además la busqueda se realiza automaticamente al  seleccionar ""Región del Norte Grande Argentino"" y escribir 
-""misiones"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,,,,
+""misiones"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,Media,,,
 256,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región del Norte Grande Argentino"" con filtro ""Nombre"" ""tucuman""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región del Norte Grande Argentino""
@@ -3525,7 +3525,7 @@ Se encuentran disponibles opciones para ordenar por cualquiera de las columnas",
 con lo buscado"". Al ingresar ""tucumán"" (con tilde), la provincia se muestra correctamente, sin
 embargo, la columna ""Habitantes"" presenta el valor 1.448.188 en lugar de 1.731.820, según lo 
 especificado; además la busqueda se realiza automaticamente al  seleccionar ""Región del Norte Grande Argentino"" y escribir 
-""tucuman"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,,,,
+""tucuman"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,Media,,,
 257,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región del Norte Grande Argentino"" con filtro ""Nombre"" ""salta""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región del Norte Grande Argentino""
@@ -3541,7 +3541,7 @@ Km2: 155 488
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","El sistema muestra correctamente la provincia ""Salta"",
 sin embargo, la columna ""Habitantes"" muestra el valor 1.214.441 en lugar de 1.441.351, según 
 lo especificado; además la busqueda se realiza automaticamente al  seleccionar ""Región del Norte Grande Argentino"" y escribir 
-""salta"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,,,,
+""salta"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,Media,,,
 258,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región del Norte Grande Argentino"" con filtro ""Nombre"" ""santiago del estero""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región del Norte Grande Argentino""
@@ -3558,7 +3558,7 @@ Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 ","El sistema muestra correctamente la provincia ""Santiago del
 Estero"", sin embargo, la columna ""Habitantes"" muestra el valor 874.006 en lugar de 1.060.906 
 según lo especificado; además la busqueda se realiza automaticamente al  seleccionar ""Región del Norte Grande Argentino"" y escribir 
-""santiago del estero"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,,,,
+""santiago del estero"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,Media,,,
 259,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región del Norte Grande Argentino"" con filtro ""Nombre"" ""la rioja""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región del Norte Grande Argentino""
@@ -3573,7 +3573,7 @@ Km2: 89 680
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 ","El sistema muestra el mensaje ""No hay provincias que coincidan con lo 
-buscado"", en lugar de mostrar la provincia ""La Rioja"", según lo especificado en el caso de prueba",,,,,
+buscado"", en lugar de mostrar la provincia ""La Rioja"", según lo especificado en el caso de prueba",,Media,,,
 261,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región del Nuevo Cuyo""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región del Nuevo Cuyo""
@@ -3588,7 +3588,7 @@ Km2: Superficie de la provincia
 Por defecto los resultados aparecen en orden alfabético creciente según nombre de la provincia
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","El sistema muestra las provincias ""Mendoza"", ""San Juan"" y ""San Luis"", sin embargo, también incluye la provincia ""La Rioja"",
-la cual no corresponde a la Región del Nuevo Cuyo según lo especificado en el caso de prueba.",,,,,
+la cual no corresponde a la Región del Nuevo Cuyo según lo especificado en el caso de prueba.",,Media,,,
 262,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región del Nuevo Cuyo"" con filtro ""Nombre"" ""mendoza""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región del Nuevo Cuyo""
@@ -3603,7 +3603,7 @@ Km2: 148 827
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","El sistema muestra correctamente la provincia ""Mendoza"", sin embargo, la columna 
 ""Habitantes"" muestra el valor 1.738.929 en lugar de 2 043 540 según lo especificado; además la busqueda se realiza automaticamente al  
-seleccionar ""Región del Nuevo Cuyo"" y escribir  ""mendoza"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,,,,
+seleccionar ""Región del Nuevo Cuyo"" y escribir  ""mendoza"" en el campo ""Nombre"" ya que no está el boton ""Buscar!""",,Media,,,
 263,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región del Nuevo Cuyo"" con filtro ""Nombre"" ""san juan""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región del Nuevo Cuyo""
@@ -3618,7 +3618,7 @@ Km2: 89 651
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","El sistema muestra correctamente la provincia ""San Juan"", sin embargo, la columna 
 ""Habitantes"" muestra el valor 681.055 en lugar de 822 853 según lo especificado; además la busqueda se realiza automaticamente al  
-seleccionar ""Región del Nuevo Cuyo"" y escribir  ""san juan"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,,,,
+seleccionar ""Región del Nuevo Cuyo"" y escribir  ""san juan"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,Media,,,
 264,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región del Nuevo Cuyo"" con filtro ""Nombre"" ""san luis""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región del Nuevo Cuyo""
@@ -3633,7 +3633,7 @@ Km2: 76 748
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","El sistema muestra correctamente la provincia ""San Luis"", sin embargo, la columna 
 ""Habitantes"" muestra el valor 432.310 en lugar de 542 069 según lo especificado; además la busqueda se realiza automaticamente al  
-seleccionar ""Región del Nuevo Cuyo"" y escribir  ""san luis"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,,,,
+seleccionar ""Región del Nuevo Cuyo"" y escribir  ""san luis"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,Media,,,
 267,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región de la Patagonia"" con filtro ""Nombre"" ""chubut""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región de la Patagonia""
@@ -3649,7 +3649,7 @@ Km2: 224 686
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al seleccionar la opción ""Región de la Patagonia"", ingresar ""chubut"" en el filtro ""Nombre"" y realizar
 la búsqueda, el sistema muestra correctamente la provincia ""Chubut"", sin embargo, la columna 
 ""Habitantes"" muestra el valor 318.951 en lugar de 361 859 según lo especificado; además la busqueda se realiza automaticamente al  
-seleccionar ""Región de la Patagonia"" y escribir  ""chubut"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,,,,
+seleccionar ""Región de la Patagonia"" y escribir  ""chubut"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,Media,,,
 268,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región de la Patagonia"" con filtro ""Nombre"" ""la pampa""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región de la Patagonia""
@@ -3665,7 +3665,7 @@ Km2: 143 440
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al seleccionar la opción ""Región de la Patagonia"", ingresar ""la pampa"" en el filtro ""Nombre"" y realizar
 la búsqueda, el sistema muestra correctamente la provincia ""La Pampa"", sin embargo, la columna 
 ""Habitantes"" muestra el valor 318.951 en lugar de 361 859 según lo especificado; además la busqueda se realiza automaticamente al  
-seleccionar ""Región de la Patagonia"" y escribir  ""la pampa"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,,,,
+seleccionar ""Región de la Patagonia"" y escribir  ""la pampa"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,Media,,,
 269,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región de la Patagonia"" con filtro ""Nombre"" ""neuquen""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región de la Patagonia""
@@ -3684,7 +3684,7 @@ Se encuentran disponibles opciones para ordenar por cualquiera de las columnas",
 con lo buscado"". Al ingresar ""neuquén"" (con tilde), la provincia se muestra correctamente, sin
 embargo, la columna ""Habitantes"" presenta el valor 551.266 en lugar de 710 814 según lo 
 especificado; además la busqueda se realiza automaticamente al  
-seleccionar ""Región de la Patagonia"" y escribir  ""neuquen"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,,,,
+seleccionar ""Región de la Patagonia"" y escribir  ""neuquen"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,Media,,,
 270,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región de la Patagonia"" con filtro ""Nombre"" ""rio negro""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región de la Patagonia""
@@ -3702,7 +3702,7 @@ Se encuentran disponibles opciones para ordenar por cualquiera de las columnas",
 con lo buscado"". Al ingresar ""río negro"" (con tilde), la provincia se muestra correctamente, sin
 embargo, la columna ""Habitantes"" presenta el valor 638.645 en lugar de 750 768 según lo 
 especificado; además la busqueda se realiza automaticamente al  
-seleccionar ""Región de la Patagonia"" y escribir  ""rio negro"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,,,,
+seleccionar ""Región de la Patagonia"" y escribir  ""rio negro"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,Media,,,
 271,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región de la Patagonia"" con filtro ""Nombre"" ""santa cruz""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región de la Patagonia""
@@ -3717,7 +3717,7 @@ Km2: 243 943
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al seleccionar la opción ""Región de la Patagonia"", ingresar ""santa cruz"" en el filtro ""Nombre"" y realizar la
 búsqueda, el sistema muestra correctamente la provincia ""Santa Cruz"", sin embargo, la columna ""Habitantes""
 muestra el valor 273.964 en lugar de 337.226, según lo especificado; además la busqueda se realiza automaticamente al  
-seleccionar ""Región de la Patagonia"" y escribir  ""santa cruz"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,,,,
+seleccionar ""Región de la Patagonia"" y escribir  ""santa cruz"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,Media,,,
 272,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región de la Patagonia"" con filtro ""Nombre"" ""tierra del fuego""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región de la Patagonia""
@@ -3733,7 +3733,7 @@ Se encuentran disponibles opciones para ordenar por cualquiera de las columnas",
 búsqueda, el sistema muestra correctamente la provincia ""Tierra del Fuego, Antártida e Islas del Atlántico Sur"", 
 sin embargo, la columna ""Habitantes"" muestra el valor 127.205 en lugar de 185.732 y la columna ""Km²""
 muestra el valor 21.5714 en lugar de 21.571, según lo especificado; además la busqueda se realiza automaticamente al  
-seleccionar ""Región de la Patagonia"" y escribir  ""tierra del fuego"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,,,,
+seleccionar ""Región de la Patagonia"" y escribir  ""tierra del fuego"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,Media,,,
 275,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región Centro"" con filtro ""Nombre"" ""cordoba""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región de la Patagonia""
@@ -3750,7 +3750,7 @@ Se encuentran disponibles opciones para ordenar por cualquiera de las columnas",
 el sistema muestra el mensaje ""No hay provincias que coincidan con lo buscado"". Al ingresar ""Córdoba"" (con tilde), 
 el sistema muestra correctamente la provincia. Sin embargo, la columna ""Habitantes"" presenta el valor ""3.308.876"", 
 mientras que el caso de prueba especifica ""3.840.905"" ; además la busqueda se realiza automaticamente al  
-seleccionar ""Región Centro"" y escribir  ""cordoba"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,,,,
+seleccionar ""Región Centro"" y escribir  ""cordoba"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,Media,,,
 276,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región Centro"" con filtro ""Nombre"" ""entre rios""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región de la Patagonia""
@@ -3767,7 +3767,7 @@ Se encuentran disponibles opciones para ordenar por cualquiera de las columnas",
 el sistema muestra el mensaje ""No hay provincias que coincidan con lo buscado"". Al ingresar ""Entre Ríos"" (con tilde), 
 el sistema muestra correctamente la provincia. Sin embargo, la columna ""Habitantes"" presenta el valor ""1.235.994"",
 mientras que el caso de prueba especifica ""1.425.578"" ; además la busqueda se realiza automaticamente al  
-seleccionar ""Región Centro"" y escribir  ""entre rios"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,,,,
+seleccionar ""Región Centro"" y escribir  ""entre rios"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,Media,,,
 277,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Región"" ""Región Centro"" con filtro ""Nombre"" ""santa fe""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Región de la Patagonia""
@@ -3782,7 +3782,7 @@ Km2: 133 007
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""santa fe"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Santa Fe"", sin embargo, la columna ""Habitantes"" muestra el valor 3.194.537 en lugar de 3 544 908 según lo especificado; además la busqueda se 
-realiza automaticamente al  seleccionar ""Región Centro"" y escribir  ""santa fe"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,,,,
+realiza automaticamente al  seleccionar ""Región Centro"" y escribir  ""santa fe"" en el campo ""Nombre"" ya que no está el boton ""Buscar",,Media,,,
 286,v4,Chrome,Abierto ,02-10,"Verificar ""Boton"" de orden ascendente por Región","Ingresar al sistema
 Filtrar por Region: ""Todas""
 Dejar campo Nombre vacío.
@@ -3790,7 +3790,7 @@ Clickear Boton Buscar!
 1. Clickear Botón de orden ascendente por Región","Se visualiza en la grilla la información de todas las provincias agrupadas por región en orden alfabético ascendente: 
 ""Ninguna"", ""Región Centro"", ""Región de la Patagonia"", ""Región del Norte Grande Argentino"", ""Región del Nuevo Cuyo""","Al clickear el botón de orden ascendente de la columna ""Región"", el sistema agrupa los registros en el siguiente orden: ""Centro"", ""Ninguna"",
 ""Norte Grande Argentino"", ""Nuevo Cuyo"" y ""Patagónica"", en lugar del orden ""Ninguna"", ""Región Centro"", ""Región de la Patagonia"", ""Región
-del Norte Grande Argentino"" y ""Región del Nuevo Cuyo"", según lo especificado en el caso de prueba.",,,,,
+del Norte Grande Argentino"" y ""Región del Nuevo Cuyo"", según lo especificado en el caso de prueba.",,Baja,,,
 287,v4,Chrome,Abierto ,02-10,"Verificar ""Boton"" de orden descendente por Región","Ingresar al sistema
 Filtrar por Region: ""Todas""
 Dejar campo Nombre vacío.
@@ -3798,7 +3798,7 @@ Clickear Boton Buscar!
 1. Clickear Botón de orden descendente por Región","Se visualiza en la grilla la información de todas las provincias agrupadas por región en orden alfabético descendente: 
 ""Región del Nuevo Cuyo"", ""Región del Norte Grande Argentino"", ""Región de la Patagonia"", ""Región Centro"", ""Ninguna""","Al clickear el botón de orden descendente de la columna ""Región"", el sistema agrupa los registros en el orden ""Patagónica"", ""Nuevo Cuyo"", 
 ""Norte Grande Argentino"", ""Ninguna"" y ""Centro"", en lugar del orden ""Región del Nuevo Cuyo"", ""Región del Norte Grande Argentino"", ""Región 
-de la Patagonia"", ""Región Centro"" y ""Ninguna"", según lo especificado en el caso de prueba",,,,,
+de la Patagonia"", ""Región Centro"" y ""Ninguna"", según lo especificado en el caso de prueba",,Baja,,,
 288,v4,Chrome,Abierto ,02-10,"Verificar ""Boton"" de orden ascendente por Nombre","Ingresar al sistema
 Filtrar por Region: ""Todas""
 Dejar campo Nombre vacío.
@@ -3807,7 +3807,7 @@ Clickear Boton Buscar!
 2. Clickear Botón de orden ascendente por Nombre","Se visualiza en la grilla la información de todas las provincias en orden alfabético ascendente según el nombre de la provincia: 
 Buenos Aires, Catamarca, Chaco, Chubut, Córdoba, Corrientes, Entre Ríos, Formosa, Jujuy, La Pampa, La Rioja, Mendoza, Misiones, Neuquén, Río Negro, Salta, San Juan, San Luis, Santa Cruz, Santa Fe, Santiago del Estero, Tierra del Fuego, Antártida e Islas del Atlántico Sur, Tucumán.","Al clickear el botón de orden ascendente de la columna ""Nombre"", el sistema muestra las provincias ordenadas alfabéticamente; sin embargo,
 incluye el registro ""Ciudad Autónoma de Buenos Aires"", que no se encuentra contemplado en el caso de prueba, y muestra ""Corrientes"" antes
-de ""Córdoba"", en lugar del orden especificado",,,,,
+de ""Córdoba"", en lugar del orden especificado",,Media,,,
 289,v4,Chrome,Abierto ,02-10,"Verificar ""Boton"" de orden descendente por Nombre","Ingresar al sistema
 Filtrar por Region: ""Todas""
 Dejar campo Nombre vacío.
@@ -3815,7 +3815,7 @@ Clickear Boton Buscar!
 1. Clickear Botón de orden descendente por Nombre","Se visualiza en la grilla la información de todas las provincias en orden alfabético descendente según el nombre de la provincia: 
 Tucumán, Tierra del Fuego, Antártida e Islas del Atlántico Sur, Santiago del Estero, Santa Fe, Santa Cruz, San Luis, San Juan, Salta, Río Negro, Neuquén, Misiones, Mendoza, La Rioja, La Pampa, Jujuy, Formosa, Entre Ríos, Corrientes, Córdoba, Chubut, Chaco, Catamarca, Buenos Aires.","Al clickear el botón de orden descendente de la columna ""Nombre"", el sistema muestra las provincias ordenadas alfabéticamente; sin embargo,
 incluye el registro ""Ciudad Autónoma de Buenos Aires"", que no se encuentra contemplado en el caso de prueba, y muestra ""Córdoba"" antes de 
-""Corrientes"", en lugar del orden especificado",,,,,
+""Corrientes"", en lugar del orden especificado",,Media,,,
 290,v4,Chrome,Abierto ,02-10,"Verificar ""Boton"" de orden ascendente por Capital","Ingresar al sistema
 Filtrar por Region: ""Centro""
 Dejar campo Nombre vacío.
@@ -3826,7 +3826,7 @@ Córdoba - Córdoba,
 Entre Ríos - Paraná,
 Santa Fe - Santa Fe 
 ","Al clickear el botón de orden ascendente de la columna ""Capital"", el sistema muestra los registros en un orden que no coincide con el orden 
-alfabético ascendente especificado en el caso de prueba",,,,,
+alfabético ascendente especificado en el caso de prueba",,Media,,,
 291,v4,Chrome,Abierto ,02-10,"Verificar ""Boton"" de orden descendente por Capital","Ingresar al sistema
 Filtrar por Region: ""Centro""
 Dejar campo Nombre vacío.
@@ -3835,7 +3835,7 @@ Clickear Boton Buscar!
 Santa Fe - Santa Fe, 
 Entre Ríos -  Paraná,  
 Córdoba - Cordoba ","Al clickear el botón de orden descendente de la columna ""Capital"", el sistema muestra los registros en un orden que no coincide con el orden
- alfabético descendente especificado en el caso de prueba",,,,,
+ alfabético descendente especificado en el caso de prueba",,Media,,,
 292,v4,Chrome,Abierto ,02-10,"Verificar ""Boton"" de orden ascendente por Habitantes","Ingresar al sistema
 Filtrar por Region: ""Centro"" 
 Dejar campo Nombre vacío.
@@ -3845,7 +3845,7 @@ Entre Ríos: 1.425.578
 Santa Fe: 3.544.908
 Córdoba: 3.840.905","Al clickear el botón de orden ascendente de la columna ""Habitantes"", el sistema muestra los registros en un orden que coincide con el orden
 alfabético descendente especificado en el caso de prueba; sin embargo, la cantidad de habitantes de cada provincia no coincide con el resultado
-esperado en el caso de prueba",,,,,
+esperado en el caso de prueba",,Media,,,
 293,v4,Chrome,Abierto ,02-10,"Verificar ""Boton"" de orden descendente por Habitantes","Ingresar al sistema
 Filtrar por Region: ""Centro"" 
 Dejar campo Nombre vacío.
@@ -3855,7 +3855,7 @@ Córdoba: 3.840.905
 Santa Fe: 3.544.908
 Entre Ríos: 1.425.578","Al clickear el botón de orden descendente de la columna ""Habitantes"", el sistema muestra los registros en un orden que coincide con el orden
 alfabético descendente especificado en el caso de prueba; sin embargo, la cantidad de habitantes de cada provincia no coincide con el resultado
-esperado en el caso de prueba",,,,,
+esperado en el caso de prueba",,Media,,,
 296,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""buenos aires"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3873,7 +3873,7 @@ Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 ","Al seleccionar la opción ""Todas"", ingresar ""buenos aires"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra dos registros: 
 ""Ciudad Autónoma de Buenos Aires"" y ""Buenos Aires"", cuando según lo especificado en el caso de prueba debería mostrar únicamente la
 provincia ""Buenos Aires"". Además, la columna ""Habitantes"" presenta el valor 15.625.084 en lugar de 17.523.996 según lo especificado en el caso
-de prueba",,,,,
+de prueba",,Media,,,
 297,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""catamarca"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3888,7 +3888,7 @@ Km2: 102 602
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas.","Al seleccionar la opción ""Todas"", ingresar ""catamarca"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia 
 ""Catamarca""; sin embargo, la columna ""Habitantes"" presenta el valor 367.828 en lugar de 429.562 y la columna ""Km²"" presenta el valor 99.633 en
-lugar de 102.602, según lo especificado en el caso de prueba",,,,,
+lugar de 102.602, según lo especificado en el caso de prueba",,Media,,,
 298,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""corrientes"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3902,7 +3902,7 @@ Habitantes: 1 212 696
 Km2: 88 199
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas.","Al seleccionar la opción ""Todas"", ingresar ""corrientes"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia 
-""Corrientes""; sin embargo, la columna ""Habitantes"" presenta el valor 992.595 en lugar de 1.212.696 según lo especificado en el caso de prueba",,,,,
+""Corrientes""; sin embargo, la columna ""Habitantes"" presenta el valor 992.595 en lugar de 1.212.696 según lo especificado en el caso de prueba",,Media,,,
 299,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""chaco"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3918,7 +3918,7 @@ Km2: 99 633
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 ","Al seleccionar la opción ""Todas"", ingresar ""chaco"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Chaco""; sin embargo, la columna ""Habitantes"" presenta el valor 1.055.259 en lugar de 1.129.606 y la columna ""Km²"" presenta el valor 102.602 en
-lugar de 99.633, según lo especificado en el caso de prueba",,,,,
+lugar de 99.633, según lo especificado en el caso de prueba",,Media,,,
 300,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""formosa"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3933,7 +3933,7 @@ Km2: 72 066
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 ","Al seleccionar la opción ""Todas"", ingresar ""formosa"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia 
-""Formosa""; sin embargo, la columna ""Habitantes"" presenta el valor 530.162 en lugar de 607.419 según lo especificado en el caso de prueba",,,,,
+""Formosa""; sin embargo, la columna ""Habitantes"" presenta el valor 530.162 en lugar de 607.419 según lo especificado en el caso de prueba",,Media,,,
 301,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""jujuy"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3947,7 +3947,7 @@ Habitantes: 811 611
 Km2: 53 219
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al seleccionar la opción ""Todas"", ingresar ""jujuy"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia 
-""Jujuy""; sin embargo, la columna ""Habitantes"" presenta el valor 673.307 en lugar de 811 611 según lo especificado en el caso de prueba",,,,,
+""Jujuy""; sin embargo, la columna ""Habitantes"" presenta el valor 673.307 en lugar de 811 611 según lo especificado en el caso de prueba",,Media,,,
 302,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""misiones"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3961,7 +3961,7 @@ Habitantes: 1 278 873
 Km2:  29 801
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al seleccionar la opción ""Todas"", ingresar ""misiones"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia 
-""Misiones""; sin embargo, la columna ""Habitantes"" presenta el valor 1.101.593 en lugar de 1 278 873 según lo especificado en el caso de prueba",,,,,
+""Misiones""; sin embargo, la columna ""Habitantes"" presenta el valor 1.101.593 en lugar de 1 278 873 según lo especificado en el caso de prueba",,Media,,,
 303,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""tucuman"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3978,7 +3978,7 @@ Se encuentran disponibles opciones para ordenar por cualquiera de las columnas",
 ""Nombre"" y realizar la búsqueda, el sistema muestra el mensaje ""No hay provincias que coincidan
 con lo buscado"". Al ingresar ""tucumán"" (con tilde), la provincia se muestra correctamente, sin
 embargo, la columna ""Habitantes"" presenta el valor 1.448.188 en lugar de 1.731.820, según lo 
-especificado en el caso de prueba",,,,,
+especificado en el caso de prueba",,Media,,,
 304,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""salta"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -3993,7 +3993,7 @@ Km2: 155 488
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""salta"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Salta"", sin embargo, la columna ""Habitantes"" muestra el valor 874.006 en lugar de 1 441 351 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 306,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""santiago del estero"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -4009,7 +4009,7 @@ Km2: 136 351
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 ","Al ingresar ""santiago del estero"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Santiago del Estero"", sin embargo, la columna ""Habitantes"" muestra el valor 1.214.441 en lugar de 1 060 906 según lo
-especificado en el caso de prueba",,,,,
+especificado en el caso de prueba",,Media,,,
 307,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""la rioja"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -4025,7 +4025,7 @@ Km2: 89 680
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas
 ","Al ingresar ""la rioja"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""La Rioja"", sin embargo, la columna ""Habitantes"" muestra el valor 333.642 en lugar de 383 865 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 308,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""mendoza"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -4040,7 +4040,7 @@ Km2: 148 827
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""mendoza"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Mendoza"", sin embargo, la columna ""Habitantes"" muestra el valor 1.738.929 en lugar de 2 043 540 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 309,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""san juan"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -4055,7 +4055,7 @@ Km2: 89 651
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""san juan"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""San Juan"", sin embargo, la columna ""Habitantes"" muestra el valor 681.055 en lugar de 822 853 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 310,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""san luis"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -4070,7 +4070,7 @@ Km2: 76 748
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""san luis"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""San Luis"", sin embargo, la columna ""Habitantes"" muestra el valor 432.310 en lugar de 542 069 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 311,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""chubut"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -4085,7 +4085,7 @@ Km2: 224 686
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""chubut"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Chubut"", sin embargo, la columna ""Habitantes"" muestra el valor 509.108 en lugar de 592 621 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 312,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""la pampa"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -4100,7 +4100,7 @@ Km2: 143 440
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""la pampa"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""La Pampa"", sin embargo, la columna ""Habitantes"" muestra el valor 318.951 en lugar de 361 859 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 313,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""neuquen"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -4117,7 +4117,7 @@ Por defecto los resultados aparecen en orden alfabético creciente según nombre
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al seleccionar la opción ""Todas"" ingresar ""neuquen"" (sin tilde) en el filtro ""Nombre"" y realizar la búsqueda,
 el sistema muestra el mensaje ""No hay provincias que coincidan con lo buscado"". Al ingresar ""Neuquén"" (con tilde), 
 el sistema muestra correctamente la provincia. Sin embargo, la columna ""Habitantes"" presenta el valor ""551.266"",
-mientras que el caso de prueba especifica ""710 814""",,,,,
+mientras que el caso de prueba especifica ""710 814""",,Media,,,
 314,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""rio negro""","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -4134,7 +4134,7 @@ Se encuentran disponibles opciones para ordenar por cualquiera de las columnas",
 ""Nombre"" y realizar la búsqueda, el sistema muestra el mensaje ""No hay provincias que coincidan
 con lo buscado"". Al ingresar ""río negro"" (con tilde), la provincia se muestra correctamente, sin
 embargo, la columna ""Habitantes"" presenta el valor 638.645 en lugar de 750 768 según lo 
-especificado en el caso de prueba",,,,,
+especificado en el caso de prueba",,Media,,,
 315,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""santa cruz"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -4148,7 +4148,7 @@ Km2: 243 943
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""santa cruz"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Santa Cruz"", sin embargo, la columna ""Habitantes"" muestra el valor 273.964 en lugar de 337 226 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 316,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""tierra del fuego"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -4162,7 +4162,7 @@ Km2: 21 571
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""tierra del fuego"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Tierra del Fuego, Antártida e Islas del Atlántico Sur"", sin embargo, la columna ""Habitantes"" muestra el valor 273.964 en 
-lugar de 337 226 según lo especificado en el caso de prueba""",,,,,
+lugar de 337 226 según lo especificado en el caso de prueba""",,Media,,,
 317,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""cordoba"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -4178,7 +4178,7 @@ Km2: 165 321
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al seleccionar la opción ""Todas"", ingresar ""cordoba"" (sin tilde) en el filtro ""Nombre"" y realizar la búsqueda, 
 el sistema muestra el mensaje ""No hay provincias que coincidan con lo buscado"". Al ingresar ""Córdoba"" (con tilde), 
 el sistema muestra correctamente la provincia. Sin embargo, la columna ""Habitantes"" presenta el valor ""3.308.876"", 
-mientras que el caso de prueba especifica ""3.840.905""",,,,,
+mientras que el caso de prueba especifica ""3.840.905""",,Media,,,
 318,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""entre rios"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -4194,7 +4194,7 @@ Km2: 78 781
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al seleccionar la opción ""Todas"", ingresar ""entre rios"" (sin tilde) en el filtro ""Nombre"" y realizar la búsqueda,
 el sistema muestra el mensaje ""No hay provincias que coincidan con lo buscado"". Al ingresar ""Entre Ríos"" (con tilde), 
 el sistema muestra correctamente la provincia. Sin embargo, la columna ""Habitantes"" presenta el valor ""1.235.994"",
-mientras que el caso de prueba especifica ""1.425.578""",,,,,
+mientras que el caso de prueba especifica ""1.425.578""",,Media,,,
 319,v4,Chrome,Abierto ,02-10,"Verificar filtro ""Nombre"" con ""santa fe"" ","Ingresar al sistema
 1. Clickear menú despegable del filtro región
 2. Clickear ""Todas""
@@ -4209,7 +4209,7 @@ Km2: 133 007
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al ingresar ""santa fe"" en el filtro ""Nombre"" y realizar la búsqueda, el sistema muestra correctamente la provincia
 ""Santa Fe"", sin embargo, la columna ""Habitantes"" muestra el valor 3.194.537en lugar de 3 544 908 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
 320,v4,Chrome,Abierto ,02-10,"Verificar dos búsquedas consecutivas utilizando filtro ""Nombre"""," Ingresar a la Página Provinciano
 Completar campo Nombre con ""corrientes""
 Clickear botón Buscar!
@@ -4228,4 +4228,4 @@ Km2: 133 007
 
 Se encuentran disponibles opciones para ordenar por cualquiera de las columnas","Al realizar las búsquedas consecutivas ingresando ""corrientes"", ""catamarca"" y posteriormente ""santa fe"" en el filtro ""Nombre"", el
 sistema funciona perfectamente, sin embargo la columna ""Habitantes"" muestra el valor 3.194.537en lugar de 3 544 908 según lo especificado en 
-el caso de prueba""",,,,,
+el caso de prueba""",,Media,,,
