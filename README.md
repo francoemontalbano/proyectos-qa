@@ -1,6 +1,6 @@
 # Portfolio de QA Manual — Franco Montalbano
 
-En este repositorio reúno mis prácticas de testing manual sobre aplicaciones de Proyecto Nahual. Diseñé casos de prueba, documenté resultados y reporté defectos. En Provinciano también trabajé en revisión cruzada con un compañero.
+Busco mi primera posición como QA manual (trainee/junior) y en este repositorio reúno mis prácticas de testing manual sobre aplicaciones de Proyecto Nahual. Diseñé casos de prueba, documenté resultados y reporté defectos. En Provinciano también trabajé en revisión cruzada con un compañero.
 
 Proyecto Nahual es mi entorno de práctica y capacitación; estos proyectos no son experiencia laboral.
 
@@ -14,14 +14,14 @@ Proyecto Nahual es mi entorno de práctica y capacitación; estos proyectos no s
 
 ## Métricas globales
 
-| Proyecto | Registros de casos | OK | Con diferencias u otro resultado descriptivo | Reportes de bugs | Severidades registradas |
-| :--- | ---: | ---: | ---: | ---: | :--- |
-| [Gestión de Contactos](01_Gestion_Contactos/README.md#métricas) | 168 | 108 | 60 | 62 | Baja: 6; Media: 45; Alta: 11 |
-| [Buscador Provinciano](02_Provinciano/README.md#métricas) | 347 | 33 | 314 | 276 | Media: 7; Alta: 167; Sin informar: 100; Baja: 2 |
-| [Juego Lumbricina](03_Lumbricina/README.md#métricas) | 100 | 54 | 46 | 45 | mayor: 38; menor: 3; bloqueo: 4 |
-| **Total** | **615** | **195** | **420** | **383** | Escalas conservadas por proyecto |
+| Proyecto | Registros de casos | OK | Con diferencias u otro resultado descriptivo | Reportes de bugs |
+| :--- | ---: | ---: | ---: | ---: |
+| [Gestión de Contactos](01_Gestion_Contactos/README.md#métricas) | 168 | 108 | 60 | 62 |
+| [Buscador Provinciano](02_Provinciano/README.md#métricas) | 347 | 33 | 314 | 276 |
+| [Juego Lumbricina](03_Lumbricina/README.md#métricas) | 100 | 54 | 46 | 45 |
 
-Conté todos los registros de las versiones disponibles, no escenarios únicos ni defectos únicos entre versiones. `OK` es una marca literal del resultado obtenido. Los otros 420 registros incluyen diferencias y pruebas que no se pudieron completar. No sumé `Alta` con `mayor`: son los valores de las escalas originales.
+Conté registros por versión, no casos ni defectos únicos entre versiones.<br>
+`OK` es la marca literal del resultado; los demás incluyen diferencias y pruebas que no pude completar.
 
 ## Cómo leer este repo
 
@@ -37,26 +37,19 @@ Para ver cómo trabajo sin abrir los CSV, dejé un caso completo y reportes de b
 
 En cada carpeta están los casos de prueba y los reportes de bugs del proyecto. Los archivos están en CSV y se pueden abrir con Excel o Google Sheets. En los README dejé los enlaces a las aplicaciones y sus narrativas.
 
-## Prácticas que apliqué
+## Técnicas y dónde las apliqué
 
-- Diseño de casos con precondiciones, datos de entrada, pasos y resultados esperados.
-- Pruebas de campos obligatorios, formatos, límites de longitud y flujos de alta, edición y baja.
-- Comparación entre resultado esperado y obtenido para documentar diferencias.
-- Reporte de defectos con pasos de reproducción y comparación entre el resultado esperado y el obtenido.
-- Revisión cruzada de casos y reportes en Provinciano.
-- Organización y actualización de la documentación en GitHub.
-
-## Responsable
-
-Franco Montalbano
-
-## Acceso a las referencias
-
-Revisé los enlaces a las aplicaciones, narrativas, planillas de Google Sheets y Wikipedia el 13/11/2026. No encontré enlaces rotos entre esas referencias.
-
-| Referencia | Acceso comprobado |
+| Técnica o práctica | Proyectos |
 | :--- | :--- |
-| Aplicaciones y narrativas de Contactos, Provinciano y Lumbricina | Las seis páginas respondieron correctamente. |
-| Google Sheets: casos y bugs de Contactos, bugs de Provinciano y casos de Lumbricina | Las cuatro planillas permitieron leer la pestaña enlazada sin iniciar sesión. |
-| Wikipedia: provincias y regiones | La página respondió correctamente. |
+| Partición de equivalencia | [Contactos](01_Gestion_Contactos/README.md#técnicas-aplicadas), [Lumbricina](03_Lumbricina/README.md#técnicas-aplicadas) |
+| Análisis de valores límite | [Contactos](01_Gestion_Contactos/README.md#técnicas-aplicadas), [Lumbricina](03_Lumbricina/README.md#técnicas-aplicadas) |
+| Regresión entre versiones | [Contactos](01_Gestion_Contactos/README.md#técnicas-aplicadas) |
+| Transiciones de estado | [Lumbricina](03_Lumbricina/README.md#técnicas-aplicadas) |
+| Combinación de filtros | [Provinciano](02_Provinciano/README.md#técnicas-aplicadas) |
+| Revisión cruzada | [Provinciano](02_Provinciano/README.md#alcance-de-las-pruebas) |
 
+## Contacto
+
+- [LinkedIn](https://www.linkedin.com/in/francomontalbano/)
+- Mail: [francoemontalbano@gmail.com](mailto:francoemontalbano@gmail.com)
+- Ciudad: Rosario, Santa Fe, Argentina
