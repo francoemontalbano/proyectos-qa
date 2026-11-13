@@ -1,4 +1,4 @@
-ID,Version,Estado del test case,Fecha de diseño,Descripción,Precondiciones,Pasos del test,Resultado Esperado,Resultado Obtenido,Aclaraciones / comentarios,,,,,
+﻿ID,Version,Estado del test case,Fecha de diseño,Descripción,Precondiciones,Pasos del test,Resultado Esperado,Resultado Obtenido,Aclaraciones / comentarios,,,,,
 1,v1,Cerrado ,19-08,Visualizar - Home,Ingresar a la Página Provinciano,1- Visualizar Pantalla,"El sistema muestra la pantalla con:
 Título ""Provinciano""
 Buscador de datos sobre Provincias de la República Argentina
@@ -1111,10 +1111,11 @@ Chaco
 Corrientes
 Formosa
 Jujuy
+La Rioja
 Misiones
 Salta
 Santiago del Estero
-Tucumán",OK,,,,,,
+Tucumán","El sistema muestra Catamarca, Chaco, Corrientes, Formosa, Jujuy, Misiones, Salta, Santiago del Estero y Tucumán. No muestra La Rioja.",,,,,,
 97,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región de la Patagonia""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región de la Patagonia""
 2- Dejar el campo Nombre vacío
 3- Hacer clic en ""Buscar!""","El sistema muestra en la grilla únicamente las

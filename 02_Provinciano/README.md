@@ -9,21 +9,21 @@ En este proyecto diseñé y ejecuté casos de prueba sobre el buscador de provin
 | Versión | Casos | OK | Con diferencias u otro resultado descriptivo |
 | :--- | ---: | ---: | ---: |
 | v1 | 86 | 0 | 86 |
-| v2 | 87 | 16 | 71 |
+| v2 | 87 | 15 | 72 |
 | v3 | 87 | 17 | 70 |
 | v4 | 87 | 0 | 87 |
-| **Total** | **347** | **33** | **314** |
+| **Total** | **347** | **32** | **315** |
 
-Los registros con diferencias u otro resultado descriptivo bajan de 86 a 71 y después a 70.<br>
+Los registros con diferencias u otro resultado descriptivo bajan de 86 a 72 y después a 70.<br>
 En v4 suben a 87: son 17 más que en v3 y 1 más que en v1.
 
 En v1 y v4 no registré ningún `OK` literal: los 86 y 87 resultados, respectivamente, son descripciones de lo observado; el cero no indica que no haya ejecutado casos.
 
 | Severidad registrada | Reportes de bugs |
 | :--- | ---: |
-| Alta | 167 |
+| Alta | 166 |
 | Media | 100 |
-| Baja | 9 |
+| Baja | 10 |
 | **Total** | **276** |
 
 Entre los problemas reportados están la inclusión de Ciudad Autónoma de Buenos Aires al filtrar por «Ninguna» y los valores de habitantes y superficie de Chaco distintos de los esperados.

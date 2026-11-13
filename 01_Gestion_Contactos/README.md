@@ -8,20 +8,20 @@ En este proyecto diseñé y ejecuté casos de prueba sobre la aplicación de ges
 
 | Versión | Casos | OK | Con diferencias u otro resultado descriptivo |
 | :--- | ---: | ---: | ---: |
-| v1 | 42 | 25 | 17 |
+| v1 | 42 | 24 | 18 |
 | v2 | 42 | 23 | 19 |
 | v3 | 42 | 25 | 17 |
 | Versión Final | 42 | 35 | 7 |
-| **Total** | **168** | **108** | **60** |
+| **Total** | **168** | **107** | **61** |
 
-Los registros con diferencias pasan de 17 a 19, vuelven a 17 y bajan a 7.<br>
-La Versión Final tiene 10 menos que v1 y v3, y 12 menos que v2.
+Los registros con diferencias pasan de 18 a 19, bajan a 17 y luego a 7.<br>
+La Versión Final tiene 11 menos que v1, 12 menos que v2 y 10 menos que v3.
 
 | Severidad registrada | Reportes de bugs |
 | :--- | ---: |
-| Alta | 11 |
+| Alta | 10 |
 | Media | 45 |
-| Baja | 6 |
+| Baja | 7 |
 | **Total** | **62** |
 
 En Versión Final reporté rechazo de nombres y mails de 35 caracteres, restricciones de nombres repetidos y falta de advertencias al cancelar cambios.

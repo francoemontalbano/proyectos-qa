@@ -16,9 +16,9 @@ Proyecto Nahual es mi entorno de práctica y capacitación; estos proyectos no s
 
 | Proyecto | Registros de casos | OK | Con diferencias u otro resultado descriptivo | Reportes de bugs |
 | :--- | ---: | ---: | ---: | ---: |
-| [Gestión de Contactos](01_Gestion_Contactos/README.md#métricas) | 168 | 108 | 60 | 62 |
-| [Buscador Provinciano](02_Provinciano/README.md#métricas) | 347 | 33 | 314 | 276 |
-| [Juego Lumbricina](03_Lumbricina/README.md#métricas) | 100 | 54 | 46 | 45 |
+| [Gestión de Contactos](01_Gestion_Contactos/README.md#métricas) | 168 | 107 | 61 | 62 |
+| [Buscador Provinciano](02_Provinciano/README.md#métricas) | 347 | 32 | 315 | 276 |
+| [Juego Lumbricina](03_Lumbricina/README.md#métricas) | 100 | 53 | 46 + 1 pendiente | 45 |
 
 Conté registros por versión, no casos ni defectos únicos entre versiones.<br>
 `OK` es la marca literal del resultado; los demás incluyen diferencias y pruebas que no pude completar.

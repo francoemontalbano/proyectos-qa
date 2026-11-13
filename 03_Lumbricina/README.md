@@ -8,10 +8,10 @@ En este proyecto diseñé y ejecuté casos de prueba sobre Lumbricina, el juego 
 
 | Versión | Casos | OK | Con diferencias u otro resultado descriptivo |
 | :--- | ---: | ---: | ---: |
-| v1 | 100 | 54 | 46 |
-| **Total** | **100** | **54** | **46** |
+| v1 | 100 | 53 | 46 + 1 pendiente |
+| **Total** | **100** | **53** | **46 + 1 pendiente** |
 
-En v1 registré 54 casos OK y 46 con diferencias u otro resultado descriptivo.<br>
+En v1 registré 53 casos OK, 46 con diferencias u otro resultado descriptivo y 1 pendiente de verificar (TC33).<br>
 El CSV solo incluye v1, así que no permite comparar una tendencia entre versiones.
 
 | Severidad registrada | Reportes de bugs |

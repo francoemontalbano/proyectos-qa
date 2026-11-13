@@ -18,7 +18,7 @@ la pantalla","1- Visualizar pastilla azul en la pantalla
 2- Moverse hacia la pastilla azul
 3- Consumir pastilla azul
 4- Visualizar velocidad de Lumbricina",La velocidad de Lumbricina aumenta,"Al consumir una pastilla azul, la velocidad de Lumbricina aumenta casi sin distinguirse; sin embargo en el debug por cada pastilla azul, aumenta 20 en velocidad, cosa que no se ve reflejado jugando.",https://mantis.pakova.org/view.php?id=33
-0000035,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,normal,menor,no se ha intentado,,General,2026-10-16 14:35,,,,público,2026-10-21 14:36,"23 - Verificar desaparicion de pastilla azul después de 50 movimientos sin consumirla, desaparece despues de 40 movimientos",asignada,abierta,,Verficiar que la pastilla azul desaparezca después de 50 movimientos/ciclos de Lumbricina,"Ingresar al juego
+0000035,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,normal,menor,no se ha intentado,v1,General,2026-10-16 14:35,,,,público,2026-10-21 14:36,"23 - Verificar desaparicion de pastilla azul después de 50 movimientos sin consumirla, desaparece despues de 40 movimientos",asignada,abierta,,Verficiar que la pastilla azul desaparezca después de 50 movimientos/ciclos de Lumbricina,"Ingresar al juego
 Visualizar Lumbricina en el medio de
 la pantalla","1- Visualizar pastilla azul en la pantalla
 2- Realizar 50 movimientos sin consumir la pastilla azul",La pastilla azul desaparece de la pantalla luego de 50 movimientos,La pastilla azul desaparece luego de 40 movimientos,https://mantis.pakova.org/view.php?id=35

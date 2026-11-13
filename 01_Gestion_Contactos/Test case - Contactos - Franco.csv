@@ -65,12 +65,9 @@ Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
 8,v1,Abierto,24/07/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con 
 (35 caracteres)","Ingresar a la página de Contactos
-Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
-2- Ingresar ""ABCDEFGHIJKLMNOPQRS
-TUVWXYZABCDEFGHI"" (35 caracteres)
-3- Hacer clic en el campo ""Mail""
-4- Ingresar ""franco@gmail.com""
-5- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre de hasta 35 caracteres en el campo ""Nombre""",OK,
+Hacer clic en ""Nuevo contacto""","1- Ingresar ""ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHI"" (35 caracteres) en Nombre
+2- Ingresar ""prueba@example.com"" en Mail
+3- Hacer clic en ""Guardar""","El sistema permite ingresar un nombre de hasta 35 caracteres en el campo ""Nombre""","El sistema no guarda el contacto y muestra el mensaje ""El nombre del contacto no puede superar los 35 caracteres"".",
 9,v1,Abierto,24/07/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
 (34 caracteres) ","Ingresar a la página de Contactos
@@ -180,31 +177,26 @@ mayúsculas",
 Validar - Alta ""Nuevo Contacto"" según Anexo A, en campo ""Mail"" con
 (35 caracteres)","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
-2- Ingresar ""Franco""
+2- Ingresar ""Prueba""
 3- Hacer clic en el campo ""Mail""
-4- Ingresar ""ABCDEFGHIJKLMNOPQRS
-TUVWX@gmail.com"" (35 caracteres)
-5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de hasta 35 caracteres en el campo ""Mail""",OK,
+4- Ingresar ""AAAAAAAAAAAAAAAAAAAAAAA@example.com"" (35 caracteres)
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de hasta 35 caracteres en el campo ""Mail""","El sistema no guarda el contacto y muestra el mensaje ""El mail del contacto no puede superar los 35 caracteres"".",
 23,v1,Abierto,27/07/2026,"
 Validar - Alta ""Nuevo Contacto"" según formato Anexo A, en campo
 ""Mail"" con (34 caracteres)","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
-2- Ingresar ""Franco""
+2- Ingresar ""Prueba""
 3- Hacer clic en el campo ""Mail""
-4- Ingresar ""ABCDEFGHIJKLMNOPQRS
-TUVX@gmail.com"" (34 caracteres)
+4- Ingresar ""AAAAAAAAAAAAAAAAAAAAAA@example.com"" (34 caracteres)
 5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de 34 caracteres en el campo ""Mail""
 ",OK,
 24,v1,Abierto,27/07/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" con (36 caracteres)","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
-2- Ingresar ""Franco""
+2- Ingresar ""Prueba""
 3- Hacer clic en el campo ""Mail""
-4- Ingresar ""ABCDEFGHIJKLMNOPQRS
-TUVXGZ@gmail.com"" (36 caracteres)
-5- Hacer clic en ""Guardar""","El sistema emite el mensaje: ""El valor ingresado no es un email""","El sistema emite un mensaje ""El mail
-del contacto no puede superar los 35
-caracteres""",
+4- Ingresar ""AAAAAAAAAAAAAAAAAAAAAAAA@example.com"" (36 caracteres)
+5- Hacer clic en ""Guardar""","El sistema rechaza el mail de 36 caracteres y muestra el mensaje ""El mail del contacto no puede superar los 35 caracteres"".",OK,
 25,v1,Abierto,27/07/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Mail""  sin dominio","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
@@ -558,30 +550,26 @@ GMAIL.COM""
 Validar - Alta ""Nuevo Contacto"" según Anexo A, en campo ""Mail"" con
 (35 caracteres)","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
-2- Ingresar ""Franco""
+2- Ingresar ""Prueba""
 3- Hacer clic en el campo ""Mail""
-4- Ingresar ""ABCDEFGHIJKLMNOPQRS
-TUVWX@gmail.com"" (35 caracteres)
-5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de hasta 35 caracteres en el campo ""Mail""",OK,
+4- Ingresar ""AAAAAAAAAAAAAAAAAAAAAAA@example.com"" (35 caracteres)
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de hasta 35 caracteres en el campo ""Mail""","El sistema no guarda el contacto y muestra el mensaje ""El mail del contacto no puede superar los 35 caracteres"".",
 65,v2,Abierto,27/07/2026,"
 Validar - Alta ""Nuevo Contacto"" según formato Anexo A, en campo
 ""Mail"" con (34 caracteres)","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
-2- Ingresar ""Franco""
+2- Ingresar ""Prueba""
 3- Hacer clic en el campo ""Mail""
-4- Ingresar ""ABCDEFGHIJKLMNOPQRS
-TUVX@gmail.com"" (34 caracteres)
+4- Ingresar ""AAAAAAAAAAAAAAAAAAAAAA@example.com"" (34 caracteres)
 5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de 34 caracteres en el campo ""Mail""
 ",OK,
 66,v2,Abierto,27/07/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" con (36 caracteres)","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
-2- Ingresar ""Franco""
+2- Ingresar ""Prueba""
 3- Hacer clic en el campo ""Mail""
-4- Ingresar ""ABCDEFGHIJKLMNOPQRS
-TUVXGZ@gmail.com"" (36 caracteres)
-5- Hacer clic en ""Guardar""","El sistema emite el mensaje: ""El valor ingresado no es un email""","El sistema emite el mensaje: ""El mail del contacto no 
-puede superar los 35 caracteres""",
+4- Ingresar ""AAAAAAAAAAAAAAAAAAAAAAAA@example.com"" (36 caracteres)
+5- Hacer clic en ""Guardar""","El sistema rechaza el mail de 36 caracteres y muestra el mensaje ""El mail del contacto no puede superar los 35 caracteres"".",OK,
 67,v2,Abierto,27/07/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Mail""  sin dominio","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
@@ -935,29 +923,26 @@ aparece el último caracter, en este caso la última letra del campo ""Nombre"""
 Validar - Alta ""Nuevo Contacto"" según Anexo A, en campo ""Mail"" con
 (35 caracteres)","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
-2- Ingresar ""Franco""
+2- Ingresar ""Prueba""
 3- Hacer clic en el campo ""Mail""
-4- Ingresar ""ABCDEFGHIJKLMNOPQRS
-TUVWX@gmail.com"" (35 caracteres)
-5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de hasta 35 caracteres en el campo ""Mail""","El sistema permite almacenar el Mail con 35 caracteres correctamente, pero no aparece el último caracter, en este caso la última letra del campo ""Nombre""",
+4- Ingresar ""AAAAAAAAAAAAAAAAAAAAAAA@example.com"" (35 caracteres)
+5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de hasta 35 caracteres en el campo ""Mail""","El sistema no guarda el contacto y muestra el mensaje ""El mail del contacto no puede superar los 35 caracteres"".",
 102,v3,Abierto,27/07/2026,"
 Validar - Alta ""Nuevo Contacto"" según formato Anexo A, en campo
 ""Mail"" con (34 caracteres)","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
-2- Ingresar ""Franco""
+2- Ingresar ""Prueba""
 3- Hacer clic en el campo ""Mail""
-4- Ingresar ""ABCDEFGHIJKLMNOPQRS
-TUVX@gmail.com"" (34 caracteres)
+4- Ingresar ""AAAAAAAAAAAAAAAAAAAAAA@example.com"" (34 caracteres)
 5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de 34 caracteres en el campo ""Mail""
-","El sistema permite almacenar el Mail con 34 caracteres correctamente, pero no aparece el último caracter, en este caso la última letra del campo ""Nombre",
+","El sistema guarda el mail de 34 caracteres completo, pero muestra ""Prueb"" en Nombre en lugar de ""Prueba"".",
 103,v3,Abierto,27/07/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" con (36 caracteres)","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
-2- Ingresar ""Franco""
+2- Ingresar ""Prueba""
 3- Hacer clic en el campo ""Mail""
-4- Ingresar ""ABCDEFGHIJKLMNOPQRS
-TUVXGZ@gmail.com"" (36 caracteres)
-5- Hacer clic en ""Guardar""","El sistema emite el mensaje: ""El mail no puede superar los 35 caracteres""",OK,
+4- Ingresar ""AAAAAAAAAAAAAAAAAAAAAAAA@example.com"" (36 caracteres)
+5- Hacer clic en ""Guardar""","El sistema rechaza el mail de 36 caracteres y muestra el mensaje ""El mail del contacto no puede superar los 35 caracteres"".",OK,
 104,v3,Abierto,27/07/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Mail""  sin dominio","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo contacto""","1- Hacer clic en el campo ""Nombre""
