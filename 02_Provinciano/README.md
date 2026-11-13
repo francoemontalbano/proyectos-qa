@@ -26,16 +26,6 @@ En v1 y v4 no registré ningún `OK` literal: los 86 y 87 resultados, respectiva
 | Baja | 9 |
 | **Total** | **276** |
 
-Los 100 reportes sin autor corresponden a v2 (1), v3 (35) y v4 (64).
-
-| Autor registrado | Alta | Media | Baja | Sin severidad | Total |
-| :--- | ---: | ---: | ---: | ---: | ---: |
-| Grego | 167 | 7 | 2 | 0 | 176 |
-| Franco | 0 | 0 | 0 | 0 | 0 |
-| Sin autor | 0 | 93 | 7 | 0 | 100 |
-
-El CSV no indica por qué quedó vacío el autor; no atribuí esos reportes a ninguno de los dos.
-
 Entre los problemas reportados están la inclusión de Ciudad Autónoma de Buenos Aires al filtrar por «Ninguna» y los valores de habitantes y superficie de Chaco distintos de los esperados.
 
 ## Caso de prueba de ejemplo
@@ -57,7 +47,7 @@ Fuente: [matriz de casos](Test%20Case%20-%20Provinciano%20-%20Franco.csv).
 
 ## Bugs de ejemplo
 
-En estos reportes figuro como revisor y Grego como autor. Conservé estos ejemplos porque no hay reportes con Autor = Franco en el CSV.
+Trabajé en revisión cruzada con Grego: revisé sus casos de prueba y él revisó los míos. En este repo comparto los reportes que revisé; Grego comparte los míos.
 
 ### Bug 86 — El filtro «Ninguna» incluye Ciudad Autónoma de Buenos Aires
 
@@ -116,7 +106,6 @@ Fuente: [archivo de bugs](Bugs%20-%20Provinciano%20-%20Franco.csv).
 - Verifiqué el ordenamiento ascendente y descendente de las columnas de texto y datos numéricos.
 - Probé combinaciones de filtros y búsquedas consecutivas.
 - Diseñé los casos y documenté los resultados de cada versión.
-- Revisé casos y reportes en pareja con Grego: yo revisaba los suyos y él los míos. Los campos Autor y Revisor conservan esa participación.
 
 ## Aplicación y referencias
 
