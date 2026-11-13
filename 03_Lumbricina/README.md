@@ -8,9 +8,9 @@ En este proyecto diseñé y ejecuté casos de prueba sobre Lumbricina, el juego 
 
 | Versión | Casos | OK | Con diferencias u otro resultado descriptivo |
 | :--- | ---: | ---: | ---: |
-| v1 | 100 | 53 | 46 + 1 pendiente |
+| v1 | 100 | 53 | 47 |
 
-En v1 registré 53 casos OK, 46 con diferencias u otro resultado descriptivo y 1 pendiente de verificar (TC33).<br>
+En v1 registré 53 casos OK y 47 con diferencias u otro resultado descriptivo.<br>
 El CSV solo incluye v1, así que no permite comparar una tendencia entre versiones.
 
 | Severidad registrada | Reportes de bugs |
@@ -20,7 +20,7 @@ El CSV solo incluye v1, así que no permite comparar una tendencia entre version
 | menor | 3 |
 | **Total** | **45** |
 
-Reporté problemas de longitud, velocidad, controles, puntaje y duración de las pastillas. Entre los 46 resultados descriptivos están TC49–52: no pude completar esas pruebas porque no aparece la pastilla naranja. Los reportes tienen gravedad `bloqueo`.
+Reporté problemas de longitud, velocidad, controles, puntaje y duración de las pastillas. Entre los 47 resultados descriptivos están TC49–52: no pude completar esas pruebas porque no aparece la pastilla naranja. Los reportes tienen gravedad `bloqueo`.
 
 ## Caso de prueba de ejemplo
 

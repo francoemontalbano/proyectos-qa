@@ -37,7 +37,6 @@ En Versión Final reporté rechazo de nombres y mails de 35 caracteres, restricc
 | Pasos | 1- Hacer clic en "Editar" sobre el contacto<br>Franco<br>2- Modificar el campo "Nombre" por "Pedro"<br>3- Mantener el Mail "franco@gmail.com"<br>4- Hacer clic en "Cancelar". |
 | Resultado esperado | El sistema emite una alerta "Se perderán los cambios sin guardar" y cierra el formulario |
 | Resultado obtenido | El sistema almacena los datos modificados en la<br>tabla "Contactos" a pesar de haber cancelado la <br>petición |
-| Estado registrado del caso | Abierto |
 
 Fuente: [casos de prueba](Test%20case%20-%20Contactos%20-%20Franco.csv).
 

@@ -168,10 +168,10 @@ la pantalla","1- Visualizar pastilla violeta en el mapa
 ",El juego muestra una pastilla violeta en cualquier lugar del mapa,OK,
 33,v1,Abierto ,05-10,Validar disminución de longitud al consumir pastilla violeta,"Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla
-Lumbricina debe medir 3 unidades o más","1- Visualizar pastilla violeta en la pantalla
+Lumbricina debe medir 3 unidades","1- Visualizar pastilla violeta en la pantalla
 2- Moverse hacia la pastilla violeta
 3- Consumir pastilla violeta
-4- Visualizar longitud de Lumbricina",La longitud de Lumbricina disminuye en 1 unidad,Pendiente de verificar con 3 unidades de largo. En TC98 la longitud no disminuye.,
+4- Visualizar longitud de Lumbricina",La longitud de Lumbricina disminuye en 1 unidad,La longitud de Lumbricina se mantiene en 3 unidades al consumir la pastilla violeta.,
 34,v1,Abierto ,05-10,Validar aumento de velocidad al consumir pastilla violeta,"Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Visualizar pastilla violeta en la pantalla
 2- Moverse hacia la pastilla violeta

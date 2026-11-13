@@ -39,7 +39,6 @@ Entre los problemas reportados están la inclusión de Ciudad Autónoma de Bueno
 | Pasos | 1- Seleccionar "Región del Norte Grande Argentino" en el campo<br>"Región"<br>2- Ingresar "Chaco" en el campo "Nombre"<br>3- Hacer clic en "Buscar!" |
 | Resultado esperado | El sistema muestra en la grilla únicamente la provincia "Chaco", con la siguiente<br>información:<br>Región: Región del Norte Grande Argentino<br>Nombre: Chaco<br>Capital: Resistencia<br>Habitantes: 1.129.606<br>Km²: 99.633 |
 | Resultado obtenido | El sistema muestra en la grilla únicamente la provincia "Chaco", con la <br>información de:<br>Región: Región del Norte Grande Argentino<br>Nombre: Chaco<br>Capital: Resistencia<br>Habitantes: 1.055.259<br>Km²: 102.602<br>Luego de hacer clic en el botón Buscar! el sistema y la interfaz se congelan durante 13 segundos. |
-| Estado registrado del caso | Cerrado |
 
 Fuente: [casos de prueba](Test%20Case%20-%20Provinciano%20-%20Franco.csv).
 
