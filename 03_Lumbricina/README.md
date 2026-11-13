@@ -21,7 +21,7 @@ El CSV solo incluye v1, así que no permite comparar una tendencia entre version
 | menor | 3 |
 | **Total** | **45** |
 
-Reporté problemas de longitud, velocidad, controles, puntaje y duración de las pastillas. Entre los 46 resultados descriptivos están TC49–52: la ausencia de la pastilla naranja impidió comprobar esos escenarios; sus reportes tienen gravedad `bloqueo`.[^criterios]
+Reporté problemas de longitud, velocidad, controles, puntaje y duración de las pastillas. Entre los 46 resultados descriptivos están TC49–52: la ausencia de la pastilla naranja impidió comprobar esos escenarios; sus reportes tienen gravedad `bloqueo`.
 
 ## Caso de prueba de ejemplo
 
@@ -151,6 +151,3 @@ Fuente: [archivo de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv).
 ## Responsable
 
 Franco Montalbano
-
-[^criterios]: Conté registros por versión: `OK` literal frente a resultados descriptivos, no cantidad de bugs.
-    Los casos relacionados salen del número incluido en el resumen de cada bug.

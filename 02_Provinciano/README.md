@@ -37,7 +37,7 @@ Los 100 reportes «Sin informar» tienen la celda Severidad vacía; no contienen
 
 El CSV no indica por qué quedaron vacíos esos campos; no atribuí esos reportes a ninguno de los dos.
 
-Entre los problemas reportados están la inclusión de Ciudad Autónoma de Buenos Aires al filtrar por «Ninguna» y los valores de habitantes y superficie de Chaco distintos de los esperados.[^criterios]
+Entre los problemas reportados están la inclusión de Ciudad Autónoma de Buenos Aires al filtrar por «Ninguna» y los valores de habitantes y superficie de Chaco distintos de los esperados.
 
 ## Caso de prueba de ejemplo
 
@@ -135,7 +135,3 @@ Fuente: [archivo de bugs](Bugs%20-%20Provinciano%20-%20Franco.csv).
 ## Responsable
 
 Franco Montalbano
-
-[^criterios]: Conté registros por versión: `OK` literal frente a resultados descriptivos, no cantidad de bugs.
-    Copié el estado del caso; el CSV no explica qué significa «Abierto» o «Cerrado».
-    Relacioné los bugs por versión, filtros y datos de entrada; el CSV no trae un campo de caso relacionado.

@@ -24,7 +24,7 @@ La Versión Final tiene 10 menos que v1 y v3, y 12 menos que v2.
 | Baja | 6 |
 | **Total** | **62** |
 
-En Versión Final reporté rechazo de nombres y mails de 35 caracteres, restricciones de nombres repetidos y falta de advertencias al cancelar cambios.[^criterios]
+En Versión Final reporté rechazo de nombres y mails de 35 caracteres, restricciones de nombres repetidos y falta de advertencias al cancelar cambios.
 
 ## Caso de prueba de ejemplo
 
@@ -142,7 +142,3 @@ Usé el Anexo A de la narrativa como criterio para validar los mails.
 ## Responsable
 
 Franco Montalbano
-
-[^criterios]: Conté registros por versión: `OK` literal frente a resultados descriptivos, no cantidad de bugs.
-    Copié el estado del caso; el CSV no explica qué significa «Abierto» o «Cerrado».
-    Relacioné los bugs por ID, versión y contenido; el CSV no trae un campo de caso relacionado.
