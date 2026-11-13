@@ -60,6 +60,3 @@ Revisé los enlaces a las aplicaciones, narrativas, planillas de Google Sheets y
 | Google Sheets: casos y bugs de Contactos, bugs de Provinciano y casos de Lumbricina | Las cuatro planillas permitieron leer la pestaña enlazada sin iniciar sesión. |
 | Wikipedia: provincias y regiones | La página respondió correctamente. |
 
-## Pendiente
-
-- Plan de ejecución: el repo contiene casos, resultados y reportes de bugs, pero todavía no incluye un plan de ejecución separado.
