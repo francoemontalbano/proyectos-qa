@@ -171,7 +171,7 @@ Visualizar Lumbricina en el medio de la pantalla
 Lumbricina debe medir 3 unidades o más","1- Visualizar pastilla violeta en la pantalla
 2- Moverse hacia la pastilla violeta
 3- Consumir pastilla violeta
-4- Visualizar longitud de Lumbricina",La longitud de Lumbricina disminuye en 1 unidad,Pendiente de verificar: el OK registrado contradice TC98 para una longitud inicial de 3 unidades.,
+4- Visualizar longitud de Lumbricina",La longitud de Lumbricina disminuye en 1 unidad,Pendiente de verificar con 3 unidades de largo. En TC98 la longitud no disminuye.,
 34,v1,Abierto ,05-10,Validar aumento de velocidad al consumir pastilla violeta,"Ingresar al juego
 Visualizar Lumbricina en el medio de la pantalla","1- Visualizar pastilla violeta en la pantalla
 2- Moverse hacia la pastilla violeta

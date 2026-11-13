@@ -30,7 +30,7 @@ en el campo ""Nombre""
 ""Nombre""",Media,Franco Montalbano,,
 8,v1,Chrome,Abierto,05/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con 
-(35 caracteres)","1- Ingresar a Contactos
+(35 caracteres)","1- Ingresar a la página de Contactos
 2- Hacer clic en ""Nuevo contacto""
 3- Ingresar ""ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHI"" (35 caracteres) en Nombre
 4- Ingresar ""prueba@example.com"" en Mail
@@ -437,23 +437,25 @@ GMAIL.COM""
 aparece el último caracter, en este caso la última letra del campo ""Nombre""",Media,Franco Montalbano,,
 101,v3,Chrome,Abierto,14/08/2026,"
 Validar - Alta ""Nuevo Contacto"" según Anexo A, en 
-campo ""Mail"" con (35 caracteres)","Ingresar a Contactos y hacer clic en ""Nuevo contacto""
+campo ""Mail"" con (35 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""
 1- Hacer clic en el campo ""Nombre""
 2- Ingresar ""Prueba""
 3- Hacer clic en el campo ""Mail""
 4- Ingresar ""AAAAAAAAAAAAAAAAAAAAAAA@example.com"" (35 caracteres)
 5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de hasta 35 caracteres en el
-campo ""Mail""","El sistema no guarda el contacto y muestra el mensaje ""El mail del contacto no puede superar los 35 caracteres"".",Media,Franco Montalbano,,
+campo ""Mail""","El sistema no permite guardar el contacto y emite el mensaje: ""El mail del contacto no puede superar los 35 caracteres""",Media,Franco Montalbano,,
 102,v3,Chrome,Abierto,14/08/2026,"
 Validar - Alta ""Nuevo Contacto"" según formato Anexo A,
-en campo ""Mail"" con (34 caracteres)","Ingresar a Contactos y hacer clic en ""Nuevo contacto""
+en campo ""Mail"" con (34 caracteres)","Ingresar a la página de Contactos
+Hacer clic en ""Nuevo contacto""
 1- Hacer clic en el campo ""Nombre""
 2- Ingresar ""Prueba""
 3- Hacer clic en el campo ""Mail""
 4- Ingresar ""AAAAAAAAAAAAAAAAAAAAAA@example.com"" (34 caracteres)
 5- Hacer clic en ""Guardar""","El sistema permite ingresar un mail de 34 caracteres en el campo
 ""Mail""
-","El sistema guarda el mail de 34 caracteres completo, pero muestra ""Prueb"" en Nombre en lugar de ""Prueba"".",Media,Franco Montalbano,,
+","El sistema permite almacenar el Mail con 34 caracteres correctamente, pero no aparece la última letra del campo ""Nombre"", mostrando ""Prueb"" en lugar de ""Prueba""",Media,Franco Montalbano,,
 105,v3,Chrome,Abierto,14/08/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Mail"" 
 según formato Anexo A","Ingresar a la página de Contactos
 Hacer clic en ""Nuevo Contacto""
