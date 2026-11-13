@@ -14,8 +14,6 @@ En este proyecto diseñé y ejecuté casos de prueba sobre la aplicación de ges
 | Versión Final | 42 | 35 | 7 |
 | **Total** | **168** | **107** | **61** |
 
-Los registros con diferencias pasan de 18 a 19, bajan a 17 y luego a 7.<br>
-La Versión Final tiene 11 menos que v1, 12 menos que v2 y 10 menos que v3.
 
 | Severidad registrada | Reportes de bugs |
 | :--- | ---: |
@@ -28,7 +26,7 @@ En Versión Final reporté rechazo de nombres y mails de 35 caracteres, restricc
 
 ## Caso de prueba de ejemplo
 
-**TC37 — Validar - Edición "Editar Contacto" "Cancelar" con "Nombre" y "Mail" modificados**
+**TC37 — Validar - Edición "Editar Contacto" "Cancelar" con "Nombre" modificado y "Mail" sin cambios**
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -138,7 +136,3 @@ Usé el Anexo A de la narrativa como criterio para validar los mails.
 | :--- | :--- |
 | [Casos de prueba](Test%20case%20-%20Contactos%20-%20Franco.csv) | 168 registros: 42 por versión, distribuidos entre v1, v2, v3 y Versión Final. |
 | [Reportes de bugs](Bugs%20-%20Contactos%20-%20Franco.csv) | 62 reportes de las cuatro versiones, con sus estados y severidades. |
-
-## Responsable
-
-Franco Montalbano

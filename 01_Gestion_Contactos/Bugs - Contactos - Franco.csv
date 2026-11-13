@@ -6,7 +6,7 @@ Tabla con las columnas Nombre y Mail.
 Mensaje ""No hay contactos guardados"" cuando la tabla está vacía.
 Opciones para ordenar los datos por Nombre y Mail
 Orden alfabético por Nombre por defecto.
-Opción ""Nuevo Contacto""","En la página se ve una columa extra llamada ""Acciones""
+Opción ""Nuevo Contacto""","En la página se ve una columna extra llamada ""Acciones""
 El sistema no muestra ningún mensaje por defecto cuando la tabla esta vacía
 ",Baja,Franco Montalbano,,
 5,v1,Chrome,Abierto,5/8/26,"
@@ -151,7 +151,7 @@ Tabla con las columnas Nombre y Mail.
 Mensaje ""No hay contactos guardados"" cuando la tabla está vacía.
 Opciones para ordenar los datos por Nombre y Mail.
 Orden alfabético por Nombre por defecto.
-Opción ""Nuevo Contacto""","En la página se ve una columa extra llamada ""Acciones""
+Opción ""Nuevo Contacto""","En la página se ve una columna extra llamada ""Acciones""
 El sistema no muestra ningún mensaje por defecto cuando la tabla esta vacía
 ",Baja,Franco Montalbano,,
 44,v2,Chrome,Abierto,07/08/2026,"
@@ -325,7 +325,7 @@ Tabla con las columnas Nombre y Mail.
 Mensaje ""No hay contactos guardados"" cuando la tabla está vacía.
 Opciones para ordenar los datos por Nombre y Mail.
 Orden alfabético por Nombre por defecto.
-Opción ""Nuevo Contacto""","En la página se ve una columa extra llamada ""Acciones""
+Opción ""Nuevo Contacto""","En la página se ve una columna extra llamada ""Acciones""
 El sistema no muestra ningún mensaje por defecto cuando la tabla esta vacía
 ",Baja,Franco Montalbano,,
 82,v3,Chrome,Abierto,14/08/2026,"
@@ -412,7 +412,7 @@ TUVWXYZABCDEFGH"" (34 caracteres)
 5- Hacer clic en ""Guardar""""","El sistema permite ingresar un nombre de 34 caracteres en el campo
  ""Nombre""","El sistema permite ingresar un nombre de 34 caracteres en el campo
 ""Nombre"" correctamente pero no aparece el último caracter, en este caso
-la última letra del contacto agraegado",Media,Franco Montalbano,,
+la última letra del contacto agregado",Media,Franco Montalbano,,
 91,v3,Chrome,Abierto,14/08/2026,"
 Validar - Alta ""Nuevo Contacto"" en campo ""Nombre""
 repetido","Ingresar a la página de Contactos
@@ -519,7 +519,7 @@ Tabla con las columnas Nombre y Mail.
 Mensaje ""No hay contactos guardados"" cuando la tabla está vacía.
 Opciones para ordenar los datos por Nombre y Mail.
 Orden alfabético por Nombre por defecto.
-Opción ""Nuevo Contacto""","En la página se ve una columa extra llamada ""Acciones""",Baja,Franco Montalbano,,
+Opción ""Nuevo Contacto""","En la página se ve una columna extra llamada ""Acciones""",Baja,Franco Montalbano,,
 126,"Versión
 Final",Chrome,Cerrado,19/08/2026,"Validar - Alta ""Nuevo Contacto"" en campo ""Nombre"" con
 números","Ingresar a la página de Contactos

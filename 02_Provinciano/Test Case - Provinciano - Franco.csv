@@ -1064,7 +1064,7 @@ Catamarca, Chaco, Chubut, Córdoba, Corrientes, Entre Ríos, Formosa, Jujuy, La
 Pampa, La Rioja, Mendoza, Misiones, Neuquén, Río Negro, Salta, San Juan, San 
 Luis, Santa Cruz, Santa Fe, Santiago del Estero, Tierra del Fuego, Antártida e Islas
 del Atlántico Sur y Tucumán. 
-Y ADEMÁS SE MUESTRA LISTADA LA CIUDAD AUTÓNOMA DE BUENOS AIRES ENCABEZANDO LA LISTA, ALTERANDO EL ORDEN ALFABETICO
+Además, aparece Ciudad Autónoma de Buenos Aires al principio de la lista, alterando el orden alfabético.
 Para cada una se muestran los valores correspondientes en las columnas ""Región"", 
 ""Nombre"", ""Capital"", ""Habitantes"" y ""Km²""",,,,,,
 93,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Ninguna""", Ingresar a la Página Provinciano,"1- Seleccionar ""Ninguna""
@@ -1082,7 +1082,7 @@ Nombre: Buenos Aires
 Capital: La Plata
 Habitantes: 15.625.084
 Km²: 307.571
-Y ADEMÁS SE MUESTRA LISTADA LA CIUDAD AUTÓNOMA DE BUENOS AIRES ENCABEZANDO LA LISTA, ALTERANDO EL ORDEN ALFABETICO
+Además, aparece Ciudad Autónoma de Buenos Aires al principio de la lista, alterando el orden alfabético.
 ",,,,,,
 94,v2,Cerrado ,04-09,"Validar - Buscar por ""Región"" ""Región Centro""", Ingresar a la Página Provinciano,"1- Seleccionar ""Región Centro""
 2- Dejar el campo Nombre vacío

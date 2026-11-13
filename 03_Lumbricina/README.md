@@ -9,7 +9,6 @@ En este proyecto diseñé y ejecuté casos de prueba sobre Lumbricina, el juego 
 | Versión | Casos | OK | Con diferencias u otro resultado descriptivo |
 | :--- | ---: | ---: | ---: |
 | v1 | 100 | 53 | 46 + 1 pendiente |
-| **Total** | **100** | **53** | **46 + 1 pendiente** |
 
 En v1 registré 53 casos OK, 46 con diferencias u otro resultado descriptivo y 1 pendiente de verificar (TC33).<br>
 El CSV solo incluye v1, así que no permite comparar una tendencia entre versiones.
@@ -147,7 +146,3 @@ Fuente: [archivo de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv).
 | :--- | :--- |
 | [Casos de prueba](Test%20Case%20-%20Lumbricina%20-%20Franco.csv) | 100 casos de prueba de v1, con precondiciones, pasos y resultados. |
 | [Reportes de bugs](Bugs%20-%20Lumbricina%20-%20Franco.csv) | 45 incidencias asignadas a francoemontalbano, con pasos y resultados. |
-
-## Responsable
-
-Franco Montalbano

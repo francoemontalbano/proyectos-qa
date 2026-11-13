@@ -14,8 +14,6 @@ En este proyecto diseñé y ejecuté casos de prueba sobre el buscador de provin
 | v4 | 87 | 0 | 87 |
 | **Total** | **347** | **32** | **315** |
 
-Los registros con diferencias u otro resultado descriptivo bajan de 86 a 72 y después a 70.<br>
-En v4 suben a 87: son 17 más que en v3 y 1 más que en v1.
 
 En v1 y v4 no marqué resultados como `OK`: los 86 y 87 casos tienen el resultado escrito como descripción. El cero no significa que no haya probado esos casos.
 
@@ -119,7 +117,3 @@ Fuente: [archivo de bugs](Bugs%20-%20Provinciano%20-%20Franco.csv).
 | :--- | :--- |
 | [Casos de prueba](Test%20Case%20-%20Provinciano%20-%20Franco.csv) | 347 registros de casos de prueba, distribuidos entre v1, v2, v3 y v4. |
 | [Reportes de bugs](Bugs%20-%20Provinciano%20-%20Franco.csv) | 276 registros de reportes con los campos Autor y Revisor. |
-
-## Responsable
-
-Franco Montalbano

@@ -52,7 +52,7 @@ Visualizar Lumbricina en el medio de
 la pantalla
 Visualizar pastilla roja por defecto en la pantalla
 Moverse hacia la pastilla roja","1- Consumir pastilla roja
-2- Moverse hasta la pastilla roja que spwaneo automáticamente
+2- Moverse hasta la pastilla roja que apareció automáticamente
 3- Consumir otra pastilla roja",Lumbricina aumenta su longitud en 2,"Efecto de la pastilla roja no funciona en Lumbricina, no aumenta su longitud",https://mantis.pakova.org/view.php?id=46
 0000050,[Oficina] - Lumbricina,francoemontalbano,francoemontalbano,alta,mayor,siempre,v1,General,2026-10-19 15:11,,,,público,2026-10-19 15:35,"31 - Verificar desaparicion de pastilla verde después de 50 movimientos, desaparece luego de 40",asignada,abierta,,"Verificar que al moverse 50 espacios con Lumbricina, desaparezca la pastilla verde","Ingresar al juego
 Visualizar Lumbricina en el medio de
