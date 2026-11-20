@@ -185,4 +185,11 @@ html:has(.screenshot-dialog[open]) { overflow: hidden; }
 }
 
 .screenshot-viewport:focus-visible { outline: 2px solid #a3d8ca; outline-offset: -2px; }
-.screenshot-viewport img { display: block; width: var(--capture-width, 100%); height: auto; }
+.screenshot-viewport img {
+  display: block;
+  width: var(--capture-width, 100%);
+  height: auto;
+  cursor: zoom-in;
+}
+
+.screenshot-viewport img.is-max-zoom { cursor: zoom-out; }
