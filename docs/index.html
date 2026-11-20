@@ -27,18 +27,21 @@
         <div class="actions">
           <a class="button" href="#pruebas">Ver casos de QA</a>
           <a class="button secondary" href="https://www.linkedin.com/in/francomontalbano/" target="_blank" rel="noopener noreferrer">Contactarme por LinkedIn</a>
+          <a class="button secondary" href="assets/cv-franco-montalbano-qa.pdf" target="_blank" rel="noopener noreferrer">Ver CV (PDF)</a>
         </div>
       </div>
       <aside class="finding" aria-label="Ejemplo de reporte de defecto">
-        <p class="label">Ejemplo de reporte · Lumbricina</p>
+        <p class="label">Caso de estudio · Lumbricina</p>
         <h2>El puntaje no aumenta al consumir una pastilla roja</h2>
         <dl>
           <div><dt>Identificación</dt><dd>Versión 1 · Caso 16 · MantisBT #32</dd></div>
+          <div><dt>Diseño de la prueba</dt><dd>Tomé la regla de la pastilla roja y aislé un solo consumo al iniciar el juego para comparar el puntaje antes y después.</dd></div>
           <div><dt>Pasos para reproducir</dt><dd>Iniciar el juego, mover a Lumbricina hacia la pastilla roja inicial y consumirla.</dd></div>
           <div><dt>Esperado</dt><dd>El puntaje aumenta 100 puntos.</dd></div>
           <div><dt>Obtenido</dt><dd>El puntaje se mantiene igual.</dd></div>
           <div><dt>Gravedad y reproducibilidad registradas</dt><dd>Mayor · Siempre</dd></div>
         </dl>
+        <a class="evidence-link" href="https://github.com/francoemontalbano/proyectos-qa/blob/main/03_Lumbricina/Bugs%20-%20Lumbricina%20-%20Franco.csv#L3" target="_blank" rel="noopener noreferrer">Ver reporte original de Lumbricina</a>
       </aside>
     </section>
 
@@ -98,6 +101,14 @@
             <a href="https://github.com/francoemontalbano/ApiPeliculas-.NET" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
             <a href="https://apipeliculasnet8azdep-cfdde3dvachvhaca.chilecentral-01.azurewebsites.net/index.html" target="_blank" rel="noopener noreferrer">Explorar Swagger UI</a>
           </div>
+          <details class="api-case">
+            <summary>Caso de prueba · Listar películas</summary>
+            <dl>
+              <div><dt>Solicitud</dt><dd>En Swagger UI, ejecutar el <code>GET</code> de listado del catálogo, sin enviar un token.</dd></div>
+              <div><dt>Resultado esperado</dt><dd><code>200 OK</code> y una lista JSON de películas. Una lista vacía es válida si el catálogo está vacío.</dd></div>
+              <div><dt>Resultado observado</dt><dd>Pendiente de verificar contra el despliegue de Azure.</dd></div>
+            </dl>
+          </details>
         </div>
       </article>
     </section>
