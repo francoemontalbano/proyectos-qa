@@ -116,12 +116,15 @@ figcaption { margin-top: .45rem; font-size: .875rem; }
   margin-top: .6rem;
 }
 
+html { scrollbar-gutter: stable; }
+html:has(.screenshot-dialog[open]) { overflow: hidden; }
+
 .screenshot-dialog {
   --viewer-width: min(94vw, 88rem, max(20rem, calc((90dvh - 4rem) * 2.0745)));
   width: var(--viewer-width);
   max-width: 94vw;
   max-height: 94dvh;
-  overflow: auto;
+  overflow: hidden;
   border: 1px solid #394541;
   border-radius: .85rem;
   padding: 0;
@@ -129,6 +132,8 @@ figcaption { margin-top: .45rem; font-size: .875rem; }
   color: #f2f5f3;
   box-shadow: 0 1.4rem 5rem rgb(0 0 0 / 45%);
 }
+
+.screenshot-dialog[open] { display: flex; flex-direction: column; }
 
 .screenshot-dialog::backdrop {
   background: rgb(11 17 16 / 86%);
@@ -140,6 +145,8 @@ figcaption { margin-top: .45rem; font-size: .875rem; }
   gap: .65rem;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 0 0 auto;
   padding: .6rem .8rem .6rem 1rem;
 }
 
@@ -165,4 +172,17 @@ figcaption { margin-top: .45rem; font-size: .875rem; }
 .screenshot-toolbar button:hover { background: #30403a; }
 .screenshot-toolbar button:focus-visible { outline: 2px solid #a3d8ca; outline-offset: 2px; }
 .screenshot-toolbar button span { font-size: 1.35rem; line-height: 1; }
-.screenshot-dialog img { display: block; width: 100%; height: auto; }
+.screenshot-controls, .screenshot-zoom { display: flex; align-items: center; gap: .3rem; }
+.screenshot-controls { gap: .65rem; }
+.screenshot-toolbar button:disabled { opacity: .5; cursor: default; }
+.screenshot-zoom button { justify-content: center; min-width: 2.75rem; }
+.screenshot-zoom [data-zoom="0"] { min-width: 3.65rem; }
+
+.screenshot-viewport {
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+.screenshot-viewport:focus-visible { outline: 2px solid #a3d8ca; outline-offset: -2px; }
+.screenshot-viewport img { display: block; width: var(--capture-width, 100%); height: auto; }

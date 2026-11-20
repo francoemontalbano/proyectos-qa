@@ -174,22 +174,58 @@
   <dialog class="screenshot-dialog" aria-label="Captura ampliada de QuienGarpa">
     <form method="dialog" class="screenshot-toolbar">
       <p>QuienGarpa <span>· Mis grupos</span></p>
-      <button autofocus aria-label="Cerrar imagen ampliada">Cerrar <span aria-hidden="true">×</span></button>
+      <div class="screenshot-controls">
+        <div class="screenshot-zoom" role="group" aria-label="Zoom de la captura">
+          <button type="button" data-zoom="-1" aria-label="Alejar" disabled>−</button>
+          <button type="button" data-zoom="0" aria-label="Restablecer zoom al tamaño inicial">100%</button>
+          <button type="button" data-zoom="1" aria-label="Acercar">+</button>
+        </div>
+        <button autofocus aria-label="Cerrar imagen ampliada">Cerrar <span aria-hidden="true">×</span></button>
+      </div>
     </form>
-    <img src="assets/quiengarpa-mis-grupos.png" width="2838" height="1368" alt="Panel Mis grupos de QuienGarpa con el total por cobrar, los saldos por grupo y sus últimos movimientos">
+    <div class="screenshot-viewport" tabindex="0" role="region" aria-label="Área desplazable de la captura">
+      <img src="assets/quiengarpa-mis-grupos.png" width="2838" height="1368" alt="Panel Mis grupos de QuienGarpa con el total por cobrar, los saldos por grupo y sus últimos movimientos">
+    </div>
   </dialog>
   <script>
     const screenshot = document.querySelector('.screenshot');
     const screenshotDialog = document.querySelector('.screenshot-dialog');
+    const viewport = screenshotDialog.querySelector('.screenshot-viewport');
+    const zoomOut = screenshotDialog.querySelector('[data-zoom="-1"]');
+    const zoomReset = screenshotDialog.querySelector('[data-zoom="0"]');
+    const zoomIn = screenshotDialog.querySelector('[data-zoom="1"]');
+    const zoomLevels = [100, 125, 150, 200, 250, 300];
+    let zoomIndex = 0;
+
+    function setZoom(index) {
+      const previousZoom = zoomLevels[zoomIndex];
+      const centerX = viewport.scrollLeft + viewport.clientWidth / 2;
+      const centerY = viewport.scrollTop + viewport.clientHeight / 2;
+      zoomIndex = Math.max(0, Math.min(index, zoomLevels.length - 1));
+      const zoom = zoomLevels[zoomIndex];
+      viewport.style.setProperty('--capture-width', zoom + '%');
+      viewport.scrollTo(
+        index === 0 ? 0 : centerX * zoom / previousZoom - viewport.clientWidth / 2,
+        index === 0 ? 0 : centerY * zoom / previousZoom - viewport.clientHeight / 2
+      );
+      zoomReset.textContent = zoom + '%';
+      zoomOut.disabled = zoomIndex === 0;
+      zoomIn.disabled = zoomIndex === zoomLevels.length - 1;
+    }
+
+    zoomOut.addEventListener('click', () => setZoom(zoomIndex - 1));
+    zoomReset.addEventListener('click', () => setZoom(0));
+    zoomIn.addEventListener('click', () => setZoom(zoomIndex + 1));
     screenshot.addEventListener('click', (event) => {
       if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || !screenshotDialog.showModal) return;
       event.preventDefault();
       screenshotDialog.showModal();
+      setZoom(0);
     });
     screenshotDialog.addEventListener('click', (event) => {
       if (event.target === screenshotDialog) screenshotDialog.close();
     });
-    screenshotDialog.addEventListener('close', () => screenshot.focus());
+    screenshotDialog.addEventListener('close', () => screenshot.focus({ preventScroll: true }));
   </script>
 </body>
 </html>
