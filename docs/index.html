@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Franco Montalbano, QA Manual Junior en Rosario. Casos de prueba funcional, reportes de defectos y experiencia en desarrollo de software.">
+  <title>Franco Montalbano · QA Manual Junior</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="wrap top">
+    <a class="identity" href="#contenido"><span class="monogram" aria-hidden="true">FM</span> Franco Montalbano</a>
+    <nav aria-label="Principal">
+      <a href="#pruebas">Casos de QA</a>
+      <a href="#desarrollo">Desarrollo</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+  <main id="contenido">
+    <section class="wrap hero" aria-labelledby="title">
+      <div>
+        <p class="label">QA Manual Junior</p>
+        <h1 id="title">Franco<br>Montalbano<span>.</span></h1>
+        <p class="intro">Diseño y ejecuto pruebas funcionales a partir de especificaciones. Documento los defectos con pasos de reproducción y comparo el resultado esperado con el observado.</p>
+        <p class="availability">Rosario, Argentina · Disponible para oportunidades remotas</p>
+        <div class="actions">
+          <a class="button" href="#pruebas">Ver casos de QA</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/francomontalbano/">Contactarme por LinkedIn</a>
+        </div>
+      </div>
+      <aside class="finding" aria-label="Ejemplo de reporte de defecto">
+        <p class="label"><span class="status"></span> Hallazgo documentado</p>
+        <h2>El puntaje no aumenta al consumir una pastilla roja</h2>
+        <dl>
+          <div><dt>Identificación</dt><dd>Lumbricina v1 · Caso 16 · MantisBT #32</dd></div>
+          <div><dt>Pasos para reproducir</dt><dd>Iniciar el juego, mover a Lumbricina hacia la pastilla roja inicial y consumirla.</dd></div>
+          <div><dt>Esperado</dt><dd>El puntaje aumenta 100 puntos.</dd></div>
+          <div><dt>Obtenido</dt><dd>El puntaje se mantiene igual.</dd></div>
+          <div><dt>Gravedad y reproducibilidad registradas</dt><dd>Mayor · Siempre</dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section id="pruebas" class="wrap section" aria-labelledby="qa-title">
+      <p class="label">Testing funcional</p>
+      <h2 id="qa-title">Casos de QA</h2>
+      <p class="section-intro">Prácticas de testing manual sobre aplicaciones de Proyecto Nahual. Cada proyecto incluye la matriz de casos y los defectos registrados durante la ejecución.</p>
+      <div class="qa-grid">
+        <article class="card">
+          <p class="label">CRUD y validaciones</p>
+          <h3>Gestión de Contactos</h3>
+          <p>Alta, edición y baja de contactos. Validaciones de campos obligatorios, longitud y correos duplicados.</p>
+          <div class="links"><a href="evidencia/contactos-casos.csv" download>Casos de prueba <small>CSV</small></a><a href="evidencia/contactos-defectos.csv" download>Defectos <small>CSV</small></a></div>
+        </article>
+        <article class="card">
+          <p class="label">Búsqueda y filtros</p>
+          <h3>Buscador Provinciano</h3>
+          <p>Filtros por región y nombre, búsquedas parciales y ordenamiento. Revisé casos y reportes con un compañero.</p>
+          <div class="links"><a href="evidencia/provinciano-casos.csv" download>Casos de prueba <small>CSV</small></a><a href="evidencia/provinciano-defectos.csv" download>Defectos <small>CSV</small></a></div>
+        </article>
+        <article class="card">
+          <p class="label">Reglas y estados de juego</p>
+          <h3>Lumbricina</h3>
+          <p>Colisiones, efectos de las pastillas, transiciones de nivel y registro de puntajes.</p>
+          <div class="links"><a href="evidencia/lumbricina-casos.csv" download>Casos de prueba <small>CSV</small></a><a href="evidencia/lumbricina-defectos.csv" download>Defectos <small>CSV</small></a></div>
+        </article>
+      </div>
+      <p class="note">Particiones de equivalencia, análisis de valores límite y transiciones de estado.<br>MantisBT · Vikunja · GitHub</p>
+    </section>
+
+    <section id="desarrollo" class="wrap section" aria-labelledby="dev-title">
+      <p class="label">Experiencia técnica</p>
+      <h2 id="dev-title">Proyectos de desarrollo</h2>
+      <article class="featured">
+        <div class="feature-copy">
+          <p class="label">Aplicación web</p>
+          <h3>QuienGarpa</h3>
+          <p>Una aplicación para compartir gastos, calcular saldos y registrar pagos en grupo.</p>
+          <h4>Pruebas automatizadas</h4>
+          <p>El proyecto incluye pruebas de endpoints y validaciones de entrada. También cubre reglas de negocio como la distribución de gastos, el cálculo de saldos y los flujos de pago.</p>
+          <a class="button secondary" href="https://github.com/francoemontalbano/QuienGarpa">Ver repositorio</a>
+        </div>
+        <figure>
+          <img src="assets/quiengarpa.png" width="768" height="730" loading="lazy" alt="Ruleta de QuienGarpa con tres participantes y el resultado del giro">
+          <figcaption>Ruleta para decidir quién paga</figcaption>
+        </figure>
+      </article>
+      <article class="card movie">
+        <div><p class="label">Proyecto backend</p><h3>API de películas</h3></div>
+        <p>API de un catálogo de películas que hice durante mi etapa como desarrollador.</p>
+      </article>
+    </section>
+    <section id="contacto" class="wrap section contact" aria-labelledby="contact-title">
+      <div>
+        <h2 id="contact-title">Contacto</h2>
+        <p class="section-intro">Soy Técnico Superior en Desarrollo de Software y busco mi primera oportunidad como QA Manual Junior.</p>
+      </div>
+      <div class="actions">
+        <a class="button" href="https://www.linkedin.com/in/francomontalbano/">Escribirme por LinkedIn</a>
+        <a class="button secondary" href="https://github.com/francoemontalbano/proyectos-qa">Ver portfolio en GitHub</a>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap footer"><span>Franco Montalbano · Rosario, Argentina</span></footer>
+</body>
+</html>
