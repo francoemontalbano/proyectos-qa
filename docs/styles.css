@@ -77,26 +77,3 @@ figcaption { margin-top: .45rem; font-size: .875rem; }
   margin-top: .65rem;
   font-weight: 650;
 }
-
-.api-case {
-  border-top: 1px solid var(--rule);
-  margin-top: 1.15rem;
-  padding-top: .8rem;
-}
-
-.api-case summary {
-  color: var(--accent);
-  cursor: pointer;
-  font-weight: 650;
-}
-
-.api-case summary:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 5px;
-}
-
-.api-case dl {
-  display: grid;
-  gap: .6rem;
-  padding-top: .7rem;
-}
