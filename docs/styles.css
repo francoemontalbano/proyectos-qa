@@ -117,17 +117,52 @@ figcaption { margin-top: .45rem; font-size: .875rem; }
 }
 
 .screenshot-dialog {
-  box-sizing: border-box;
-  width: min(96vw, 96rem);
-  max-width: 96vw;
-  max-height: 94vh;
-  border: 1px solid var(--rule);
-  padding: .65rem;
-  background: var(--paper);
-  color: var(--ink);
+  --viewer-width: min(94vw, 88rem, max(20rem, calc((90dvh - 4rem) * 2.0745)));
+  width: var(--viewer-width);
+  max-width: 94vw;
+  max-height: 94dvh;
+  overflow: auto;
+  border: 1px solid #394541;
+  border-radius: .85rem;
+  padding: 0;
+  background: #192320;
+  color: #f2f5f3;
+  box-shadow: 0 1.4rem 5rem rgb(0 0 0 / 45%);
 }
 
-.screenshot-dialog::backdrop { background: rgb(0 0 0 / 78%); }
-.screenshot-dialog form { display: flex; justify-content: flex-end; margin-bottom: .5rem; }
-.screenshot-dialog button { padding: .35rem .7rem; font: inherit; cursor: pointer; }
+.screenshot-dialog::backdrop {
+  background: rgb(11 17 16 / 86%);
+  backdrop-filter: blur(4px);
+}
+
+.screenshot-toolbar {
+  display: flex;
+  gap: .65rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: .6rem .8rem .6rem 1rem;
+}
+
+.screenshot-toolbar p { font-size: .9rem; font-weight: 650; }
+.screenshot-toolbar p span { color: #c4cfca; font-weight: 400; }
+
+.screenshot-toolbar button {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  flex-shrink: 0;
+  min-height: 2.75rem;
+  border: 1px solid #55625d;
+  border-radius: .45rem;
+  padding: .25rem .65rem;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: .9rem;
+  cursor: pointer;
+}
+
+.screenshot-toolbar button:hover { background: #30403a; }
+.screenshot-toolbar button:focus-visible { outline: 2px solid #a3d8ca; outline-offset: 2px; }
+.screenshot-toolbar button span { font-size: 1.35rem; line-height: 1; }
 .screenshot-dialog img { display: block; width: 100%; height: auto; }

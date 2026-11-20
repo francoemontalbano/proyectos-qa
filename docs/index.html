@@ -172,7 +172,10 @@
   </main>
   <footer class="wrap footer"><span>Franco Montalbano · Rosario, Argentina</span></footer>
   <dialog class="screenshot-dialog" aria-label="Captura ampliada de QuienGarpa">
-    <form method="dialog"><button autofocus>Cerrar</button></form>
+    <form method="dialog" class="screenshot-toolbar">
+      <p>QuienGarpa <span>· Mis grupos</span></p>
+      <button autofocus aria-label="Cerrar imagen ampliada">Cerrar <span aria-hidden="true">×</span></button>
+    </form>
     <img src="assets/quiengarpa-mis-grupos.png" width="2838" height="1368" alt="Panel Mis grupos de QuienGarpa con el total por cobrar, los saldos por grupo y sus últimos movimientos">
   </dialog>
   <script>
@@ -182,6 +185,9 @@
       if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || !screenshotDialog.showModal) return;
       event.preventDefault();
       screenshotDialog.showModal();
+    });
+    screenshotDialog.addEventListener('click', (event) => {
+      if (event.target === screenshotDialog) screenshotDialog.close();
     });
     screenshotDialog.addEventListener('close', () => screenshot.focus());
   </script>
