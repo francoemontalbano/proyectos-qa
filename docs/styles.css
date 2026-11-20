@@ -55,7 +55,7 @@ dd, .section-intro, .work-row > p:not(.label), .feature-copy > p:not(.label), .m
 .feature-copy h3 { font-size: clamp(2.2rem, 4vw, 3.2rem); margin-block: .4rem .65rem; }
 .feature-copy h4 { margin-top: 1.05rem; }
 .feature-copy .links { margin-top: 1rem; }
-.screenshot { border: 1px solid var(--rule); }
+.screenshot { display: block; border: 1px solid var(--rule); cursor: zoom-in; }
 .screenshot img { width: 100%; height: auto; display: block; }
 figcaption { margin-top: .45rem; font-size: .875rem; }
 .movie { border-top: 1px solid var(--rule); display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: .6rem 2rem; align-items: center; padding-top: 1.1rem; }
@@ -115,3 +115,19 @@ figcaption { margin-top: .45rem; font-size: .875rem; }
   gap: .4rem 1.2rem;
   margin-top: .6rem;
 }
+
+.screenshot-dialog {
+  box-sizing: border-box;
+  width: min(96vw, 96rem);
+  max-width: 96vw;
+  max-height: 94vh;
+  border: 1px solid var(--rule);
+  padding: .65rem;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.screenshot-dialog::backdrop { background: rgb(0 0 0 / 78%); }
+.screenshot-dialog form { display: flex; justify-content: flex-end; margin-bottom: .5rem; }
+.screenshot-dialog button { padding: .35rem .7rem; font: inherit; cursor: pointer; }
+.screenshot-dialog img { display: block; width: 100%; height: auto; }
