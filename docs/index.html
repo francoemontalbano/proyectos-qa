@@ -10,7 +10,7 @@
 <body>
   <a class="skip" href="#contenido">Saltar al contenido</a>
   <header class="wrap top">
-    <a class="identity" href="#contenido"><span class="monogram" aria-hidden="true">FM</span> Franco Montalbano</a>
+    <a class="identity" href="#contenido">Franco Montalbano</a>
     <nav aria-label="Principal">
       <a href="#pruebas">Casos de QA</a>
       <a href="#desarrollo">Desarrollo</a>
@@ -21,7 +21,7 @@
     <section class="wrap hero" aria-labelledby="title">
       <div>
         <p class="label">QA Manual Junior</p>
-        <h1 id="title">Franco<br>Montalbano<span>.</span></h1>
+        <h1 id="title">Franco<br>Montalbano</h1>
         <p class="intro">Diseño y ejecuto pruebas funcionales a partir de especificaciones. Documento los defectos con pasos de reproducción y comparo el resultado esperado con el observado.</p>
         <p class="availability">Rosario, Argentina · Disponible para oportunidades remotas</p>
         <div class="actions">
@@ -30,10 +30,10 @@
         </div>
       </div>
       <aside class="finding" aria-label="Ejemplo de reporte de defecto">
-        <p class="label"><span class="status"></span> Hallazgo documentado</p>
+        <p class="label">Ejemplo de reporte · Lumbricina</p>
         <h2>El puntaje no aumenta al consumir una pastilla roja</h2>
         <dl>
-          <div><dt>Identificación</dt><dd>Lumbricina v1 · Caso 16 · MantisBT #32</dd></div>
+          <div><dt>Identificación</dt><dd>Versión 1 · Caso 16 · MantisBT #32</dd></div>
           <div><dt>Pasos para reproducir</dt><dd>Iniciar el juego, mover a Lumbricina hacia la pastilla roja inicial y consumirla.</dd></div>
           <div><dt>Esperado</dt><dd>El puntaje aumenta 100 puntos.</dd></div>
           <div><dt>Obtenido</dt><dd>El puntaje se mantiene igual.</dd></div>
@@ -43,34 +43,32 @@
     </section>
 
     <section id="pruebas" class="wrap section" aria-labelledby="qa-title">
-      <p class="label">Testing funcional</p>
       <h2 id="qa-title">Casos de QA</h2>
       <p class="section-intro">Prácticas de testing manual sobre aplicaciones de Proyecto Nahual. Cada proyecto incluye la matriz de casos y los defectos registrados durante la ejecución.</p>
-      <div class="qa-grid">
-        <article class="card">
+      <div class="work-list">
+        <article class="work-row">
           <p class="label">CRUD y validaciones</p>
           <h3>Gestión de Contactos</h3>
           <p>Alta, edición y baja de contactos. Validaciones de campos obligatorios, longitud y correos duplicados.</p>
-          <div class="links"><a href="evidencia/contactos-casos.csv" download>Casos de prueba <small>CSV</small></a><a href="evidencia/contactos-defectos.csv" download>Defectos <small>CSV</small></a></div>
+          <div class="links"><a href="https://github.com/francoemontalbano/proyectos-qa/blob/main/01_Gestion_Contactos/Test%20case%20-%20Contactos%20-%20Franco.csv">Casos de prueba</a><a href="https://github.com/francoemontalbano/proyectos-qa/blob/main/01_Gestion_Contactos/Bugs%20-%20Contactos%20-%20Franco.csv">Reporte de defectos</a></div>
         </article>
-        <article class="card">
+        <article class="work-row">
           <p class="label">Búsqueda y filtros</p>
           <h3>Buscador Provinciano</h3>
           <p>Filtros por región y nombre, búsquedas parciales y ordenamiento. Revisé casos y reportes con un compañero.</p>
-          <div class="links"><a href="evidencia/provinciano-casos.csv" download>Casos de prueba <small>CSV</small></a><a href="evidencia/provinciano-defectos.csv" download>Defectos <small>CSV</small></a></div>
+          <div class="links"><a href="https://github.com/francoemontalbano/proyectos-qa/blob/main/02_Provinciano/Test%20Case%20-%20Provinciano%20-%20Franco.csv">Casos de prueba</a><a href="https://github.com/francoemontalbano/proyectos-qa/blob/main/02_Provinciano/Bugs%20-%20Provinciano%20-%20Franco.csv">Reporte de defectos</a></div>
         </article>
-        <article class="card">
+        <article class="work-row">
           <p class="label">Reglas y estados de juego</p>
           <h3>Lumbricina</h3>
           <p>Colisiones, efectos de las pastillas, transiciones de nivel y registro de puntajes.</p>
-          <div class="links"><a href="evidencia/lumbricina-casos.csv" download>Casos de prueba <small>CSV</small></a><a href="evidencia/lumbricina-defectos.csv" download>Defectos <small>CSV</small></a></div>
+          <div class="links"><a href="https://github.com/francoemontalbano/proyectos-qa/blob/main/03_Lumbricina/Test%20Case%20-%20Lumbricina%20-%20Franco.csv">Casos de prueba</a><a href="https://github.com/francoemontalbano/proyectos-qa/blob/main/03_Lumbricina/Bugs%20-%20Lumbricina%20-%20Franco.csv">Reporte de defectos</a></div>
         </article>
       </div>
       <p class="note">Particiones de equivalencia, análisis de valores límite y transiciones de estado.<br>MantisBT · Vikunja · GitHub</p>
     </section>
 
     <section id="desarrollo" class="wrap section" aria-labelledby="dev-title">
-      <p class="label">Experiencia técnica</p>
       <h2 id="dev-title">Proyectos de desarrollo</h2>
       <article class="featured">
         <div class="feature-copy">
@@ -79,14 +77,17 @@
           <p>Una aplicación para compartir gastos, calcular saldos y registrar pagos en grupo.</p>
           <h4>Pruebas automatizadas</h4>
           <p>El proyecto incluye pruebas de endpoints y validaciones de entrada. También cubre reglas de negocio como la distribución de gastos, el cálculo de saldos y los flujos de pago.</p>
-          <a class="button secondary" href="https://github.com/francoemontalbano/QuienGarpa">Ver repositorio</a>
+          <div class="links">
+            <a href="https://github.com/francoemontalbano/QuienGarpa">Ver repositorio</a>
+            <a href="https://github.com/francoemontalbano/QuienGarpa/tree/main/QuienGarpa.Tests">Ver pruebas del backend</a>
+          </div>
         </div>
         <figure>
-          <img src="assets/quiengarpa.png" width="768" height="730" loading="lazy" alt="Ruleta de QuienGarpa con tres participantes y el resultado del giro">
-          <figcaption>Ruleta para decidir quién paga</figcaption>
+          <div class="screenshot"><img src="assets/quiengarpa-cuentas.png" width="768" height="1024" loading="lazy" alt="Revisión de cuentas en QuienGarpa con una corrección propuesta para el total de un gasto y el saldo de una participante"></div>
+          <figcaption>Revisión de gastos, aportes y saldos de un grupo.</figcaption>
         </figure>
       </article>
-      <article class="card movie">
+      <article class="movie">
         <div><p class="label">Proyecto backend</p><h3>API de películas</h3></div>
         <p>API de un catálogo de películas que hice durante mi etapa como desarrollador.</p>
       </article>
