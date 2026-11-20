@@ -47,6 +47,6 @@ En cada carpeta están los casos de prueba y los reportes de bugs en CSV. Los RE
 
 ## Contacto
 
-- [LinkedIn](https://www.linkedin.com/in/francomontalbano/)
+- Linkedin: [LinkedIn](https://www.linkedin.com/in/francomontalbano/)
 - Mail: [francoemontalbano@gmail.com](mailto:francoemontalbano@gmail.com)
 - Ciudad: Rosario, Santa Fe, Argentina
