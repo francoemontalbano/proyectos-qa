@@ -77,3 +77,41 @@ figcaption { margin-top: .45rem; font-size: .875rem; }
   margin-top: .65rem;
   font-weight: 650;
 }
+
+.case-example {
+  grid-column: 1 / -1;
+  border-top: 1px solid var(--rule);
+  margin-top: .5rem;
+  padding-top: .7rem;
+}
+
+.case-example summary {
+  color: var(--accent);
+  cursor: pointer;
+  font-weight: 650;
+}
+
+.case-example summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 5px;
+}
+
+.case-reference {
+  margin-top: .6rem;
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+.case-example dl {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: .75rem 1.4rem;
+  margin-top: .55rem;
+}
+
+.case-evidence {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem 1.2rem;
+  margin-top: .6rem;
+}

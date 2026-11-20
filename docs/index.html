@@ -54,18 +54,55 @@
           <h3>Gestión de Contactos</h3>
           <p>Aplicación web para administrar una agenda de contactos. Probé el alta, la edición y la eliminación, además de las validaciones de campos obligatorios, longitud y correos duplicados.</p>
           <div class="links"><a href="https://github.com/francoemontalbano/proyectos-qa/blob/main/01_Gestion_Contactos/Test%20case%20-%20Contactos%20-%20Franco.csv" target="_blank" rel="noopener noreferrer">Casos de prueba</a><a href="https://github.com/francoemontalbano/proyectos-qa/blob/main/01_Gestion_Contactos/Bugs%20-%20Contactos%20-%20Franco.csv" target="_blank" rel="noopener noreferrer">Reporte de defectos</a></div>
+          <details class="case-example">
+            <summary>Cancelar una edición con tres contactos cargados</summary>
+            <p class="case-reference">Caso 39 · v1</p>
+            <dl>
+              <div><dt>Escenario y pasos</dt><dd>Con tres contactos cargados, editar el nombre de uno de ellos, conservar su correo y pulsar Cancelar.</dd></div>
+              <div><dt>Resultado esperado</dt><dd>Se muestra una advertencia de cambios sin guardar, se cierra el formulario y la agenda conserva los datos originales.</dd></div>
+              <div><dt>Resultado observado</dt><dd>Se modificó otro contacto y quedaron dos registros con el mismo nombre y correo.</dd></div>
+            </dl>
+            <div class="case-evidence">
+              <a href="https://github.com/francoemontalbano/proyectos-qa/blob/main/01_Gestion_Contactos/Test%20case%20-%20Contactos%20-%20Franco.csv#L340-L352" target="_blank" rel="noopener noreferrer">Ver caso 39 en la matriz</a>
+            </div>
+          </details>
         </article>
         <article class="work-row">
           <p class="label">Búsqueda y filtros</p>
           <h3>Buscador Provinciano</h3>
           <p>Permite consultar provincias argentinas y sus datos. Probé los filtros por región y nombre, las búsquedas parciales y el orden de los resultados. Revisé casos y reportes con un compañero.</p>
           <div class="links"><a href="https://github.com/francoemontalbano/proyectos-qa/blob/main/02_Provinciano/Test%20Case%20-%20Provinciano%20-%20Franco.csv" target="_blank" rel="noopener noreferrer">Casos de prueba</a><a href="https://github.com/francoemontalbano/proyectos-qa/blob/main/02_Provinciano/Bugs%20-%20Provinciano%20-%20Franco.csv" target="_blank" rel="noopener noreferrer">Reporte de defectos</a></div>
+          <details class="case-example">
+            <summary>Cruzar una provincia con una región que no le corresponde</summary>
+            <p class="case-reference">Caso 337 · v4</p>
+            <dl>
+              <div><dt>Escenario y pasos</dt><dd>Seleccionar la región de la Patagonia e ingresar «Mendoza» en el filtro por nombre.</dd></div>
+              <div><dt>Resultado esperado</dt><dd>La combinación de filtros no devuelve provincias y se muestra el mensaje de búsqueda sin coincidencias.</dd></div>
+              <div><dt>Resultado observado</dt><dd>Apareció el mensaje esperado mientras se escribía el nombre. El botón «Buscar» previsto en los pasos no estaba visible en esta versión.</dd></div>
+            </dl>
+            <div class="case-evidence">
+              <a href="https://github.com/francoemontalbano/proyectos-qa/blob/main/02_Provinciano/Test%20Case%20-%20Provinciano%20-%20Franco.csv#L5352-L5362" target="_blank" rel="noopener noreferrer">Ver caso 337 en la matriz</a>
+            </div>
+          </details>
         </article>
         <article class="work-row">
           <p class="label">Reglas y estados de juego</p>
           <h3>Lumbricina</h3>
           <p>Juego web en el que guiás a una lombriz a través de distintos niveles. Probé las colisiones, los efectos de las pastillas, el registro de puntajes y los cambios de nivel.</p>
           <div class="links"><a href="https://github.com/francoemontalbano/proyectos-qa/blob/main/03_Lumbricina/Test%20Case%20-%20Lumbricina%20-%20Franco.csv" target="_blank" rel="noopener noreferrer">Casos de prueba</a><a href="https://github.com/francoemontalbano/proyectos-qa/blob/main/03_Lumbricina/Bugs%20-%20Lumbricina%20-%20Franco.csv" target="_blank" rel="noopener noreferrer">Reporte de defectos</a></div>
+          <details class="case-example">
+            <summary>Completar el nivel 5 y verificar el reinicio del ciclo</summary>
+            <p class="case-reference">Caso 70 · v1</p>
+            <dl>
+              <div><dt>Escenario y pasos</dt><dd>Desde el nivel 5, alcanzar el puntaje necesario para completarlo y comprobar qué nivel y qué mapa se cargan.</dd></div>
+              <div><dt>Resultado esperado</dt><dd>El juego vuelve al nivel 1 al completar el nivel 5.</dd></div>
+              <div><dt>Resultado observado</dt><dd>El juego siguió al nivel 6 y cargó el mapa del nivel 3. El comportamiento quedó registrado en MantisBT como defecto #127.</dd></div>
+            </dl>
+            <div class="case-evidence">
+              <a href="https://github.com/francoemontalbano/proyectos-qa/blob/main/03_Lumbricina/Test%20Case%20-%20Lumbricina%20-%20Franco.csv#L343-L347" target="_blank" rel="noopener noreferrer">Ver caso 70 en la matriz</a>
+              <a href="https://github.com/francoemontalbano/proyectos-qa/blob/main/03_Lumbricina/Bugs%20-%20Lumbricina%20-%20Franco.csv#L30" target="_blank" rel="noopener noreferrer">Ver reporte del defecto #127</a>
+            </div>
+          </details>
         </article>
       </div>
       <p class="note">Particiones de equivalencia, análisis de valores límite y transiciones de estado.<br>MantisBT · Vikunja · GitHub</p>
